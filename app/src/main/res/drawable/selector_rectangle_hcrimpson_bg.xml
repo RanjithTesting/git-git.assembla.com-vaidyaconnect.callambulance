@@ -1,0 +1,8 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item >
+        <shape android:shape="rectangle"  >
+             />
+            <stroke  android:width="0.5dip" android:color="@color/harvard_crimpson" />
+        </shape>
+    </item>
+</selector>

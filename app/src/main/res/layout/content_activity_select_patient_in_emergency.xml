@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.patientz.activity.ActivitySelectPatientInEmergency"
+    tools:showIn="@layout/activity_select_patient_in_emergency">
+
+
+    <TextView
+        android:id="@+id/tv_timer_count"
+        style="@style/tvAppearanceMediumWhite"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        />
+    <!--<ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/tv_select_patient_in_emergency_timer_tex"
+        android:dividerHeight="1dp"
+        android:layout_marginBottom="16dp"
+        android:drawSelectorOnTop="false" />-->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_timer_count"
+        android:scrollbars="vertical" />
+
+    <TextView
+        android:id="@+id/tv_select_patient_in_emergency_help_txt"
+        style="@style/tvAppearanceSmallBlack"
+        android:layout_below="@id/recycler_view"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"
+        android:text="@string/select_patient_in_emergency_help_txt" />
+</RelativeLayout>

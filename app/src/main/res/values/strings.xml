@@ -1,0 +1,996 @@
+<resources>
+
+
+    <!--
+    Environment Changes
+-->
+    <string name="web_url" translatable="false">www.callambulance.in</string>
+    <string name="app_key" translatable="false">doctrz4callambulance</string>
+    <string name="app_namak" translatable="false">mobile12</string>
+    <string name="imagePath">/Nutrifi/Images/</string>
+    <string name="webservice_download_picture" translatable="false">webservices/getUploadedImage/</string>
+    <string name="API_KEY" translatable="false">AIzaSyD6smdy4UP_y2pkLOY2PYQ6raDihI7Pn3Y</string>
+    <string name="server_api_key" translatable="false">AIzaSyD1P_J9UAjyG39gz1vvXKbZyjChvlOpwXo</string>
+
+    <!-- BETA -->
+    <!--  <string name="package_name">com.patientz.activity</string>
+    <string name="environment">BETA</string>
+    <string name="app_name">Call Ambulance</string>
+    <string name="profileImagePath">/CallAmbulance/Images/</string>
+    <string name="uploadPath">/CallAmbulance/Uploads/</string>
+    <string name="smsCountryKeyWord">DOCTRZ</string>-->
+    <!-- BETA -->
+
+    <!-- DEMO -->
+    <!-- <string name="package_name">com.patientz.activity.demo</string>
+    <string name="environment">DEMO</string>
+    <string name="app_name">Call Ambulance</string>
+    <string name="profileImagePath">/CallAmbulanceDemo/Images/</string>
+    <string name="attachmentPath">/CallAmbulanceDemo/Attachments/</string>
+    <string name="uploadPath">/CallAmbulanceDemo/Uploads/</string>
+    <string name="smsCountryKeyWord">DOCTST</string>-->
+    <!-- DEMO -->
+
+    <!-- STAGE -->
+    <!--  <string name="package_name">com.patientz.activity.stage</string>
+    <string name="environment">Stage</string>
+    <string name="app_name">Stage</string>
+    <string name="profileImagePath">/CallAmbulanceStage/Images/</string>
+    <string name="attachmentPath">/CallAmbulanceStage/Attachments/</string>
+    <string name="uploadPath">/CallAmbulanceStage/Uploads/</string>
+    <string name="smsCountryKeyWord">DOCTST</string>-->
+    <!-- STAGE -->
+
+    <!-- QACA -->
+    <!--<string name="package_name">com.patientz.activity.qa</string>
+    <string name="environment">QACA</string>
+    <string name="app_name">Call Ambulance</string>
+    <string name="profileImagePath">/CallAmbulanceQa/Images/</string>
+    <string name="attachmentPath">/CallAmbulanceQa/Attachments/</string>
+    <string name="uploadPath">/CallAmbulanceQa/Uploads/</string>
+    <string name="smsCountryKeyWord">DOCTST</string>-->
+    <!-- QACA -->
+
+    <string name="permission_grant_msg">Please grant the permission required, without this the app will not be able to inform others in case of emergency</string>
+    <!-- Environment Changes -->
+    <!-- Strings related to login -->
+    <string name="prompt_mobile">Mobile Number</string>
+    <string name="prompt_email_mobile">Email or Mobile Number</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">Password should be between 6 and 20 characters</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="create_account">Create Account</string>
+    <string name="forgot_password">Forgot Password</string>
+
+    <!-- Strings related to Registration -->
+    <string name="get_a_free_account">Get A Free Account !</string>
+    <string name="auto_verifying">Auto Verifying OTP </string>
+    <string name="enter_otp_manually">Enter OTP Manually</string>
+    <string name="invalidEmailAddress">Invalid email address</string>
+    <string name="emailMandatory">Email is mandatory</string>
+    <string name="success">Success</string>
+    <string name="emailNotAvailable">This email id is not available</string>
+    <string name="regInternalServerError">Registration Status:  Internal Server Error</string>
+    <string name="registeringProgress">Registering....</string>
+    <string name="msg_enter_email">Enter email id</string>
+    <string name="titleMobileNumber">Enter Mobile Number</string>
+    <string name="sign_up">Create Account</string>
+    <string name="enter_email_mobile">Please enter your email id or mobile number</string>
+    <string name="error_enter_email_mobile">Please enter a valid email id or mobile number</string>
+    <string name="offlineMode">Unable to connect.Please check your internet connection and try again</string>
+    <string name="mobile_number_error_msg">Please enter a 10 digit valid mobile number</string>
+    <string name="email_error_msg">Please enter a valid Email Id.</string>
+    <string name="phone_validation_error">Please enter a valid 10 digit phone number</string>
+
+    <string name="validate_patient_email_empty">Please enter email, it cannot be left blank</string>
+    <string name="wait_msg">Please wait ..</string>
+    <string name="loading_progress">Please wait, Loading...</string>
+    <string name="duplicate_mobile_error">A user with this mobile number already exists in the system.Please use another mobile number to create a new user or retrieve your password by clicking on forgot password in the login screen</string>
+    <string name="duplicate_email_error">A user with this email id already exists in the system.Please use another email id to create a new user or retrieve your password by clicking on forgot password in the login screen</string>
+    <string name="accessDenied">Access Denied. Use Patient ID To Login</string>
+    <string name="ioException">Unable to process your request.Please try again.</string>
+    <string name="responseNull">Sorry,some error while getting response.Please try again</string>
+    <string name="isd_india">+91-</string>
+    <string name="server_error_msg">Internal server error.</string>
+    <string name="networkError">Oops!! Something went wrong please try again</string>
+    <string name="success_msg">Check the consumer mobile for one time password and instructions to install call ambulance application</string>
+    <string name="title_activity_main">Call Ambulance</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
+    <string name="name">Name</string>
+    <string name="left_menu_list_item6">First Responder?</string>
+    <string name="left_menu_list_item10">Report Hazard</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_activity_select_patient_in_emergency">Select Patient</string>
+    <string name="kill">Kill</string>
+    <string name="select_patient_in_emergency_timer_text">Initiating Emergency For Self In </string>
+    <string name="select_patient_in_emergency_help_txt">Will automatically raise for Self if not selected</string>
+    <string name="title_activity_activity_emergency_type">Select Type Of Emergency</string>
+
+    <!-- Hospital db-->
+
+    <string name="ins_date_format" translatable="false">yyyy-MM-dd hh:mm:ss</string>
+    <string name="date_format1" translatable="false">EEE MMM dd hh:mm:ss zzz yyyy</string>
+    <string name="date_format3" translatable="false">yyyy-MM-dd HH:mm:ss</string>
+    <string name="simple_date_format" translatable="false">yyyy-MM-dd</string>
+
+    <string name="progress_dialog_loading_hospitals">Loading hospitals</string>
+    <!--fonts-->
+    <string name="font_typeface_sans_serif" translatable="false">sans-serif</string>
+    <string name="font_typeface_sans_serif_condensed" translatable="false">sans-serif-condensed</string>
+    <string name="font_typeface_sans_serif_medium" translatable="false">sans-serif-medium</string>
+    <string name="font_typeface_sans_serif_light" translatable="false">sans-serif-light</string>
+    <string name="font_typeface_sans_serif_thin" translatable="false">sans-serif-thin</string>
+
+
+    <string name="OK">OK</string>
+
+    <!-- Registration and OTP-->
+    <string name="otp_verification">OTP Verification</string>
+    <string name="title_activity_otpregister">OTP Registeration</string>
+    <string name="getting_otp">Getting OTP  </string>
+    <string name="failed_to_get_otp">Failed to detect OTP, please check your sms and enter the OTP.</string>
+    <string name="error_otp">please check your sms and enter the OTP</string>
+    <string name="submit">Submit</string>
+    <string name="user_agreement_part1">By creating an account you confirm and accept our</string>
+    <string name="user_agreement_part2"><a href="https://www.callambulance.in/home/tnc-callambulance/">Terms of Use </a> &amp; <a href="https://callambulance.in/home/privacy-m"> Privacy Policy</a></string>
+    <string name="otp">OTP</string>
+
+    <string name="label_initiating_emergency">Initiating Emergency</string>
+    <string name="label_getting_location">Getting Location ...</string>
+    <string name="label_alerting_emri">Alerting Ambulance Provider ...</string>
+    <string name="label_calling_108">Calling</string>
+    <string name="label_notifying_contacts"><![CDATA[Notifying Family & Friends ...]]></string>
+    <string name="label_skip_call">Skip Call</string>
+    <string name="label_add_bf">Add Bloody Friends</string>
+    <string name="label_bloodbuddies">Bloody Friends</string>
+
+    <string name="label_person_in_emergency">Divya Raju is in an Emergency</string>
+    <string name="label_revoke_emergency">Revoke Emergency</string>
+    <string name="dialog_exit_app_title_msg">Are you sure you want to logout ?</string>
+    <string name="label_exit">exit</string>
+    <string name="no_address_found">Address Not Found</string>
+
+    <string name="updating_progress">Updating...</string>
+    <string name="error_terms_condition">Please accept the terms and condition to proceed.</string>
+    <!--Profile registration-->
+    <string name="update_profile">Update Your Profile</string>
+    <string name="title_profile_registration">Almost there, Please fill in the following</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_number">Mobile Number</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="gender">Gender</string>
+    <string name="age">Age</string>
+
+    <!--Update password screen-->
+    <string name="enter_new_password">Enter New Password</string>
+    <string name="update_password">Please update your password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="error_mismatch_password">Password mismatch, please type again.</string>
+    <string name="invalid_credentials">Incorrect User Id &amp; Password combination, Please check and retry</string>
+    <string name="action_switch_user">Switch Member</string>
+
+    <!--Profile -->
+    <string name="noInsuranceFound">No Insurances Found</string>
+    <string name="noreports_found">Reports module enables you to store all your health records like Prescriptions, Discharge Summary, Insurance etc for your ready reference. To upload any of these please press the "+" button at the top of this screen.</string>
+    <string name="noEhrFound">No emergency health record found for this user</string>
+    <string name="phoneNumber">PhoneNumber: </string>
+    <string name="altPhoneNumber">AltPhoneNumber: </string>
+    <string name="callNumber">Call Number: </string>
+    <string name="tel">tel:</string>
+    <string name="mailTo">mailto:</string>
+    <string name="sendMailTo">Send your mail in </string>
+    <string name="record">Record</string>
+    <string name="empty_time_value">_ _ : _ _</string>
+    <string name="care_giver">Care Givers</string>
+    <string name="owner">Owner</string>
+    <string name="self">Self</string>
+    <string name="edit">Edit</string>
+    <string name="select_attachment_type">Select Attachment Type:</string>
+    <string name="select_language">Change Language</string>
+    <string name="select_attachment">Select Image Source:</string>
+    <string name="not_logged_in_error_msg">"Not logged in!!.Please click on refresh button !!"</string>
+    <string name="getSchema">Please wait retrieving values....</string>
+    <string name="emergency_contact">Emergency Contacts</string>
+    <string name="pregnant">Pregnant</string>
+    <!-- EhrViewFragment -->
+    <string name="verificationPending">Verification Pending</string>
+    <string name="verification">Verification</string>
+    <string name="verifiedBy">"Verified By "</string>
+    <string name="blood_request_success_message">Your Request Has Been Succesfully Sent To Your Bloody Friends, Your friend will be notified and donate blood for you </string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_enable_trigger">Enable power button trigger</string>
+    <string name="pref_description_enable_trigger">In case of emergency press power button five times to trigger emergency</string>
+
+    <string name="pref_logout_description">Press to logout and delete your details from this device</string>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_about">About</string>
+    <string name="send_invite">I am keeping my family safe. Keep your family safe with CallAmbulance</string>
+
+    <!-- DemographicsFragment -->
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="title_activity_activity_maps">Current Location</string>
+    <string name="value_success_action_location_broadcast">Location Found</string>
+    <string name="value_failed_action_location_broadcast">Failed to get location</string>
+    <string name="value_failed_action_emri_alert">Failed Alerting Ambulance Provider</string>
+    <string name="value_success_action_emri_alert">Ambulance Provider Alerted</string>
+
+    <!--<string name="webservice_emergency_call">patientWebservices/callEmergency</string>-->
+    <string name="serverSMSnumber">+919246356765</string>
+    <string name="value_success_notify_contacts">Notified Contacts</string>
+    <string name="value_success_stranger_incident_notified">Notified Server</string>
+
+    <string name="value_processing_action_notify_contacts">Emergency Already Invoked</string>
+    <string name="emergencySmsToContacts">This sender is in EMERGENCY. Please call back to him.</string>
+    <string name="value_action_notify_contacts_in_progress">Notifying Contacts ....</string>
+    <string name="deny">Deny</string>
+    <string name="grant">Grant</string>
+    <string name="dialog_msg_why_location_permission">It seems you had denied location permission.Granting this permission will allow app to send your emergency location to your emergency hospital during emergency</string>
+    <string name="msg_no_call_permission">Can\'t make call to ambulance provider,permission not granted to app by you</string>
+    <string name="tv_track_emergency">Track Emergency</string>
+    <string name="toast_activity_maps_loc_not_found">Location not found</string>
+    <string name="msg_dialog_onclick_revoke_button">Please choose a valid reason: </string>
+    <string name="msg_revoke_screen_is_in_emergency"> is in emergency</string>
+    <string name="msg_revoke_screen_tracking_fail">Trouble tracking emergency...</string>
+    <string name="revokeSuceesfulMSg">Revoked Completed Successfully</string>
+    <string name="toast_revoke_failed">Oops!!! seems some problem,revoking emergency through sms</string>
+    <string name="value_processing_action_notify_contacts_no_contacts">No contacts</string>
+    <!--<string name="stranger_emergency_url">https://www.callambulance.in/home/stranger</string>-->
+    <string name="tip_dialog_track_emergency_msg">Your friends and family can track too!!!!</string>
+    <string name="yes">Yes</string>
+    <string name="yesgender">Yes</string>
+    <string name="no">No</string>
+    <string name="nogender">No</string>
+
+    <string name="title_activity_contacts">Care Team</string>
+    <string name="title_activity_add_new_contact">Add Contact</string>
+    <string name="relation">Relation</string>
+    <string name="cont_to_know_fare">Call to find fare</string>
+
+    <string name="fname_length_error_msg">First name must be between 3 and 25 characters.</string>
+    <string name="fname_mandatory_error_msg">Please enter First Name, it cannot be left blank</string>
+    <string name="lname_length_error_msg">Surname must be between 3 and 25 characters.</string>
+    <string name="Doctor_search_spinner_length_error_msg"> must be between 3 and 25 characters.</string>
+    <string name="lname_mandatory_error_msg">Please enter Surname, it cannot be left blank</string>
+    <string name="email_mandatory_error_msg">Email cannot be left blank</string>
+    <string name="phoneno_invalid">Phone number is invalid.</string>
+    <string name="alt_phoneno_invalid">Alternate number is invalid.</string>
+    <string name="phoneno_length_error_msg">Length of phone number should be between 10 and 13 characters .</string>
+    <string name="alt_phoneno_length_error_msg">Length of Alternate number should be between 10 and 13 characters </string>
+    <string name="phone_number_mandatory">Please enter your Phone Number </string>
+    <!--<string name="webservice_update_patient_profile">patientWebservices/savePatientOwnerFromMobile</string>-->
+    <string name="save">save</string>
+    <string name="title_activity_update_profile">Update Profile</string>
+    <string name="toast_msg_refresh">Failed to sync,please click refresh to see changes</string>
+    <string name="title_activity_activity_edit_insurance">Update Insurance</string>
+
+    <string name="policy_provider">Policy Provider</string>
+    <string name="policy_name">Policy Name</string>
+    <string name="policy_number">Policy Number</string>
+    <string name="policy_coverage">Policy Coverage Amount</string>
+    <string name="policy_claim_no">Claim Phone Number</string>
+    <string name="policy_start_date_text">Policy Start Date:</string>
+    <string name="policy_end_date_text">Policy End Date:</string>
+    <string name="policyEndDateVal">Please select policy end date greater than current date and policy start date</string>
+    <string name="sendingInsurance">Sending Insurance Details....</string>
+    <string name="insAddedSucessfully">Insurance saved successfully</string>
+    <string name="ins_policy_provider_mandatory_error_msg">Please enter policy company</string>
+    <string name="ins_policyname_mandatory_error_msg">Please enter policy name</string>
+    <string name="ins_policyNum_mandatory_error_msg">Please enter policy number</string>
+    <string name="ins_policy_coverage_mandatory_error_msg">Please enter policy coverage</string>
+    <string name="ins_strt_date_mandatory_error_msg">Policy start date must be set</string>
+    <string name="ins_end_date_mandatory_error_msg">Policy end date must be set</string>
+    <string name="unableToSave">Unable to save try again</string>
+    <!--<string name="webservice_update_insurance">patientWebservices/saveInsuranceFromMobile</string>-->
+    <string name="title_activity_activity_ehrupdate">Update EHR</string>
+    <string name="toast_msg_emhr_updated">Updated successfully</string>
+    <!--<string name="webservice_update_ehr">patientWebservices/updateEHR</string>-->
+    <string name="lable_later">Later</string>
+    <string name="dialog_title_setup_ehr">Emergency Health Record</string>
+    <string name="dialog_msg_setup_ehr">Setting up Emergency Health Record will enable the emergency health provider to help you during an emergency\nThis will only take few minutes.\nWould you like to setup your Emergency Health Record?</string>
+
+    <string name="email_length_validate">Email length should be between 6 and 50.</string>
+    <string name="pincode_validate">Pin Code should contain only Numerics and hyphen.</string>
+    <string name="dob_error_msg">Please select a date before today\'s date.</string>
+    <string name="email_invalid_error_msg">Enter a valid email ID.</string>
+    <string name="cityStateLenValMsg">Length should be between 3 and 100 characters</string>
+    <string name="pincode_length_error_msg">Pincode must be between 5 and 10 digits.</string>
+    <string name="dob_mandatory">Please select your Date of Birth</string>
+    <string name="gender_mandatory">Please select gender</string>
+    <string name="patientAddedSuccessfully">Member saved successfully</string>
+    <string name="failure_msg">Unable to save profile.Please try again.</string>
+    <string name="relation_ship">Relationship</string>
+    <string name="relationchip">Relationship to you</string>
+    <string name="patient_gender">Gender</string>
+    <string name="add_patient_phoneno">Ex:9898989898</string>
+    <string name="alt_phone_number">Alternate Phone Number</string>
+    <string name="email">Email</string>
+    <string name="address">Address</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="country">Country</string>
+    <string name="pin_code">Pin Code</string>
+    <string name="financial_status">Financial Status</string>
+    <string name="family_history">Family History</string>
+    <string name="habits">Habits</string>
+    <string name="food_habits">Food Habits</string>
+    <string name="remarks">Remarks</string>
+    <string name="label_company_name">Company Name</string>
+    <string name="marital_status">Marital Status</string>
+    <string name="organ_donation">Willing To Donate Organ?</string>
+    <string name="organ_donation_hint">Organ Donation</string>
+    <string name="donate_blood_simple_text">Willing to donate blood? </string>
+    <string name="add_patient_familyHistory">Family History in brief</string>
+
+    <string name="hint_ec_phonenumber">Contact Number</string>
+
+    <string name="activity_maps_counter_text">Loading map in</string>
+    <string name="toast_activity_maps_taking_time">Loading map is taking time.Initiating emergency....</string>
+    <string name="toast_activity_maps_no_internet">Failed to fetch map,please check your internet connection</string>
+    <!-- crash report strings -->
+    <string name="crash_toast_text">Ooooops ! I crashed, follow the coming screen to send report to developer to help fix the issue !</string>
+    <string name="unKnownError">Unknown error happened,please try again</string>
+    <string name="crash_dialog_title">CallAmbulance has crashed</string>
+    <string name="crash_dialog_text">An unexpected error occurred forcing the
+    application to stop. Please help us fix this by sending us error data,
+    all you have to do is click OK.</string>
+    <string name="crash_dialog_comment_prompt">You might add your comments about the problem below:</string>
+    <string name="crash_dialog_try_again">There appears to be an unexpected issue. Please try again later.</string>
+    <string name="crash_dialog_ok_toast">Thank you !</string>
+    <string name="label_splash_screen_congrats">Congrats !</string>
+    <string name="label_splash_screen_stay_safe">Now You Can Stay Safe\n With Call Ambulance ! </string>
+    <string name="label_splash_screen_continue"><![CDATA[Continue]]></string>
+    <string name="labe_emergency">Emergency</string>
+    <string name="label_allergies">Allergies</string>
+    <string name="label_medical_condition">Medical Condition</string>
+    <string name="label_medication">Medication</string>
+    <string name="hint_medication">Enter Medication Here</string>
+    <string name="label_blood_group">Blood Group</string>
+    <string name="label_preferred_ambulance_service">Preferred Ambulance Provider</string>
+    <string name="label_preffered_hospital">Preferred Hospital</string>
+    <string name="label_medicine_allergies">Medicine Allergies</string>
+    <string name="hint_medication_allergies">Enter Medication Allergies Here</string>
+    <string name="tv_label_medication_for_chronic_illness">Medication for Any Chronic Illness</string>
+    <string name="hint_medication_for_chronic_illness">Enter Medication For Chronic Illness Here</string>
+    <string name="tv_label_Languages_spoken">Languages Spoken</string>
+    <string name="hint_languages_spoken">Enter Languages Spoken Here</string>
+    <string name="label_select_allergy_type">Select Type Of Allergy</string>
+    <string name="label_others">Others</string>
+    <string name="label_add">Add</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_select_medical_condition">Select Medical Conditions</string>
+    <string name="hint_et_others_allergy_dialog">Enter Comma Separated Values</string>
+    <!--EMRI Registration-->
+    <string name="title_emri_registration">EMRI/108 Registration</string>
+    <string name="mobile_number_emri_msg">* We register this number with EMRI/108 so that they can recognize you in the event of an emergency.</string>
+    <string name="mobile_number_empty_msg">Please Enter the Mobile Number of this Phone</string>
+    <string name="mobile_number_2nd_sim_msg">In case you are using double SIM, please enter the other number. </string>
+    <string name="title_activity_insurance_details">Insurance Details</string>
+    <!--Profile tabs-->
+    <string name="title_tab_profile">Profile</string>
+    <string name="title_tab_emergency_record">Emergency Record</string>
+    <string name="title_activity_activity_invitation">Invitation</string>
+    <string name="accept_cg_invitation_warning_msg">By accepting to be a Care Giver you will be granted Edit Access to the members Demographic Information, Contact Information and Health History. Please confirm that you will take responsibility to the confidentiality of the data of the member and any data update that has been done.</string>
+    <string name="accept_ec_invitation_warning_msg">By accepting to be an Emergency Contact you will be granted View Access to the members Demographic Information and Contact Information. Please confirm that you will take responsibility to the confidentiality of the data of the member.</string>
+    <string name="rejectInvitation">Reject Invitation</string>
+    <string name="toast_adapter_failed_invitation">Oops!! Something went wrong , please try again...</string>
+    <!--<string name="webservice_invitation_status_update">patientWebservices/acceptRejectPatientAccessRequest</string>-->
+    <string name="unableToAcceptInvite">Unable To Accept Invite</string>
+    <string name="noInvitationMsg">No Invitations for approval.</string>
+    <!--<string name="webservice_image_download">webservices/getUploadedImage/</string>-->
+    <string name="action_refresh">Refresh</string>
+    <string name="label_press_emergency_bt">In Case Of Emergency, Press Button Below</string>
+    <string name="label_current_emergencies">Current Emergencies</string>
+    <string name="label_health_record">Health Record</string>
+    <string name="label_provider">Ambulance\nProvider</string>
+    <string name="label_insurance">Insurance</string>
+    <string name="label_initializing_in">Initializing In </string>
+    <string name="label_select_hazard_type">Select Hazard Type</string>
+
+    <string name="label_emergency_token_no">Emergency Token No :</string>
+    <string name="label_is_in_emergency">&#160;is in an Emergency</string>
+    <string name="title_activity_current_emergencies">In Emergency</string>
+    <string name="no_patients_in_emergencies">No Users Currently In Emergencies</string>
+    <string name="choose_from">Choose From</string>
+    <string name="profile_pic_upload_confirmation_msg">Change Profile Picture?</string>
+    <!--care team-->
+    <string name="title_hospitals">Hospitals/Organisations</string>
+    <string name="title_notify_doctor">My Doctors</string>
+
+
+    <string name="fab_care_giver_title">Care Giver</string>
+    <string name="help_care_giver_msg">Care Givers are people who patients designate to be able to take care of the patient in case of any illness. Care Givers have complete access including edit to the patients information. </string>
+    <string name="help_ec_msg">Emergency Contacts get notified when you are in an emergency. An emergency contact will have read only access to all your information. </string>
+    <string name="help_hospital_msg">Hospitals/Organizations allows you to manage all your relationships with healthcare organizations be it a hospital, lab or a pharmacy.</string>
+    <string name="title_activity_search_care_giver">Search CareGiver</string>
+
+    <!--Search Care Team-->
+    <string name="searchBy">"Search by "</string>
+    <string name="hint_searchcontact_text">Search contact by email or phonenumber</string>
+    <string name="searchContactBy">"Search contact by "</string>
+    <string name="contactRole">contactRole</string>
+    <string name="noCGMsg">Add your Care Giver</string>
+    <string name="addEc">Add your Emergency Contact</string>
+    <string name="inviteCG">Invite your Care Giver</string>
+    <string name="noContactMsgForEC">Your contact is not in CallAmbulance Database. Please click the "Add New" button in menu.</string>
+    <string name="enter_search_text">Please enter the search text</string>
+    <string name="searching">Searching</string>
+    <string name="search">Search</string>
+    <string name="deleted">Deleted</string>
+    <string name="pending">Pending</string>
+    <string name="rejected">Rejected</string>
+    <string name="request_sent">A request to this contact is already sent.</string>
+    <string name="request_care_giver">Request for care giver is sent successfully.</string>
+    <string name="accepted">Accepted</string>
+    <string name="searchContactAcceptedMsg">This contact is already your </string>
+    <string name="add_new">Add New</string>
+    <string name="title_activity_search_emergency_contact">Search Emergency Contact</string>
+    <string name="title_activity_add_new_care_giver">Add Care Giver</string>
+
+    <!--Add unregistered care giver -->
+    <string name="CGInvitationMsg">I request you to be my Care Giver on <a href="https://www.callambulance.in/">https://www.callambulance.in/</a>.Please register yourselves at <a href="https://www.callambulance.in/">https://www.callambulance.in/</a> and let me know so that i can set you up as my Care Giver.</string>
+    <string name="regards">\nregards,\n</string>
+    <string name="title_activity_search_hospitals_and_organisations">"Search Hospitals/Organisations"    </string>
+
+    <!--Hospitals and Org Search and Add-->
+    <string name="add_employer_warning_msg">Adding an Employer would provide the Employer access to your Demographic Information,Contact Information, Insurance Information and also let them get notified in case you are in an emergency.</string>
+    <string name="add_educational_institute_warning_msg">Adding an Educational Institute would provide the Educational Institute access to your Demographic Information,Contact Information, Insurance Information and also let them get notified in case you are in an emergency.</string>
+    <string name="add_org_warning_msg">Adding a Organisation would provide the selected Organisation with View Access to your Demographic Information, Contact Information and Edit Access to Health History. Confirm if you want to proceed.</string>
+    <string name="org_request_sent">Request sent successfully</string>
+    <string name="toast_no_internet">Sorry Unable to connect.Please check your internet connection and try again</string>
+    <string name="timeout">Timeout,please try again</string>
+    <string name="search_hint">Type name </string>
+    <string name="org_added_successfully">Added Successfully</string>
+    <string name="hint_select_ambulance_provider">Enter Preferred Ambulance Provider</string>
+    <string name="hint_enter_preferred_hospital">Enter Preferred Hospital</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="hint_company">Company</string>
+    <string name="hint_policy_provider">Enter Policy Provider Name</string>
+    <string name="hint_policy_number">Enter Policy Number</string>
+    <string name="hint_policy_coverage">Enter Policy Coverage Amount</string>
+    <string name="hint_policy_claim_no">Enter Claim Phone Number</string>
+    <string name="no_internet">Network issue while getting address,click to get address</string>
+    <string name="facebook_app_id" translatable="false">194088697603799</string>
+
+    <!--Invitation screen-->
+    <string name="filter_care_giver">Care Giver</string>
+    <string name="filter_emergency_contact">Emergency Contact</string>
+    <string name="open_location_settings">On GPS</string>
+    <string name="gps_network_not_enabled">Hey!! seem\'s your GPS is off.Please on either of them</string>
+    <string name="toast_msg_sync_in_progress">Sync In Progress</string>
+    <string name="toast_msg_sync_confirmation">Sync in progress.This will take a few minutes. We will notify you once the process is completed.</string>
+    <string name="toast_msg_empty_emhr">Health Record Not Empty</string>
+    <string name="emergency_tracking_id">Tracking Id: </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="select_member">Select Member</string>
+    <string name="action_select_member">Switch Member</string>
+    <string name="action_change_pwd">Change Password</string>
+    <string name="title_add_member">Add Member</string>
+
+    <!--GCM -->
+    <string name="nt_event_type_promotion">PROMOTION</string>
+    <string name="nt_event_type_emergency">EMERGENCY_STATUS</string>
+    <string name="nt_event_report">FILE_UPLOAD</string>
+    <string name="nt_event_type_QA">Q\u0026A</string>
+    <string name="nt_event_type_sync">SYNC</string>
+
+    <string name="done">Done!!!</string>
+    <string name="label_add_member">Please Add Member First</string>
+    <string name="msg_patient_added_successfully">Patient Added Successfully</string>
+    <string name="blood_group_mandatory">Please select Blood Group</string>
+    <string name="toast_track_page_emri_status_failure">Couldn\'t communicate your location to EMRI.You will have to inform them verbally</string>
+    <string name="toast_track_page_location_status_failure">Emergency Location not found.You will have to inform your ambulance provider verbally</string>
+    <string name="toast_track_page_contacts_status_failure">Couldn\'t communicate this incident to your contacts.Please share tracking link with them</string>
+    <string name="toast_track_page_ambulance_status_failure">Couldn\'t communicate your location to Ambulance Provider.You will have to inform them verbally</string>
+    <string name="title_activity_activity_terms_and_conditons"><![CDATA[Terms & Conditions]]></string>
+    <string name="label_accept">Accept</string>
+    <string name="label_reject">Reject</string>
+    <string name="label_terms_and_conditions1">We as an organisation have a desire to save lives.However with quite a few interdependencies it is not possible to guarantee service levels.We are making a best case effort to bring together multiple ecosystem players to make a coordinated effort.The user acknowledges and understands that this app does not guarantee a pick up by from a hospital/108. The information in the app is used to facilitate a faster/efficient pick up for the person in distress.The applications and any information contained or provided through the applications are provided “As is” and “As Available” with no warranties whatsoever.Your use of the app is at your free will and at your sole risk.CallAmbulance is not responsible for,and shall have no liability in connection with any transactions or disputes between you,first responder,ambulance driver,ambulance provide,hospital and 108.</string>
+    <string name="label_terms_and_conditions2">*** IMPORTANT : CallAmbulance is a platform where emergency providers have to be on a network. Currently CallAmbulance is focused on Hyderabad, India. Over time, it will build out to other places too. So part of the application integrating with emergency providers is not implemented in other cities. Even if you are not in Hyderabad, you can use the application to get your family informed, build your own blood donor friends network &amp; many other features ***</string>
+    <string name="title_activity_nearby">Nearby</string>
+    <string name="webservice_nearby_hospitals">EMTWebservices/getNearestHospitals</string>
+    <string name="title_activity_first_responder_web_view">First Responder Help</string>
+    <string name="title_activity_activity_web_view_vedioes">Videos</string>
+    <string name="dialog_system_overlay_title">Screen overlay detected</string>
+    <string name="allow">Allow</string>
+    <string name="label_call108">Call 108</string>
+    <string name="ambulanceNo" translatable="false">108</string>
+    <string name="label_track">Track</string>
+    <string name="label_redial">Redial</string>
+
+    <string name="toast_msg_no_phone_number">No Phone Number</string>
+    <string name="label_sync_hint">"<b>Redefining Bloody Friends - </b><p>friend of yours who can give you blood when you need it the most !</p><p>When you sync, you will be able to see all your registered friends and their blood group!</p>"</string>
+    <string name="dialog_syncsms_confirmation"><![CDATA[ You are about to request for blood A+ to 250 contacts via SMS.charges apply as per your carrier. ?]]></string>
+    <string name="dialog_sync_confirmation">Donating blood is a noble and sacred act! When you sync, our server goes through your contact list and let you know the bloodgroup of your friends who are registered with us and agreed to share their blood group. Do you want to continue ?</string>
+    <!--<string name="dialog_sync_confirmation"><![CDATA[ Donating blood is a noble and sacred act! When you sync, our server goes through your contact list and let you know the bloodgroup of your friends who are registered with us and agreed to share their blood group. Do you want to continue ?]]></string>-->
+    <string name="dialog_msg_tnc_reject"><![CDATA[Rejecting Terms & Condition will not allow you to proceed further.Are u sure you want to perform this action?]]></string>
+    <string name="dialog_overlay_msg"><![CDATA[This app intercepts your call to 108 and helps you call 108 via location & health record notification.Please make required changes in settings]]></string>
+    <!--GCM -->
+
+
+    <!--Error msg-->
+    <string name="connection_error">Thank you,We appreciate your support.Currently Our servers are busy due to heavy load.Please try later.</string>
+    <string name="auth_error">Invalid username and password</string>
+    <string name="server_error">Oops something went wrong, Please try again</string>
+    <string name="network_error">Sorry unable to connect. Please check your internet connection and try again</string>
+    <string name="title_activity_road_hazards_types">Select Road Hazard Type</string>
+    <string name="dialog_msg_take_hazard_pic">Do you want to attach a picture?</string>
+    <string name="skip">Skip</string>
+    <!--<string name="bloodyfriends_invite_message">friend1 and friend2 are now part of Bloody Friends Network. Do you know who among your personal friends can donate blood to you if needed! You can now build your list of Bloody Friends with one click on Sync button in CallAmbulance App. Click deepLink to download the app now and Be Safe!</string>-->
+    <string name="bloodyfriends_invite_message">friend1 wants to know your blood group.  Checkout Singer Geetha Madhuri in CallAmbulance video  https://goo.gl/nIfVSa  &amp; download it from deepLink and share your blood group</string>
+    <string name="bloodyfriendshint">Click Here To Update Your Blood Group</string>
+    <string name="selectall">Select All</string>
+    <string name="sendbf_req">SEND REQUEST FOR BLOOD</string>
+    <string name="forwhom">For whom</string>
+    <string name="noofunits">No of Units</string>
+    <string name="message">Message</string>
+    <string name="motmessage">Your motivational message</string>
+    <string name="dor">Date of Requirement</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="lpw">Loading please wait....</string>
+    <string name="purpose">Purpose</string>
+    <string name="send">SEND</string>
+    <string name="uploading">Uploading....</string>
+    <string name="title">Title</string>
+    <string name="value">Value</string>
+    <string name="description">Description</string>
+    <string name="frombook">From Phone Book</string>
+    <string name="addnew_contact">Add New Contact</string>
+    <string name="drivingdirections">Driving Directions</string>
+    <string name="createreferal">Create Referral</string>
+    <string name="createappointments">Create Appointment</string>
+    <string name="donar_hosp">Where should the donor come Ex- Prime Hosptial</string>
+    <string name="hintsurgery">Ex- Heart operation</string>
+
+    <string name="lastupdate">Last Updated Health Record</string>
+    <string name="secs"> Secs</string>
+    <string name="goahead"> Go Ahead</string>
+    <string name="goback"> Go Back</string>
+    <string name="title_activity_ambulance_providers_emergency_list">Select Preferred Ambulance</string>
+    <string name="tap_on_emr_btn">Tap On Button To Notify Emergency</string>
+    <string name="active">Active</string>
+    <string name="expired">Expired</string>
+
+    <string name="nearbyhosphint">We need your location to find nearest hospitals around you.Please check if location is enabled in the settings and try again</string>
+    <string name="nohosptials5">No hospitals found in the 5 Km radius in the system.</string>
+    <string name="version">Version</string>
+    <string name="recivedotp">Recieved OTP</string>
+    <string name="blood">Blood</string>
+    <string name="reqfor">Request for</string>
+    <string name="chooseimage">Choose Image </string>
+    <string name="nointernet">No Internet</string>
+    <string name="selmember">Select Member</string>
+    <string name="nocontactfound">No contacts found with </string>
+    <string name="bloodgroup">blood group</string>
+
+    ///latest
+
+    <string name="select_blood">Select Blood Group</string>
+    <string name="hospital">Hospital</string>
+    <string name="mediclestore">Medical Store</string>
+    <string name="diagnstic_lab">Diagnostic Lab</string>
+    <string name="clinic">Clinic</string>
+    <string name="employer">Employer</string>
+    <string name="educ_inst">Educational Institute</string>
+    <string name="select">Select One</string>
+    <string name="single">Single</string>
+    <string name="married">Married</string>
+    <string name="widowed">Widowed</string>
+    <string name="divorced">Divorced</string>
+    <string name="vegetarian">Vegetarian</string>
+    <string name="eggvegitarian">Egg-tarian</string>
+    <string name="nonvegetarian">Non-Vegetarian</string>
+    <string name="family">Family</string>
+    <string name="friend">Friend</string>
+    <string name="welloff">Well-Off</string>
+    <string name="middleclass">Middle Class</string>
+    <string name="poor">Poor</string>
+    <string name="verypoor">Very Poor</string>
+    <string name="false_alarm" translatable="false">This was a false alarm</string>
+    <string name="emerg_being_attended">The emergency is being attended to</string>
+    <string name="emrg_has_addresses">The emergency has been addressed</string>
+    <string name="nbya">N/A</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+
+    <string name="english">English</string>
+    <string name="hindi">हिंदी</string>
+    <string name="telugu">తెలుగు</string>
+    <string name="kannada">ಕನ್ನಡ</string>
+    <string name="urdu">اردو</string>
+    <string name="tamil">தமிழ்</string>
+
+    <string name="near">Near </string>
+    <string name="next">NEXT </string>
+    <string name="stranger">Stranger</string>
+    <string name="thereisnoexsting">There are no existing </string>
+    <string name="foryoursearch"> for your search</string>
+
+    <string name="upload">UPLOAD</string>
+    <string name="comments">Comments</string>
+    <string name="title_upload_reports">My Reports</string>
+    <string name="selecttype_upload">Select Type of Upload</string>
+    <string name="sel_diff_amb_pr">Select different Ambulance Provider below</string>
+    <string name="public_amb_pr">Public Ambulance Provider</string>
+    <string name="no_pref_hosp">No Preferred Hospital</string>
+    <string name="nearby_nw_hosp">Nearby Network Hospitals</string>
+    <string name="no_other_nearby_hosp">No Other Nearby Hospitals To Show</string>
+    <string name="nonetwork_hosp_to_show">No Network Hospitals To Show</string>
+    <string name="other_near_hosp">Other Nearby Hospitals</string>
+    <string name="page">PAGE</string>
+    <string name="mobileno_is_mandatory">Mobile Number Is Mandatory, if you want to exit the app press the back twice</string>
+    <string name="password_updated_success">Password updated successfully</string>
+    <string name="pressback_onemoretime">Press back one more time!!</string>
+    <string name="reg_success">Registatrion successful</string>
+    <string name="reg_failed">Registatrion failed</string>
+    <string name="sel_gender_type">Please select a gender type.</string>
+    <string name="sel_dob">Please select you date of birth</string>
+    <string name="sel_age">Please Enter Your Age</string>
+    <string name="mobile_no_should_10_digits">Mobile number should be 10 digits</string>
+    <string name="lenght_should_1to25">Select length between 1-25 words</string>
+    <string name="sel_lenght_nw_3to25">Select length between 3-25 words</string>
+    <string name="updatedon">Upadated on : </string>
+    <string name="firebase_key" translatable="false">AIzaSyD5lU_oKibTQDhUoPnFRQG3oTa-NrhHUO4</string>
+    <string name="pswrd_sent_to_mobile">OTP has been sent to the mobile number provided</string>
+    <string name="pswrd_sent_to_mail">The link to reset your password has been sent to the E-mail address provided, please follow the instructions on the page to update your password.</string>
+    <string name="storage_med_not_avail">Storage media not available</string>
+    <string name="thank_reg_success">Thankyou !!! Your concern had been registered successfully</string>
+    <string name="uare_not_auth_access">You are not authorized to access this application.</string>
+    <string name="no_view_pdf">No Application available to view PDF</string>
+    <string name="choose_atleast_one_file">Choose atleast one file to upload</string>
+    <string name="plz_sel_tag">Please select tag</string>
+
+    <string name="plz_sel_contacts">Please select contacts for sending request</string>
+    <string name="initializing_plz_wait">Initialising please wait</string>
+    <string name="plz_check_loc_on">Please check if location is ON in the settings</string>
+    <string name="getting_addr_failed">Getting Address Failed,No Internet</string>
+
+    <string name="lang_hint_in_aboutus">For language suggestions please drop an email to help@callambulance.in and we will be happy to incorporate.</string>
+    <string name="label_greetings">Thankyou for downloading Call Ambulance App</string>
+    <string name="label_continue">Continue</string>
+
+    <string name="hint_enter_preferred_blood_bank">Type to select your preferred Blood Bank</string>
+    <string name="label_preffered_Blood_bank">Preferred Blood Bank</string>
+    <string name="label_notify_blood_donation_request">Want Blood Request Notification?</string>
+    <string name="label_last_blood_donation_date">Last Blood Donated Date</string>
+    <string name="display_date_format" translatable="false">dd/MM/yyyy</string>
+    <string name="title_activity_org_types">Nearby Orgs</string>
+    <string name="label_locality">Locality</string>
+    <string name="labelPreferredHospital">Preferred Hospital</string>
+    <string name="labelNetworkHospital">Nearby Network Hospitals</string>
+    <string name="labelNonNetworkHospital">Other Nearby Hospitals</string>
+    <string name="labelPreferredBloodBank">Preferred Blood Bank</string>
+    <string name="labelNetworkBloodBanks">Nearby Network Blood Banks</string>
+    <string name="labelNonNetworkBloodBanks">Nearby Non Network Blood Banks</string>
+    <string name="labelNetworkDiagnostics">Nearby Network Diagnostics</string>
+    <string name="labelNonNetworkDiagnostics">Other Nearby Diagnostics</string>
+    <string name="labelNetworkPharmecies">Network Pharmacies</string>
+    <string name="labelNonNetworkPharmecies">Other Nearby Pharmacies</string>
+    <string name="label_no_network">No Network !!!!</string>
+    <string name="labelAvailDoctrz">Available Doctors</string>
+    <string name="labelAvailAppointments">Available for Appointments</string>
+    <string name="labelAppointmentsFull">Appointments Full</string>
+    <string name="label_contacts_sync_completed">Sync is completed. Checkout who has a matching blood group!</string>
+    <string name="geofence_not_available">Offers zone not available</string>
+    <string name="title_activity_offers">Offers</string>
+    <string name="notification_title_exhibition">Welcome to Nampally exhibition!!!</string>
+    <string name="notification_content_text_exhibition">Click here for discounts</string>
+    <string name="notification_summary_txt_exhibition">Notification will get dismissed once you are out of range</string>
+
+    <string name="title_activity_nearby_ambulances">Nearby Ambulance</string>
+    <string name="label_nearby_ambulance_provider">Ambulance</string>
+    <string name="label_request_failed">Couldn\'t process your request.Please try again</string>
+    <string name="label_no_ambulance_providers">No Ambulances found</string>
+    <string name="title_activity_ambulance_providers_list">Nearby Ambulance</string>
+    <string name="label_ambulance_request_failed">Ambulance request failed.Please check you internet connection and try again</string>
+    <string name="label_proceed">Proceed</string>
+    <string name="label_ambulance_request_info">Do you want to make a request to Ambulance?</string>
+    <string name="cancel_ambulance_request_success">Ambulance request cancelled successfully</string>
+    <string name="tv_label_no_ambulance_assigned">Ambulance has been requested.Click Cancel if you want to request an another Ambulance</string>
+    <string name="title_activity_nearby_hospitals">NearbyHospitalsActivity</string>
+    <string name="label_ambulance_selection_failed">Ambulance selection failed.Please try again</string>
+    <string name="label_select_dest_hospital">Select your destination</string>
+    <string name="title_activity_custom_map">Set Destination Location</string>
+    <string name="label_search_location">Search your location</string>
+    <string name="label_location_search_ambulance_hint">Type your destination here</string>
+    <string name="title_activity_current_ambulance_request">Ambulance Request</string>
+    <string name="label_current_status">Current Status :</string>
+    <string name="label_rate">Rate Card</string>
+    <string name="label_first_10kms">Min Fare:</string>
+    <string name="label_after_10kms">Additional Fare:</string>
+    <string name="label_first_10kKMS">Min Fare</string>
+    <string name="label_after_10KMS">Additional Fare</string>
+
+    <string name="label_ambulance_cance_failed">Unable to Cancel the ambulance request.Please try again</string>
+    <string name="label_alert_msg_on_ambulance_request">Nearby ambulances is only for non emergency ambulance. Would you like to book a non emergency ambulance?</string>
+    <string name="label_request_failed_get_current_request">Unable to show the details of your current ambulance request.Please try again</string>
+    <string name="title_activity_activity_share">Share</string>
+    <string name="label_invitation">Invitation</string>
+    <string name="label_update_blood_group">Your BloodGroup has not been setup.Do you want to setup now?</string>
+    <string name="label_select_blood_group">Select Blood Group</string>
+    <string name="title_activity_help_screens">HelpScreensActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_fare_info">Note: Prices may vary based on the time of the day &amp; facilities in ambulance</string>
+    <string name="getStarted">Get Started</string>
+    <string name="sync_now">Sync Now</string>
+    <string name="label_login">I Have An Account? Login</string>
+    <string name="sync_homeact_msg">Do you know the blood group of your friends? Sync now to have them handy in case of an emergency!</string>
+    <string name="label_select_willing_to_donate_blood">Willing to donate blood to a needy friend?</string>
+    <string name="start">GOT IT</string>
+    <string name="title_activity_notify_doctor">NotifyDoctorActivity</string>
+    <string name="label_notify_doctor_dialog_part1">On adding notifying doctor he/she will get notified whenever you upload a report or raise an emergency.Do you want to add</string>
+    <string name="label_notify_doctor_dialog_part2"> as your Notifying Doctor?</string>
+    <string name="label_doctor_notified_successfully_part1">You had successfully added </string>
+    <string name="label_doctor_notified_successfully_part2"> as your Notifying Doctor</string>
+    <string name="hint_search_by_name">Search By Name</string>
+    <string name="title_notifying_doctor">Notifying Doctors</string>
+    <string name="label_already_a_notifying_doctor"> is already your Notifying Doctor</string>
+    <string name="label_no_hospitals_set">You need to add a Hospital first to search for the doctors and notify them</string>
+    <string name="label_amb_details">Ambulance Details</string>
+    <string name="label_driver_dist">Driver Distance</string>
+    <string name="label_driver_time">Driver Time To Reach(Approx.)</string>
+
+    <string name="label_ambulance_no">Ambulance No: </string>
+    <string name="label_driver_location_fetch_failed">Failed to fetch driver\'s current location details</string>
+    <string name="label_no_more_doctors_to_add">No doctor\'s available for the Organisation (OR) You might have added all the Doctor\'s in this Organisation as your Notifying Doctor\'s</string>
+    <string name="pref_title_draw_over_other_apps">Launch CallAmbulance From Dialer</string>
+    <string name="pref_summary_draw_over_other_apps">Enabling this will allow you to raise an emergency from dialer screen on dialing 108. This will help share precise location to 108</string>
+    <string name="capture_pic_failed">Couldn\'t capture your pic.Please try again</string>
+    <string name="give_permission">Give Permission</string>
+    <string name="permission_read_phone_state_msg">Phone Access required to make the call to your chosen emergency provider during an emergency</string>
+    <string name="permission_contacts_msg">Contacts Access required to find all your contacts in the CallAmbulance database and give you access to your friends Blood Group provided your friend\'s number is stored in their phone as well</string>
+    <string name="permission_location_grant_msg">GPS Access required to be able to pass your GPS location to the emergency provider to enable them to reach the emergency location faster</string>
+    <string name="permission_sms_grant_msg">SMS Access required to read the OTP sent by SMS and also to initiate emergency when there is no internet available</string>
+    <string name="phone_state_permission_mandatory_msg">Phone permission is required to identify the network availability. This is mandatory, please grant this permission</string>
+    <string name="camera_permission_mandatory_msg">Camera Access required to enable you to upload your prescriptions or lab reports for storing and sharing with your Doctor</string>
+    <string name="toast_switch_on_permissions">Please grant the required permissions</string>
+    <string name="permission_nearby_grant_msg">GPS Access required to capture your current location to provide you the nearby hospitals/ambulances/bloodbanks/labs</string>
+    <string name="permission_grant_sms_permission">SMS Access is required to inform your Emergency Contacts,Care Givers and Ambulance providers about the emergency through SMS when there is no internet or when internet fails while raising emergency</string>
+    <string name="permission_grant_storage_permission">Storage Access required to enable you to upload your profile pic, prescriptions or lab reports for storing and sharing with your Doctor and also view your preferred emergency provider.This is a mandatory permission</string>
+    <string name="toast_info_notifying_doctor">These are your doctor\'s who get notified when ever you upload any report or raise and emergency so that they can help you as needed</string>
+
+    <string name="speciality_gynaecology">Gynaec</string>
+    <string name="speciality_paediatrics">Paedia</string>
+    <string name="speciality_orthopaedic">Trauma</string>
+    <string name="facility_ICU">ICU</string>
+    <string name="facility_cath_lab">Cardiac</string>
+    <string name="facility_ct_scan">Neuoro</string>
+    <string name="title_activity_add_employer">Add Employer</string>
+    <string name="employee_id">Employee ID</string>
+    <string name="org_branch">Org Branch</string>
+    <string name="official_email_id">Official Email ID</string>
+    <string name="designation">Designation</string>
+    <string name="department">Department</string>
+    <string name="manager_name">Manager Name</string>
+    <string name="add_employer">Add Employer</string>
+    <string name="employee_id_mandatory_msg">Employee ID is mandatory</string>
+    <string name="org_branch_mandatory_msg">Please select an Organisation branch</string>
+    <string name="labelAED">AED\'s</string>
+    <string name="lable_delete_contacts">Please confirm that your access to name will be removed permanently</string>
+    <string name="failed_to_delete_contact">Failed to delete contact.Please try again</string>
+    <string name="failedToAddEmployerToast">Adding Employer Failed.Please try again</string>
+    <string name="label_delete_report">Are you sure you want to delete report?</string>
+    <string name="failed_to_delete_report">Failed to delete Report</string>
+
+    <string name="label_sync_hint_dashboard">Add your 5 trusted friends, who share same blood group as you &amp; will step up during an emergency</string>
+    <string name="label_sync_hint_sync5">Invite up to 5 contacts to join CallAmbulance.</string>
+    <string name="label_sync_hint_dialog">SMS invite will be sent to each of the selected contacts. This action may incur SMS charges as applicable.</string>
+    <string name="pref_summary_start_auto_launch_apps">Enabling Apps auto-launch for CallAmbulance will allow it to notify Ambulance about your location when ever you dial Emergency number in case of Emergency.Switch on CallAmbulance auto-launch button to start using this feature</string>
+    <string name="label_sync_hint_dialog_new">SMS invite will be sent to each of the selected contacts. This action may incur SMS charges as applicable.</string>
+
+    <string name="pref_title_apps_auto_launch">Notify Ambulance In Emergency</string>
+    <string name="add_bloody_friends">Add Bloody Friends</string>
+    <string name="toast_bf_members_exceed">You can add only max 5 Bloody friends</string>
+    <string name="add_more_bf">Add More Bloody Friends</string>
+    <string name="send_blood_request">Send Blood Request</string>
+    <string name="add_person">Add Person</string>
+
+    <string name="title_activity_bloody_friends_blood_request_details">
+        BloodyFriendsBloodRequestDetailsActivity
+    </string>
+    <string name="label_for_whom">For Whom</string>
+    <string name="label_date_of_requirement">Date Of Requirement</string>
+    <string name="hint_motivational_field">Your Motivation Message</string>
+    <string name="location">Location</string>
+    <string name="my_bloody_friends">My Bloody Friends</string>
+    <string name="title_bloody_friends_list_activity">My Bloody Friends</string>
+    <string name="location_services_off">Location Services Are Turned Off.Switch On Location Services In The Settings And Set To High Accuracy To Get Better Results\n</string>
+    <string name="switch_on">Switch On</string>
+    <string name="mandatory_permissions_dialog_msg"><![CDATA[Storage & SMS permissions are mandatory.Tap on GRANT to give these permissions to CallAmbulance]]></string>
+    <string name="phone_state_mandatory_msg"><![CDATA[PHONE permission is mandatory for CallAmbulance to work.Tap on GRANT to give this permission to CallAmbulance]]></string>
+    <string name="get_current_amb_request">Please wait,Checking if any Ambulance request is already made</string>
+    <string name="requesting_ambulance">Please wait while we make a request to an Ambulance</string>
+    <string name="phone_per"><![CDATA[Location & SMS permissions are mandatory.Tap on GRANT to give these permissions to CallAmbulance]]></string>
+    <string name="server_busy_msg">Your support has been overwhelming. We appreciate your patience as we upgrade our infrastructure in next few hours to meet your demand</string>
+    <string name="server_offline">Thank You \n for embracing our concept</string>
+    <string name="faq_on_callambulance"><a href="https://callambulance.in/100KFirstResponse">FAQs on CallAmbulance</a></string>
+    <string name="info_text">\t\t\tWe are open for partnerships, crowd sourcing of ideas for faster Integration &amp; adoption. Please share your ideas, suggestions with our founder <b>jagadish@callambulance.in</b></string>
+    <string name="info_text_header">Please join us on our journey to see a safer India !</string>
+    <string name="forum_id" translatable="false">11</string>
+    <string name="title_ask_expert">Emergencies Forum</string>
+    <string name="forgot_password_server_down_msg">Thanks for embracing the concept. We are overwhelmed with the support we got and are grateful for the same.  We are scaling up infrastructure to meet the demand. We request you to please be patient and support us in the journey to make India a safer nation</string>
+    <string name="close">Close</string>
+    <string name="lable_emergency_prepardness">Emergency Preparedness</string>
+    <string name="label_finish">Finish</string>
+    <string name="user_in_emergency">This user is already in an real Emergency. Please select different user</string>
+    <string name="invoking_emergency_offline_msg">Invoking emergency through SMS</string>
+    <string name="offline_emergency_failed">Unable to raise offline emergency due to some technical issues</string>
+    <string name="offline_emergency_failure_no_sms_bal">Unable to send emergency information to emergency provider due to low sms balance</string>
+    <string name="emergency_invoked_through_sms">Emergency invoked through SMS</string>
+    <string name="tracker_url_not_found">Tracker url not found</string>
+    <string name="emergency_preparedness_dialog_msg">Your Care Team has not been setup. We encourage you to setup your Emergency Contacts, Hospital, Doctor and Care Giver. Setting up one of Emergency Contact or Care Giver is mandatory so they can support you during an emergency</string>
+    <string name="label_emergency_provider">Emergency Provider</string>
+    <string name="label_preferred_emergency_provider">Preferred Emergency Provider</string>
+    <string name="hint_enter_preferred_emergency_provider">Preferred Emergency Provider</string>
+    <string name="label_test_emergency">Test Emergency</string>
+    <string name="label_revoking_emergency">Revoking Emergency</string>
+    <string name="addpage">Add Page</string>
+    <string name="dialog_msg_test_emergency_click">This is a test emergency\n\n<b>NO</b> alarm will be triggered\n<b>NO</b> contacts will be notified\n<b>NO</b> call will be made to ambulance providers\n\nPlease click on Track Emergency in the final screen to see the dashboard that your contacts can access</string>
+    <string name="test">Test Emergency</string>
+    <string name="title_emergency_info">Emergency Info</string>
+    <string name="emergency_tracker">Emergency Tracker</string>
+    <string name="test_emergency_tracker">Test Emergency Tracker</string>
+    <string name="label_policy_validity">Policy Validity</string>
+    <string name="title_activity_select_insured_person">SelectInsuredPersonActivity</string>
+    <string name="accident_insurance_amt" translatable="false">₹ 249</string>
+    <string name="for_whom_is_this_insurance">For Whom Is This Insurance ?</string>
+    <string name="purchase_successful">Purchase Successful !</string>
+    <string name="title_activity_insurance_captured">Request Summary</string>
+    <string name="insurance_captured_successfully">Your Request Captured Successfully</string>
+    <string name="customer_team_will_contact">Our customer team \nwill contact you shortly</string>
+    <string name="any_queries">For Any Queries:</string>
+    <string name="summary">Summary</string>
+    <string name="sum_insured">Sum Insured</string>
+    <string name="share_with_friends">Share With Friends</string>
+    <string name="label_continue_2"><![CDATA[Continue  >>]]></string>
+    <string name="title_activity_add_insured_details">AddInsuredDetailsActivity</string>
+    <string name="aadhar_no">Aadhar No.</string>
+    <string name="verify">Verify</string>
+    <string name="email_id">Email ID</string>
+    <string name="address1">Address 1</string>
+    <string name="et_address2">Address 2</string>
+    <string name="city_town">City/Town</string>
+    <string name="district">District</string>
+    <string name="nominee_name">Nominee Name</string>
+    <string name="nominee_relationship">Nominee Relationship</string>
+    <string name="add_more_existing_policies">Add More Existing policy</string>
+    <string name="OR">Or</string>
+    <string name="buy_acc_policy">Buy Package</string>
+    <string name="policy_no">Policy Number</string>
+    <string name="add_existing_policy">Get Started By Adding Existing \n Policy</string>
+    <string name="add_existing_policies">Add Existing Policy</string>
+    <string name="buy_accident_coverage_dialog_msg">Buy Accident Health Insurance \nCoverage upto ₹ 1 lakh*\n @ ₹ 200 per person</string>
+    <string name="tncapply"><![CDATA[*Terms & Condtions Apply]]></string>
+    <string name="buy_now">BUY NOW</string>
+    <string name="end_date_must_b_future_date">End date must be future date</string>
+    <string name="select_start_date">Please select start date first</string>
+    <string name="start_date_cannot_b_past_date">Start date cannot be a past date</string>
+    <string name="end_date_must_b_after_start_date">End date must be after start date</string>
+    <string name="ins_validity_date_mandatory">Please select insurance start and end dates</string>
+    <string name="ins_phone_validation_error_msg">Claim No. must be 10digit and must not start with zero</string>
+    <string name="pno_validation_error_insurance">Claim No. must be either 10 or 11 digits</string>
+    <string name="title_activity_insurance_policy_coverage_info">
+        InsurancePolicyCoverageInfoActivity
+    </string>
+    <string name="view_download_policy">View/Download Policy Details</string>
+    <string name="policy_coverage_info">Policy Coverage Info</string>
+    <string name="insurance_payment_successful">Insurance Payment Successful !</string>
+    <string name="add_insured_details">Add Insured Details</string>
+    <string name="date_of_birth_is_mandatory">Date Of Birth is mandatory and should be of age group 18-65 years</string>
+    <string name="enter_12digit_aadhar_no">Please enter 12 digit valid Aadhar No.</string>
+    <string name="address_mandatory">Address is mandatory</string>
+    <string name="city_is_mandatory">Please enter city</string>
+    <string name="state_is_mandatory">Please enter state</string>
+
+    <string name="district_is_mandatory">District is mandatory</string>
+    <string name="pincode_is_mandatory">Please enter PinCode</string>
+    <string name="nominee_name_is_mandatory">Please enter Nominee name</string>
+    <string name="nominee_relationship_is_mandatory">Please enter nominee relationship</string>
+    <string name="appollo_munich">Apollo munich</string>
+    <string name="accident_coverage_policy">Accident Coverage Policy</string>
+    <string name="verifying_email">Please wait while we verify your email</string>
+    <string name="verifying_mobile">Please wait while we verify your mobile</string>
+    <string name="verified">Verified</string>
+    <string name="share_about_insurence">Feeling good about being prepared!! Installed CallAmbulance Mobile app and bought CallAmbulance Basic Package that includes a Road Accident Insurance Policy, this gives me a cover of Rs 1,00,000/- for Inpatient treatment, Rs 5,000/- for Outpatient treatment and Rs 20,000/- for ambulance service with just 249/- premium per annum. Download app at <a href="http://bit.ly/callambulance">http://bit.ly/callambulance</a></string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="or_enter_otp_manually">Or Enter OTP Manually</string>
+    <string name="msg_restrict_user_to_buy_same_ins_twice">Hey!!! It seems you had already bought an Basic Package for yourself.Incase if you want to buy this Package for someone else ,then please switch to different member and proceed to buy</string>
+    <string name="start_date_cannot_b_future_date">Start date cannot be a future date</string>
+    <string name="sync_failed">Failed to fetch your data</string>
+    <string name="support">S\nU\nP\nP\nO\nR\nT</string>
+    <string name="enter_correct_otp">Please enter a valid OTP and try again</string>
+    <string name="enter_correct_token">Please enter a valid OTP and try again</string>
+
+    <string name="email_callambulance_support">help@callambulance.in</string>
+    <string name="label_accident_coverage_policy">Accident Coverage\n Policy </string>
+    <string name="read_more">Read More</string>
+    <string name="label_in_patient">Group Emergency Accident Insurance Plan (Accident Death)</string>
+    <string name="in_pre_post_operative_care">Accidental In-patient Hospitalization Benefit</string>
+    <string name="label_accident_coverage">Accidental Outpatient Benefit</string>
+    <string name="label_ambulance_coverage">Emergency Ambulance Cover</string>
+    <string name="label_road_accident_emg_coverage">CallAmbulance Basic \nPackage</string>
+    <string name="insurance_issue">Insurance Issue</string>
+    <string name="phone_number_verified">Phone No. verified</string>
+    <string name="email_verified">Email Verified</string>
+    <string name="label_benefit">BENEFIT</string>
+    <string name="policy_coverage_amt" translatable="false">₹</string>
+    <string name="policy_tnc"><![CDATA[Policy T&C]]></string>
+    <string name="inc_sgst_cgst"><![CDATA[(Inclusive Of SGST & CGST)]]></string>
+    <string name="membership_conv_charge"><![CDATA[Membership & Convenience \nCharge]]></string>
+    <string name="verify_mobile_email_msg">Please verify your Email and Mobile Number if you hadn\'t already done inorder to process your Basic Package request</string>
+    <string name="request_for_otp">Making an OTP request, please wait...</string>
+    <string name="ins_buy_age_restriction_msg">At this time this Package is available only for age group 18-65 years. We intend to cover all age groups in future, stay tuned for updates</string>
+    <string name="verifying_promo_code">Verifying Promo Code ...</string>
+    <string name="reading_contacts_msg">Reading your contact database.This might take a few minutes.Please wait...</string>
+    <string name="processing_request">Please wait while we process your request</string>
+    <string name="label_one_step">You are a step away from completing the subscription</string>
+    <string name="next_step">Next Step</string>
+    <string name="label_confirm_email">Confirm Email</string>
+    <string name="enter_token">Please enter OTP sent to your Email</string>
+    <string name="incomplete_ins_purchase">Hey!!! It seem\'s your Basic Package purchase is pending.Please click OK to complete your purchase</string>
+    <string name="approved">Approved</string>
+    <string name="send_invite_new" translatable="false">https://www.callambulance.in/home/download/</string>
+    <string name="switching_to_last_known_loc">Location not found.Switching to last known location</string>
+
+    <!--new-->
+    <string name="share_using">Share using</string>
+    <string name="facilities">Facilities</string>
+    <string name="specalities">Specialities</string>
+    <string name="oriya">ଓଡିଆ</string>
+    <string name="date_format4">yyyy-MM-dd\'T\'HH:mm:ss\'Z\'</string>
+    <string name="blood_availability">Blood Availability</string>
+
+</resources>

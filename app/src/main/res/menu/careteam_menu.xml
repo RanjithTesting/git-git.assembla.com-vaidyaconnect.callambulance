@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item
+        android:id="@+id/badge"
+        android:actionLayout="@layout/badget_layout"
+        android:icon="@drawable/dashboard_notification"
+        android:showAsAction="always"></item>-->
+    <app:item
+        android:id="@+id/badge"
+        android:icon="@drawable/ic_menu_cart"
+        android:title=""
+        app:showAsAction="always" />
+
+
+</menu>
+
+

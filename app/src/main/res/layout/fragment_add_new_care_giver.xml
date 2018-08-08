@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.patientz.activity.AddNewCareGiverFragment"
+    tools:showIn="@layout/activity_add_new_care_giver">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:id="@+id/form_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/colorAppBg"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/white"
+                android:padding="20dp"
+                android:layout_margin="8dp"
+                >
+
+                <EditText
+                    android:id="@+id/fName_edittext"
+                    style="@style/edit_text_style"
+                    android:layout_marginTop="1dip"
+                    android:focusableInTouchMode="true"
+                    android:hint="@string/first_name"
+                    android:inputType="textPersonName"
+                    />
+
+                <EditText
+                    android:id="@+id/lname_edittext"
+                    style="@style/edit_text_style"
+                    android:layout_below="@+id/tv_official_email_id"
+                    android:layout_marginTop="1dip"
+                    android:focusableInTouchMode="true"
+                    android:hint="@string/last_name"
+                    android:inputType="textPersonName" />
+
+                <LinearLayout
+                    android:id="@+id/pno_isd_parent_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/text_boxsize"
+                    android:layout_below="@+id/et_manager_name"
+                    android:layout_marginTop="10dip"
+                    android:orientation="horizontal"
+                    android:weightSum="1"
+                    >
+
+                    <Spinner
+                        android:id="@+id/isdcode_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/text_boxsize"
+                        android:background="@drawable/bg_spinner"
+                        android:layout_weight="0.8"
+                        android:spinnerMode="dropdown"
+                        />
+                    <EditText
+                        android:id="@+id/phone_number_edittext"
+                        style="@style/edit_text_style"
+                        android:hint="Phone"
+                        android:inputType="phone"
+                        android:layout_weight="0.2"
+                        />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/email_edittext"
+                    style="@style/edit_text_style"
+                    android:layout_marginTop="1dip"
+                    android:focusableInTouchMode="true"
+                    android:hint="@string/email"
+                    android:inputType="textPersonName" />
+
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/submit"
+                style="@style/button"
+                android:layout_below="@+id/ll_manager_pno"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="25dp"
+                android:text="@string/title_activity_add_new_contact" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/loading_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/loading_status_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/wait_msg"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/menu_text" />
+    </LinearLayout>
+
+</LinearLayout>

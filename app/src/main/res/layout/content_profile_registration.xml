@@ -1,0 +1,187 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register_bg"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.patientz.activity.ProfileRegistrationActivity"
+    tools:showIn="@layout/activity_profile_registration">
+
+    <!-- progress -->
+    <LinearLayout
+        android:id="@+id/progress_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/login_status_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/updating_progress"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/menu_text" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/form_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <EditText
+                android:id="@+id/first_name"
+                style="@style/editText_box_normal"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/first_name"
+                android:inputType="textPersonName"
+                android:textCursorDrawable="@drawable/white_edit_text_pipe" />
+
+            <EditText
+                android:id="@+id/last_name"
+                style="@style/editText_box_normal"
+                android:layout_below="@id/first_name"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/last_name"
+                android:inputType="textPersonName"
+                android:textCursorDrawable="@drawable/white_edit_text_pipe" />
+
+
+            <LinearLayout
+                android:id="@+id/gender_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/last_name"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/gender_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/grey_button_background"
+                    android:drawableLeft="@drawable/dropdown_arrow"
+                    android:drawablePadding="5dp"
+                    android:fontFamily="@string/font_typeface_sans_serif_light"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="@string/gender"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+                <!--<Button
+                    android:id="@+id/dob_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/grey_button_background"
+                    android:drawableLeft="@drawable/dropdown_arrow"
+                    android:drawablePadding="5dp"
+                    android:fontFamily="@string/font_typeface_sans_serif_light"
+                    android:paddingLeft="10dp"
+                    android:text="@string/date_of_birth"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/white" />-->
+
+                <EditText
+                    android:id="@+id/dob_button"
+                    style="@style/editText_box_normal"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:hint="@string/age"
+                    android:inputType="number"
+                    android:maxLength="2"
+                    android:paddingLeft="10dp"
+                    android:textCursorDrawable="@drawable/white_edit_text_pipe" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/mobile_number"
+                style="@style/editText_box_normal"
+                android:layout_below="@+id/gender_ll"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/phone_number"
+                android:inputType="numberDecimal"
+                android:maxLength="10"
+                android:textCursorDrawable="@drawable/white_edit_text_pipe" />
+
+            <Button
+                android:id="@+id/bt_select_blood_group"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_below="@+id/mobile_number"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/grey_button_background"
+                android:drawableLeft="@drawable/dropdown_arrow"
+                android:drawablePadding="5dp"
+                android:fontFamily="@string/font_typeface_sans_serif_light"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="10dp"
+                android:text="@string/select_blood"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/bt_willing_to_donated_blood"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_below="@+id/bt_select_blood_group"
+                android:layout_marginBottom="16dp"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/grey_button_background"
+                android:drawableLeft="@drawable/dropdown_arrow"
+                android:drawablePadding="5dp"
+                android:fontFamily="@string/font_typeface_sans_serif_light"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="10dp"
+                android:text="@string/label_select_willing_to_donate_blood"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/update_button"
+                style="@style/button"
+                android:layout_below="@+id/bt_willing_to_donated_blood"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/submit" />
+
+            <EditText
+                android:id="@+id/testedit"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/transparent"
+                android:enabled="false"
+                android:maxLength="0"
+                android:textCursorDrawable="@drawable/white_edit_text_pipe" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

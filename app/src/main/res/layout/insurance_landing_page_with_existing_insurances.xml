@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    >
+    <android.support.v4.widget.SwipeRefreshLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/swipeContainer"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/list"
+        android:name="com.patientz.fragments.InsuranceFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layoutManager="LinearLayoutManager"
+        android:visibility="visible"
+        android:scrollbars="vertical"
+        tools:context="com.patientz.fragments.InsuranceFragment"
+        tools:listitem="@layout/fragment_insurance"
+        />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        >
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/support"
+            android:padding="5dp"
+            android:textColor="@drawable/selector_red_to_white"
+            android:gravity="center"
+            android:visibility="visible"
+            android:background="@color/white"
+            android:layout_alignParentRight="true"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/insurance_shield_blurr"
+            android:visibility="visible"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            />
+
+        <LinearLayout
+            android:id="@+id/ll_add_existing_policy"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rounded_corner_red_transparent"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/menu_add"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:tint="@color/harvard_crimpson"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@string/font_typeface_sans_serif_medium"
+                android:textSize="14dp"
+                android:paddingRight="8dp"
+                android:textAllCaps="false"
+                android:textColor="@drawable/selector_red_to_white"
+                android:text="@string/add_more_existing_policies" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll_or"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@+id/ll_add_existing_policy"
+            >
+            <View
+                android:layout_width="104dp"
+                android:layout_height="1.25dp"
+                android:layout_marginRight="16dp"
+                android:background="@color/black"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:fontFamily="@string/font_typeface_sans_serif"
+                android:textSize="19dp"
+                android:text="@string/OR"
+                android:layout_marginRight="16dp"
+                />
+            <View
+                android:layout_width="104dp"
+                android:layout_height="1.25dp"
+                android:layout_marginRight="16dp"
+                android:background="@color/black"
+                />
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/bt_buy_accident_policy"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:layout_below="@+id/ll_or"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/selector_curved_rectangle_hcrimpson_white_bg"
+            android:fontFamily="@string/font_typeface_sans_serif"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_gravity="center_horizontal"
+            android:paddingRight="16dp"
+            android:drawableLeft="@drawable/buy_white"
+            android:paddingLeft="16dp"
+            android:layout_marginBottom="20dp"
+            android:drawablePadding="8dp"
+            android:textColor="@drawable/selector_white_to_harvardcrimpson"
+            android:textAllCaps="false"
+            android:text="@string/buy_acc_policy" />
+
+
+
+        <TextView
+            android:id="@+id/emptytext"
+            android:layout_width="match_parent"
+            android:layout_height="60dip"
+            android:gravity="center"
+            android:text="@string/noInsuranceFound"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>

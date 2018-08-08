@@ -1,0 +1,614 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorAppBg</item>
+        <item name="android:actionModeBackground">@color/cement_grey</item>
+        <item name="windowActionModeOverlay">true</item>
+
+
+    </style>
+
+    <style name="DialogTheme" parent="AppTheme">
+
+    </style>
+
+
+    <style name="BloodyFriendsScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorAppBg</item>
+        <!--
+        <item name="android:background">@color/menu_text</item>
+-->
+
+    </style>
+
+    <style name="LocationSearchScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        =
+        <item name="colorPrimaryDark">@color/edittext_grey</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorAppBg</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <!--
+        <item name="android:background">@color/menu_text</item>
+-->
+
+    </style>
+
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Used for the buttons -->
+        <item name="colorAccent">@color/colorPrimary</item>
+        <!-- Used for the title and text -->
+        <item name="android:textColorPrimary">@color/black</item>
+        <!-- Used for the background -->
+        <item name="android:actionBarDivider">@color/colorPrimary</item>
+        <item name="android:background">@color/cardview_light_background</item>
+    </style>
+
+    <style name="EmhrEditScreenTheme" parent="AppTheme">
+        <item name="colorControlNormal">@color/edittext_grey</item>
+        <item name="colorControlActivated">#c5c5c5</item>
+        <item name="colorControlHighlight">#c5c5c5</item>
+    </style>
+
+    <style name="activity_theme" parent="AppTheme">
+        <item name="colorControlNormal">@color/separator</item>
+        <item name="colorControlActivated">@color/separator</item>
+        <item name="colorControlHighlight">@color/separator</item>
+        <item name="android:dividerHeight">0.75dp</item>
+    </style>
+
+    <style name="ActivityDialogAllergyTypesTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorControlNormal">@color/colorPrimary</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:excludeFromRecents">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+    <style name="ActivityDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="SettingTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:windowBackground">@color/colorAppBg</item>
+        <item name="android:textColor">@color/white</item>
+        <!--  <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+         <item name="colorAccent">@color/colorAccent</item>
+         <item name="android:textColor">@color/white</item>
+
+                 <item name="android:background">@color/menu_text</item>
+         -->
+
+    </style>
+
+    <style name="LoginTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:background">@color/colorAppBg</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="tvAppearanceLargeWhite">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif_light</item>
+
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+
+    <style name="tvAppearanceSmallWhite">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif_light</item>
+
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+    <style name="tvAppearanceMediumBlack">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif_light</item>
+
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+    <style name="tvAppearanceMediumWhite">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif_light</item>
+
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+    <style name="tvAppearanceLargeBlack">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif_light</item>
+
+        <item name="android:textAppearance">?android:attr/textAppearanceLargeInverse</item>
+    </style>
+
+    <style name="tvAppearanceSmallBlack">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif_light</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+    <style name="editText_box">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dip</item>
+        <item name="android:background">@drawable/edittext_background</item>
+        <item name="android:textCursorDrawable">@drawable/white_edit_text_pipe</item>
+        <item name="android:drawablePadding">20dp</item>
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:paddingRight">16dip</item>
+        <item name="android:ems">10</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif_light</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorHint">@color/colorGreyLight</item>
+    </style>
+
+    <style name="editText_box_normal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dip</item>
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:background">@drawable/edittext_background</item>
+        <item name="android:ems">10</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif_light</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+    </style>
+
+    <style name="editText_box_normal_white">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dip</item>
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:background">@drawable/edittext_background_white</item>
+        <item name="android:ems">10</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif_light</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+    </style>
+    <!-- Emergency app -->
+    <style name="textview_top_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/text_bigfont</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textview_bottom_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/size_medium</item>
+    </style>
+
+    <style name="spinner">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/text_boxsize</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="listviewRowName">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">2dip</item>
+        <item name="android:paddingTop">2dip</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_bigfont</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="listviewRowDetail">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5dip</item>
+        <item name="android:layout_marginRight">5dip</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="edittext">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dip</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+
+    <style name="tv_style1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/text_style1</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="tv_style1_red">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/text_style1</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="tv_style1_thin">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/text_style1</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif_thin</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="tv_style1_light">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/text_style1</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif_light</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="tv_roboto_regular_black_bold">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/outer_space</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="tv_roboto_regular_black_normal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif</item>
+    </style>
+
+
+    <style name="tv_roboto_regular_white_bold">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorAppBg</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="tv_roboto_regular_white_normal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorAppBg</item>
+        <item name="android:textSize">@dimen/text_size_15sp</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif</item>
+    </style>
+
+
+    <style name="tv_roboto_regular_red_bold">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="tv_roboto_regular_red_normal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif</item>
+    </style>
+
+
+    <style name="tv_roboto_light_black_normal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif_light</item>
+    </style>
+
+    <style name="tv_roboto_light_black_bold">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif_light</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="tv_roboto_light_white_normal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif_light</item>
+    </style>
+
+    <style name="tv_roboto_light_white_bold">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif_light</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="tv_roboto_light_red_normal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif_light</item>
+    </style>
+
+    <style name="tv_roboto_light_red_bold">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif_light</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="tv_roboto_condensed_black_normal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif_condensed</item>
+    </style>
+
+    <style name="tv_roboto_condensed_black_bold">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif_condensed</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="tv_roboto_condensed_white_normal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorAppBg</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif_condensed</item>
+    </style>
+
+    <style name="tv_roboto_condensed_white_bold">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorAppBg</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif_condensed</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="tv_roboto_condensed_red_normal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif_condensed</item>
+    </style>
+
+    <style name="tv_roboto_condensed_red_bold">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif_condensed</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="tv_roboto_thin_black_normal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif_thin</item>
+    </style>
+
+    <style name="tv_roboto_thin_black_bold">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif_thin</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="tv_roboto_thin_white_normal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif_thin</item>
+    </style>
+
+    <style name="tv_roboto_thin_white_bold">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif_thin</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="tv_roboto_thin_red_normal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif_thin</item>
+    </style>
+
+    <style name="tv_roboto_thin_red_bold">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif_thin</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="tv_roboto_medium_black_normal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif_medium</item>
+    </style>
+
+    <style name="tv_roboto_medium_black_bold">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif_medium</item>
+    </style>
+
+    <style name="tv_roboto_medium_white_normal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorAppBg</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif_medium</item>
+    </style>
+
+    <style name="tv_roboto_medium_white_bold">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorAppBg</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif_medium</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="tv_roboto_medium_red_normal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif_medium</item>
+    </style>
+
+    <style name="tv_roboto_medium_red_bold">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif_medium</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/background_submit_button</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif_thin</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="navigation_view_style" parent="Theme.AppCompat.Light.NoActionBar.FullScreen">
+        <item name="android:textColor">@color/colorAccent</item>
+        <!--<item name="android:textSize">16sp</item>-->
+        <item name="android:fontFamily">@string/font_typeface_sans_serif</item>
+    </style>
+
+    <style name="edit_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/menu_text</item>
+        <item name="android:textColorHint">@color/edittext_grey</item>
+        <item name="android:textCursorDrawable">@drawable/cursor_drawable</item>
+    </style>
+
+    <style name="separatorPipe_textview">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/new_grey</item>
+        <item name="android:text">|</item>
+        <item name="android:paddingBottom">2dip</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="menu_labels_style">
+        <item name="android:background">@drawable/fab_left_text_background</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="dialog_activity_theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="textview_outerspace">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/outer_space</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="edit_text_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dip</item>
+        <item name="android:dividerHeight">0.25dp</item>
+        <item name="android:textCursorDrawable">@drawable/cursor</item>
+        <item name="android:drawablePadding">20dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif_medium</item>
+        <item name="android:textColor">@color/outer_space</item>
+        <item name="android:textColorHint">@color/outer_space</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:background">@drawable/edt_bg_normal</item>
+    </style>
+
+    <style name="textview_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@string/font_typeface_sans_serif_medium</item>
+        <item name="android:textColor">@color/outer_space</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="SpinnerTheme" parent="android:Widget.Spinner">
+        <item name="android:background">@drawable/bg_spinner</item>
+    </style>
+
+</resources>

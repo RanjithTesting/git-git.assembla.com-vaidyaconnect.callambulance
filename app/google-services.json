@@ -1,0 +1,155 @@
+{
+  "project_info": {
+    "project_number": "598509133827",
+    "firebase_url": "https://callambulance-1343.firebaseio.com",
+    "project_id": "callambulance-1343",
+    "storage_bucket": "callambulance-1343.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598509133827:android:62f568122ab1f7a5",
+        "android_client_info": {
+          "package_name": "com.patientz.activity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "598509133827-mmn1fe0j2oq4c4o3bu55v006u9e6hr0f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.patientz.activity",
+            "certificate_hash": "91954A0E43A17DBAFC6361E4D87CF804AE391D5F"
+          }
+        },
+        {
+          "client_id": "598509133827-ipr8o2486jsr44fbhcop55518si6acek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6smdy4UP_y2pkLOY2PYQ6raDihI7Pn3Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-70168115-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598509133827:android:1c1a49c518dceb1e",
+        "android_client_info": {
+          "package_name": "com.patientz.activity.qa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "598509133827-ipr8o2486jsr44fbhcop55518si6acek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6smdy4UP_y2pkLOY2PYQ6raDihI7Pn3Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-70168115-5"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598509133827:android:03f557eae64d4e26",
+        "android_client_info": {
+          "package_name": "com.patientz.activity.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "598509133827-ipr8o2486jsr44fbhcop55518si6acek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6smdy4UP_y2pkLOY2PYQ6raDihI7Pn3Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-70168115-9"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598509133827:android:3615cabcd85702e0",
+        "android_client_info": {
+          "package_name": "com.patientz.activity.stage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "598509133827-ipr8o2486jsr44fbhcop55518si6acek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6smdy4UP_y2pkLOY2PYQ6raDihI7Pn3Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-70168115-8"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

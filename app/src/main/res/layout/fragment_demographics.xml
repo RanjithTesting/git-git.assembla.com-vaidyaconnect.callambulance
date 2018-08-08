@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+    >
+    <!--
+        <com.patientz.widgets.PatientHeaderWidget
+            android:id="@+id/patient_header"
+            android:layout_width="match_parent"
+            android:layout_height="80dip"
+            android:layout_alignParentTop="true" >
+        </com.patientz.widgets.PatientHeaderWidget>
+
+        <TextView
+            android:id="@+id/subheading1_demographics"
+            android:layout_width="match_parent"
+            android:layout_height="25dip"
+            android:layout_below="@+id/patient_header"
+            android:background="@color/grey_subheading_background"
+            android:gravity="left|center"
+            android:paddingLeft="15dip"
+            android:text="@string/demographics_subheading"
+            android:textColor="@color/textcolor_subheading" />-->
+    <LinearLayout
+        android:id="@+id/loading_status"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/loading_status_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/loading_progress"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="1dp"
+        android:drawSelectorOnTop="false" />
+
+</RelativeLayout>

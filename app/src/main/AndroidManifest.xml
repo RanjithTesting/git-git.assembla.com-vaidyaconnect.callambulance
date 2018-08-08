@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.patientz.activity">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <permission
+        android:name="android.permission.CALL_PRIVILEGED"
+        android:protectionLevel="signature|privileged" />
+
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:minSdkVersion="21" />
+    />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission
+        android:name="android.permission.CALL_PHONE"
+        android:protectionLevel="normal" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <permission
+        android:name="${applicationId}.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="${applicationId}.permission.C2D_MESSAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <application
+        android:name=".CallAmbulance"
+        android:allowBackup="false"
+        android:fullBackupContent="false"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:allowBackup">
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/LoginTheme" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ActivitySelectPatientInEmergency"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ActivityCurrentEmergencies"
+            android:label="@string/title_activity_current_emergencies"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.patientz.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ActivityEmergencyType"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:label="@string/create_account"
+            android:screenOrientation="portrait"
+            android:theme="@style/LoginTheme" />
+        <activity
+            android:name=".OTPRegisterActivity"
+            android:label="@string/otp_verification"
+            android:screenOrientation="portrait"
+            android:theme="@style/LoginTheme" />
+        <activity
+            android:name=".UpdatePassWordActivity"
+            android:label="@string/enter_new_password"
+            android:screenOrientation="portrait"
+            android:theme="@style/LoginTheme" />
+        <activity
+            android:name=".ProfileRegistrationActivity"
+            android:label="@string/update_profile"
+            android:screenOrientation="portrait"
+            android:theme="@style/LoginTheme" />
+        <activity
+            android:name=".ActivityEmergencyStepsListener"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ActivityEmergencyTrackAndRevoke"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".BloodyFriendsActivity"
+            android:label="@string/label_bloodbuddies"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".BloodyFriendsLandingActivity"
+            android:label="@string/label_bloodbuddies"
+            android:screenOrientation="portrait"
+            android:theme="@style/BloodyFriendsScreenTheme" />
+        <activity
+            android:name=".BloodyFriendsAdditionActivity"
+            android:label="@string/label_add_bf"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".UploadReportsActivity"
+            android:label="@string/title_upload_reports"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".UploadReportsTagActivity"
+            android:label="@string/title_upload_reports"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PDFView"
+            android:label="@string/title_upload_reports"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MyUploadReportsActivity"
+            android:label="@string/title_upload_reports"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.patientz.activity.MainActivity" />
+        </activity>
+
+        <service
+            android:name="com.patientz.service.IntentServiceFetchAddress"
+            android:exported="false" />
+        <service
+            android:name="com.patientz.service.IntentServiceFetchContacts"
+            android:exported="false" />
+        <service
+            android:name="com.patientz.service.ServiceLocationGetter"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.patientz.service.ServiceEmergencyStepsBroadCaster"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.patientz.receivers.OTPSMSReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.patientz.receivers.SmsReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.patientz.receivers.GeofenceTransitionsReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.patientz.receivers.GeofenceTransitionsReceiver" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".ProfileActivity"
+            android:label=""
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.patientz.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/action_settings"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingTheme" />
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/title_activity_about"
+            android:screenOrientation="portrait" />
+        <activity android:name=".SyncDataActivity" />
+
+        <service
+            android:name="com.patientz.services.CallAmbulanceSyncService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.patientz.services.BloodyFriendsSyncService"
+            android:enabled="true"
+            android:exported="false" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <!--
+            <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="API KEY" />
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/API_KEY" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name=".ActivityMaps"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <service
+            android:name="com.patientz.service.ServiceLocation"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".ChangePassWordActivity"
+            android:label="@string/action_change_pwd"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ActivityEditProfile"
+            android:label="@string/title_activity_update_profile"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustPan">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.patientz.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ActivityEditInsurance"
+            android:label="@string/title_activity_activity_edit_insurance"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.patientz.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ActivityEHRUpdate"
+            android:label="@string/title_activity_activity_ehrupdate"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/EmhrEditScreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.patientz.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ContactsActivity"
+            android:label="@string/title_activity_contacts"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/LoginTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.patientz.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AddNewContactActivity"
+            android:label="@string/title_activity_add_new_contact"
+            android:parentActivityName=".ContactsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.patientz.activity.ContactsActivity" />
+        </activity>
+        <activity
+            android:name=".ActivitySplashScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RegistrationEMRIActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".InsuranceDetailsActivity"
+            android:label="@string/title_activity_insurance_details"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+
+            <!--
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                &lt;!&ndash; Accepts URIs that begin with "http://www.example.com/gizmos” &ndash;&gt;
+                <data android:scheme="https"
+                    android:host="qaca.doctrz.in"
+                    android:pathPrefix="/insuranceUpload/confirmEmail"
+                    />
+                &lt;!&ndash; note that the leading "/" is required for pathPrefix&ndash;&gt;
+            </intent-filter>
+            -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.patientz.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ActivityDialogAllergyTypes"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityDialogAllergyTypesTheme" />
+        <activity
+            android:name=".VerifyMobileNumberActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityDialogTheme" />
+        <activity
+            android:name=".ActivityDialogMedicalConditions"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityDialogAllergyTypesTheme" />
+        <activity
+            android:name=".ActivityDialogBloodGroups"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityDialogAllergyTypesTheme" />
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SearchCareGiver"
+            android:label="@string/title_activity_search_care_giver"
+            android:parentActivityName=".ContactsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.patientz.activity.ContactsActivity" />
+        </activity>
+        <activity
+            android:name=".SearchEmergencyContact"
+            android:label="@string/title_activity_search_emergency_contact"
+            android:parentActivityName=".ContactsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.patientz.activity.ContactsActivity" />
+        </activity>
+        <activity
+            android:name=".AddNewCareGiver"
+            android:label="@string/title_activity_add_new_care_giver"
+            android:parentActivityName=".SearchCareGiver"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.patientz.activity.SearchCareGiver" />
+        </activity>
+        <activity
+            android:name=".ActivityInvitation"
+            android:label="@string/title_activity_activity_invitation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+
+            <!--
+                <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.patientz.activity.MainActivity" />
+            -->
+
+        </activity>
+        <activity
+            android:name=".SearchHospitalsAndOrganisationsActivity"
+            android:label="@string/title_activity_search_hospitals_and_organisations"
+            android:parentActivityName=".ContactsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.patientz.activity.ContactsActivity" />
+        </activity>
+        <activity
+            android:name=".SettingActivity2"
+            android:label="@string/action_settings"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.patientz.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ActivityAddMember"
+            android:label="@string/title_add_member"
+            android:screenOrientation="portrait" />
+        <!-- GCM RELATED -->
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="${applicationId}" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.patientz.gcm.MyGcmListenerService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.patientz.gcm.MyInstanceIDListenerService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID" />
+            </intent-filter>
+        </service>
+        <!-- GCM RELATED -->
+
+        <service
+            android:name="com.patientz.gcm.GcmRegistrationIntentService"
+            android:exported="false" />
+
+        <activity
+            android:name=".ActivityTermsAndConditions"
+            android:label="@string/title_activity_activity_terms_and_conditons"
+            android:parentActivityName=".LoginActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.patientz.activity.LoginActivity" />
+        </activity>
+        <activity
+            android:name=".ActivityNearbyHospitals"
+            android:label="@string/title_activity_nearby"
+            android:screenOrientation="portrait" />
+
+        <receiver
+            android:name="com.patientz.receivers.OutgoingCallReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED"
+            android:priority="1"
+            android:protectionLevel="signature">
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+                <action android:name="android.intent.action.PHONE_STATE" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".FirstResponderHelpWebViewActivity"
+            android:label="@string/title_activity_first_responder_web_view"
+            android:screenOrientation="portrait" />
+        <!--
+        <activity
+            android:name="com.patientz.activity.DialerScreenActivity"
+            android:label="@string/title_activity_dialer_screen"
+            android:theme="@style/AppTheme">
+        </activity>
+        -->
+        <service
+            android:name="com.patientz.service.ServiceOutgoingCall"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".ActivityWebViewVedioes"
+            android:label="@string/title_activity_activity_web_view_vedioes"
+            android:screenOrientation="portrait" />
+        <activity android:name=".HandleFireBaseDeepLinkActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name="com.patientz.upshot.BKPushAction">
+            <intent-filter>
+                <action android:name="${applicationId}.BkPushAction" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".BaseActivity" />
+        <activity
+            android:name=".ReportRoadHazardActivity"
+            android:label="@string/title_activity_road_hazards_types"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".OrgBranchesActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MarketingCampaignActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="callambulance.in"
+                    android:scheme="http" />
+                <data
+                    android:host="callambulance.in"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NearbyOrgsActivity"
+            android:parentActivityName=".NearbyOrgsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".NearbyAmbulancesListActivityNew"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LocationSearchActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/LocationSearchScreenTheme" />
+
+        <service
+            android:name="com.patientz.service.GeofenceTransitionsIntentService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".OffersActivity"
+            android:label="@string/title_activity_offers"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.patientz.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CustomMapActivity"
+            android:label="@string/title_activity_custom_map"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".CurrentAmbulanceRequestActivity"
+            android:label="@string/title_activity_current_ambulance_request"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".HelpScreensActivity"
+            android:label="@string/title_activity_help_screens"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".BloodyFriendsListActivity"
+            android:label="@string/title_bloody_friends_list_activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".NotifyDoctorActivity"
+            android:theme="@style/AppTheme" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="324ad0437c67fb3b3b069e31e2127e311affc4e4" />
+
+        <receiver
+            android:name="com.patientz.receivers.NotificationDismissedReceiver2"
+            android:exported="false" />
+        <receiver
+            android:name="com.patientz.gcm.MyGcmListenerService$OnClickPendingIntentReceiver"
+            android:exported="true" />
+
+        <activity
+            android:name=".AddEmployerActivity"
+            android:label="@string/title_activity_add_employer"
+            android:theme="@style/activity_theme"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity
+            android:name=".InfoSliderActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AskExpertActivity"
+            android:label="@string/title_ask_expert"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".EmergencyForumActivity"
+            android:label="@string/title_ask_expert"
+            android:theme="@style/AppTheme" />
+
+        <service
+            android:name="com.patientz.services.StickyNotificationInsuranceFGService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.patientz.services.StickyNotificationForeGroundService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".SelectInsuredPersonActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".InsuranceCapturedActivity"
+            android:label="@string/title_activity_insurance_captured"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.paytm.pgsdk.PaytmPGActivity"
+            android:configChanges="keyboardHidden|orientation|keyboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddInsuredDetailsActivity"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".BloodAvailabilityActivity"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".InsurancePolicyCoverageInfoActivity"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <service
+            android:name="com.patientz.service.NotificationEventsListenerService"
+            android:enabled="true"
+            android:exported="true"></service>
+        <service
+            android:name="com.patientz.service.SaveUserLogIntentService"
+            android:exported="false"></service>
+    </application>
+
+</manifest>

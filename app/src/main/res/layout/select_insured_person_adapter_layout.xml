@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <ImageView
+        android:id="@+id/iv_user_pic"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/add_person"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="30dp"
+        />
+    <LinearLayout
+        android:id="@+id/ll_person_age_gender"
+        android:layout_toRightOf="@+id/iv_user_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        >
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Add More"
+            android:layout_marginBottom="3dp"
+            android:textColor="@color/outer_space"
+            android:fontFamily="@string/font_typeface_sans_serif_medium"
+            />
+        <TextView
+            android:id="@+id/tv_age_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:visibility="gone"
+            android:textColor="@color/outer_space"
+            android:fontFamily="@string/font_typeface_sans_serif_light"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.25dp"
+        android:layout_marginBottom="8dp"
+        android:layout_below="@+id/iv_user_pic"
+        android:alpha="0.2"
+        android:background="@color/manatee" />
+</RelativeLayout>

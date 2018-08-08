@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    >
+    <ScrollView
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.patientz.activity.AddEmployerActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:id="@+id/form_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/colorAppBg"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/white"
+                android:padding="20dp"
+                android:layout_margin="8dp"
+                >
+
+                <EditText
+                    android:id="@+id/ec_firstname"
+                    style="@style/edit_text_style"
+                    android:layout_marginTop="1dip"
+                    android:focusableInTouchMode="true"
+                    android:hint="@string/first_name"
+                    android:inputType="textPersonName"
+                    />
+
+                <EditText
+                    android:id="@+id/ec_lastname"
+                    style="@style/edit_text_style"
+                    android:layout_marginTop="1dip"
+                    android:focusableInTouchMode="true"
+                    android:hint="@string/last_name"
+                    android:inputType="textPersonName" />
+                <EditText
+                    android:id="@+id/ec_email"
+                    style="@style/edit_text_style"
+                    android:layout_marginTop="1dip"
+                    android:focusableInTouchMode="true"
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress" />
+
+                <LinearLayout
+                    android:id="@+id/pno_isd_parent_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/text_boxsize"
+                    android:layout_below="@+id/et_manager_name"
+                    android:layout_marginTop="10dip"
+                    android:orientation="horizontal"
+                    android:weightSum="1"
+                    >
+
+                    <Spinner
+                        android:id="@+id/isdcode_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/text_boxsize"
+                        android:background="@drawable/bg_spinner"
+                        android:layout_weight="0.8"
+                        android:spinnerMode="dropdown"
+                        />
+                    <EditText
+                        android:id="@+id/ec_phonenumber"
+                        style="@style/edit_text_style"
+                        android:hint="Phone"
+                        android:inputType="phone"
+                        android:layout_weight="0.2"
+                        />
+                </LinearLayout>
+
+
+
+                <EditText
+                    android:id="@+id/ec_address"
+                    style="@style/edit_text_style"
+                    android:layout_below="@+id/tv_designation"
+                    android:layout_marginTop="1dip"
+                    android:focusableInTouchMode="true"
+                    android:hint="@string/address"
+                    android:inputType="textPersonName"
+                    android:visibility="gone"
+
+                    />
+
+
+                <EditText
+                    android:id="@+id/ec_city"
+                    style="@style/edit_text_style"
+                    android:layout_below="@+id/tv_department"
+                    android:layout_marginTop="1dip"
+                    android:focusableInTouchMode="true"
+                    android:hint="@string/city"
+                    android:inputType="textPersonName"
+                    android:visibility="gone"
+
+                    />
+
+
+
+                <EditText
+                    android:id="@+id/ec_pincode"
+                    style="@style/edit_text_style"
+                    android:layout_marginTop="1dip"
+                    android:focusableInTouchMode="true"
+                    android:hint="@string/pin_code"
+                    android:visibility="gone"
+
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/ec_state"
+                    style="@style/edit_text_style"
+                    android:layout_marginTop="1dip"
+                    android:focusableInTouchMode="true"
+                    android:hint="@string/state"
+                    android:inputType="textPersonName"
+                    android:visibility="gone"
+
+                    />
+
+                <Spinner
+                    android:id="@+id/spinner_country"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/text_boxsize"
+                    android:layout_marginTop="1dip"
+                    android:background="@drawable/bg_spinner"
+                    android:entries="@array/select_country"
+                    android:spinnerMode="dropdown"
+                    android:visibility="gone"
+
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.25dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/separator"
+android:visibility="gone"
+                    />
+
+                <Spinner
+                    android:id="@+id/ec_relation"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/text_boxsize"
+                    android:layout_below="@+id/ll_org_branch"
+                    android:layout_marginTop="1dip"
+                    android:background="@drawable/bg_spinner"
+                    android:entries="@array/add_patient_relation_entry"
+                    android:spinnerMode="dropdown"
+                    />
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/ec_add_button"
+                style="@style/button"
+                android:layout_below="@+id/ll_manager_pno"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="25dp"
+                android:text="@string/title_activity_add_new_contact" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/progress_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/login_status_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/wait_msg"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/menu_text" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+<!--
+
+
+
+
+
+
+
+
+
+
+    <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        &lt;!&ndash; progress &ndash;&gt;
+        <LinearLayout
+            android:id="@+id/progress_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/login_status_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="@string/loading_progress"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/menu_text" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/form_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+            <TextView
+                android:id="@+id/first_name"
+                style="@style/textview_top_style"
+                android:text="@string/first_name" />
+
+            <EditText
+                android:id="@+id/ec_firstname"
+                style="@style/editText_box"
+                android:layout_below="@+id/first_name"
+                android:layout_marginTop="1dip"
+                android:focusableInTouchMode="true"
+                android:hint="@string/first_name"
+                android:inputType="textPersonName" />
+
+            <View
+                android:id="@+id/separator2"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:layout_below="@+id/ec_firstname"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/new_grey"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/last_name"
+                style="@style/textview_top_style"
+                android:layout_below="@+id/separator2"
+                android:text="@string/last_name" />
+
+            <EditText
+                android:id="@+id/ec_lastname"
+                style="@style/editText_box"
+                android:layout_below="@+id/last_name"
+                android:layout_marginTop="1dip"
+                android:hint="@string/last_name"
+                android:inputType="textPersonName" />
+
+            <View
+                android:id="@+id/separator3"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:layout_below="@+id/ec_lastname"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/new_grey"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/ec_email_text"
+                style="@style/textview_top_style"
+                android:layout_below="@+id/separator3"
+                android:text="@string/email" />
+
+            <EditText
+                android:id="@+id/ec_email"
+                style="@style/editText_box"
+                android:layout_below="@+id/ec_email_text"
+                android:layout_marginTop="1dip"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress" />
+
+            <View
+                android:id="@+id/separator4"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:layout_below="@id/ec_email"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/new_grey"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:id="@+id/pno_isd_parent_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/text_boxsize"
+                android:layout_below="@+id/separator4"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <Spinner
+                    android:id="@+id/isdcode_spinner"
+                    style="@style/spinner"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="0.7" />
+                &lt;!&ndash;  style="@style/spinner" &ndash;&gt;
+                <EditText
+                    android:id="@+id/ec_phonenumber"
+                    style="@style/editText_box"
+                    android:layout_weight="0.3"
+                    android:hint="@string/add_patient_phoneno"
+                    android:inputType="phone"
+                    android:textSize="@dimen/text_fontsize" />
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/separator5"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:layout_below="@id/pno_isd_parent_layout"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/new_grey"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/address"
+                style="@style/textview_top_style"
+                android:layout_below="@+id/separator5"
+                android:maxLength="255"
+                android:text="@string/address" />
+
+            <EditText
+                android:id="@+id/ec_address"
+                style="@style/editText_box"
+                android:layout_below="@+id/address"
+                android:layout_marginTop="1dip"
+                android:hint="@string/address"
+                android:inputType="textPostalAddress"
+                android:maxLength="255" />
+
+            <View
+                android:id="@+id/separator6"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:layout_below="@id/ec_address"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/new_grey"
+                android:visibility="visible" />
+
+
+            <TextView
+                android:id="@+id/city"
+                style="@style/textview_top_style"
+                android:layout_below="@+id/separator6"
+                android:text="@string/city" />
+
+            <EditText
+                android:id="@+id/ec_city"
+                style="@style/editText_box"
+                android:layout_below="@+id/city"
+                android:layout_marginTop="1dip"
+                android:hint="@string/city"
+                android:inputType="text" />
+
+            <View
+                android:id="@+id/separator7"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:layout_below="@id/ec_city"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/new_grey"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/pin_code"
+                style="@style/textview_top_style"
+                android:layout_below="@+id/separator7"
+                android:text="@string/pin_code" />
+
+            <EditText
+                android:id="@+id/ec_pincode"
+                style="@style/editText_box"
+                android:layout_below="@+id/pin_code"
+                android:layout_marginTop="1dip"
+                android:hint="@string/pin_code"
+                android:inputType="phone" />
+
+            <View
+                android:id="@+id/separator8"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:layout_below="@id/ec_pincode"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/new_grey"
+                android:visibility="visible" />
+
+
+            <TextView
+                android:id="@+id/state"
+                style="@style/textview_top_style"
+                android:layout_below="@+id/separator8"
+                android:text="@string/state" />
+
+            <EditText
+                android:id="@+id/ec_state"
+                style="@style/editText_box"
+                android:layout_below="@+id/state"
+                android:hint="@string/state"
+                android:inputType="text" />
+
+            <View
+                android:id="@+id/separator9"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:layout_below="@id/ec_state"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/new_grey"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/country"
+                style="@style/textview_top_style"
+                android:layout_below="@+id/separator9"
+                android:text="@string/country" />
+
+            <Spinner
+                android:id="@+id/ec_country"
+                style="@style/spinner"
+                android:layout_below="@+id/country"
+                android:entries="@array/select_country" />
+
+            <View
+                android:id="@+id/separator10"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:layout_below="@id/ec_country"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/new_grey"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/relation"
+                style="@style/textview_top_style"
+                android:layout_below="@+id/separator10"
+                android:text="@string/relation" />
+
+            <Spinner
+                android:id="@+id/ec_relation"
+                style="@style/spinner"
+                android:layout_below="@+id/relation"
+                android:entries="@array/add_patient_relation_entry" />
+
+            <Button
+                android:id="@+id/ec_add_button"
+                style="@style/button"
+                android:layout_margin="5dp"
+                android:layout_below="@+id/ec_relation"
+                android:layout_centerHorizontal="true"
+                android:text="@string/title_activity_add_new_contact" />
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>-->

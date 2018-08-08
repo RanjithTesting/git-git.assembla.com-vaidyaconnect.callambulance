@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/slider3"
+    android:gravity="center|bottom"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center|bottom"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/hand"
+        android:gravity="center|top"
+        android:paddingLeft="50dp"
+        android:paddingRight="40dp"
+        android:paddingTop="70dp"
+        android:text="In emergency, share location to 108 as a frequent traveller"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

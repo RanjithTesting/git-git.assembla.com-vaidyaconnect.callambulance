@@ -1,0 +1,600 @@
+<resources>
+
+
+    <string name="permission_grant_msg">اجازت درکار ہے، اس کے بغیر ایپلیکیشن کو ایمرجینسی کی حالت کے معاملے میں دیگر لوگوں کو مطلع کرنے کا اہل نہیں ہوگا۔</string>
+    <!-- Environment Changes -->
+    <!-- Strings related to login -->
+    <string name="prompt_mobile">موبائل نمبر</string>
+    <string name="prompt_email_mobile">ای میل یا موبائل نمبر</string>
+
+    <string name="prompt_password">پاس ورڈ</string>
+    <string name="action_sign_in">سائن ان کریں</string>
+    <string name="error_invalid_email">ای میل پتہ غلط ہے</string>
+    <string name="error_incorrect_password">یہ پاس ورڈ غلط ہے</string>
+    <string name="error_field_required">یہاں معلومات درکار ہے</string>
+    <string name="permission_rationale">"ای میل دستیاب کرانے کیلئے رابطوں کی اجازت درکار ہے۔"    </string>
+    <string name="create_account">اکاؤنٹ بنائیں</string>
+    <string name="forgot_password">پاس ورڈ بھول گئے ہیں</string>
+
+    <!-- Strings related to Registration -->
+    <string name="get_a_free_account">مفت اکاؤنٹ بنائیں!</string>
+    <string name="auto_verifying">ازخود توثیق کرنے کیلئے OTP</string>
+    <string name="enter_otp_manually">دستی طور پر OTP درج کریں</string>
+    <string name="invalidEmailAddress">یہ ای میل غلط ہے</string>
+    <string name="emailMandatory">ای میل لازمی ہے</string>
+    <string name="success">کامیابی</string>
+    <string name="emailNotAvailable">یہ ای میل پتہ دستیاب نہیں ہے</string>
+    <string name="regInternalServerError">اندرونی سرور کی خرابی</string>
+    <string name="registeringProgress">رجسٹر کیا جا رہا ہے...</string>
+    <string name="msg_enter_email">ای میل پتہ درج کریں</string>
+    <string name="titleMobileNumber">موبائل نمبر درج کریں</string>
+    <string name="sign_up">سائن اپ کریں</string>
+    <string name="enter_email_mobile">براہ کرم اپنا ای میل پتہ یا موبائل نمبر درج کریں</string>
+    <string name="error_enter_email_mobile">براہ کرم ایک درست ای میل پتہ یا موبائل نمبر درج کریں</string>
+    <string name="offlineMode">نیٹ ورک نہیں ہے۔ براہ کرم اپنے انٹرنیٹ کنیکشن کی جانچ کریں اور دوبارہ کوشش کریں۔</string>
+    <string name="mobile_number_error_msg">براہ کرم 10 اعداد والا موبائل نمبر درج کریں</string>
+    <string name="email_error_msg">براہ کرم درست ای میل پتہ درج کریں۔</string>
+    <string name="validate_patient_email_empty">براہ کرم ای میل درج کریں، اسے خالی نہیں چھوڑا جا سکتا</string>
+    <string name="wait_msg">براہ کرم انتظار کریں..</string>
+    <string name="loading_progress">براہ کرم انتظار کریں، لوڈ ہو رہا ہے</string>
+    <string name="duplicate_mobile_error">اس موبائل نمبر کا صارف پہلے سے سسٹم میں موجود ہے۔ نیا صارف بننے کیلئے کسی دوسرے موبائل نمبر کا استعمال کریں یا پاس ورڈ دوبارہ حاصل کرنے کیلئے لاگ ان اسکرین پر جا کر پاس ورڈ بھول گیا کا اختیار منتخب کریں</string>
+    <string name="duplicate_email_error">اس ای میل اکاؤنٹ والا صارف پہلے سے سسٹم میں موجود ہے۔ نیا صارف بننے کیلئے کسی دوسری ای میل اکاؤنٹ کا استعمال کریں یا پاس ورڈ دوبارہ حاصل کرنے کیلئے لاگ ان اسکرین پر جا کر پاس ورڈ بھول گیا کا اختیار منتخب کریں</string>
+    <string name="accessDenied">رسائی مسترد۔ لاگ ان کرنے کیلئے صارف آئی ڈی کا استعمال کریں</string>
+    <string name="ioException">آپ کی درخواست کو پروسیس کرنا ممکن نہیں ہے۔ براہ کرم دوبارہ کوشش کریں۔</string>
+    <string name="responseNull">معذرت، جواب حاصل کرنے میں کوئی خرابی پیش آ گئی۔ براہ کرم دوبارہ کوشش کریں۔</string>
+    <string name="server_error_msg">داخلی سرور کی خرابی</string>
+    <string name="networkError">نیٹ ورک کا مسئلہ ہے، براہ کرم انٹرنیٹ کنیکشن کی جانچ کریں اور دوبارہ کوشش کریں۔</string>
+    <string name="success_msg">ون ٹائم پاس ورڈ اور کال ایمبولینس ایپلیکیشن انسٹال کرنے کی ہدایات کیلئے صارف کا موبائل دیکھیں</string>
+    <string name="title_activity_main">کال ایمبولینس</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">ترتیبات</string>
+    <string name="action_logout">لاگ آؤٹ کریں</string>
+    <string name="name">نام</string>
+    <string name="left_menu_list_item6">فرسٹ ریسپانڈر؟</string>
+    <string name="left_menu_list_item10">خطرے کی اطلاع دیں</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_activity_select_patient_in_emergency">شخص منتخب کریں</string>
+    <string name="kill">صفحہ ختم کریں</string>
+    <string name="select_patient_in_emergency_timer_text">ایمرجینسی خدمت شروع کی جا رہی ہے </string>
+    <string name="select_patient_in_emergency_help_txt">منتخب نہ کئے جانے پر از خود منتخب کر لے گا</string>
+    <string name="title_activity_activity_emergency_type">ایمرجینسی کی قسم منتخب کریں</string>
+
+    <!-- Hospital db-->
+    <string name="progress_dialog_loading_hospitals">اسپتال لوڈ کئے جا رہے ہیں</string>
+    <string name="OK">ٹھیک ہے</string>
+
+    <!-- Registration and OTP-->
+    <string name="otp_verification">OTP جانچ</string>
+    <string name="title_activity_otpregister">OTP رجسٹریشن</string>
+    <string name="getting_otp">OTP حاصل کیا جا رہا ہے </string>
+    <string name="failed_to_get_otp">OTP کی جانچ کرنے میں ایک مسئلہ درپیش تھا، براہ کرم اپنا SMS دیکھیں اور OTP درج کریں۔</string>
+    <string name="error_otp">براہ کرم اپنا SMS دیکھیں اور OTP درج کریں</string>
+    <string name="submit">جمع کریں</string>
+    <string name="user_agreement_part1">سائن اپ کر کے آپ ہماری</string>
+    <string name="user_agreement_part2"><a href="https://www.callambulance.in/home/tnc-callambulance/"><b>استعمال کی شرائط اور رازداری پالیسی کی توثیق اور اسے قبول کرتے ہیں </b></a> &amp; <a href="https://callambulance.in/home/privacy-m"><b></b></a></string>
+    <string name="otp">OTP</string>
+
+    <string name="label_initiating_emergency">ایمرجینسی خدمت شروع کی جا رہی ہے</string>
+    <string name="label_getting_location">مقام کا پتہ لگایا جا رہا ہے</string>
+    <string name="label_alerting_emri">ایمبولینس خدمت فراہم کنندہ کو الرٹ کیا جا رہا ہے</string>
+    <string name="label_calling_108">کالنگ</string>
+    <string name="label_notifying_contacts"><![CDATA[اہل خانہ اور دوستوں کو مطلع کیا جا رہا ہے]]></string>
+    <string name="label_skip_call">کال چھوڑیں</string>
+    <string name="label_bloodbuddies">بلڈی فرینڈس</string>
+    <string name="label_person_in_emergency">دویا راجو ایک ایمرجینسی کی حالت میں ہے</string>
+    <string name="label_revoke_emergency">ایمرجینسی ختم کریں</string>
+    <string name="dialog_exit_app_title_msg">کیا آپ واقعی لاگ آؤٹ کرنا چاہتے ہیں؟</string>
+    <string name="label_exit">باہر نکلیں</string>
+    <string name="no_address_found">پتہ دستیاب نہیں ہے</string>
+
+    <string name="updating_progress">اپ ڈیٹ ہو رہا ہے...</string>
+    <string name="error_terms_condition">آگے بڑھنے کیلئے براہ کرم شرائط و ضوابط قبول کریں۔</string>
+    <!--Profile registration-->
+    <string name="update_profile">Update Your Profile</string>
+    <string name="title_profile_registration">تقریباً پورا ہو گیا ہے، براہ کرم خالی جگہ پُر کریں</string>
+    <string name="first_name">پہلا نام</string>
+    <string name="last_name">آخری نام</string>
+    <string name="phone_number">موبائل نمبر</string>
+    <string name="date_of_birth">یوم پیدائش</string>
+    <string name="gender">جنس</string>
+
+    <!--Update password screen-->
+    <string name="enter_new_password">نیا پاس ورڈ درج کریں</string>
+    <string name="update_password">براہ کرم اپنا پاس ورڈ اپ ڈیٹ کریں</string>
+    <string name="old_password">پرانا پاس ورڈ</string>
+    <string name="new_password">نیا پاس ورڈ</string>
+    <string name="confirm_password">پاس ورڈ کی توثیق کریں</string>
+    <string name="error_mismatch_password">پاس ورڈ مماثل نہیں ہے، براہ کرم دوبارہ ٹائپ کریں</string>
+    <string name="invalid_credentials">یوزر آئی ڈی اور پاس ورڈ کا امتزاج غلط ہے، براہ کرم جانچ کر دوبارہ کوشش کریں</string>
+    <string name="action_switch_user">رکن تبدیل کریں</string>
+
+    <!--Profile -->
+    <string name="noInsuranceFound">کوئی بیمہ نہیں ملا</string>
+    <string name="noEhrFound">اس صارف کا کوئی ایمرجینسی ہیلتھ ریکارڈ نہیں ہے</string>
+    <string name="callNumber">Call Number: </string>
+    <string name="sendMailTo">اپنا ای میل بھیجیں </string>
+    <string name="record">ریکارڈ کریں</string>
+    <string name="care_giver">نگہداشت کنندہ</string>
+    <string name="owner">مالک</string>
+    <string name="self">خود</string>
+    <string name="edit">ترمیم کریں</string>
+    <string name="select_attachment_type">انسلاک کی قسم منتخب کریں:</string>
+    <string name="select_language">زبان منتخب کریں</string>
+    <string name="select_attachment">تصویر کا ذریعہ منتخب کریں:</string>
+    <string name="not_logged_in_error_msg">"لاگ ان نہیں ہوا!! براہ کرم ریفریش بٹن پر کلک کریں!!"</string>
+    <string name="getSchema">براہ کرم انتظار کریں، معلومات دوبارہ حاصل کی جا رہی ہے…</string>
+    <string name="emergency_contact">ایمرجینسی رابطہ</string>
+    <string name="pregnant">حاملہ</string>
+    <!-- EhrViewFragment -->
+    <string name="verificationPending">توثیق زیر التواء ہے</string>
+    <string name="verification">توثیق</string>
+    <string name="verifiedBy">’’توثیق بذریعہ‘‘</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">عام</string>
+
+    <string name="pref_title_enable_trigger">پاور بٹن ٹریگر فعال کریں</string>
+    <string name="pref_description_enable_trigger">ایمرجینسی کی حالت میں ایمرجینسی ٹریگر شروع کرنے کیلئے پاور بٹن کو پانچ بار دبائیں
+    </string>
+
+    <string name="pref_logout_description">اس آلے سے اپنی معلومات ہٹانے اور لاگ آؤٹ کرنے کیلئے یہاں دبائیں</string>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">ڈیٹا اور سِنک</string>
+
+    <string name="pref_title_system_sync_settings">سسٹم سِنک کی ترتیبات</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">اطلاعات</string>
+
+    <string name="pref_title_new_message_notifications">نئے پیغام کی اطلاعات</string>
+    <string name="pref_title_sync_frequency">سِنک کی فریکوینسی</string>
+    <string name="pref_title_ringtone">رِنگ ٹون</string>
+    <string name="pref_ringtone_silent">خاموش</string>
+    <string name="pref_title_vibrate">ارتعاش</string>
+    <string name="title_activity_about">تعارف</string>
+    <!--<string name="send_invite">  میری صحت اب میرے موبائل میں ہے۔ آپ بھی callambulance.in کا استعمال کر کے ایسا کر سکتے ہیں، اس کیلئے http://www.callambulance.in/get پر جا کر اینڈرائیڈ ایپلیکشن ڈاؤن لوڈ کریں</string>-->
+    <string name="send_invite">My Health is Now on My Mobile. Get yours too using callambulance.in. Download the android app at </string>
+
+    <!-- DemographicsFragment -->
+    <string name="female">نگہداشت کنندہ</string>
+    <string name="male">مرد</string>
+    <string name="title_activity_activity_maps">موجودہ مقام</string>
+    <string name="value_success_action_location_broadcast">مقام مل گیا</string>
+    <string name="value_failed_action_location_broadcast">مقام حاصل کرنے میں ناکام</string>
+    <string name="value_failed_action_emri_alert">ایمبولینس کے فراہم کنندہ کو ہوشیار کرنے میں ناکام</string>
+    <string name="value_success_action_emri_alert">ایمبولینس کے فراہم کنندہ کو ہوشیار کر دیا گیا</string>
+
+    <!--<string name="webservice_emergency_call">patientWebservices/callEmergency</string>-->
+    <string name="value_success_notify_contacts">اطلاع کردہ رابطے</string>
+    <string name="value_success_stranger_incident_notified">اطلاع کردہ سرور</string>
+
+    <string name="value_processing_action_notify_contacts">ایمرجینسی پہلے ہی فعال ہو چکا ہے</string>
+    <string name="emergencySmsToContacts">یہ پیغام بھیجنے والا ایمرجینسی کی حالت میں ہے۔ براہ کرم اسے کال بیک کریں۔</string>
+    <string name="value_action_notify_contacts_in_progress">رابطوں کو مطلع کیا جا رہا ہے....</string>
+    <string name="deny">انکار کریں</string>
+    <string name="grant">اجازت دیں</string>
+    <string name="dialog_msg_why_location_permission">لگتا ہے آپ نے مقام جاننے کی اجازت نہیں دی ہے۔ یہ اجازت دینے سے ایمرجینسی کی حالت میں یہ ایپ آپ کیلئے مقام کی معلومات اسپتال تک بھیج سکے گا۔</string>
+    <string name="msg_no_call_permission">ایمبولینس خدمت فراہم کنندہ کو کال نہیں کیا جا سکا، آپ کی جانب سے ایپ استعمال کرنے کی اجازت نہیں دی گئی ہے۔</string>
+    <string name="tv_track_emergency">ایمرجینسی پر نظر رکھیں</string>
+    <string name="toast_activity_maps_loc_not_found">مقام نہیں ملا</string>
+    <string name="msg_dialog_onclick_revoke_button">براہ کرم ایک درست وجہ منتخب کریں:</string>
+    <string name="msg_revoke_screen_is_in_emergency"> ایمرجینسی کی حالت میں ہے</string>
+    <string name="msg_revoke_screen_tracking_fail">ایمرجینسی پر نظر رکھنے میں پریشانی...</string>
+    <string name="revokeSuceesfulMSg">کامیابی کے ساتھ مسترد کیا گیا</string>
+    <string name="toast_revoke_failed">افوہ!!! لگتا ہے کچھ مسئلہ ہے، SMS کے ذریعے ایمرجینسی کو مسترد کیا جا رہا ہے</string>
+    <string name="value_processing_action_notify_contacts_no_contacts">کوئی رابطہ نہیں</string>
+    <!--<string name="stranger_emergency_url">https://www.callambulance.in/home/stranger</string>-->
+    <string name="tip_dialog_track_emergency_msg">آپ کے دوست اور رشتے دار بھی نگرانی کر سکتے ہیں!!!!</string>
+    <string name="yes">ہاں</string>
+    <!--<string name="yesgender">ہاں</string>-->
+    <string name="no">نہیں</string>
+    <!--<string name="nogender">نہیں</string>-->
+
+    <string name="title_activity_contacts">نگراں ٹیم</string>
+    <string name="title_activity_add_new_contact">رابطہ شامل کریں</string>
+    <string name="relation">رشتہ</string>
+
+    <string name="fname_length_error_msg">پہلا نام 3 اور 25 حروف کے درمیان ہونا چاہئے۔</string>
+    <string name="fname_mandatory_error_msg">براہ کرم پہلا نام درج کریں، اسے خالی نہیں چھوڑا جا سکتا۔</string>
+    <string name="lname_length_error_msg">خاندانی نام 1 سے 25 حروف کے درمیان ہونا چاہئے۔</string>
+    <string name="Doctor_search_spinner_length_error_msg">3 اور 25 حروف کے درمیان ہونا چاہئے</string>
+    <string name="lname_mandatory_error_msg">براہ کرم خاندانی نام درج کریں، اسے خالی نہیں چھوڑا جا سکتا</string>
+    <string name="email_mandatory_error_msg">ای میل کو خالی نہیں چھوڑا جا سکتا</string>
+    <string name="phoneno_invalid">فون نمبر درست نہیں ہے</string>
+    <string name="alt_phoneno_invalid">متبادل فون نمبر درست نہیں ہے</string>
+    <string name="phoneno_length_error_msg">فون نمبر 10 سے 13 نمبروں کے درمیان ہونا چاہئے</string>
+    <string name="alt_phoneno_length_error_msg">متبادل فون نمبر 10 سے 13 نمبروں کے درمیان ہونا چاہئے </string>
+    <string name="phone_number_mandatory">براہ کرم فون نمبر درج کریں </string>
+    <!--<string name="webservice_update_patient_profile">patientWebservices/savePatientOwnerFromMobile</string>-->
+    <string name="save">محفوظ کریں</string>
+    <string name="title_activity_update_profile">پروفائل اپ ڈیٹ کریں</string>
+    <string name="toast_msg_refresh">سنک کرنے میں ناکام، تبدیلیاں دیکھنے کیلئے، براہ کرم ریفریش پر کلک کریں</string>
+    <string name="title_activity_activity_edit_insurance">بیمہ اپ ڈیٹ کریں</string>
+
+    <string name="policy_provider">پالیسی فراہم کنندہ</string>
+    <string name="policy_name">پالیسی کا نام</string>
+    <string name="policy_number">پالیسی کی تعداد</string>
+    <string name="policy_coverage">پالیسی کوریج کی رقم</string>
+    <string name="policy_claim_no">دعوی کرنے کیلئے فون نمبر</string>
+    <string name="policy_start_date_text">پالیسی کی تاریخ آغاز:</string>
+    <string name="policy_end_date_text">پالیسی کی تاریخ اختتام</string>
+    <string name="policyEndDateVal">پالیسی کی تاریخ اختتام موجودہ تاریخ اور پالیسی کی تاریخ آغاز سے آگے کی ہونی چاہئے</string>
+    <string name="sendingInsurance">بیمہ کی تفاصیل بھیجی جا رہی ہے</string>
+    <string name="insAddedSucessfully">بیمہ کامیابی سے محفوظ کیا گیا</string>
+    <string name="ins_policy_provider_mandatory_error_msg">براہ کرم بیمہ کمپنی کا نام درج کریں</string>
+    <string name="ins_policyname_mandatory_error_msg">براہ کرم بیمہ کا نام درج کریں</string>
+    <string name="ins_policyNum_mandatory_error_msg">براہ کرم بیمہ نمبر درج کریں</string>
+    <string name="ins_policy_coverage_mandatory_error_msg">براہ کرم بیمہ کے کوریج کی رقم درج کریں</string>
+    <string name="ins_strt_date_mandatory_error_msg">بیمہ کی تاریخ آغاز درج کرنا لازمی ہے</string>
+    <string name="ins_end_date_mandatory_error_msg">بیمہ کی تاریخ اختتام درج کرنا لازمی ہے</string>
+    <string name="unableToSave">محفوظ کرنے سے قاصر، دوبارہ کوشش کریں</string>
+    <!--<string name="webservice_update_insurance">patientWebservices/saveInsuranceFromMobile</string>-->
+    <string name="title_activity_activity_ehrupdate">EHR اپ ڈیٹ کریں</string>
+    <string name="toast_msg_emhr_updated">کامیابی سے اپ ڈیٹ ہو گیا</string>
+    <!--<string name="webservice_update_ehr">patientWebservices/updateEHR</string>-->
+    <string name="lable_later">تھوڑی دیر بعد</string>
+    <string name="dialog_title_setup_ehr">ایمرجینسی ہیلتھ ریکارڈ</string>
+    <string name="dialog_msg_setup_ehr">ایمرجینسی ہیلتھ ریکارڈ سیٹ اپ کرنے سے ایمرجینسی صحت خدمت فراہم کنندہ ایمرجینسی کی حالت میں مدد کر سکیں گے۔ اس میں صرف چند منٹ کا وقت لگتا ہے۔ کیا آپ ایمرجینسی ہیلتھ ریکارڈ سیٹ اپ کرنا چاہیں گے؟</string>
+
+    <string name="email_length_validate">ای میل کی لمبائی 6 سے لیکر 50 حروف کے درمیان ہونی چاہئے۔</string>
+    <string name="pincode_validate">پن کوڈ میں صرف ہائفن اور عدد ہونے چاہئیں</string>
+    <string name="dob_error_msg">براہ کرم آج کی تاریخ سے پہلے کی کوئی تاریخ منتخب کریں</string>
+    <string name="email_invalid_error_msg">درست ای میل پتہ درج کریں</string>
+    <string name="cityStateLenValMsg">لمبائی 3 سے لیکر 100 حروف کے درمیان ہونی چاہئے</string>
+    <string name="pincode_length_error_msg">پن کوڈ 5 اور 10 ہندسے کے درمیان ہونا چاہئے</string>
+    <string name="dob_mandatory">براہ کرم اپنی یوم پیدائش منتخب کریں</string>
+    <string name="gender_mandatory">براہ کرم جنس منتخب کریں</string>
+    <string name="patientAddedSuccessfully">رکن کو کامیابی سے محفوظ کیا گیا</string>
+    <string name="failure_msg">پروفائل محفوظ نہیں کیا جا سکا۔ براہ کرم دوبارہ کوشش کریں۔</string>
+    <string name="relation_ship">رشتہ</string>
+    <string name="relationchip">آپ کے ساتھ رشتہ</string>
+    <string name="patient_gender">جنس</string>
+    <string name="add_patient_phoneno">Ex:9898989898</string>
+    <string name="alt_phone_number">متبادل فون نمبر</string>
+    <string name="email">ای میل</string>
+    <string name="address">پتہ</string>
+    <string name="city">شہر</string>
+    <string name="state">ریاست</string>
+    <string name="country">ملک</string>
+    <string name="pin_code">پن کوڈ</string>
+    <string name="financial_status">مالی حالت</string>
+    <string name="family_history">خاندان کی سرگزشت</string>
+    <string name="habits">عادتیں</string>
+    <string name="food_habits">کھانے پینے کی عادتیں</string>
+    <string name="remarks">آراء</string>
+    <string name="label_company_name">کمپنی کا نام</string>
+    <string name="marital_status">ازدواجی حالت</string>
+    <string name="organ_donation">اعضاء کی امداد کرنا چاہتے ہیں؟</string>
+    <string name="organ_donation_hint">اعضاء کی امداد</string>
+    <string name="donate_blood_simple_text">خون کا عطیہ دینے کے خواہش مند ہیں؟ </string>
+    <string name="add_patient_familyHistory">خاندان کی مختصر تاریخ</string>
+
+    <string name="hint_ec_phonenumber">رابطہ نمبر</string>
+
+    <string name="activity_maps_counter_text">نقشہ لوڈ ہو رہا ہے</string>
+    <string name="toast_activity_maps_taking_time">نقشہ لوڈ ہونے میں وقت لگ رہا ہے۔ ایمرجینسی کو فعال کیا جا رہا ہے...</string>
+    <string name="toast_activity_maps_no_internet">نقشہ حاصل کرنے سے قاصر، براہ کرم اپنا انٹرنیٹ کنیکشن چیک کریں</string>
+    <!-- crash report strings -->
+    <string name="crash_toast_text">افوہ! ایپ کریش کر گیا ہے، اس مسئلے کو دور کرنے میں مدد کیلئے آنے والی اسکرین پر جا کر ڈیولپر کو اطلاع بھیجیں!</string>
+    <string name="unKnownError">نامعلوم خرابی واقع ہو گئی، براہ کرم دوبارہ کوشش کریں</string>
+    <string name="crash_dialog_title">CallAmbulance کریش کر گیا</string>
+    <string name="crash_dialog_text">ایک غیر متوقع خرابی پیش آ گئی جو ایپلیکیشن کو زبردستی بند کر رہی ہے۔ براہ کرم اسے دور کرنے میں ہماری مدد کیلئے خرابی کا ڈیٹا بھیجیں، اس کیلئے آپ کو صرف ٹھیک ہے پر کلک کرنا ہے۔</string>
+    <string name="crash_dialog_comment_prompt">اس مسئلے کے بارے میں آپ ذیل میں تبصرہ کر سکتے ہیں:</string>
+    <string name="crash_dialog_try_again">ایسا لگتا ہے کہ کوئی غیر متوقع مسئلہ پیش آ گیا ہے، براہ کرم بعد میں دوبارہ کوشش کریں۔</string>
+    <string name="crash_dialog_ok_toast">شکریہ!</string>
+    <string name="label_splash_screen_congrats">مبارکباد!</string>
+    <string name="label_splash_screen_stay_safe">اب آپ کال ایمبولینس کے ساتھ محفوظ رہ سکتے ہیں!</string>
+    <string name="label_splash_screen_continue"><![CDATA[جاری رکھیں ->]]></string>
+    <string name="labe_emergency">ایمرجینسی</string>
+    <string name="label_allergies">ایلرجی</string>
+    <string name="label_medical_condition">میڈیکل حالت</string>
+    <string name="label_medication">دوائیں</string>
+    <string name="hint_medication">دواؤں کے نام یہاں درج کریں</string>
+    <string name="label_blood_group">بلڈ گروپ</string>
+    <string name="label_preferred_ambulance_service">پسندیدہ ایمبولینس خدمت فراہم کنندہ</string>
+    <string name="label_preffered_hospital">پسندیدہ اسپتال</string>
+    <string name="label_medicine_allergies">ایلرجی والی دوائیں</string>
+    <string name="hint_medication_allergies">ایلرجی والی دواؤں کے نام یہاں درج کریں</string>
+    <string name="tv_label_medication_for_chronic_illness">کسی پرانے مرض کیلئے لی جانے والی دوائیں</string>
+    <string name="hint_medication_for_chronic_illness">سنگین مرض کیلئے استعمال کی جانے والی دوا کا نام یہاں درج کریں</string>
+    <string name="tv_label_Languages_spoken">آپ کی زبانیں</string>
+    <string name="hint_languages_spoken">اپنی زبانوں کے نام یہاں درج کریں</string>
+    <string name="label_select_allergy_type">ایلرجی کی قسم منتخب کریں</string>
+    <string name="label_others">دیگر</string>
+    <string name="label_add">شامل کریں</string>
+    <string name="label_cancel">مسترد کریں</string>
+    <string name="label_select_medical_condition">طبی حالت کا انتخاب کریں</string>
+    <string name="hint_et_others_allergy_dialog">الگ االگ قدروں کو کوما دیکر درج کریں</string>
+    <!--EMRI Registration-->
+    <string name="title_emri_registration">EMRI/108 رجسٹریشن</string>
+    <string name="mobile_number_emri_msg">* ہم اس نمبر کو EMRI/108 کے ساتھ رجسٹر کرتے ہیں، تاکہ ایمرجینسی کے دوران وہ آپ کی پہچان کر سکیں۔</string>
+    <string name="mobile_number_empty_msg">براہ کرم اس فون کا موبائل نمبر درج کریں</string>
+    <string name="mobile_number_2nd_sim_msg">اگر آپ دو سِم والا موبائل استعمال کرتے ہیں، تو دوسرا نمبر درج کریں۔</string>
+    <string name="title_activity_insurance_details">بیمہ کی تفاصیل</string>
+    <!--Profile tabs-->
+    <string name="title_tab_profile">پروفائل</string>
+    <string name="title_tab_emergency_record">ایمرجینسی ریکارڈ</string>
+    <string name="title_activity_activity_invitation">دعوت</string>
+    <string name="accept_cg_invitation_warning_msg">نگہداشت کنندہ بننا قبول کرنے پر آپ کو ممبران کی آبادی سے متعلق اعداد و شمار، رابطے کی معلومات اور صحت سے متعلق تاریخ میں ترمیم کرنے کی اجازت دی جائے گی۔ براہ کرم اس بات کی توثیق کریں کہ آپ ارکان کی معلومات اور کسی بھی اپ ڈیٹ کردہ معلومات کے تعلق سے رازداری برتنے کی ذمہ داری لیں گے۔</string>
+    <string name="accept_ec_invitation_warning_msg">ایمرجینسی رابطہ بننا قبول کرنے پر آپ کو ممبران کی آبادی سے متعلق اعداد و شمار، رابطے کی معلومات میں ترمیم کرنے کی اجازت دی جائے گی۔ براہ کرم اس بات کی توثیق کریں کہ آپ ارکان کی معلومات اور کسی بھی اپ ڈیٹ کردہ معلومات کے تعلق سے رازداری برتنے کی ذمہ داری لیں گے۔</string>
+    <string name="rejectInvitation">دعوت مسترد کریں</string>
+    <string name="toast_adapter_failed_invitation">افوہ!! کچھ غلط ہو گیا، براہ کرم دوبارہ کوشش کریں...</string>
+    <!--<string name="webservice_invitation_status_update">patientWebservices/acceptRejectPatientAccessRequest</string>-->
+    <string name="unableToAcceptInvite">دعوت قبول کرنے سے قاصر</string>
+    <string name="noInvitationMsg">منظوری کیلئے کوئی درخواست زیرغور نہیں ہے</string>
+    <!--<string name="webservice_image_download">webservices/getUploadedImage/</string>-->
+    <string name="action_refresh">ریفریش کریں</string>
+    <string name="label_press_emergency_bt">ایمرجینسی کی حالت میں، نیچے دیا گیا بٹن دبائیں</string>
+    <string name="label_current_emergencies">موجودہ ایمرجینسی حالتیں</string>
+    <string name="label_health_record">ہیلتھ کارڈ</string>
+    <string name="label_provider">ایمبولینس خدمت فراہم کنندہ</string>
+    <string name="label_insurance">بیمہ</string>
+    <string name="label_initializing_in">شروع ہو رہا ہے </string>
+    <string name="label_select_hazard_type">حادثے کی قسم منتخب کریں</string>
+
+    <string name="label_emergency_token_no">ایمرجینسی ٹوکن نمبر:</string>
+    <string name="label_is_in_emergency">ایمرجینسی کی حالت میں ہیں</string>
+    <string name="title_activity_current_emergencies">ایمرجینسی کی حالت میں</string>
+    <string name="no_patients_in_emergencies">اس وقت کوئی صارف ایمرجینسی کی حالت میں نہیں ہے</string>
+    <string name="choose_from">ان میں سے منتخب کریں</string>
+    <string name="profile_pic_upload_confirmation_msg">پروفائل کی تصویر بدلنا چاہتے ہیں؟</string>
+    <!--care team-->
+    <string name="title_hospitals">اسپتال/ادارے</string>
+
+    <string name="fab_care_giver_title">نگہداشت کندہ</string>
+    <string name="help_care_giver_msg">نگہداشت کنندہ وہ لوگ ہوتے ہیں جن کا انتخاب مریض کے ذریعے کوئی بیماری ہونے پر اپنی نگرانی کیلئے کیا جاتا ہے۔ نگہداشت کنندہ کو مریض کی ساری معلومات حاصل کرنے کے ساتھ ساتھ اسے ترمیم کا بھی حق حاصل ہوتا ہے۔</string>
+    <string name="help_ec_msg">آپ جب بھی ایمرجینسی کی حالت میں ہوتے ہیں، تب ایمرجینسی رابطوں کو مطلع کیا جاتا ہے۔ ایک ایمرجینسی رابطے کے پاس موجود آپ کی تمام معلومات کو پڑھنے کا اختیار ہوگا۔ </string>
+    <string name="help_hospital_msg">اسپتال/ادارہ آپ کو صحت سے متعلق خدمت فراہم کرنے والے اداروں کے ساتھ اپنے تعلقات کا نظم کرنے کی اجازت دیتے ہیں، چاہے وہ کوئی اسپتال ہو، لیب ہو یا پھر دوا کی دکان۔</string>
+    <string name="title_activity_search_care_giver">نگہداشت کنندہ تلاش کریں</string>
+
+    <!--Search Care Team-->
+    <string name="searchBy">"تلاش برائے "</string>
+    <string name="hint_searchcontact_text">ای میل یا فون نمبر سے رابطہ تلاش کریں</string>
+    <string name="searchContactBy">"رابطہ تلاش بذریعہ "</string>
+    <string name="noCGMsg">اپنا نگہداشت کنندہ شامل کریں</string>
+    <string name="addEc">اپنا ایمرجینسی رابطہ شامل کریں</string>
+    <string name="inviteCG">اپنے نگہداشت کنندہ کو دعوت دیں</string>
+    <string name="noContactMsgForEC">آپ کا رابطہ CallAmbulance ڈیٹا بیس میں نہیں ہے۔ براہ کرم مینو میں ’’نیا شامل کریں‘‘ پر کلک کریں۔</string>
+    <string name="enter_search_text">براہ کرم اپنی تلاش کا متن یہاں لکھیں</string>
+    <string name="searching">تلاش کیا جا رہا ہے</string>
+    <string name="search">تلاش کریں</string>
+    <string name="deleted">ہٹایا گیا</string>
+    <string name="pending">زیر التواء</string>
+    <string name="rejected">مسترد کردہ</string>
+    <string name="request_sent">اس رابطہ کو درخواست پہلے ہی بھیجی جا چکی ہے۔</string>
+    <string name="request_care_giver">نگہداشت کنندہ کیلئے درخواست کامیابی کے ساتھ بھیجی گئی</string>
+    <string name="accepted">قبول کیا گیا</string>
+    <string name="searchContactAcceptedMsg">یہ رابطہ پہلے سے آپ کے </string>
+    <string name="add_new">نیا شامل کریں</string>
+    <string name="title_activity_search_emergency_contact">ایمرجینسی رابطہ تلاش کریں</string>
+    <string name="title_activity_add_new_care_giver">نگہداشت کنندہ شامل کریں</string>
+
+    <!--Add unregistered care giver -->
+    <string name="CGInvitationMsg">میں آپ سے CallAmbulance پر اپنا نگہداشت کنندہ بننے کی درخواست کرتا ہوں۔ براہ کرم خود کو اس لنک https://www.callambulance.in/ پر رجسٹر کریں اور مجھے مطلع کریں تاکہ میں آپ کو اپنے نگہداشت کنندہ کے بطور سیٹ اپ کر سکوں۔</string>
+    <string name="regards">\nمخلص،,\n</string>
+    <string name="title_activity_search_hospitals_and_organisations">اسپتال/ادارے تلاش کریں</string>
+
+    <!--Hospitals and Org Search and Add-->
+    <string name="add_employer_warning_msg">کسی آجر کو شامل کرنے پر آپ اسے اپنی آبادی سے متعلق اعداد و شمار، رابطے کی معلومات اور بیمہ کی معلومات حاصل کرنے کے ساتھ ساتھ ایمرجینسی حالت حالت میں مطلع کئے جانے جانے کی اجازت دیتے ہیں۔</string>
+    <string name="add_educational_institute_warning_msg">کسی تعلیمی ادارے کو شامل کرنے پر آپ اسے اپنی آبادی سے متعلق اعداد و شمار، رابطے کی معلومات اور بیمہ کی معلومات حاصل کرنے کے ساتھ ساتھ ایمرجینسی حالت حالت میں مطلع کئے جانے جانے کی اجازت دیتے ہیں۔</string>
+    <string name="add_org_warning_msg">کسی ادارے کو شامل کرنے پر وہ منتخب کردہ ادارہ آپ کی آبادی سے متعلق اعداد و شمار اور رابطے کی معلومات حاصل کرنے کے ساتھ ساتھ صحت سے متعلق تاریخ میں ترمیم کر سکتا ہے۔ آگے بڑھنے کیلئے پہلے اس کی توثیق کریں۔</string>
+    <string name="org_request_sent">درخواست کامیابی سے بھیج دی گئی</string>
+    <string name="toast_no_internet">براہ کرم چیک کر لیں کہ آپ انٹرنیٹ سے منسلک ہیں یا نہیں</string>
+    <string name="timeout">وقت کی مدت ختم، دوبارہ کوشش کریں</string>
+    <string name="search_hint">نام ٹائپ کریں </string>
+    <string name="org_added_successfully">کامیابی سے جوڑا گیا</string>
+    <string name="hint_select_ambulance_provider">پسندیدہ ایمبولینس خدمت فراہم کنندہ کا نام درج کریں</string>
+    <string name="hint_enter_preferred_hospital">پسندیدہ اسپتال کا نام درج کریں</string>
+    <string name="hint_phone_number">فون نمبر</string>
+    <string name="hint_company">کمپنی</string>
+    <string name="hint_policy_provider">بیمہ فراہم کنندہ کا نام درج کریں</string>
+    <string name="hint_policy_number">بیمہ کا نام درج کریں</string>
+    <string name="hint_policy_coverage">بیمہ کی کوریج رقم درج کریں</string>
+    <string name="hint_policy_claim_no">دعوی کرنے کیلئے دیا گیا فون نمبر درج کریں</string>
+    <string name="no_internet">پتہ حاصل کرنے کے دوران نیٹ ورک کی مسئلہ پیش آیا، پتہ حاصل کرنے کیلئے کلک کریں</string>
+
+    <!--Invitation screen-->
+    <string name="filter_care_giver">نگہداشت کندہ</string>
+    <string name="filter_emergency_contact">ایمرجینسی رابطہ</string>
+    <string name="open_location_settings">GPS پر</string>
+    <string name="gps_network_not_enabled">ارے!! لگتا ہے آپ کا GPS بند ہے۔ براہ کرم اسے آن کریں</string>
+    <string name="toast_msg_sync_in_progress">سنک کا عمل جاری ہے</string>
+    <string name="toast_msg_empty_emhr">ہیلتھ ریکارڈ کو خالی نہیں چھوڑا جا سکتا</string>
+    <string name="emergency_tracking_id">ٹریکنگ آئی ڈی: </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="select_member">رکن تبدیل کریں</string>
+    <string name="action_select_member">رکن منتخب کریں</string>
+    <string name="action_change_pwd">پاس ورڈ تبدیل کریں</string>
+    <string name="title_add_member">رکن شامل کریں</string>
+
+    <!--GCM -->
+
+    <string name="nt_event_type_QA">سوال اور جواب</string>
+    <string name="nt_event_type_sync">سنکرانز کریں</string>
+    <string name="done">ہو گیا!!!</string>
+    <string name="label_add_member">براہ کرم رکن کو سب سے پہلے شامل کریں</string>
+    <string name="msg_patient_added_successfully">رکن کو کامیابی سے شامل کیا گیا</string>
+    <string name="blood_group_mandatory">براہ کرم بلڈ گروپ منتخب کریں</string>
+    <string name="toast_track_page_emri_status_failure">EMRI کو آپ کے مقام کی معلومات نہیں بھیجی جا سکی۔ آپ کو انہیں زبانی مطلع کرنا ہوگا</string>
+    <string name="toast_track_page_location_status_failure">ایمرجینسی کا مقام نہیں ملا۔ آپ کو اپنے ایمبولینس کے فراہم کنندہ کو زبانی مطلع کرنا ہوگا</string>
+    <string name="toast_track_page_contacts_status_failure">آپ کے رابطوں کو اس حادثے کی معلومات نہیں بھیجی جا سکی۔ براہ کرم ان کے ساتھ ٹریک لنک کا اشتراک کریں</string>
+    <string name="toast_track_page_ambulance_status_failure">ایمبولینس فراہم کنندہ کو آپ کے مقام کی معلومات نہیں بھیجی جا سکی۔ آپ کو انہیں زبانی مطلع کرنا ہوگا</string>
+    <string name="title_activity_activity_terms_and_conditons"><![CDATA[شرائط و ضوابط]]></string>
+    <string name="label_accept">قبو کریں</string>
+    <string name="label_reject">مسترد کریں</string>
+    <string name="label_terms_and_conditions">ایک ادارے طور پر ہمارا مقصد زندگیاں بچانا ہے۔ حالانکہ اس ضمن میں باہم انحصار انتہائی کم ہونے کے سبب اعلی سطحی خدمت کی گارنٹی دینا ممکن نہیں ہے۔ ہم صحت کی خدمت سے وابستہ کئی اداروں کو ساتھ لانے کی زبردست کوشش کر رہے ہیں تاکہ وہ مشمولہ کاوشوں کے ذریعے زندگیاں بچا سکیں۔ استعمال کنندہ یہ مانتا اور سمجھتا ہے کہ یہ ایپ اسپتال/ 108 کے ذریعے خدمت فراہم کرنے کی گارنٹی نہیں دیتا ہے۔ اس ایپ میں درج معلومات کا استعمال ایمرجینسی کی حالت سے نبرد آزما شخص تک جلدی/موزوں خدمت پہنچانے میں مدد کیلئے کیا جاتا ہے۔ یہ ایپلیکیشن اور اس میں شامل کوئی بھی معلومات بغیر کسی وارنٹی کے ، جیسی ہے اور جیسی دستیاب ہے کی طرز پر فراہم کی جاتی ہے۔ آپ اس ایپ کا استعمال آزادانہ اور اپنی مرضی سے اور پوری طرح اپنے جوکھم پر کرتے ہیں۔ آپ کے اور پہلا ردعمل دینے والے، ایمبولینس ڈرائیور، ایمبولینس خدمت فراہم کنندہ، اسپتال اور 108 کے درمیان کسی لین دین یا تنازعہ کے تعلق سے ایمبولینس کی کوئی ذمہ داری نہیں ہوگی۔</string>
+    <string name="title_activity_nearby">نزدیکی اسپتال</string>
+    <string name="title_activity_first_responder_web_view">پہلے ریسپانڈر کی مدد</string>
+    <string name="title_activity_activity_web_view_vedioes">ویڈیو</string>
+    <string name="dialog_system_overlay_title">اسکرین اوولے کا پتہ چلا</string>
+    <string name="allow">اجازت دیں</string>
+    <string name="label_call108">کال 108</string>
+    <string name="label_track">ٹریک</string>
+    <string name="label_redial">دوبارہ ڈائل کریں</string>
+    <string name="toast_msg_no_phone_number">کوئی فون نمبر نہیں</string>
+    <string name="label_sync_hint">
+        <b>قریبی دوستوں کا دوبارہ تعین کرتے ہوئے ۔  </b>
+        <p>\n\n\u2022•آپ کا ایسا دوست جو ایمرجینسی میں آپ کو خون دے سکتا ہے!</p>
+        <p>\n\n\u2022•آپ کے سِنک کرنے پر، آپ اپنے تمام رجسٹرڈ دوستوں اور ان کے بلڈ گروپس دیکھ پائیں گے۔</p></string>
+    <string name="dialog_syncsms_confirmation"><![CDATA[ آپ SMS کے ذریعے 250 شناساؤں سے اے پازیٹیو بلڈ کی درخواست کرنے والے ہیں۔ اس کیلئے آپ کو موبائل خدمت فراہم کنندہ کے ذریعے طے کردہ چارج لگے گا۔ ?]]></string>
+    <string name="dialog_sync_confirmation"><![CDATA[ خون کا عطیہ ایک اچھا اور نیک کام ہے! آپ کے ذریعے سِنک کرنے پر ہمارا سرور آپ کی منسلک کردہ فہرست دیکھے گا اور آپ کو ان دوستوں کے بلڈ گروپ کی معلومات فراہم کرے جو ہمارے ساتھ رجسٹرڈ ہیں اور جنہوں نے اپنے بلڈ گروپ کا اشتراک کرنے کی اجازت دی ہے۔ کیا آپ جاری رکھنا چاہتے ہیں؟]]></string>
+    <string name="dialog_msg_tnc_reject"><![CDATA[شرائط و ضوابط کو مسترد کرنے پر آپ کو آگے بڑھنے کی اجازت نہیں دی جائے گی۔ کیا آپ واقعی ایسا کرنا چاہتے ہیں؟]]></string>
+    <string name="dialog_overlay_msg"><![CDATA[یہ ایپ آپ کے ذریعے 108 پر کی گئی کال میں مداخلت کرتا ہے اور لوکیشن اور ہیلتھ ریکارڈ کی معلومات کے ساتھ 108 پر کال کرنے میں مدد کرتا ہے۔ براہ کرم ترتیبات میں جا کر ضروری تبدیلیاں کریں۔]]></string>
+    <!--GCM -->
+    <string name="noreports_found">Reports module enables you to store all your health records like Prescriptions, Discharge Summary, Insurance etc for your ready reference. To upload any of these please press the "+" button at the top of this screen.</string>
+    <!--Error msg-->
+    <string name="connection_error">معذرت! منسلک کرنے سے قاصر، براہ کرم اپنے انٹر نیٹ کنیکشن کی جانچ کریں۔</string>
+    <string name="auth_error">غلط یوزر نام اور پاس ورڈ</string>
+    <string name="server_error">افوہ کچھ خرابی ہو گئی، براہ کرم تھوڑی دیر بعد کوشش کریں</string>
+    <string name="network_error">معاف کیجئے! کنیکٹ نہیں ہو پا رہا ہے، براہ کرم تھوڑی دیر بعد کوشش کریں!</string>
+    <string name="title_activity_road_hazards_types">سڑک حادثے کی قسم منتخب کریں</string>
+    <string name="dialog_msg_take_hazard_pic">کیا آپ واقعی تصویر منسلک کرنا چاہتے ہیں؟</string>
+    <string name="skip">اسے چھوڑیں</string>
+    <string name="bloodyfriends_invite_message">friend1 and friend2 are now part of Bloody Friends Network. Do you know who among your personal friends can donate blood to you if needed! You can now build your list of Bloody Friends with one click on /"Sync/" button in CallAmbulance App. Click deepLink to download the app now and Be Safe!</string>
+    <string name="bloodyfriendshint">اپنا بلڈ گروپ اپ ڈیٹ کرنے کیلئے یہاں کلک کریں</string>
+    <string name="selectall">تمام منتخب کریں</string>
+    <string name="sendbf_req">خون کیلئے درخواست بھیجیں</string>
+    <string name="forwhom">کس کیلئے</string>
+    <string name="noofunits">اکائی کی تعداد</string>
+    <string name="message">پیغام</string>
+    <string name="motmessage">آپ کا تحریکی پیغام</string>
+    <string name="dor">ضرورت کی تاریخ</string>
+    <string name="date">تاریخ</string>
+    <string name="time">وقت</string>
+    <string name="lpw">لوڈ ہو رہا ہے، براہ کرم انتظار کریں</string>
+    <string name="purpose">مقصد</string>
+    <string name="send">بھیجیں</string>
+    <string name="uploading">اپ لوڈ ہو رہا ہے....</string>
+    <string name="title">لقب</string>
+    <string name="value">قدر</string>
+    <string name="description">تفصیل</string>
+    <string name="frombook">فون بُک سے</string>
+    <string name="addnew_contact">نیا رابطہ جوڑیں</string>
+    <string name="drivingdirections">ڈرائیونگ کیلئے ہدایات</string>
+    <string name="createreferal">ریفرل بنائیں</string>
+    <string name="createappointments">اپوائنٹمینٹ تیار کریں</string>
+    <string name="donar_hosp">عطیہ کنندہ کو کہاں آنا ہوگا، جیسے ۔ پرائم اسپتال</string>
+    <string name="hintsurgery">جیسے ۔ ہارٹ آپریشن</string>
+
+    <string name="lastupdate">آخری اپ ڈیٹ کیا گیا ہیلتھ ریکارڈ</string>
+    <string name="secs"> سیکنڈ</string>
+    <string name="goahead"> آگے بڑھیں</string>
+    <string name="goback"> واپس جائیں</string>
+    <string name="title_activity_ambulance_providers_emergency_list">پسندیدہ ایمبولینس منتخب کریں</string>
+    <string name="tap_on_emr_btn">ایمرجینسی کی اطلاع کیلئے بٹن تھپتھپائیں</string>
+    <string name="active">فعال</string>
+    <string name="expired">وقت کی میعاد ختم</string>
+
+    <string name="nearbyhosphint">ہمیں نزدیکی اسپتالوں کا پتہ لگانے کیلئے آپ کے مقام کی معلومات درکار ہے۔ براہ کرم ترتیبات میں جاکر دیکھیں کہ مقام کی اجازت دی گئی ہو اور دوبارہ کوشش کریں۔</string>
+    <string name="nohosptials5">سسٹم میں 5 کلو میٹر کے دائرے میں کوئی اسپتال نہیں ملا</string>
+    <string name="version">ورژن</string>
+    <string name="recivedotp">موصول کردہ OTP</string>
+    <string name="blood">خون</string>
+    <string name="reqfor">درخواست برائے</string>
+    <string name="chooseimage">تصویر منتخب کریں</string>
+    <string name="nointernet">انٹر نیٹ نہیں ہے</string>
+    <string name="selmember">رکن منتخب کریں</string>
+    <string name="nocontactfound">اس کے ساتھ کوئی رابطے نہیں ملے </string>
+    <string name="bloodgroup">بلڈ گروپ</string>
+
+    ///latest
+
+    <string name="select_blood">بلڈ گروپ منتخب کریں</string>
+    <string name="hospital">اسپتال</string>
+    <string name="mediclestore">میڈیکل اسٹور</string>
+    <string name="diagnstic_lab">ڈائگناسٹک لیب</string>
+    <string name="clinic">کلینک</string>
+    <string name="employer">آجر</string>
+    <string name="educ_inst">تعلیمی ادارہ</string>
+    <string name="select">ایک منتخب کریں</string>
+    <string name="single">سنگل</string>
+    <string name="married">شادی شدہ</string>
+    <string name="widowed">بیوہ</string>
+    <string name="divorced">مطلقہ</string>
+    <string name="vegetarian">سبزی خور</string>
+    <string name="eggvegitarian">انڈا خور</string>
+    <string name="nonvegetarian">گوشت خور</string>
+    <string name="family">خاندان</string>
+    <string name="friend">دوست</string>
+    <string name="welloff">دولت مند</string>
+    <string name="middleclass">مڈل کلاس</string>
+    <string name="poor">خراب</string>
+    <string name="verypoor">بہت غریب</string>
+    <string name="false_alarm">یہ ایک حقیقی ایمرجینسی کی حالت نہیں ہے</string>
+    <string name="emerg_being_attended">ایمرجینسی حالت کا دھیان رکھا جا رہا ہے</string>
+    <string name="emrg_has_addresses">ایمرجینسی کی حالت سے نپٹا گیا</string>
+    <string name="nbya">قابل اطلاق نہیں</string>
+    <string name="camera">کیمرا</string>
+    <string name="gallery">گیلری</string>
+
+    <string name="near">نزدیک </string>
+    <string name="next">اگلا </string>
+    <string name="stranger">اجنبی</string>
+    <string name="thereisnoexsting">کچھ موجود نہیں ہے </string>
+    <string name="foryoursearch"> اس کا کوئی نتیجہ نہیں ملا</string>
+
+    <string name="upload">UPLOAD</string>
+    <string name="comments">Comments</string>
+    <string name="title_upload_reports">میری رپورٹیں</string>
+    <string name="selecttype_upload">Select Type of Upload</string>
+    <string name="sel_diff_amb_pr">Select different Ambulance Provider below</string>
+    <string name="public_amb_pr">Public Ambulance Provider</string>
+    <string name="no_pref_hosp">No Preferred Hospital</string>
+    <string name="nearby_nw_hosp">Nearby Network Hospitals</string>
+    <string name="no_other_nearby_hosp">No Other Nearby Hospitals To Show</string>
+    <string name="nonetwork_hosp_to_show">No Network Hospitals To Show</string>
+    <string name="other_near_hosp">Other Nearby Hospitals</string>
+    <string name="addpage">Add Page</string>
+    <string name="page">PAGE</string>
+    <string name="mobileno_is_mandatory">Mobile Number Is Mandatory, if you want to exit the app press the back twice</string>
+    <string name="password_updated_success">Password updated successfully</string>
+    <string name="pressback_onemoretime">Press back one more time!!</string>
+    <string name="reg_success">Registatrion successful</string>
+    <string name="reg_failed">Registatrion failed</string>
+    <string name="sel_gender_type">Please select a gender type.</string>
+    <string name="sel_dob">Please select you date of birth</string>
+    <string name="mobile_no_should_10_digits">Mobile number should 10 digits</string>
+    <string name="lenght_should_1to25">Select length between 1-25 words</string>
+    <string name="sel_lenght_nw_3to25">Select length between 3-25 words</string>
+    <string name="updatedon">Upadated on : </string>
+
+    <string name="pswrd_sent_to_mobile">The password has been sent to the mobile number provided, please login with that password.</string>
+    <string name="pswrd_sent_to_mail">The link to reset your password has been sent to the E-mail address provided, please follow the instructions on the page to update your password.</string>
+    <string name="storage_med_not_avail">Storage media not available</string>
+    <string name="thank_reg_success">Thankyou !!! Your concern had been registered successfully</string>
+    <string name="uare_not_auth_access">You are not authorized to access this application.</string>
+    <string name="no_view_pdf">No Application available to view PDF</string>
+    <string name="choose_atleast_one_file">Choose atleast one file to upload</string>
+    <string name="plz_sel_tag">Please select tag</string>
+
+    <string name="plz_sel_contacts">Please select contacts for sending request</string>
+    <string name="initializing_plz_wait">Initialising please wait</string>
+    <string name="plz_check_loc_on">Please check if location is ON in the settings</string>
+    <string name="getting_addr_failed">Getting Address Failed,No Internet</string>
+    <string name="title_activity_ambulance_providers_list">قریبی ایمبولینس</string>
+    <string name="age">عمر</string>
+    <string name="sel_age">آپ کا عمر درج کریں</string>
+    <string name="label_login">پہلے سے استعمال کرنے والا؟ لاگ ان</string>
+    <string name="sync_homeact_msg">آپ اپنے دوستوں کے خون کے گروپ کو جانتے ہو؟ کسی ہنگامی صورت حال میں اس کا استعمال کرنے کے لئے ان کے خون کے گروپ کو تلاش کریں. اب ہم آہنگی!</string>
+    <string name="sync_now">اب ہم آہنگی</string>
+    <string name="error_invalid_password">پاس ورڈ 6 سے 20 حروف پر مشتمل ہونا چاہئے</string>
+
+    <string name="label_sync_hint_dashboard">آپ 5 ثقہ دوستوں کو شامل کریں، جو آپ کے خون گروپ سے ملتے اور ایمرجنسی میں آپ کی مدد کریں گے |
+ہنگامی صورت حال میں CallAmbulance آپ اس خونی فرینڈس کو مطلع کرے گا</string>
+    <string name="label_sync_hint_dialog">آپ کے منتخب کردہ دوستوں کو SMS طرف دعوت بھیجا جائے گا | SMS پر فیس آپ کے لئے لاگو ہوں گے |</string>
+    <string name="label_sync_hint_sync5">آپ 5 دوستوں تک Callambulance میں درج کرنے کے لئے دعوت دیجئے |</string>
+    <string name="title_notifying_doctor">"میرا ڈاکٹر "</string>
+    <string name="label_test_emergency">مثال کے طور پر ایمرجنسی</string>
+    <string name="label_emergency_provider">"ہنگامی سروس فراہم کرنے والا "</string>
+    <string name="emergency_preparedness_dialog_msg">ہم آپ کی نگہداشت کی ٹیم قائم نہیں کرتے، ہم آپ کو اپنے ہنگامی رابطے، ہسپتال، ڈاکٹر اور سرپرست قائم کرنے کے لئے حوصلہ افزائی کرتے ہیں. ایمرجنسی کے دوران آپ کی مدد کرنے کے لئے ایک ہنگامی رابطہ یا سرپرست کی ضرورت ہے</string>
+
+</resources>

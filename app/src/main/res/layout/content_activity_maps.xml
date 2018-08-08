@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.patientz.activity.ActivityMaps"
+    tools:showIn="@layout/activity_maps">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        >
+
+        <TextView
+            android:id="@+id/tv_select_patient_in_emergency_timer_tex"
+            style="@style/tv_roboto_light_red_normal"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:text="@string/label_initiating_emergency"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="16dp"
+            android:layout_centerHorizontal="true"
+           />
+
+        <TextView
+            android:id="@+id/tv_timer_count"
+            style="@style/tv_roboto_medium_red_normal"
+            android:textSize="30sp"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="8dp"
+            android:layout_below="@+id/tv_select_patient_in_emergency_timer_tex"
+             />
+    </RelativeLayout>
+
+    <fragment
+        android:id="@+id/map"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

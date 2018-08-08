@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.patientz.activity.InsurancePolicyCoverageInfoActivity"
+    tools:showIn="@layout/activity_insurance_policy_coverage_info">
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_above="@+id/bt_buy_accident_policy"
+        android:layout_height="match_parent"
+        >
+    </WebView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:id="@+id/iv_ins_provider_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/apollo_munich"
+            />
+        <View
+            android:id="@+id/view1"
+            android:layout_width="1dp"
+            android:layout_height="44dp"
+            android:background="@color/manatee"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/iv_ins_provider_logo"
+            android:layout_marginRight="8dp"
+            />
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@string/font_typeface_sans_serif"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:textColor="@color/outer_space"
+            android:text="@string/label_road_accident_emg_coverage"
+            android:layout_toRightOf="@+id/view1"
+            android:textSize="18dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/price_icon"
+            android:layout_toRightOf="@+id/title"
+            android:visibility="gone"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+
+        <FrameLayout
+            android:id="@+id/pricing_tbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/table_background"
+            android:layout_below="@+id/rl1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="8dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DETAILS"
+                    android:textSize="12dp"
+                    android:textColor="@color/outer_space"
+                    android:fontFamily="@string/font_typeface_sans_serif"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp"
+                    />
+                <View
+                    android:layout_width="240dp"
+                    android:layout_height="1dp"
+                    android:background="@color/harvard_crimpson"
+                    android:layout_marginBottom="8dp"
+                    />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Group Emergency Accident \nInsurance"
+                    android:textSize="12dp"
+                    android:textColor="@color/outer_space"
+                    android:fontFamily="@string/font_typeface_sans_serif"
+                    android:layout_weight="2"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="₹ 160.00"
+                    android:textSize="12dp"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:textColor="@color/outer_space"
+                    android:fontFamily="@string/font_typeface_sans_serif"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="270dp"
+                android:layout_height="0.25dp"
+                android:background="@color/manatee"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:alpha="0.2"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3"
+                android:gravity="left"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Blood Grouping, Membership \n &amp; Convenience charge"
+                    android:textSize="12dp"
+                    android:layout_weight="2"
+                    android:textColor="@color/outer_space"
+                    android:fontFamily="@string/font_typeface_sans_serif"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="₹  89.00"
+                    android:textSize="12dp"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:textColor="@color/outer_space"
+                    android:fontFamily="@string/font_typeface_sans_serif"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="270dp"
+                android:layout_height="0.25dp"
+                android:background="@color/manatee"
+                android:alpha="0.2"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:visibility="gone"
+
+                />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3"
+                    android:visibility="gone"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="2"
+                        android:fontFamily="@string/font_typeface_sans_serif"
+                        android:text="@string/membership_conv_charge"
+                        android:textColor="@color/outer_space"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginBottom="5dp"
+                        android:fontFamily="@string/font_typeface_sans_serif"
+                        android:text="₹  49"
+                        android:layout_weight="1"
+                        android:textColor="@color/outer_space"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+            <View
+                android:layout_width="270dp"
+                android:layout_height="0.25dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/manatee"
+                android:alpha="0.2"
+
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3"
+                >
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TOTAL"
+                        android:textSize="12dp"
+                        android:textColor="@color/outer_space"
+                        android:textStyle="bold"
+                        android:fontFamily="@string/font_typeface_sans_serif"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/inc_sgst_cgst"
+                        android:textSize="9dp"
+                        android:textColor="@color/outer_space"
+                        android:fontFamily="@string/font_typeface_sans_serif_light"
+                        android:layout_marginBottom="5dp"
+                        />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="₹  249.00"
+                    android:textSize="14dp"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:textColor="@color/outer_space"
+                    android:fontFamily="@string/font_typeface_sans_serif"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="5dp"
+                    />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="270dp"
+                android:layout_height="0.25dp"
+                android:layout_marginTop="5dp"
+                android:paddingBottom="5dp"
+                android:background="@color/manatee"
+                android:layout_marginBottom="5dp"
+                android:alpha="0.2"
+                />
+            </LinearLayout>
+        </FrameLayout>
+
+
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="0.25dp"
+        android:background="@color/manatee"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/pricing_tbl"
+        android:alpha="0.2"
+        android:visibility="gone"
+
+        />
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/view2"
+        android:layout_margin="8dp"
+        >
+        <ImageView
+            android:id="@+id/iv_ins_provider_logo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="center"
+            android:src="@drawable/post_operative"
+            android:layout_marginRight="8dp"
+            />
+        <TextView
+            android:id="@+id/b2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/iv_ins_provider_logo"
+            android:fontFamily="@string/font_typeface_sans_serif"
+            android:textColor="@color/harvard_crimpson"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/view1"
+                android:fontFamily="@string/font_typeface_sans_serif"
+                android:text="@string/in_pre_post_operative_care"
+                android:textColor="@color/outer_space"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"
+                android:textSize="14dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/view1"
+                android:fontFamily="@string/font_typeface_sans_serif_light"
+                android:text="Sum Insured ₹1,00,000/-"
+                android:textColor="@color/manatee"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="0.25dp"
+        android:background="@color/manatee"
+        android:layout_below="@+id/ll1"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:alpha="0.2"
+
+        />
+    <LinearLayout
+        android:id="@+id/ll2"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/view3"
+        android:layout_margin="8dp"
+        >
+        <ImageView
+            android:id="@+id/iv_ins_provider_logo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="center"
+            android:src="@drawable/accident_coverage"
+            android:layout_marginRight="8dp"
+            />
+        <TextView
+            android:id="@+id/b3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/iv_ins_provider_logo"
+            android:fontFamily="@string/font_typeface_sans_serif"
+            android:textColor="@color/harvard_crimpson"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/view1"
+                android:fontFamily="@string/font_typeface_sans_serif"
+                android:text="@string/label_accident_coverage"
+                android:textColor="@color/outer_space"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                android:layout_marginBottom="8dp"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/view1"
+                android:fontFamily="@string/font_typeface_sans_serif_light"
+                android:text="Sum Insured ₹5,000/-"
+                android:textColor="@color/manatee"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="0.25dp"
+        android:background="@color/manatee"
+        android:layout_below="@+id/ll2"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:alpha="0.2"
+
+        />
+    <LinearLayout
+        android:id="@+id/ll3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/view4"
+        android:layout_margin="8dp"
+        >
+        <ImageView
+            android:id="@+id/iv_ins_provider_logo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="center"
+            android:src="@drawable/ambulance_coverage"
+            android:layout_marginRight="8dp"
+            />
+        <TextView
+            android:id="@+id/b4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/iv_ins_provider_logo"
+            android:fontFamily="@string/font_typeface_sans_serif"
+            android:textColor="@color/harvard_crimpson"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/view1"
+                android:fontFamily="@string/font_typeface_sans_serif"
+                android:text="@string/label_ambulance_coverage"
+                android:textColor="@color/outer_space"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                android:layout_marginBottom="8dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/view1"
+                android:fontFamily="@string/font_typeface_sans_serif_light"
+                android:text="Sum Insured ₹20,000/-"
+                android:textColor="@color/manatee"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+        <View
+            android:id="@+id/view5"
+            android:layout_width="match_parent"
+            android:layout_height="0.25dp"
+            android:background="@color/manatee"
+            android:layout_below="@+id/ll3"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:alpha="0.2"
+
+            />
+        <LinearLayout
+            android:id="@+id/ll5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/view6"
+            android:layout_margin="8dp"
+            >
+            <ImageView
+                android:id="@+id/iv_ins_provider_logo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="center"
+                android:src="@drawable/age_limit"
+                android:layout_marginRight="8dp"
+                />
+            <TextView
+                android:id="@+id/b4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/iv_ins_provider_logo"
+                android:fontFamily="@string/font_typeface_sans_serif"
+                android:textColor="@color/harvard_crimpson"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/view1"
+                    android:fontFamily="@string/font_typeface_sans_serif"
+                    android:text="Age Limit"
+                    android:textColor="@color/outer_space"
+                    android:textStyle="bold"
+                    android:textSize="14dp"
+                    android:layout_marginBottom="8dp"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/view1"
+                    android:fontFamily="@string/font_typeface_sans_serif_light"
+                    android:text="Valid for ages from 18 yrs - 65 yrs"
+                    android:textColor="@color/manatee"
+                    android:textStyle="bold"
+                    android:textSize="14dp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+        <View
+            android:id="@+id/view6"
+            android:layout_width="match_parent"
+            android:layout_height="0.25dp"
+            android:background="@color/manatee"
+            android:layout_below="@+id/ll4"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:alpha="0.2"
+
+            />
+        <LinearLayout
+            android:id="@+id/ll4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/view5"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="8dp"
+            >
+
+            <ImageView
+                android:id="@+id/iv_ins_provider_logo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="center"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/in_patient"
+                />
+            <TextView
+                android:id="@+id/b1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/iv_ins_provider_logo"
+                android:fontFamily="@string/font_typeface_sans_serif"
+                android:textColor="@color/harvard_crimpson"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/view1"
+                    android:fontFamily="@string/font_typeface_sans_serif"
+                    android:text="@string/label_in_patient"
+                    android:textColor="@color/outer_space"
+                    android:textStyle="bold"
+                    android:textSize="14dp"
+                    android:layout_marginRight="8dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/view1"
+                    android:fontFamily="@string/font_typeface_sans_serif_light"
+                    android:text="Sum Insured ₹10,000/-"
+                    android:textColor="@color/manatee"
+                    android:textStyle="bold"
+                    android:textSize="14dp"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    <View
+        android:id="@+id/view7"
+        android:layout_width="match_parent"
+        android:layout_height="0.25dp"
+        android:background="@color/manatee"
+        android:layout_below="@+id/ll5"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:alpha="0.2"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_read_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@string/font_typeface_sans_serif_medium"
+        android:textColor="@drawable/selector_tv_black_to_primary_red"
+        android:textSize="17dp"
+        android:text="Read More"
+        android:layout_below="@+id/view7"
+        android:drawableRight="@drawable/down_arrow"
+        android:drawablePadding="10dp"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:layout_centerHorizontal="true"
+       />
+
+        <LinearLayout
+            android:id="@+id/ll_promocode"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_below="@+id/tv_read_more"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="16dp"
+            >
+            <EditText
+                android:id="@+id/et_promocode"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/rectangle_curved_outerspace_bg"
+                android:layout_weight="1"
+                android:hint="Enter Promo Code"
+                android:paddingLeft="16dp"
+                android:textColor="@color/outer_space"
+                android:inputType="textCapCharacters"
+                android:fontFamily="@string/font_typeface_sans_serif_light"
+                android:layout_marginRight="16dp"
+                />
+
+            <Button
+                android:id="@+id/bt_apply_promocode"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:fontFamily="@string/font_typeface_sans_serif"
+                android:textSize="15dp"
+                android:visibility="visible"
+                android:layout_gravity="right"
+                android:textAllCaps="true"
+                android:background="@drawable/emergency_button_background"
+                android:textColor="@drawable/selector_white_to_harvardcrimpson"
+                android:text="APPLY" />
+            
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bt_buy_accident_policy"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:layout_below="@+id/ll_promocode"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@string/font_typeface_sans_serif"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:visibility="visible"
+            android:paddingRight="40dp"
+            android:drawableLeft="@drawable/buy_white"
+            android:background="@drawable/selector_curved_rectangle_hcrimpson_white_bg"
+            android:paddingLeft="40dp"
+            android:drawablePadding="8dp"
+            android:layout_margin="16dp"
+            android:textAllCaps="false"
+            android:textColor="@drawable/selector_white_to_harvardcrimpson"
+            android:text="@string/buy_acc_policy" />
+
+
+    </RelativeLayout>
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone"
+        >
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_centerInParent="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@string/font_typeface_sans_serif"
+            android:textSize="14dp"
+            android:layout_below="@+id/progress_bar"
+            android:text="Loading insurance policy info"
+            android:layout_centerInParent="true"
+            />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

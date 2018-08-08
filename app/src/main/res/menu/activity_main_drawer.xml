@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_emergency"
+            android:icon="@drawable/menu_siren"
+            android:title="@string/labe_emergency" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/menu_profile"
+            android:title="@string/title_tab_profile" />
+        <item
+            android:id="@+id/nav_care_team"
+            android:icon="@drawable/menu_careteam"
+            android:title="@string/title_activity_contacts" />
+
+       <!-- <item
+            android:id="@+id/nav_invitation"
+            android:icon="@drawable/menu_invite"
+            android:title="@string/title_activity_activity_invitation" />-->
+        <item
+            android:id="@+id/nav_nearby_hospitals"
+            android:icon="@drawable/menu_hospital"
+            android:title="@string/title_activity_nearby" />
+
+        <item
+            android:id="@+id/nav_nearby_ambulance_providers"
+            android:icon="@drawable/menu_emergency"
+            android:title="@string/title_activity_ambulance_providers_list" />
+        <item
+            android:id="@+id/nav_become_first_responder"
+            android:icon="@drawable/menu_fr"
+            android:title="@string/left_menu_list_item6" />
+        <item
+            android:id="@+id/nav_bb"
+            android:icon="@drawable/menu_bloodbuddies"
+            android:title="@string/label_bloodbuddies" />
+        <item
+            android:id="@+id/nav_uploadreports"
+            android:icon="@drawable/menu_upload"
+            android:title="@string/title_upload_reports" />
+        <item
+            android:id="@+id/nav_rep_hazard"
+            android:icon="@drawable/menu_hazard"
+            android:title="@string/left_menu_list_item10" />
+        <item
+            android:id="@+id/nav_vedioes"
+            android:icon="@drawable/menu_video"
+            android:title="@string/title_activity_activity_web_view_vedioes" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/title_activity_activity_share" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/menu_about"
+            android:title="@string/title_activity_about" />
+    </group>
+
+
+</menu>

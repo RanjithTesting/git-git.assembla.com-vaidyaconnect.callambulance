@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/tv_roboto_medium_red_normal"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="@string/label_select_medical_condition"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+    <LinearLayout
+        android:id="@+id/parent_grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title"
+        android:background="@color/edittext_grey"
+        android:paddingBottom=".5dp"
+        android:paddingTop=".5dp"
+        >
+
+        <GridView
+            android:id="@+id/grid_view_medical_conditions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:horizontalSpacing=".5dp"
+            android:numColumns="2"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing=".5dp"
+            >
+
+
+        </GridView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/parent_others"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/parent_grid_view"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_label_blood_group"
+            style="@style/tv_roboto_thin_black_normal"
+            android:layout_below="@+id/et_medication"
+            android:layout_marginBottom="8dp"
+            android:text="@string/label_others"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginRight="8dp"
+            />
+
+        <EditText
+            android:id="@+id/et_others"
+            style="@style/edit_text"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:singleLine="true"
+            android:hint="@string/hint_et_others_allergy_dialog"
+            />
+    </LinearLayout>
+    <View
+        android:id="@+id/sep"
+        android:layout_width="match_parent"
+        android:layout_height=".5dp"
+        android:background="@color/edittext_grey"
+        android:layout_below="@+id/parent_others"
+
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:layout_below="@+id/sep"
+
+    >
+    <Button
+        android:id="@+id/bt_add"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_weight="1"
+        android:text="@string/label_add"
+        android:textColor="@color/colorPrimary"
+        android:textAppearance="?android:textAppearanceButton"
+        />
+    <Button
+        android:id="@+id/bt_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_weight="1"
+        android:text="@string/label_cancel"
+        android:textColor="@color/colorPrimary"
+        android:textAppearance="?android:textAppearanceButton"
+        />
+</LinearLayout>
+</RelativeLayout>

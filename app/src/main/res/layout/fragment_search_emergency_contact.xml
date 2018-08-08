@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_contact_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="@color/colorAppBg"
+    android:orientation="vertical" >
+
+    <!--Progress-->
+    <LinearLayout
+        android:id="@+id/loading_status"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/loading_status_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/loading_progress"
+            android:visibility="invisible"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/search_contact_sub_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/search_contact_searchBySpinner"
+            style="@style/spinner"
+            android:entries="@array/array_searchBy" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+      
+
+            <Spinner
+                android:id="@+id/search_contact_isdSpinner"
+                style="@style/spinner"
+                android:layout_width="100dp"
+                android:entries="@array/select_country_isdCode" />
+
+            <EditText
+                android:id="@+id/search_contact_email"
+                style="@style/editText_box"
+                android:layout_toRightOf="@+id/search_contact_isdSpinner"
+                android:hint="@string/hint_searchcontact_text"></EditText>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/searchContact_button"
+            style="@style/button"
+            android:layout_margin="5dp"
+            android:text="@string/search" />
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@color/divider_color"
+            android:dividerHeight="1dp"
+            android:drawSelectorOnTop="false" />
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:background="#00000000"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:visibility="invisible" />
+    </LinearLayout>
+    <!--
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp" >
+
+            <Button
+                android:id="@+id/addUnregisteredContactButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:textStyle="bold"
+                android:visibility="gone" />
+        </LinearLayout>-->
+
+</LinearLayout>

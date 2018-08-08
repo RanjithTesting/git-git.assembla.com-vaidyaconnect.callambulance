@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.patientz.activity.ActivityEditInsurance"
+    tools:showIn="@layout/activity_edit_insurance">
+
+    <ScrollView
+        android:id="@+id/root_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp">
+
+
+            <TextView
+                android:id="@+id/policy_provider"
+                style="@style/tv_roboto_medium_black_normal"
+                android:layout_marginBottom="8dp"
+                android:text="@string/policy_provider"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/add_insurance_policy_provider"
+                style="@style/edit_text"
+                android:layout_below="@+id/policy_provider"
+                android:layout_marginBottom="8dp"
+                android:background="@null"
+                android:hint="@string/hint_policy_provider"></EditText>
+
+            <View
+                android:id="@+id/sep1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/add_insurance_policy_provider"
+                android:layout_marginBottom="8dp"
+                android:background="@color/colorPrimary"></View>
+
+            <TextView
+                android:id="@+id/policy_name"
+                style="@style/tv_roboto_medium_black_normal"
+                android:layout_below="@+id/sep1"
+                android:layout_marginBottom="8dp"
+                android:text="@string/policy_name"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/add_insurance_policy_name"
+                style="@style/edit_text"
+                android:layout_below="@+id/policy_name"
+                android:layout_marginBottom="8dp"
+                android:background="@null"
+                android:hint="@string/hint_policy_provider"></EditText>
+
+            <View
+                android:id="@+id/sep2"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/add_insurance_policy_name"
+                android:layout_marginBottom="8dp"
+                android:background="@color/colorPrimary"></View>
+
+            <TextView
+                android:id="@+id/policy_number"
+                style="@style/tv_roboto_medium_black_normal"
+                android:layout_below="@+id/sep2"
+                android:layout_marginBottom="8dp"
+                android:text="@string/policy_number"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/add_insurance_policy_number"
+                style="@style/edit_text"
+                android:layout_below="@+id/policy_number"
+                android:layout_marginBottom="8dp"
+                android:background="@null"
+                android:hint="@string/hint_policy_number"></EditText>
+
+            <View
+                android:id="@+id/sep3"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/add_insurance_policy_number"
+                android:layout_marginBottom="8dp"
+                android:background="@color/colorPrimary"></View>
+
+            <TextView
+                android:id="@+id/policy_start_date_text"
+                style="@style/tv_roboto_medium_black_normal"
+                android:layout_below="@+id/sep3"
+                android:layout_marginBottom="8dp"
+                android:text="@string/policy_start_date_text"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RelativeLayout
+                android:id="@+id/parent_start_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/policy_start_date_text"
+                android:layout_marginBottom="8dp"
+                android:gravity="bottom">
+
+                <TextView
+                    android:id="@+id/policy_start_date"
+                    style="@style/tv_roboto_regular_black_normal"
+                    android:layout_alignBottom="@+id/policy_start_date_button"
+                    android:layout_marginRight="8dp"
+                    android:paddingLeft="5dip"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:id="@+id/policy_start_date_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/policy_start_date"
+                    android:src="@drawable/updateprofile_dob"
+                    android:tint="@color/colorAccent" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/sep4"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/parent_start_date"
+                android:layout_marginBottom="8dp"
+                android:background="@color/colorPrimary"></View>
+
+            <TextView
+                android:id="@+id/policy_end_date_text"
+                style="@style/tv_roboto_medium_black_normal"
+                android:layout_below="@+id/sep4"
+                android:layout_marginBottom="8dp"
+                android:text="@string/policy_end_date_text"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RelativeLayout
+                android:id="@+id/parent_end_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/policy_end_date_text"
+                android:layout_marginBottom="8dp"
+                android:gravity="bottom">
+
+                <TextView
+                    android:id="@+id/policy_end_date"
+                    style="@style/tv_roboto_regular_black_normal"
+                    android:layout_alignBottom="@+id/policy_end_date_button"
+                    android:layout_marginRight="8dp"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:id="@+id/policy_end_date_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/policy_end_date"
+                    android:src="@drawable/updateprofile_dob"
+                    android:tint="@color/colorAccent" />
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/sep5"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/parent_end_date"
+                android:layout_marginBottom="8dp"
+                android:background="@color/colorPrimary"></View>
+
+            <TextView
+                android:id="@+id/policy_coverage"
+                style="@style/tv_roboto_medium_black_normal"
+                android:layout_below="@+id/sep5"
+                android:layout_marginBottom="8dp"
+                android:text="@string/policy_coverage"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/add_insurance_coverage"
+                style="@style/edit_text"
+                android:layout_below="@+id/policy_coverage"
+                android:layout_marginBottom="8dp"
+                android:background="@null"
+                android:hint="@string/hint_policy_coverage"
+                android:inputType="number"></EditText>
+
+            <View
+                android:id="@+id/sep6"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/add_insurance_coverage"
+                android:layout_marginBottom="8dp"
+                android:background="@color/colorPrimary"></View>
+
+            <TextView
+                android:id="@+id/policy_claim_no"
+                style="@style/tv_roboto_medium_black_normal"
+                android:layout_below="@+id/sep6"
+                android:layout_marginBottom="8dp"
+                android:text="@string/policy_claim_no"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <LinearLayout
+                android:id="@+id/pno_isd_parent_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/text_boxsize"
+                android:layout_below="@+id/policy_claim_no"
+                android:orientation="vertical">
+
+                <!--  <Spinner
+                      android:id="@+id/isdcode_spinner"
+                      style="@style/spinner"
+                      android:layout_marginLeft="5dp"
+                      android:layout_weight="0.7"
+                      android:background="@drawable/cropped_custom_spinner" />-->
+                <!-- style="@style/spinner" -->
+
+                <EditText
+                    android:id="@+id/policy_claim_no_edittext"
+                    style="@style/edit_text"
+                    android:background="@null"
+                    android:hint="@string/hint_policy_claim_no"
+                    android:inputType="phone" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/loading_status"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/loading_status_message"
+            style="@style/tv_roboto_regular_black_normal"
+            android:layout_marginBottom="16dp"
+            android:text="@string/loading_progress"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:visibility="invisible" />
+    </LinearLayout>
+</RelativeLayout>

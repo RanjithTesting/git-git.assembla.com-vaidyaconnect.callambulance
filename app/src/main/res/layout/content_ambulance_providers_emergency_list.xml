@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.patientz.activity.OrgBranchesActivity"
+    tools:showIn="@layout/activity_ambulance_providers_emergency_list">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tv_emergency_no"
+            style="@style/tv_roboto_condensed_red_normal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="-10dp"
+            android:text="Calling 108 in "
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvTimer"
+            style="@style/tv_roboto_condensed_black_bold"
+            android:layout_alignBaseline="@+id/tv_emergency_no"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="3dp"
+            android:layout_toRightOf="@+id/tv_emergency_no"
+            android:background="@color/white"
+            android:textSize="24dp" />
+
+        <TextView
+            style="@style/tv_roboto_condensed_black_normal"
+            android:layout_below="@+id/tvTimer"
+            android:layout_centerInParent="true"
+            android:text="@string/sel_diff_amb_pr"
+            android:textSize="14dp"
+            android:textStyle="italic"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TextView
+                style="@style/tv_roboto_medium_red_normal"
+                android:layout_marginBottom="8dp"
+                android:text="@string/public_amb_pr"
+                android:textSize="16dp" />
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/tools"
+                android:id="@+id/parent_lvvv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                card_view:cardCornerRadius="3dp"
+                card_view:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="16dp"
+                        android:background="@drawable/ambulance_grey"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/tv_public_provider_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Calling 108"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                style="@style/tv_roboto_medium_red_normal"
+                android:layout_marginBottom="8dp"
+                android:text="@string/label_preffered_hospital"
+                android:textSize="16dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rv_preferred_hospitals"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:scrollbars="vertical" />
+
+                <TextView
+                    android:id="@+id/tv_ph_empty"
+                    style="@style/tv_roboto_light_black_normal"
+                    android:layout_gravity="center"
+                    android:text="@string/no_pref_hosp"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/tv_roboto_medium_red_normal"
+                android:layout_marginBottom="8dp"
+                android:text="@string/nearby_nw_hosp"
+                android:textSize="16dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/list_network_hospital"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:scrollbars="vertical" />
+
+                <TextView
+                    android:id="@+id/tv_nh_empty"
+                    style="@style/tv_roboto_light_black_normal"
+                    android:layout_gravity="center"
+                    android:text="@string/nonetwork_hosp_to_show"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/tv_roboto_medium_red_normal"
+                android:layout_marginBottom="8dp"
+                android:text="@string/other_near_hosp"
+                android:textSize="16dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/list_non_network_hospital"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:scrollbars="vertical" />
+
+                <TextView
+                    android:id="@+id/tv_nnh_empty"
+                    style="@style/tv_roboto_light_black_normal"
+                    android:layout_gravity="center"
+                    android:text="@string/no_other_nearby_hosp"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>
+
+

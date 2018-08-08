@@ -1,0 +1,23 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <!--  <SwitchPreference
+        android:defaultValue="true"
+        android:key="power_button_trigger_switch"
+        android:summary="@string/pref_description_enable_trigger"
+        android:title="@string/pref_title_enable_trigger"
+        android:textColor="@color/colorPrimary"/>-->
+
+    <Preference
+        android:key="pref_draw_over_other_apps"
+        android:title="@string/pref_title_apps_auto_launch"
+        android:summary="@string/pref_summary_start_auto_launch_apps"
+        />
+<!--    <com.patientz.activity.SettingsActivity.LogoutDialogPreference
+        android:key="preference_logout"
+        android:title="@string/action_logout"
+        android:summary="@string/pref_logout_description"
+        android:dialogMessage="Are you sure you wish to logout?"
+        android:positiveButtonText="Logout"
+        android:negativeButtonText="Cancel"
+        />-->
+</PreferenceScreen>

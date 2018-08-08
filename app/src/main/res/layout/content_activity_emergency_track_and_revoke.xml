@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.patientz.activity.ActivityEmergencyTrackAndRevoke"
+    tools:showIn="@layout/activity_emergency_track_and_revoke">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/parent_person_in_emergency"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/tv_display_person_in_emergency_part1"
+                    style="@style/tv_roboto_regular_red_bold"
+                    android:textAppearance="?android:textAppearanceLarge" />
+
+                <TextView
+                    android:id="@+id/tv_display_person_in_emergency_part2"
+                    style="@style/tv_roboto_light_red_normal"
+                    android:layout_toRightOf="@+id/tv_display_person_in_emergency_part1"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@string/label_is_in_emergency"
+                    android:textAppearance="?android:textAppearanceLarge" />
+            </RelativeLayout>
+
+
+            <TableLayout
+                android:id="@+id/tl_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/parent_person_in_emergency"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp">
+
+                <TableRow>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:src="@drawable/em_location" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:src="@drawable/em_ambulance" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:src="@drawable/em_contacts" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:src="@drawable/em_calling" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dp">
+
+                    <ImageView
+                        android:id="@+id/iv_location_status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:src="@drawable/emergency_finish_failed" />
+
+                    <ImageView
+                        android:id="@+id/iv_notified_emri"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:src="@drawable/emergency_finish_failed" />
+
+                    <ImageView
+                        android:id="@+id/iv_notified_contacts"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:src="@drawable/emergency_finish_failed" />
+
+                    <ImageView
+                        android:id="@+id/iv_notified_ambulance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:src="@drawable/emergency_finish_failed" />
+                </TableRow>
+
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tl_1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/bt_track"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_button_shape"
+                    android:text="@string/label_track"
+                    android:textColor="@drawable/selector_tv_newgrey_to_primary_red" />
+
+                <Button
+                    android:id="@+id/bt_call_108"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_button_shape"
+                    android:text="@string/label_call108"
+                    android:textColor="@drawable/selector_tv_newgrey_to_primary_red" />
+
+                <Button
+                    android:id="@+id/bt_redial"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/tl_1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_button_shape"
+                    android:text="@string/label_redial"
+                    android:textColor="@drawable/selector_tv_newgrey_to_primary_red" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tl_1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_emergency_token"
+                    style="@style/tv_roboto_regular_red_normal"
+                    android:layout_weight="1"
+                    android:text="@string/emergency_tracking_id"
+                    android:textAppearance="?android:textAppearanceLarge" />
+
+                <ImageView
+                    android:id="@+id/iv_share"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/tv_emergency_token"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/bt_track"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/actionbar_share" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_map"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_emergency_token"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY" />
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <ImageView
+        android:id="@+id/iv_nearby_hospital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/em_nearest_hospital" />
+
+    <TextView
+        android:id="@+id/tv_nearby_hospital"
+        style="@style/tv_roboto_regular_red_normal"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:text="@string/title_activity_nearby"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@drawable/selector_tv_red_togrey_g" />
+
+    <TextView
+        android:id="@+id/tv_revoke"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/edittext_grey"
+        android:fontFamily="@string/font_typeface_sans_serif"
+        android:gravity="center"
+        android:text="@string/label_revoke_emergency"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+</LinearLayout>

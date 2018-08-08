@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_current_ambulance_request"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.patientz.activity.CurrentAmbulanceRequestActivity"
+    tools:showIn="@layout/activity_current_ambulance_request">
+
+    <RelativeLayout
+        android:id="@+id/root_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/parent_layout_current_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/dashboard_cover_bg">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp">
+
+                <TextView
+                    android:id="@+id/tv_label_current_status"
+                    style="@style/tv_roboto_medium_white_bold"
+                    android:text="@string/label_current_status"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/tv_current_status"
+                    style="@style/tv_roboto_medium_white_normal"
+                    android:layout_toRightOf="@+id/tv_label_current_status"
+                    android:text="Request Sent!!!"
+                    android:textSize="16dp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/parent_layout_current_status"
+            android:layout_margin="8dp"
+            android:background="@color/white">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="8dp">
+
+                    <TextView
+                        android:id="@+id/tv_org_name"
+                        style="@style/tv_roboto_medium_red_normal"
+                        android:layout_marginBottom="8dp" />
+
+                    <View
+                        android:id="@+id/view_sep"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_below="@+id/tv_org_name"
+                        android:layout_marginBottom="8dp"
+                        android:background="@color/new_grey" />
+
+                    <LinearLayout
+                        android:id="@+id/layout_names"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/view_sep"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+
+                            >
+
+                            <TextView
+                                android:id="@+id/tv_manager_name"
+                                style="@style/tv_roboto_regular_black_normal"
+                                android:layout_marginBottom="8dp"
+                                android:layout_marginRight="16dp"
+                                android:textSize="16dp" />
+
+                            <TextView
+                                android:id="@+id/tv_label_manager_name"
+                                style="@style/tv_roboto_light_black_normal"
+                                android:text="Ambulance Manager"
+                                android:textSize="12dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tv_driver_name"
+                                style="@style/tv_roboto_regular_black_normal"
+                                android:layout_marginBottom="8dp"
+                                android:text="Pending..."
+                                android:textSize="16dp" />
+
+                            <TextView
+                                android:id="@+id/tv_label_driver_name"
+                                style="@style/tv_roboto_light_black_normal"
+                                android:layout_alignLeft="@+id/tv_driver_name"
+                                android:layout_marginBottom="8dp"
+                                android:text="Ambulance Driver"
+                                android:textSize="12dp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/ll_buttons"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/layout_names"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_call_manager"
+                            style="@style/tv_roboto_light_black_normal"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:drawablePadding="8dp"
+                            android:drawableTop="@drawable/request_ambulance_call_enabled"
+                            android:gravity="center"
+                            android:onClick="callManager"
+                            android:text="Call Manager"
+                            android:textSize="12dp"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_cancel_request"
+                            style="@style/tv_roboto_light_black_normal"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:drawablePadding="8dp"
+                            android:drawableTop="@drawable/ambulance_request_cancel"
+                            android:gravity="center"
+                            android:onClick="cancelRequest"
+                            android:text="Cancel Request"
+                            android:textSize="12dp"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_call_driver"
+                            style="@style/tv_roboto_light_black_normal"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:drawablePadding="8dp"
+                            android:drawableTop="@drawable/request_ambulance_call_enabled"
+                            android:gravity="center"
+                            android:onClick="callDriver"
+                            android:text="Call Driver"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/rl_ambulance_Details"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_buttons"
+                        android:visibility="gone">
+
+                        <View
+                            android:id="@+id/view_sep2"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginBottom="16dp"
+                            android:background="@color/new_grey" />
+
+                        <TextView
+                            android:id="@+id/tv_heading_amb_details"
+                            style="@style/tv_roboto_regular_red_normal"
+                            android:layout_marginBottom="16dp"
+                            android:layout_below="@+id/view_sep2"
+                            android:text="@string/label_amb_details" />
+
+                        <TextView
+                            android:id="@+id/tv_label_Ambulance_NO"
+                            style="@style/tv_roboto_regular_black_normal"
+                            android:layout_below="@+id/tv_heading_amb_details"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginRight="16dp"
+                            android:text="@string/label_ambulance_no" />
+
+                        <TextView
+                            android:id="@+id/tv_ambulance_no"
+                            style="@style/tv_roboto_regular_black_normal"
+                            android:layout_below="@+id/tv_heading_amb_details"
+                            android:layout_marginBottom="8dp"
+                            android:layout_toRightOf="@+id/tv_label_Ambulance_NO" />
+
+                        <View
+                            android:id="@+id/view_sep3"
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp"
+                            android:layout_below="@+id/tv_label_Ambulance_NO"
+                            android:layout_marginBottom="16dp"
+                            android:background="@color/colorPrimary" />
+
+                        <TextView
+                            android:id="@+id/tv_label_driver_dist"
+                            style="@style/tv_roboto_regular_black_normal"
+                            android:layout_below="@+id/view_sep3"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginRight="16dp"
+                            android:text="@string/label_driver_dist" />
+
+                        <ImageView
+                            android:id="@+id/iv_location"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_below="@+id/view_sep3"
+                            android:background="@drawable/dashboard_gps_enable" />
+
+
+                    <View
+                        android:id="@+id/view_sep12"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_below="@+id/tv_label_driver_dist"
+                        android:layout_marginBottom="16dp"
+                        android:background="@color/colorPrimary" />
+
+                    <TextView
+                        android:id="@+id/tv_label_driver_time_to_reach"
+                        style="@style/tv_roboto_regular_black_normal"
+                        android:layout_below="@+id/view_sep12"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginRight="16dp"
+                        android:text="@string/label_driver_time" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/tv_label_rate_card"
+                        style="@style/tv_roboto_regular_red_normal"
+                        android:layout_below="@+id/rl_ambulance_Details"
+                        android:layout_marginBottom="16dp"
+                        android:text="@string/label_rate" />
+
+                    <TextView
+                        android:id="@+id/tv_label_first_5kms"
+                        style="@style/tv_roboto_regular_black_normal"
+                        android:layout_below="@+id/tv_label_rate_card"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginRight="16dp"
+                        android:text="@string/label_first_10kms" />
+
+                    <TextView
+                        android:id="@+id/tv_price_first_5kms"
+                        style="@style/tv_roboto_regular_black_normal"
+                        android:layout_below="@+id/tv_label_rate_card"
+                        android:layout_marginBottom="8dp"
+                        android:layout_toRightOf="@+id/tv_label_first_5kms" />
+
+                    <View
+                        android:id="@+id/view_sep4"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_below="@+id/tv_label_first_5kms"
+                        android:layout_marginBottom="16dp"
+                        android:background="@color/colorPrimary" />
+
+                    <TextView
+                        android:id="@+id/tv_label_after_5kms"
+                        style="@style/tv_roboto_regular_black_normal"
+                        android:layout_below="@+id/view_sep4"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginRight="16dp"
+                        android:text="@string/label_after_10kms" />
+
+                    <TextView
+                        android:id="@+id/tv_price_after_5kms"
+                        style="@style/tv_roboto_regular_black_normal"
+                        android:layout_below="@+id/view_sep4"
+                        android:layout_marginBottom="8dp"
+                        android:layout_toRightOf="@+id/tv_label_after_5kms" />
+                </RelativeLayout>
+            </ScrollView>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/loading_status_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/loading_progress"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:visibility="invisible" />
+    </LinearLayout>
+</RelativeLayout>

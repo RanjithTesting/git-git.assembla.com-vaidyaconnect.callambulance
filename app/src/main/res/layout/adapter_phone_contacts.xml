@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/row_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_contact_img"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="@drawable/emergency_default_profile" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.7"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_phone_name"
+                style="@style/tv_roboto_regular_black_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:maxLines="2"
+                android:singleLine="true"
+                android:text="Pavan"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/tv_contact_number"
+                style="@style/tv_roboto_regular_black_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:maxLines="2"
+                android:singleLine="true"
+                android:text="8888888888"
+                android:textAppearance="?android:textAppearance"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/tv_server_name"
+                style="@style/tv_roboto_regular_black_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:maxLines="2"
+                android:singleLine="true"
+                android:text="Pavan Kumar"
+                android:textAppearance="?android:textAppearance"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv_blood_group"
+            style="@style/tv_roboto_regular_black_bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.15"
+            android:maxLines="2"
+            android:singleLine="true"
+            android:text="A+"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/cb_invite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:buttonTint="@color/black"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha="0.5"
+        android:background="@color/grey_light_version"></View>
+
+</LinearLayout>

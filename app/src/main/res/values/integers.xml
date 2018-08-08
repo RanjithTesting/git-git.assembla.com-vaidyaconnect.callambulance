@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="ageInMonths">36</integer>
+    <integer name="emri_call_timeout">15000</integer>
+
+</resources>

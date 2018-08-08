@@ -1,0 +1,9 @@
+<resources>
+    <string name="package_name" translatable="false">com.patientz.activity.qa</string>
+    <string name="environment" translatable="false">QACA</string>
+    <string name="app_name">Call Ambulance</string>
+    <string name="profileImagePath" translatable="false">/CallAmbulanceQa/Images/</string>
+    <string name="attachmentPath" translatable="false">/CallAmbulanceQa/Attachments/</string>
+    <string name="uploadPath" translatable="false">/CallAmbulanceQa/Uploads/</string>
+    <string name="smsCountryKeyWord" translatable="false">DOCTST</string>
+</resources>

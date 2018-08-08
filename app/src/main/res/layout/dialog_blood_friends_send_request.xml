@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_blood_group"
+            style="@style/tv_roboto_medium_black_normal"
+            android:layout_margin="5dp"
+            android:text=""
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/grey_light_version" />
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+
+                <TextView
+                    style="@style/tv_roboto_medium_black_normal"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/forwhom"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+                <EditText
+                    android:id="@+id/edit_name"
+                    style="@style/edit_text"
+                    android:layout_marginBottom="5dp"
+                    android:background="@null"
+                    android:hint="@string/name" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorPrimary"></View>
+
+                <TextView
+                    style="@style/tv_roboto_medium_black_normal"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/phone_number"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/text_boxsize"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal">
+
+                    <Spinner
+                        android:id="@+id/spinner_countrycodes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:entries="@array/select_country_isdCode" />
+
+                    <EditText
+                        android:id="@+id/edit_phno"
+                        style="@style/edit_text"
+                        android:layout_marginLeft="10dp"
+                        android:background="@null"
+                        android:hint="@string/hint_phone_number"
+                        android:inputType="phone" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorPrimary"></View>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/text_boxsize"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/tv_roboto_medium_black_normal"
+                        android:layout_gravity="center"
+                        android:text="@string/noofunits"
+                        android:textAppearance="?android:textAppearanceMedium" />
+
+
+                    <Spinner
+                        android:id="@+id/spinner_noofunits"
+                        style="@style/spinner"
+                        android:layout_marginLeft="5dp"
+                        android:entries="@array/blood_units" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorPrimary"></View>
+
+                <TextView
+                    style="@style/tv_roboto_medium_black_normal"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/message"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+                <EditText
+                    android:id="@+id/editmessage"
+                    style="@style/edit_text"
+                    android:layout_marginBottom="5dp"
+                    android:background="@null"
+                    android:hint="@string/motmessage" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorPrimary"></View>
+
+
+                <TextView
+                    style="@style/tv_roboto_medium_black_normal"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="16dp"
+                    android:text="@string/dor"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="bottom">
+
+                    <EditText
+                        android:id="@+id/text_date"
+                        style="@style/edit_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:enabled="false"
+                        android:hint="@string/date"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:id="@+id/image_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/updateprofile_dob"
+                        android:tint="@color/colorAccent" />
+
+                    <EditText
+                        android:id="@+id/text_time"
+                        style="@style/edit_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:enabled="false"
+                        android:hint="@string/time"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:id="@+id/img_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/show_dob_textview"
+                        android:src="@drawable/updateprofile_dob"
+                        android:tint="@color/colorAccent" />
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorPrimary"></View>
+
+
+                <TextView
+                    style="@style/tv_roboto_medium_black_normal"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/address"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+
+                <EditText
+                    android:id="@+id/edit_location"
+                    style="@style/edit_text"
+                    android:layout_marginBottom="5dp"
+                    android:background="@null"
+                    android:hint="@string/donar_hosp"
+                    android:inputType="textEmailAddress"></EditText>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorPrimary"></View>
+
+                <TextView
+                    style="@style/tv_roboto_medium_black_normal"
+                    android:layout_marginBottom="5dp"
+                    android:maxLength="255"
+                    android:text="@string/purpose"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+                <EditText
+                    android:id="@+id/edit_purpose"
+                    style="@style/edit_text"
+                    android:layout_marginBottom="5dp"
+                    android:background="@null"
+                    android:hint="@string/hintsurgery"></EditText>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorPrimary"></View>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/grey_light_version" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv_accept_button"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/send"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/grey_light_version" />
+
+                    <TextView
+                        android:id="@+id/tv_cancel_button"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/label_cancel"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

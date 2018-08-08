@@ -1,0 +1,353 @@
+CREATE TABLE IF NOT EXISTS user_tbl  (
+ 	_id  integer PRIMARY KEY autoincrement,
+  patient_id bigint(20) NOT NULL unique,		
+  user_id bigint(20) NOT NULL,
+  first_name varchar(255) DEFAULT NULL,
+  last_name varchar(255) DEFAULT NULL,
+  event_log_id bigint(20) DEFAULT NULL, 
+  status varchar(255) DEFAULT NULL,
+  phone_number varchar(255) DEFAULT NULL,
+  relationship varchar(255) DEFAULT NULL,
+  pic_id bigint(20) DEFAULT NULL,
+  pic_name varchar(255) DEFAULT NULL,
+  filename varchar(255) DEFAULT NULL,
+  role varchar(255) NOT NULL,
+  patient_access_id bigint(20) NOT NULL,
+  under_emergency  bit(1) DEFAULT NULL,
+  emergency_url_token varchar(255) DEFAULT NULL,
+  emergency_initiated_date datetime DEFAULT NULL,
+  emergency_api_key varchar(255) DEFAULT NULL,
+  emergency_token TEXT,
+  current_selected_patient bit(1) DEFAULT NULL ,
+  preffered_ambulanc_provider_pno TEXT DEFAULT NULL,
+  share_points INTEGER
+);
+
+CREATE TABLE IF NOT EXISTS user_info_tbl  (
+ 	_id  integer PRIMARY KEY autoincrement,
+  patient_id bigint(20) NOT NULL unique,
+  first_name TEXT,
+  last_name TEXT,
+  role TEXT,
+  relationship TEXT,
+  address TEXT,
+  company_name TEXT,
+  city TEXT,
+  state TEXT,
+  country TEXT,
+  pin_code TEXT,
+  phone_number TEXT,
+  phone_number_isd_code TEXT,
+  alt_phone_number TEXT,
+  alt_phoneNumber_isd_code TEXT,
+  gender REAL,
+  age REAL,
+  email_id TEXT,
+  pic_file_id TEXT,
+  pic_file_name TEXT,
+  emergency_level REAL,
+  financial_status TEXT,
+  family_history TEXT,
+  habits TEXT,
+  remarks TEXT,
+  blood_donation TEXT,
+  organ_donation TEXT,
+  marital_status TEXT,
+  food_habits TEXT,
+  date_of_birth REAL,
+  created_by REAL,
+  updated_by REAL,
+
+
+  last_blood_donation_date INTEGER,
+  preferred_blood_bank_id INTEGER,
+  notify_blood_donation_request bit(1),
+
+
+  created_date REAL,
+  updated_date REAL,
+  preffered_ambulanc_provider_pno TEXT DEFAULT NULL,
+  preferred_org_branch_id REAL,
+  blood_group TEXT,
+  patient_handle TEXT
+);
+
+CREATE TABLE IF NOT EXISTS blood_friends_tbl  (
+ 	_id  integer PRIMARY KEY autoincrement,
+  contact_id bigint(20) NOT NULL,
+  lookup_id TEXT,
+  phone_number TEXT NOT NULL,
+  blood_group TEXT,
+  server_name TEXT,
+  phone_name TEXT,
+  contact_type integer,
+  update_status integer,
+  update_time datetime,
+  user_invited integer,
+  download_time datetime, unique(contact_id,phone_number)
+);
+
+CREATE TABLE IF NOT EXISTS file_upload_images_tbl  (
+ 	_id  integer PRIMARY KEY autoincrement,  page_number integer,
+  image_path TEXT, unique(image_path,page_number)
+);
+
+CREATE TABLE IF NOT EXISTS contact_tbl  (
+ 	_id  integer PRIMARY KEY autoincrement,
+  owner_patient_id bigint(20) NOT NULL,		
+  contact_id bigint(20) DEFAULT NULL,
+  user_id bigint(20) DEFAULT NULL,
+  first_name varchar(255) NOT NULL,
+  last_name varchar(255),
+  email_id  varchar(255),
+  phone_number varchar(255) DEFAULT NULL, 
+  relationship varchar(255) DEFAULT NULL,
+  address varchar(255) 	DEFAULT NULL,
+  country varchar(255), 
+  role varchar(255),
+  status varchar(255),
+  created_by_id bigint(20),
+  created_date datetime,
+  last_updated_by_id bigint(20) DEFAULT NULL,
+  last_updated_date datetime,
+  patient_access_id REAL,
+  pic_id REAL,
+  profile_pic_id INTEGER,
+  specialities TEXT
+);
+
+CREATE TABLE IF NOT EXISTS insurance_info_tbl  (
+ 	_id  integer PRIMARY KEY autoincrement,
+ 	insurance_id REAL NOT NULL unique,
+ 	first_name TEXT,
+ 	last_name TEXT,
+    gender INTEGER,
+    date_of_birth TEXT,
+    aadhar_no TEXT,
+    email TEXT,
+    mobile_number TEXT,
+    address1 TEXT,
+    address2 TEXT,
+    city TEXT,
+    district TEXT,
+    pincode TEXT,
+    nominee_name TEXT,
+    nominee_relationship TEXT,
+    patient_id REAL,
+    customer_id TEXT,
+    status INTEGER,
+    sent_date datetime,
+    ins_policy_number TEXT,
+    ins_policy_start_date REAL,
+ 	ins_policy_end_date REAL,
+ 	ins_policy_company TEXT,
+ 	ins_policy_coverage TEXT,
+ 	ins_policy_name TEXT,
+ 	policy_doc TEXT,
+ 	is_mobile_number_verified INTEGER,
+    is_aadhar_verified INTEGER,
+    is_email_verified INTEGER,
+    date_created REAL,
+ 	date_updated REAL,
+ 	created_by REAL,
+ 	updated_by REAL,
+ 	ins_policy_claim_number TEXT,
+ 	insurance_upload_id,
+ 	is_not_existing_insurance_policy INTEGER,
+ 	paytm_ref_id TEXT
+);
+
+
+CREATE TABLE IF NOT EXISTS emergency_tbl (
+ 	_id  integer PRIMARY KEY autoincrement,
+	emergency_id bigint(20),
+	patient_id bigint(20) NOT NULL unique,
+ 	launch_loc_lat varchar(255),
+ 	launch_loc_long varchar(255),
+ 	launch_loc_accuracy bigint(20),
+ 	launch_loc_provider varchar(255),
+ 	current_loc_lat varchar(255),
+ 	current_loc_long varchar(255),
+ 	current_loc_accuracy bigint(20), 
+ 	current_loc_provider varchar(255) DEFAULT NULL,	
+	current_loc_last_update_time datetime,
+	invoke_from_device bigint(20),
+	webservice_status bigint(20),
+	sms_to_server_status bigint(20),
+	sms_to_contacts_status bigint(20),
+	call_emergency_status bigint(20),
+	location_update_status bigint(20),
+	has_got_emergency_location bit(1),
+	has_notified_emri bit(1),
+	has_notified_contacts bit(1),
+	has_called_ambulance bit(1),
+    emergency_status TEXT
+);
+
+CREATE TABLE IF NOT EXISTS device_tbl (
+ 	_id  integer PRIMARY KEY autoincrement,
+	device_id TEXT NOT NULL unique,
+	mobile_no TEXT,
+	sim_serial_no TEXT
+);
+CREATE TABLE IF NOT EXISTS emergency_help_provider_tbl (
+ 	_id  integer PRIMARY KEY autoincrement,
+	name TEXT,
+        phone INTEGER,
+lat REAL,
+lon REAL,
+logo_url TEXT,
+location TEXT
+
+);
+
+CREATE TABLE IF NOT EXISTS preferred_ambulance_providers_tbl (
+ 	_id  integer PRIMARY KEY autoincrement,
+ 	emergency_org_setting_id REAL NOT NULL unique,
+ 	org_id INTEGER,
+ 	org_logo_id INTEGER,
+	name TEXT,
+	location_name TEXT DEFAULT NULL,
+	branch_name TEXT DEFAULT NULL,
+	street_address TEXT DEFAULT NULL,
+        phone INTEGER,
+lat TEXT DEFAULT "0",
+lon TEXT DEFAULT "0"
+);
+
+CREATE TABLE IF NOT EXISTS health_record_tbl (
+ 	_id  integer PRIMARY KEY autoincrement,
+ 	record_id bigint(20) NOT NULL unique,
+ 	patient_id REAL,
+ 	attended_by_id REAL,
+    doctor_id REAL,
+    org_id REAL,
+    org_name TEXT,
+    attended_by_display_name TEXT,
+    role TEXT,
+    role_description TEXT,
+    record_type TEXT,
+    start_date REAL,
+    end_date REAL,
+    visit_record_id REAL,
+    last_updated_user_role_id REAL,
+    last_updated_user_display_name TEXT,
+    un_reg_doctor_name TEXT,
+    un_reg_org_name TEXT,
+    health_record_map_key TEXT,
+    health_record_map_value TEXT,
+    attachment_id REAL,
+    last_updated_date TEXT
+
+);
+
+CREATE TABLE IF NOT EXISTS user_complete_details_tbl (
+ 	_id  integer PRIMARY KEY autoincrement,
+ 	patient_id REAL NOT NULL unique,
+ 	user_profile_id REAL,
+    first_name TEXT,
+    last_name TEXT,
+    date_of_birth datetime,
+    gender INTEGER,
+    relationship varchar(255) DEFAULT NULL
+
+);
+
+CREATE TABLE IF NOT EXISTS user_org_table (
+ 	_id  integer PRIMARY KEY autoincrement,
+ 	org_id REAL NOT NULL unique,
+ 	patient_id REAL,
+ 	email TEXT,
+    org_logo_id REAL,
+    org_name TEXT,
+    org_type TEXT,
+    phone TEXT,
+    status TEXT
+);
+CREATE TABLE IF NOT EXISTS emergency_numbers_tbl (
+ 	_id  integer PRIMARY KEY autoincrement,
+ 	sno REAL unique,
+ 	country TEXT,
+ 	state_short_name TEXT,
+ 	country_short_name TEXT,
+    police_no TEXT,
+    ambulance_no TEXT,
+    fire_no TEXT
+    );
+
+    CREATE TABLE IF NOT EXISTS ambulance_details_tbl (
+     	_id  integer PRIMARY KEY autoincrement,
+     	ambulance_id INTEGER NOT NULL unique,
+     	license_plate_no TEXT,
+        min_fare REAL,
+        price_rate REAL,
+        ride_time_rate REAL,
+        org_name TEXT,
+        category TEXT,
+        amb_manager_phone_no TEXT,
+        oxygen INTEGER,
+        wheel_chair INTEGER,
+        stretcher INTEGER,
+        freezer_box INTEGER,
+        ventilator INTEGER,
+        air_conditioner INTEGER,
+        emt_availability INTEGER,
+        AED INTEGER,
+        seating_capacity_number INTEGER,
+        make_and_model TEXT,
+        year_of_manufacture TEXT,
+        status INTEGER,
+        ambulance_status INTEGER,
+        distance REAL,
+        latitude TEXT,
+        longitude TEXT
+        );
+
+       CREATE TABLE IF NOT EXISTS specialities_tbl  (
+        	_id  integer PRIMARY KEY autoincrement,
+        	speciality_id INTEGER,
+           code TEXT,
+           display_name TEXT,
+           notes TEXT,
+           date_created datetime,
+           last_updated datetime,
+           unique(code,speciality_id)
+       );
+
+       CREATE TABLE IF NOT EXISTS facilities_tbl  (
+        	_id  integer PRIMARY KEY autoincrement,
+        	facility_id INTEGER,
+           code TEXT,
+           display_name TEXT,
+           notes TEXT,
+           date_created datetime,
+           last_updated datetime,
+           unique(code,facility_id)
+       );
+
+        CREATE TABLE IF NOT EXISTS availability_capability_tbl  (
+         	_id  integer PRIMARY KEY autoincrement,
+         	org_id INTEGER,
+         	org_type TEXT DEFAULT NULL,
+         	org_branch_id INTEGER,
+         	flag INTEGER,
+         	speciality_id INTEGER,
+         	facility_id INTEGER,
+         	profile_id INTEGER,
+         	day_of_week TEXT DEFAULT NULL,
+         	is_uploaded INTEGER DEFAULT 0,
+         	start_time TEXT DEFAULT NULL,
+         	end_time TEXT DEFAULT NULL,
+         	start_time_local INTEGER,
+         	end_time_local INTEGER,
+         	certification_id INTEGER,
+         	insurance_company_id INTEGER,
+         	availability_status INTEGER,
+         	diagnostic_tests_id INTEGER,
+         	last_updated datetime
+        );
+
+
+
+
+

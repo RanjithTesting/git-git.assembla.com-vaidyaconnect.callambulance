@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@id/tv_user_name"
+        style="@style/tv_roboto_regular_red_normal"
+        android:layout_width="match_parent"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:checkMark="?android:attr/listChoiceIndicatorSingle">
+    </CheckedTextView>
+
+

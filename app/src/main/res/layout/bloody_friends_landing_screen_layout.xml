@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.patientz.activity.BloodyFriendsLandingActivity"
+    tools:showIn="@layout/activity_bloodfriends">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bloodyfriends_bg"
+        android:orientation="vertical"
+        android:gravity="right|center_vertical"
+        android:paddingRight="16dp"
+        >
+        <TextView
+            android:id="@+id/tv_name"
+            style="@style/tv_roboto_regular_black_bold"
+            android:textSize="18dp"
+
+            />
+        <TextView
+            android:id="@+id/tv_bloodgroup"
+            style="@style/tv_roboto_light_black_normal"
+            android:textSize="15dp"
+            android:textColor="@color/outer_space"
+            />
+        <TextView
+            android:id="@+id/tv_bloodgrouphint"
+            style="@style/tv_roboto_regular_black_normal"
+            android:text="@string/bloodyfriendshint"
+            android:textColor="@color/outer_space"
+           />
+    </LinearLayout>
+
+    <TextView
+        style="@style/tv_roboto_light_black_normal"
+        android:text="@string/label_sync_hint_dashboard"
+        android:textSize="14dp"
+        android:textColor="@color/dark_jungle_green"
+        android:background="@color/platinum"
+        android:padding="8dp"
+         />
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@drawable/bf_bg"
+
+    >
+<LinearLayout
+    android:id="@+id/bt_add_bloody_friends"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/add_bfriends_button"
+    android:gravity="center_vertical"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="30dp"
+    >
+
+    <TextView
+        android:id="@+id/tv_add_bloody_friends"
+        style="@style/tv_roboto_regular_white_normal"
+        android:text="@string/add_bloody_friends"
+        android:textSize="14dp"
+        android:layout_marginLeft="50dp"
+
+
+
+        />
+
+</LinearLayout>
+
+</FrameLayout>
+
+</LinearLayout>

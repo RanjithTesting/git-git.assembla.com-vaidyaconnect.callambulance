@@ -1,0 +1,594 @@
+<resources>
+
+
+    <string name="permission_grant_msg">தேவைப்படும் அனுமதியை வழங்கவும், அது இல்லாமல் அவசர காலத்தில் ஆப் ஆல் மற்றவர்களுக்கு எச்சரிக்கை அனுப்ப முடியாது. </string>
+    <!-- Environment Changes -->
+    <!-- Strings related to login -->
+    <string name="prompt_mobile">மொபைல் எண்</string>
+    <string name="prompt_email_mobile">மின்னஞ்சல் அல்லது மொபைல் எண்</string>
+    <string name="prompt_password">பாஸ்வேர்ட்</string>
+    <string name="action_sign_in">சைன் இன்</string>
+    <string name="error_invalid_email">இந்த இமெயில் ஐடி செல்லுபடியாகாதது</string>
+    <string name="error_invalid_password">கடவுச்சொல்லை 6 மற்றும் 20 எழுத்துகள் இருக்க வேண்டும்</string>
+    <string name="error_incorrect_password">இந்த பாஸ்வேர்ட் தவறானது</string>
+    <string name="error_field_required">இந்த ஃபீல்டு கட்டாயமானது</string>
+    <string name="permission_rationale">"இமெயில் கம்பிளீஷன்சை வழங்க தொடர்புகளின் அனுமதி தேவை."</string>
+    <string name="create_account">கணக்கை உருவாக்குக</string>
+    <string name="forgot_password">பாஸ்வேர்ட் ம்றந்துவிட்ட்து</string>
+
+    <!-- Strings related to Registration -->
+    <string name="get_a_free_account">ஒரு இலவச அக்கவுண்ட்டை பெறவும்!</string>
+    <string name="auto_verifying">தானே சரி பார்க்கும் OTP</string>
+    <string name="enter_otp_manually">OTP யை மேனுவலாக உள்ளீடு செய்யவும்</string>
+    <string name="invalidEmailAddress">செல்லாத இமெயில் முகவரி</string>
+    <string name="emailMandatory">இமெயில் கட்டாயமானது</string>
+    <string name="success">வெற்றி</string>
+    <string name="emailNotAvailable">இந்த இமெயில் ஐடி கிடைக்கவில்லை</string>
+    <string name="regInternalServerError">ரெஜிஸ்டிரேஷன் நிலை: இன்டர்னல் சர்வர் எரர்</string>
+    <string name="registeringProgress">ரெஜிஸ்டர் செய்யப்படுகிறது....</string>
+    <string name="msg_enter_email">இமெயில் ஐடி யை உள்ளீடு செய்யவும்</string>
+    <string name="titleMobileNumber">மொபைல் எண்ணை உள்ளீடு செய்யவும்</string>
+    <string name="sign_up">சைன் அப்</string>
+    <string name="enter_email_mobile">தயவுசெய்து உங்களது இமெயில் ஐடி அல்லது மொபைல் எண்ணை உள்ளீடு செய்யவும்</string>
+    <string name="error_enter_email_mobile">தயவுசெய்து  ஒரு செல்லுபடியாகும் இமெயில் ஐடி அல்லது மொபைல் எண்ணை உள்ளீடு செய்யவும்</string>
+    <string name="offlineMode"> நெட்வொர்க் இல்லை. தயவுசெய்து உங்களது இன்டர் நெட் இணைப்பினை சரிபார்த்த பின்னர் மீண்டும் முயற்சிக்கவும்.</string>
+    <string name="mobile_number_error_msg">தயவுசெய்து 10 இலக்க மொபைல் எண்ணை உள்ளீடு செய்யவும்</string>
+    <string name="email_error_msg">செல்லுபடியாகும் ஒரு இமெயில் ஐடி யை தயவுசெய்து உள்ளீடு செய்யவும்</string>
+    <string name="validate_patient_email_empty">தயவுசெய்து இமெயிலை நிரப்பவும், அதனை அப்படியே விட முடியாது</string>
+    <string name="wait_msg">தயவுசெய்து காத்திருக்கவும் ..</string>
+    <string name="loading_progress">லோடிங், தயவுசெய்து காத்திருக்கவும்…</string>
+    <string name="duplicate_mobile_error">இந்த மொபைல் எண்ணுடைய பயனர் ஏற்கனவே சிஸ்டமில் உள்ளார். தயவுசெய்து ஒரு புதிய பயனரை உருவாக்க வேறு இமெயில் ஐ டி யை பயன்படுத்தவும் அல்லது உங்களது பாஸ்வேர்டை பெற லாக் இன் திரையில் உள்ள ஃபர்காட் பாஸ்வேர்டை கிளிக் செய்யவும்.</string>
+    <string name="duplicate_email_error">இந்த பெயருடைய பயனர் ஏற்கனவே சிஸ்டமில் உள்ளார். தயவுசெய்து ஒரு புதிய பயனரை உருவாக்க வேறு இமெயில் ஐ டி யை பயன்படுத்தவும் அல்லது உங்களது பாஸ்வேர்டை பெற லாக் இன் திரையில் உள்ள ஃபர்காட் பாஸ்வேர்டை கிளிக் செய்யவும். </string>
+    <string name="accessDenied">ஆக்சஸ் மறுக்கப்பட்டது. யூசர் ஐடி பயன்படுத்தி லாக் இன் செய்யவும்</string>
+    <string name="ioException">உங்களது விண்னப்பத்தை பிராசஸ் செய்ய முடியவில்லை. தயவுசெய்து மீண்டும் முயற்சி செய்யவும்</string>
+    <string name="responseNull">மன்னிக்கவும், ரெஸ்பான்சை செட் செய்யும்போது சில எரர்கள் ஏற்பட்டுவிட்டன. தயவுசெய்து மீண்டும் முயற்சிக்கவும்</string>
+    <string name="server_error_msg">இன்டர்னல் சர்வர் எரர்</string>
+    <string name="networkError"> நெட்வொர்க் சிக்கல்கள், தயவுசெய்து இன்டர் நெட் இணைப்பினை சரி பார்த்து பின்னர் மீண்டும் முயற்சிக்கவும்</string>
+    <string name="success_msg">வாடிக்கையாளர் மொபைலை ஒன் டைம் பாஸ்வேர்டுக்காக மற்றும் call ambulance அப்ளிகேஷன் கட்டளைகளுக்காக செக் செய்யவும்</string>
+    <string name="title_activity_main">Call Ambulance</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">செட்டிங்ஸ்</string>
+    <string name="action_logout">லாக் அவுட்</string>
+    <string name="name">பெயர்</string>
+    <string name="left_menu_list_item6">முதலில் பதிலளிபவர்?</string>
+    <string name="left_menu_list_item10">ஆபத்தினை தெரிவித்தல்</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_activity_select_patient_in_emergency">பேஷண்டை தேர்ந்தெடுக்க</string>
+    <string name="kill">கொல்</string>
+    <string name="select_patient_in_emergency_timer_text">அவசரதேவை துவக்கப்பட்டது </string>
+    <string name="select_patient_in_emergency_help_txt">தேர்ந்தெடுக்காவிட்டால் அது தானாகவே செல்ஃப் ஆக உயரும்</string>
+    <string name="title_activity_activity_emergency_type">எமர்ஜென்சி வகையை தேர்ந்தெடுக்க</string>
+
+    <string name="progress_dialog_loading_hospitals">மருத்துவமனைகள் லோட் செய்யப்படுகின்றன</string>
+
+    <string name="OK">சரி</string>
+
+    <!-- Registration and OTP-->
+    <string name="otp_verification">OTP சரிபார்ப்பு</string>
+    <string name="title_activity_otpregister">OTP ரெஜிஸ்டிரேஷன்</string>
+    <string name="getting_otp">OTP யை பெறவும்  </string>
+    <string name="failed_to_get_otp">OTP யை கண்டுபிடிக்க முடியவில்லை, தயவுசெய்து உங்களது sms ஐ பார்த்து OTP யை உள்ளீடு செய்யவும்</string>
+    <string name="error_otp">தயவுசெய்து உங்களது sms ஐ பார்த்து OTP யை உள்ளீடு செய்யவும்</string>
+    <string name="submit">சப்மிட்</string>
+    <string name="user_agreement_part1">ஐன் அப் செய்வதன் மூலம் நீங்கள் உறுதிசெய்வது மற்றும் ஒத்துக்கொள்வது எங்களது</string>
+    <string name="user_agreement_part2"><a href="https://www.callambulance.in/home/tnc-callambulance/">விதிமுறைகள் மற்றும்  </a> &amp; <a href="https://callambulance.in/home/privacy-m"> தனியுரிமை கொள்கையை</a></string>
+    <string name="otp">OTP</string>
+
+    <string name="label_initiating_emergency">அவசரத்தேவை துவக்கப்படுகிறது</string>
+    <string name="label_getting_location">இடத்தினை தேடிப்பெறுதல் ...</string>
+    <string name="label_alerting_emri">ஆம்புலன்ஸ் வழங்கினருக்கு எச்சரிக்கை செய்தல் ...</string>
+    <string name="label_calling_108">அழைக்கப்படுகிறது</string>
+    <string name="label_notifying_contacts"><![CDATA[குடும்பம் மற்றும் நன்பர்களுக்கு எச்சரிக்கை செய்தல்]]></string>
+    <string name="label_skip_call">அழைப்பை தவிர்க்க</string>
+    <string name="label_bloodbuddies">இரத்த பிரிவு நண்பர்கள்</string>
+    <string name="label_person_in_emergency">திவ்யா ராஜூ அவசர நிலையில் உள்ளார்</string>
+    <string name="label_revoke_emergency">அவசர உதவியை திரும்ப பெறுதல்</string>
+    <string name="dialog_exit_app_title_msg">நிச்சயமாக லாக் அவுட் செய்ய விரும்புகிறீர்களா?</string>
+    <string name="label_exit">வெளியேறு</string>
+    <string name="no_address_found">முகவரி கிடைக்கவில்லை</string>
+
+    <string name="updating_progress">அப்டேட் செய்யப்படுகிறது…</string>
+    <string name="error_terms_condition">முன்னோக்கி செல்ல தயவுசெய்து நிபந்தனைகள் மற்றும் விதிமுறைகளை ஏற்கவும்.</string>
+    <!--Profile registration-->
+    <string name="update_profile">உங்களது புரோஃபைலை அப்டேட் செய்யவும்</string>
+    <string name="title_profile_registration">கிட்ட்தட்ட முடிந்தது, கீழ்கண்டவற்றை நிரப்புக</string>
+    <string name="first_name">முதல் பெயர்</string>
+    <string name="last_name">கடைசி பெயர்</string>
+    <string name="phone_number">மொபைல் எண்</string>
+    <string name="date_of_birth">பிறந்த தேதி</string>
+    <string name="gender">பாலினம்</string>
+
+    <!--Update password screen-->
+    <string name="enter_new_password">புதிய பாஸ்வேர்டை உள்ளீடு செய்யவும்</string>
+    <string name="update_password">தயவுசெய்து உங்கள் பாஸ்வேர்டை அப்டேட் செய்யவும்</string>
+    <string name="old_password">பழைய பாஸ்வேர்ட்</string>
+    <string name="new_password">புதிய பாஸ்வேர்டை உள்ளீடு செய்யவும்</string>
+    <string name="confirm_password">பாஸ்வேர்டை உறுதி செய்க</string>
+    <string name="error_mismatch_password">பாஸ்வேர்ட் பொருந்தவில்லை தயவுசெய்து மீண்டும் உள்ளீடு செய்யவும்</string>
+    <string name="invalid_credentials">தவறான பயனர் ஐடி &amp; பாஸ்வேர்டு காம்பினேஷன், தயவுசிஎது சரி பார்த்த பின்பு மீண்டும் முயற்சி செய்யவும்</string>
+    <string name="action_switch_user">உறுப்பினரை மாற்றுக</string>
+
+    <!--Profile -->
+    <string name="noInsuranceFound">இன்சூரன்ஸ் கிடைக்கவில்லை</string>
+    <string name="noEhrFound">இந்த பயனருக்கான அவசர ஹெல்த் ரெக்கார்ட் கிடைக்கவில்லை </string>
+    <string name="callNumber">எண்ணை அழைக்க:</string>
+    <string name="sendMailTo">உங்களது மெயில் அனுப்ப</string>
+    <string name="record">ரெக்கார்ட்</string>
+    <string name="care_giver">பாதுகாப்பு அளிபவர்கள்</string>
+    <string name="owner">ஓனர்</string>
+    <string name="self">செல்ஃப்</string>
+    <string name="edit">எடிட்</string>
+    <string name="select_attachment_type">அட்டாச்மெண்ட் பிரிவினை தேர்ந்தெடுக்க:</string>
+    <string name="select_language">மொழியை மாற்றுக</string>
+    <string name="select_attachment">படத்தின் ஆதாரத்தை தேர்ந்தெடுக்க:</string>
+    <string name="not_logged_in_error_msg">"லாக் இன் செய்யவில்லை!! தயவுசெய்து ரெஃப்ரெஷ் பட்டனை கிளிக் செய்ய்யவும் !!"</string>
+    <string name="getSchema">மதிப்புகள் பெறப்படுகின்றன தயவுசெய்து காத்திருக்கவும்....</string>
+    <string name="emergency_contact">அவசர தொடர்புகள்</string>
+    <string name="pregnant">கர்பிணி</string>
+    <!-- EhrViewFragment -->
+    <string name="verificationPending">சரிபார்ப்பு நிலுவையில் உள்ளது</string>
+    <string name="verification">சரிபார்ப்பு</string>
+    <string name="verifiedBy">"சரிபார்த்தவர் "</string>
+
+    <string name="pref_header_general">பொதுவான</string>
+
+    <string name="pref_title_enable_trigger">பவர் பட்டன் ட்ரிக்கரை நிறுவுக</string>
+    <string name="pref_description_enable_trigger">Iஅவசர காலத்தில் பவர் பட்டனை ஐந்து முறை அடித்து எச்சரிக்கை விடுக்கவும்</string>
+
+    <string name="pref_logout_description">லாக் அவுட் செய்ய மற்றும் உங்களது விவரங்களை இந்த கருவியிலிருந்து டெலீட் செய்ய அழுத்தவும்</string>
+
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">தேதி &amp; ஒத்திசை</string>
+
+    <string name="pref_title_system_sync_settings">சிஸ்டம் ஒத்திசைப்பு செட்டிங்ஸ்</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">அறிவிப்புகள்</string>
+
+    <string name="pref_title_new_message_notifications">புதிய மெசேஜ் அறிவிப்பு</string>
+    <string name="pref_title_sync_frequency">ஒத்திசைப்பு அலைவரிசை</string>
+    <string name="pref_title_ringtone">ரிங்டோன்</string>
+    <string name="pref_ringtone_silent">சைலன்ட்</string>
+    <string name="pref_title_vibrate">வைப்ரேட்</string>
+    <string name="title_activity_about">அது பற்றி</string>
+    <string name="send_invite">  எனது ஆரோக்கியம் இப்போது என் மொபைலில். உங்களுடையதையும் callambulance.in  மொலம் பெற்றிடுங்கள். இந்த ஆன்ட்ராய்ட் ஆப் ஐ http://www.callambulance.in/get இல் டவுன்லோட் செய்திடுங்கள்</string>
+
+    <!-- DemographicsFragment -->
+    <string name="female">பெண்</string>
+    <string name="male">ஆண்</string>
+    <string name="title_activity_activity_maps">தற்போதுள்ள இடம்</string>
+    <string name="value_success_action_location_broadcast">இருப்பிடம் கண்டுபிடிக்கப்பட்டுவிட்டது</string>
+    <string name="value_failed_action_location_broadcast">இருப்பிடத்தை பெற முடியவில்லை</string>
+    <string name="value_failed_action_emri_alert">ஆம்புலன்ஸ் வழங்குனருக்கு அறிக்க முடியவில்லை</string>
+    <string name="value_success_action_emri_alert">ஆம்புலன்ஸ் வழங்குனருக்கு அறிவிக்கப்பட்டுவிட்டது</string>
+
+    <string name="value_success_notify_contacts">தொடர்புகளுக்கு அறிவிக்கப்பட்டது</string>
+    <string name="value_success_stranger_incident_notified">சர்வருக்கு தெரிவிக்கப்பட்டது</string>
+
+    <string name="value_processing_action_notify_contacts">எமர்ஜென்சி ஏற்கனவே நிறுவப்பட்டுவிட்டது</string>
+    <string name="emergencySmsToContacts">அனுப்புனர் அவசர நிலையில் உள்ளார். தயவுசெய்து அவரை திரும்ப அழைக்கவும்.</string>
+    <string name="value_action_notify_contacts_in_progress">தொடர்புகளுக்கு அறிவித்தல் ....</string>
+    <string name="deny">Deny</string>
+    <string name="grant">அனுமதி</string>
+    <string name="dialog_msg_why_location_permission">நீங்கள் லொக்கேஷன் அனுமதியை மறுத்துள்ளது போல தெரிகிறது. இந்த அனுமதியை வழங்குவதன் மூலம் ஆப் உங்களது அவசர காலத்தில் உங்களுக்கு உதவி தேவைப்படும் இடத்தினை உங்களது அவசர உதவி மருத்துவமனைக்கு அனுப்பும் </string>
+    <string name="msg_no_call_permission">ஆம்புலன்ஸ் வழங்குனரை அழைக்க முடியவில்லை, ஆப் க்கு நீங்கள் அனுமதி வழங்கவில்லை</string>
+    <string name="tv_track_emergency">அவசரதேவையை கண்காணித்தல்</string>
+    <string name="toast_activity_maps_loc_not_found">இடத்தை கண்டிபிட்ட முடியவில்லை</string>
+    <string name="msg_dialog_onclick_revoke_button">தயவுசெய்து ஒரு சரியான காரணத்தை தேர்ந்தெடுக்கவும்:</string>
+    <string name="msg_revoke_screen_is_in_emergency"> அவசர நிலையில் உள்ளார்</string>
+    <string name="msg_revoke_screen_tracking_fail">அவசர நிலையை கண்காணிப்பதில் சிக்கல்...</string>
+    <string name="revokeSuceesfulMSg">ரிவோக் வெற்றிகரமாக முடிக்கப்பட்டது</string>
+    <string name="toast_revoke_failed">ஐயோ!!! ஏதோ பிரச்சினை உள்ளது, அவசர தேவை sms மூலம் ரிவோக் செய்யப்படுகிறது</string>
+    <string name="value_processing_action_notify_contacts_no_contacts">தொடர்புகள் இல்லை</string>
+    <!--<string name="stranger_emergency_url">https://www.callambulance.in/home/stranger</string>-->
+    <string name="tip_dialog_track_emergency_msg">உங்களது குடும்ப உறுப்பினர்களும் நண்பர்களும் கூட கண்காணிக்கலாம்!!!!</string>
+    <string name="yes">ஆம்</string>
+    <!--<string name="yesgender">ஆம்</string>-->
+    <string name="no">இல்லை</string>
+    <!--<string name="nogender">இல்லை</string>-->
+
+    <string name="title_activity_contacts">பாதுகாப்பு அணி</string>
+    <string name="title_activity_add_new_contact">தொடர்பினை சேர்க்க</string>
+    <string name="relation">உறவு</string>
+
+    <string name="fname_length_error_msg">முதல் பெயர் 3 முதல் 25 எழுத்துக்கள் வரை தான் இருக்க வேண்டும்</string>
+    <string name="fname_mandatory_error_msg">முதலில் முதல் பெயரை உள்ளீடு செய்யவும், அதை நிரப்பாமல் காலியாக விட முடியாது</string>
+    <string name="lname_length_error_msg">சர் நேம் 1 முதல் 25 எழுத்துகளுக்குள் இருக்க வேண்டும்.</string>
+    <string name="Doctor_search_spinner_length_error_msg">3 முதல் 25 எழுத்துகளுக்குள் இருக்க வேண்டும்.</string>
+    <string name="lname_mandatory_error_msg">சர் நேமை தயவுசெய்து உள்ளீடு செய்யவும். அதனை நிரப்பாமல் விட முடியாது</string>
+    <string name="email_mandatory_error_msg">இமெயிலை நிரப்பாமல் காலியாக விட முடியாது</string>
+    <string name="phoneno_invalid">தொலைபேசி எண் செல்லாதது</string>
+    <string name="alt_phoneno_invalid">மற்றொரு தொலைபேசி எண் செல்லாதது</string>
+    <string name="phoneno_length_error_msg">Lதொலைபேசி எண்ணின் நீளம் 10 முதல் 13 எழுத்துக்கள் வரை தான் இருக்க வேண்டும் </string>
+    <string name="alt_phoneno_length_error_msg">மற்றொரு எண்ணின் நீளம் 10 முதல் 13 எழுத்துக்களுக்குள் தான் இருக்க வேண்டும்</string>
+    <string name="phone_number_mandatory">தயவுசெய்து உங்களது மொபைல் எண்ணை உள்ளீடு செய்யவும்</string>
+    <!--<string name="webservice_update_patient_profile">patientWebservices/savePatientOwnerFromMobile</string>-->
+    <string name="save">சேமிக்க</string>
+    <string name="title_activity_update_profile">ப்ரொஃபைலை அப்டேட் செய்க</string>
+    <string name="toast_msg_refresh">ஒத்திசைக்க முடியவில்லை. தயவுசெய்து மாறுதல்களை காண ரெஃப்ரெஷை கிளிக் செய்யவும்</string>
+    <string name="title_activity_activity_edit_insurance">இன்சூரன்சை அப்டேட் செய்க</string>
+
+    <string name="policy_provider">பாலிசி வழங்குனர்</string>
+    <string name="policy_name">பாலிசி பெயர்</string>
+    <string name="policy_number">பாலிசி  எண்</string>
+    <string name="policy_coverage">பாலிசி கவரேஜ் தொகை</string>
+    <string name="policy_claim_no">கிளெயிம் தொலைபேசி எண்</string>
+    <string name="policy_start_date_text">பாலிசி தொடக்க தேதி</string>
+    <string name="policy_end_date_text">பாலிசி முடியும் தேதி:</string>
+    <string name="policyEndDateVal">பலிசியையும் தற்போதைய தேதியை விட அதிகமான தேதியையும் பாலிசி தொடக்க தேதியையும் தயவுசெய்து தேர்ந்தெடுக்கவும்</string>
+    <string name="sendingInsurance">இன்சூரன்ஸ் விவரங்கள் அனுப்பப்படுகின்றன....</string>
+    <string name="insAddedSucessfully">இன்சூரன்ஸ் வெற்றிகரமாக சேமிக்கப்பட்டுவிட்டது</string>
+    <string name="ins_policy_provider_mandatory_error_msg">தயவுசெய்து பாலிசி னிறுவனத்தை உள்ளீடு செய்யவும் </string>
+    <string name="ins_policyname_mandatory_error_msg">தயவுசெய்து பாலிசி பெயரை உள்ளீடு செய்யவும்</string>
+    <string name="ins_policyNum_mandatory_error_msg">தயவுசெய்து பாலிசி எண்ணை உள்ளீடு செய்யவும்</string>
+    <string name="ins_policy_coverage_mandatory_error_msg">தயவுசெய்து பாலிசி கவரேஜை உள்ளீடு செய்யவும் </string>
+    <string name="ins_strt_date_mandatory_error_msg">பாலிசி தொடக்க தேதி செட் செய்யப்பட வேண்டும்</string>
+    <string name="ins_end_date_mandatory_error_msg">பாலிசி முடியும் தேதி செட் செய்யப்பட வேண்டும்</string>
+    <string name="unableToSave">சேமிக்க முடியவில்லை மீண்டும் முயற்சி செய்க</string>
+    <!--<string name="webservice_update_insurance">patientWebservices/saveInsuranceFromMobile</string>-->
+    <string name="title_activity_activity_ehrupdate">EHR அப்டேட் செய்க</string>
+    <string name="toast_msg_emhr_updated">வெற்றிகரமாக அப்டே செய்யப்பட்டுவிட்டது</string>
+    <!--<string name="webservice_update_ehr">patientWebservices/updateEHR</string>-->
+    <string name="lable_later">பின்னர் செய்</string>
+    <string name="dialog_title_setup_ehr">அவசர மருத்துவ ரெக்கார்டை</string>
+    <string name="dialog_msg_setup_ehr">அவசர மருத்துவ ரெக்கார்டை செட் செய்வதன் மூலம் அவசர சுகாதார வழங்குனர் இதன் மூலம் அவசர காலத்தில் உதவ முடியும். இதற்கு சில நிமிடங்களே தேவைப்படும். உங்களது அவசர மருத்துவ ரெக்கார்டை செட் செய்ய நீங்கள் விரும்புகிறீர்களா? </string>
+
+    <string name="email_length_validate">இமெயில் நீளம் 6 முதல் 50 எழுத்துக்கள் வரை இருக்க வேண்டும்.</string>
+    <string name="pincode_validate">பிங்கோட் நியூமரிக்ஸ் மற்றும் ஹைஃபென் கொண்டிருக்க வேண்டும்.</string>
+    <string name="dob_error_msg">இன்றைய தேதிக்கு முன்னர் ஒரு தேதியை தேர்ந்தெடுக்கவும்.</string>
+    <string name="email_invalid_error_msg">தயவுசெய்து செல்லுபடியாகும் ஒரு இமெயில் ஐடி யை தயவுசெய்து உள்ளீடு செய்யவும்</string>
+    <string name="cityStateLenValMsg"> நீளம் 3 முதல் 100 எழுத்துக்கள் வரை தான் இருக்க வேண்டும்</string>
+    <string name="pincode_length_error_msg">பின் கோட் 5 முதல் 10 இலக்கங்கள் வரை தான் இருக்க வேண்டும்</string>
+    <string name="dob_mandatory">உங்களது பிறந்த தேதியை தேர்ந்தெடுக்கவும்</string>
+    <string name="gender_mandatory">தயவுசெய்து பாலினத்தை தேர்ந்தெடுக்கவும்</string>
+    <string name="patientAddedSuccessfully">வெற்றிகரமாக உறுப்பினர் சேர்க்கப்பட்டார்</string>
+    <string name="failure_msg">ப்ரொஃபைலை சேமிக்க முடியவில்லை. தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</string>
+    <string name="relation_ship">உறவு முறை</string>
+    <string name="relationchip">உங்களுடனான உறவுமுறை</string>
+    <string name="patient_gender">பாலினம்</string>
+    <string name="add_patient_phoneno">Ex:9898989898</string>
+    <string name="alt_phone_number">மற்றொரு தொலைபேசி எண்</string>
+    <string name="email">இமெயில்</string>
+    <string name="address">முகவரி</string>
+    <string name="city">நகரம்</string>
+    <string name="state">மாநிலம்</string>
+    <string name="country"> நாடு</string>
+    <string name="pin_code">பின் கோட்</string>
+    <string name="financial_status">பொருளாதார நிலை</string>
+    <string name="family_history">குடும்ப பின்னணி</string>
+    <string name="habits">பழக்கங்கள்</string>
+    <string name="food_habits">உணவு பழக்கங்கள்</string>
+    <string name="remarks">கருத்துக்கள்</string>
+    <string name="label_company_name"> நிறுவனத்தின் பெயர்</string>
+    <string name="marital_status">Marital Status</string>
+    <string name="organ_donation">உடல் உறுப்பு தானம் செய்ய விருப்பமா?</string>
+    <string name="organ_donation_hint">உடல் உறுப்பு தானம்</string>
+    <string name="donate_blood_simple_text">Willing to donate blood? </string>
+    <string name="add_patient_familyHistory">குடும்ப பின்னணி சுருக்கமாக</string>
+
+    <string name="hint_ec_phonenumber">தொடர்பு எண்</string>
+
+    <string name="activity_maps_counter_text">வரைபடம் லோட் செய்யப்படுகிறது</string>
+    <string name="toast_activity_maps_taking_time">வரைபடம் லோட் செய்யப்படுவது தாமதமாகிறது. எமர்ஜென்சியை துவக்கப்படுகிறது...</string>
+    <string name="toast_activity_maps_no_internet">வரைபடத்தை கண்டுபிடிக்க முடியவில்லை. தயவுசெய்து உங்களது இன்டர்நெட் இணைப்பை சரி பார்க்கவும்</string>
+    <!-- crash report strings -->
+    <string name="crash_toast_text">ஐய்யோ!  நான் கிராஷ் ஆகிவிட்டேன், பின்வரும் திரையை பின்பற்றி இந்த பிரச்சினையை சரி செய்ய டெவலப்பருக்கு அறிக்கையை அனுப்பவும்!</string>
+    <string name="unKnownError">தெரிந்து கொள்ள முடியாத எரர் ஏற்பட்டுவிட்ட்து. தயவுசெய்து மீண்டும் முயற்சி செய்யவும்</string>
+    <string name="crash_dialog_title">CallAmbulance கிராஷ் ஆகிவிட்டது</string>
+    <string name="crash_dialog_text">எதிர்பாராத தவறு ஏற்பட்டு அதனால் அப்ளிகேஷன் நிறுத்தப்பட்டுவிட்டது. தயவுசெய்து அதனை சரி செய்ய எங்களுக்கு எரர் டேட்டாவை அன்னுப்பவும். அதற்கு நீங்கள் ஓகே வை கிளிக் செய்யவேண்டும். </string>
+    <string name="crash_dialog_comment_prompt">சிக்கல் தொடர்பான உங்களது கருத்துக்களை கீழே சேர்க்கலாம்:</string>
+    <string name="crash_dialog_try_again">எதிர்பாராத சிக்கல் ஏற்பட்டுள்ளது போல தெரிகிறது. தயவுசெய்து மீண்டும் பிறகு முயற்சி செய்யவும்.</string>
+    <string name="crash_dialog_ok_toast"> நன்றி!</string>
+    <string name="label_splash_screen_congrats">வாழ்த்துக்கள்!</string>
+    <string name="label_splash_screen_stay_safe"> Call Ambulance உடன் நீங்கள் இப்போது பாதுகாப்பாக இருக்கலாம்! </string>
+    <string name="label_splash_screen_continue"><![CDATA[தொடர்க ->]]></string>
+    <string name="labe_emergency">அவசரம்</string>
+    <string name="label_allergies">ஒவ்வாமைகள்</string>
+    <string name="label_medical_condition">மருத்துவ நிலை</string>
+    <string name="label_medication">மருந்து</string>
+    <string name="hint_medication">மருந்துகளை இங்கு உள்ளீடு செய்யவும்</string>
+    <string name="label_blood_group">இரத்த பிரிவு</string>
+    <string name="label_preferred_ambulance_service">விருப்பமான ஆம்புலன்ஸ் வழங்குனர்</string>
+    <string name="label_preffered_hospital">விருப்பமான மருத்துவமனை</string>
+    <string name="label_medicine_allergies">மருந்து ஒவ்வாமைகள்</string>
+    <string name="hint_medication_allergies">மருந்து ஒவ்வாமையை இங்கு உள்ளீடு செய்யவும்</string>
+    <string name="tv_label_medication_for_chronic_illness"> நாள்பட்ட நோய்களின் மருந்துகளை இங்கு உள்ளீடு செய்யவும்</string>
+    <string name="hint_medication_for_chronic_illness"> நாள்பட்ட நோய்களின் மருந்துகளை இங்கு உள்ளீடு செய்யவும்</string>
+    <string name="tv_label_Languages_spoken">பேசும் மொழிகள்</string>
+    <string name="hint_languages_spoken">பேசும் மொழிகளை இங்கு உள்ளீடு செய்யவும்</string>
+    <string name="label_select_allergy_type">ஒவ்வாமை வகையை தேர்ந்தெடுத்தல்</string>
+    <string name="label_others">இன்ன பிற</string>
+    <string name="label_add">சேர்க்க</string>
+    <string name="label_cancel">ரத்து செய்க</string>
+    <string name="label_select_medical_condition">மருத்துவ நிலையை தேர்ந்தெடுக்க</string>
+    <string name="hint_et_others_allergy_dialog">கமாவுடன் ப்பிருக்கப்பட்ட தனிப்பட்ட மதிப்புகளை உள்ளீடு செய்யவும்</string>
+    <!--EMRI Registration-->
+    <string name="title_emri_registration">EMRI/108 ரெஜிஸ்டிரேஷன்</string>
+    <string name="mobile_number_emri_msg">* ·          நாங்கள் இந்த்ஜ எண்ணை EMRI/108 இல் பதிவு செய்கிறோம். இதனால் அவர்கள் உங்களின் அவசர தேவையில்போது கண்டுபிடிக்க முடியும்.</string>
+    <string name="mobile_number_empty_msg">தயவுசெய்து இந்த போனின் மொபைல் எண்ணை உள்ளீடு செய்யவும்</string>
+    <string name="mobile_number_2nd_sim_msg"> நீங்கள் டபிள் SIM உபயோகிப்பவர் என்றால், தயவுசெய்து மற்றொரு எண்ணையும் உள்ளீடு செய்யவும்.</string>
+    <string name="title_activity_insurance_details">இன்சூரன்ஸ் விவரங்கள்</string>
+    <!--Profile tabs-->
+    <string name="title_tab_profile">புரோஃபைல்</string>
+    <string name="title_tab_emergency_record">எமர்ஜென்சி ரெக்கார்ட்</string>
+    <string name="title_activity_activity_invitation">இன்விடேஷன்</string>
+    <string name="accept_cg_invitation_warning_msg">பாதுகாப்பு அளிப்பவராக இருக்க சம்மதிப்பதன் மூலம் உறுப்பினர்களின் மக்கள் தொகை தகவல், தொடர்பு கொள்ளும் தகவல்கள் மற்றும் ஆரோக்கிய பின்னணி ஆகியவற்றை எடிட் செய்யும்  ஆக்சஸ் உங்களுக்கு கிடைக்கும். தயவுசெய்து உறுப்பினர்களின் தகவல்கள் மற்றும் அப்டேட் செய்யப்படும் ஏதேனும் தகவல்களை வெளியிட மாட்டேன் என்ற பொறுப்பினை நீங்கள் எடுத்துக்கொள்வதை தயவுசெய்து உறுதி செய்யவும்.</string>
+    <string name="accept_ec_invitation_warning_msg">அவசர தொடர்பாக இருக்க சம்மதிப்பதன் மூலம் உறுப்பினர்களின் மக்கட் தொகை விவரம் மற்றும் தொடர்பு கொள்ளும் தகவல்களை வியூ செய்யும் ஆக்சஸ் வழங்கப்படும். உறுப்பினரின் தகவல்களை வெளியிட மாட்டேன் என்ற பொறுப்பினை நீங்கள் எடுத்துக்கொள்வதை தயவுசெய்து உறுதி செய்யவும்.</string>
+    <string name="rejectInvitation">விண்ணப்பத்தை நிராகரி</string>
+    <string name="toast_adapter_failed_invitation">ஐயோ!! ஏதோ தவறாகிவிட்டது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்...</string>
+    <!--<string name="webservice_invitation_status_update">patientWebservices/acceptRejectPatientAccessRequest</string>-->
+    <string name="unableToAcceptInvite">விண்ணப்பத்தை ஏற்க முடியவில்லை</string>
+    <string name="noInvitationMsg">அங்கீகரிக்க எந்த இன்விடேஷனும் இல்லை</string>
+    <!--<string name="webservice_image_download">webservices/getUploadedImage/</string>-->
+    <string name="action_refresh">ரெஃப்ரெஷ்</string>
+    <string name="label_press_emergency_bt">அவசர காலத்தில், கீழ்கண்ட பொத்தானை அழுத்தவும்</string>
+    <string name="label_current_emergencies">தற்போதைய அவசர தேவைகள்</string>
+    <string name="label_health_record">ஹெல்த் ரெக்கார்ட்</string>
+    <string name="label_provider">ஆம்புலன்ஸ் வழங்குனர்</string>
+    <string name="label_insurance">இன்சூரன்ஸ்</string>
+    <string name="label_initializing_in">துவக்கபடுகிறது</string>
+    <string name="label_select_hazard_type">ஆபத்து வகையை தேர்ந்தெடுக்க</string>
+
+    <string name="label_emergency_token_no">அவசர டோக்கன் எண் :</string>
+    <string name="label_is_in_emergency">அவசர தேவையில் இருக்கிறார்</string>
+    <string name="title_activity_current_emergencies">அவசரத் தேவையில்</string>
+    <string name="no_patients_in_emergencies">எந்த பயனரும் தற்போது அவசர நிலையில் இல்லை</string>
+    <string name="choose_from">தேர்ந்தெடுக்க</string>
+    <string name="profile_pic_upload_confirmation_msg">ப்ரோஃபைல் படம் மாற்ற வேண்டுமா?</string>
+    <!--care team-->
+    <string name="title_hospitals">மருத்துவமனைகள்/ நிறுவனங்கள்</string>
+
+    <string name="fab_care_giver_title">பாதுகாப்பு வழங்குனர்</string>
+    <string name="help_care_giver_msg">பாதுகாப்பு வழங்குனர்கள் தங்களது பேஷன்ட்டுகளுக்கு உடல் நலக்குறைவின் போது கவனிப்பி வழங்குவர். பாதுகாப்பு வழங்குனர் பேஷண்டுகளின் விவரங்களை எடிட் செய்வது உட்பட அனைத்து ஆக்சசும் உண்டு. </string>
+    <string name="help_ec_msg">உங்களுக்கு உதவி தேவைப்படும் னேரத்தில் அவசர தொடர்புகளுக்கு அறிவிக்கப்படும். ஒரு அவசர தொடர்பு உங்களது விவரங்களை படிக்க மட்டுமே அனுமதியுண்டு. </string>
+    <string name="help_hospital_msg">மருத்துவமனைகள்/ நிறுவனங்கள் ஆரோக்கிய பராமரிப்பு நிறுவனங்கள் அதாவது அது மருத்துவமனையோ, ஆய்வகமோ அல்லது மருந்தகமோ அது எதுவாக இருப்பினும் அதனுடன் உங்களது உறவினை பராமரிக்க உதவுகிறது.  </string>
+    <string name="title_activity_search_care_giver">பாதுகாப்பு வழங்குனரை தேடுக</string>
+
+    <!--Search Care Team-->
+    <string name="searchBy">"தேடுக "</string>
+    <string name="hint_searchcontact_text">தொடர்பினை இமெயில் அல்லது தொலைபேசி எண் மூலம் தேடுக</string>
+    <string name="searchContactBy">"தொடர்பினை தேடுக " </string>
+    <string name="noCGMsg">உங்களின் பாதுகாப்பு வழங்குனரை சேர்க்கவும்</string>
+    <string name="addEc">உங்களது அவசர தொடர்பினை சேர்க்கவும்</string>
+    <string name="inviteCG">பாதுகாப்பு வழங்குனரை இன்வைட் செய்யவும்</string>
+    <string name="noContactMsgForEC">உங்களது தொடர்பு  CallAmbulance டேட்டாபேசில் இல்லை. தயவுசெய்து "Add New" பட்டனை மெனுவில் சேர்க்கவும்.</string>
+    <string name="enter_search_text">தேடும் டெக்ஸ்டை தயவுசெய்து உள்ளீடு செய்யவும்</string>
+    <string name="searching">தேடப்படுகிறது</string>
+    <string name="search">தேடுக</string>
+    <string name="deleted">டெலீட் செய்யப்பட்டது</string>
+    <string name="pending"> நிலுவையில்</string>
+    <string name="rejected"> நிராகரிக்கப்பட்ட</string>
+    <string name="request_sent">இந்த தொடர்புக்கு ஏற்கனவே விண்ணப்பம் அனுப்ப்பட்டுவிட்டது.</string>
+    <string name="request_care_giver">பாதுகாப்பு அளிப்பவருக்கான விண்ணப்பம் வெற்றிகரமாக அனுப்பப்பட்டது</string>
+    <string name="accepted">ஒப்புக்கொள்கிறேன்</string>
+    <string name="searchContactAcceptedMsg">இந்த தொடர்பு ஏற்கனவே உங்களது </string>
+    <string name="add_new">புதியதை சேர்க்க</string>
+    <string name="title_activity_search_emergency_contact">அவசரத்தொடர்பினை தேடுக</string>
+    <string name="title_activity_add_new_care_giver">பாதுகாப்பு வழங்குனரை சேர்க்க</string>
+
+    <!--Add unregistered care giver -->
+    <string name="CGInvitationMsg">https://www.callambulance.in/ இல் எனக்கு பாதுகாப்பளிப்பவராக இருக்க நான் உங்களை வேண்டுகிறேன். https://www.callambulance.in/ இல் பதிவு செய்த பின்னர் எனக்கு தெரியப்படுத்துங்கள் இதன் மூலம் நான் உங்களை எனக்கு பாதுகாப்பளிப்பவராக உங்களை அமைத்து கொள்ள முடியும்.</string>
+    <string name="regards">\nஅன்புடன்,\n</string>
+    <string name="title_activity_search_hospitals_and_organisations">"மருத்துவமனைகள்/ நிறுவனங்களை தேடுக "    </string>
+
+    <!--Hospitals and Org Search and Add-->
+    <string name="add_employer_warning_msg">ஒரு பணியாளரை சேர்ப்பதன் மூலம் அந்த பணியாளருக்கு உங்களது மக்கள் தொகை விவரம், தொடர்பு விவரம், இன்சூரன்ஸ் விவரம் ஆகியவற்றின் ஆக்சஸை வழங்கி உங்களது அவசர தேவையின் போது அவர்களுக்கு எச்சரிக்கை விடுக்கும்.</string>
+    <string name="add_educational_institute_warning_msg">ஒரு கல்னி நிறுவனத்தை சேர்ப்பதன் மூலம் அந்த கல்வி நிறுவனம் உங்களது மக்கள் தொகை விவரம், தொடர்பு விவரம், இன்சூரன்ஸ் விவரம் ஆகியவற்றின் ஆக்சஸை வழங்கி உங்களது அவசர தேவையின் போது அவர்களுக்கு எச்சரிக்கை விடுக்கும்.</string>
+    <string name="add_org_warning_msg">ஒரு நிறுவனத்தை சேர்ப்பதன் மூலம் அந்த நிறுவனத்துக்கு உங்களது மக்கள் தொகை விவரம், தொடர்பு விவரம், இன்சூரன்ஸ் விவரம் ஆகியவற்றின் ஆக்சஸை வழங்கி உங்களது அவசர தேவையின் போது அவர்களுக்கு எச்சரிக்கை விடுக்கும்.</string>
+    <string name="org_request_sent">விண்ணப்பம் வெற்ரிகரமாக அனுப்ப்ப்பட்டது</string>
+    <string name="toast_no_internet">இன்டர் நெட் இணைப்பு உள்ளதை தயவுசெய்து உறுதி செய்க</string>
+    <string name="timeout"> நேரம் முடிந்த்து. தயவுசெய்து மீண்டும் முயற்சிக்கவும்</string>
+    <string name="search_hint">பெயரை டைப் செய்க </string>
+    <string name="org_added_successfully">வெற்றிகரமக சேர்க்கப்பட்டது</string>
+    <string name="hint_select_ambulance_provider">விருப்பமான ஆம்புலன்ஸ் வழங்குனரை உள்ளீடு செய்யவும் </string>
+    <string name="hint_enter_preferred_hospital">விருப்பமான மருத்துவமனையை உள்ளீடு செய்யவும்</string>
+    <string name="hint_phone_number">தொலைபேசி எண்</string>
+    <string name="hint_company"> நிறுவனம்</string>
+    <string name="hint_policy_provider">பாலிசி வழங்குனர் பெயரை உள்ளீடு செய்யவும்</string>
+    <string name="hint_policy_number">பாலிசி எண்ணை உள்ளீடு செய்யவும்</string>
+    <string name="hint_policy_coverage">பாலிசி கவரேஜ் தொகையை இங்கு உள்ளீடு செய்யவும்</string>
+    <string name="hint_policy_claim_no">கிளெயின் தொலைபேசி எண்ணை உள்ளீடு செய்யவும்</string>
+    <string name="no_internet">முகவரியை பெறுகையில் நெட்வொர்க் சிக்கல் ஏற்பட்டு விட்ட்து, முகவரியை பெற கிளிக் செய்யவும்</string>
+
+    <!--Invitation screen-->
+    <string name="filter_care_giver">பாதுகாப்பு வழங்குனர்</string>
+    <string name="filter_emergency_contact">அவசர தொடர்பு</string>
+    <string name="open_location_settings"> GPS இல்</string>
+    <string name="gps_network_not_enabled">ஹேய்!! உங்களது GPS துண்டிக்கபட்டுவிட்டது போலிருக்கிறது. தயவுசெய்து அதனை ஆன் செய்யவும்</string>
+    <string name="toast_msg_sync_in_progress">ஒத்திசைப்பு நடந்து கொண்டிருக்கிறது</string>
+    <string name="toast_msg_empty_emhr">ஹெல்த் ரெக்கார்ட் காலியாக இல்லை</string>
+    <string name="emergency_tracking_id">கண்காணிப்பு ஐடி:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="select_member">உறுப்பினரை தேர்ந்தெடுக்க</string>
+    <string name="action_select_member">செட்டிங்ஸ்</string>
+    <string name="action_change_pwd">பாஸ்வேர்டை மாற்றுக</string>
+    <string name="title_add_member">உறுப்பினரை சேர்க்க</string>
+
+    <!--GCM -->
+
+    <string name="nt_event_type_QA">Q\u0026A</string>
+    <string name="nt_event_type_sync">ஒத்திசை</string>
+    <string name="done">Done!!!</string>
+    <string name="label_add_member">உறுப்பினரை தயவுசெய்து முதலில் சேர்க்கவும்</string>
+    <string name="msg_patient_added_successfully">உறுப்பிமர் வெற்றிகரமாக சேர்க்கப்பட்டார்</string>
+    <string name="blood_group_mandatory">இரத்த பிரிவினை தேர்ந்தெடுக்கவும்</string>
+    <string name="toast_track_page_emri_status_failure">உங்களது இருப்பிடத்தை EMRI க்கு தெரிவிக்க இயலவில்லை. நீங்கள் வாயாலேயே அவர்களிடம் தெரிவிக்கவும்</string>
+    <string name="toast_track_page_location_status_failure">அவ்சர தேவை இருப்பிடத்தை கண்டுபிடிக்க முடியவில்லை. உங்களது ஆம்புலன்ஸ் வழங்குனருக்கு தெரிவிக்க இயலவில்லை. நீங்கள் வாயாலேயே அவர்களிடம் தெரிவிக்கவும் </string>
+    <string name="toast_track_page_contacts_status_failure">இந்த நிகழ்ச்சியை உங்களது தொடர்புகளுக்கு தெரிவிக்க தயவுசெய்து கண்காணிப்பு லிங்க்கை அவர்களுக்கு அனுப்பவும்</string>
+    <string name="toast_track_page_ambulance_status_failure">உங்களது இடத்தினை ஆம்புலன்ஸ் வழங்குனருக்கு தெரிவிக்க இயலவில்லை. நீங்கள் வாயாலேயே அவர்களிடம் தெரிவிக்கவும்</string>
+    <string name="title_activity_activity_terms_and_conditons"><![CDATA[ நிபந்தனைகள் மற்றும் விதிமுறைகள்]]></string>
+    <string name="label_accept">ஏற்றுக்கொள்க</string>
+    <string name="label_reject">Reject</string>
+    <string name="label_terms_and_conditions">ஒரு நிறுவனமாக உயிர்களை காப்பாற நாங்கள் விரும்புகிறோம். எனினும் சில இடைசார்பு தன்மைகளால் சேவைகளின் அளவை எங்களால் உத்திரவாதமளிக்க முடியாது. எங்களது ஒருங்கிணைந்த முயற்சியால் பல சுற்றுச்சூழல் வீரர்கள் ஒன்றாக கொண்டு சேர்க்க முயற்சி செய்கிறோம்.  பயனர் இந்த ஆப் மருத்துவமனை/108 இல் இருந்து பிக் அப் செய்யப்படுவதற்கு உத்திரவாதமளிக்காததை அங்கீகரிக்கிறார் மற்றும் புரிந்து கொள்கிறார். இந்த ஆப் இல் உள்ள விவரங்கள் வேகமாகவும்/சிறப்பாகவும் அவசர நிலையில் இருப்பவருக்கு உதவி செய்யப்படுவதை வசதிப்படுத்துகிறது. அப்ளிகேஷன்கள் மற்றும் அடங்கியுள்ள ஏதேனும் விவரங்கள் “இருப்பதை போல” மற்றும் “பெறப்பட்டதை போலவே” கொடுக்கப்பட்டுள்ளன. அதில் எந்த உத்திரவாதங்களூம் கொண்டிருக்கவில்லை. உங்களது இஷ்ட்த்துக்கு உட்பட்டே மற்ரும் உங்களது சொந்த ரிஸ்க்கிலேயே இந்த ஆப் ஐ பயன்படுத்துகிறீர்கள். உங்களுக்கும் முதலில் பதிலளிப்பவருக்கோ, ஆம்புலன்ஸ் டிரைவருக்கோ, ஆம்புலன்ஸ் வழங்குனருக்கோ, மருத்துவமனைக்கோ மற்றும் 108 க்கும் இடையே ஏற்படும் எதேனும் பரிவர்தனை அல்லது சிக்கலுக்கு CallAmbulance பொறுப்பல்ல.  </string>
+    <string name="title_activity_nearby">அருகிலுள்ள மருத்துவமனைகள்</string>
+    <string name="title_activity_first_responder_web_view">முதல் ரெஸ்பாண்டர் உதவி</string>
+    <string name="title_activity_activity_web_view_vedioes">வீடியோக்கள்</string>
+    <string name="dialog_system_overlay_title">ஸ்கிரீன் மேலடுக்கு கண்டுபிடிக்கப்பட்டது</string>
+    <string name="allow">அனுமதி</string>
+    <string name="label_call108">அழைக்க 108</string>
+    <string name="label_track">கண்காணி</string>
+    <string name="label_redial">ரீடயல்</string>
+    <string name="toast_msg_no_phone_number">தொலைபேசி எண் இல்லை</string>
+    <string name="label_sync_hint">
+        <b>இரத்த பிரிவு நண்பர்கள் மறுவரையறை-  - </b>
+        <p>\n\n\u2022•உங்களது ஒரு நண்பர் உங்களுக்கு அவசரமாக தேவைப்படுகையில் இரத்த தானம் செய்யலாம் !</p>
+        <p>\n\n\u2022•ஒத்திசைத்தால், பதிவு செய்துள்ள நண்பர்கள் மற்றும் அவர்களது இரத்த பிரிவினை காண முடியும்!</p></string>
+    <string name="dialog_syncsms_confirmation"><![CDATA[  நீங்கள்  A+இரத்த பிரிவினை  250 தொடர்புகளுக்கு SMS மூலம் விண்ணப்பிக்க விரும்புகிறீர்களா? உங்களது கேரியரை பொறுத்து கட்டணங்கள் பொருந்தும். ?]]></string>
+    <string name="dialog_sync_confirmation"><![CDATA[ இரத்த தானம் செய்வது ஒரு உன்னதமான நல்ல காரியமாகும்! ஒத்திசைக்கும்போது எங்களது சர்வர் உங்களது தொடர்பு பட்டியலை ஆராய்ந்து எங்களுடன் பதிவு செய்து இரத்த தானம் செய்ய விரும்பும் உங்களது நண்பர்களின் இரத்த பிரிவினை தெரியப்படுத்தும். நீங்கள் தொடர விரும்புகிறீர்களா ?]]></string>
+    <string name="dialog_msg_tnc_reject"><![CDATA[நிபந்தனைகள் & விதிமுறைகளை நிராகரிப்பதன் மூலம் உங்களால் மேலும் முன்னோக்கி செல்ல முடியாது. நீங்கள் நிச்சயமாக இந்த செயலை செய்ய விரும்புகிறீர்களா? ?]]></string>
+    <string name="dialog_overlay_msg"><![CDATA[இந்த ஆப் உங்களது அழைப்பு வரும் இடத்தினை 108 க்கு அனுப்பி 108 க்கு உங்களது இடத்தின் மூலம் மற்றும் உங்களது மருத்துவ ரெக்கார்ட் அறிவிப்பின் மூலம் அனுப்பும். தயவுசெய்து தேவைப்படும் மாற்றங்களை செட்டிங்சில் செய்யவும். ]]></string>
+    <!--GCM -->
+
+    <!--Error msg-->
+    <string name="connection_error">மன்னிக்கவும்! இணைப்பை பெற முடியவில்லை. தயவுசெய்து உங்களது இன்டர்நெட் இணைப்பை சரி பார்க்கவும்.</string>
+    <string name="auth_error">செல்லாத யூசர் பெயர் மற்றும் பாஸ்வேர்ட்</string>
+    <string name="server_error">ஐயோ எதோ சிக்கலாகிவிட்ட்து. தயவுசெய்து மீண்டும் பிறகு முயற்சி செய்யவும்</string>
+    <string name="network_error">மன்னிக்கவும்! இணைக்க முடியவில்லை தயவுசெய்து மீண்டும் சிறிது நேரம் கழித்து முயற்சிக்கவும்.</string>
+    <string name="title_activity_road_hazards_types">சாலை ஆபத்து வகையை தேர்ந்தெடுக்க</string>
+    <string name="dialog_msg_take_hazard_pic">ஒரு புகைப்படத்தினை இணைக்க விரும்புகிறீர்களா?</string>
+    <string name="skip">ஸ்கிப்</string>
+    <string name="bloodyfriends_invite_message">friend1 and friend2 are now part of Bloody Friends Network. Do you know who among your personal friends can donate blood to you if needed! You can now build your list of Bloody Friends with one click on /"Sync/" button in CallAmbulance App. Click deepLink to download the app now and Be Safe!</string>
+    <string name="bloodyfriendshint">உங்களது இரத்த பிரிவினை அப்டேட் செய்ய இங்கு கிளிக் செய்யவும்</string>
+    <string name="selectall">அனைத்தையும் தேர்ந்தெடுக்க</string>
+    <string name="sendbf_req">இரத்த தேவைக்கான விண்ணப்பம் அனுப்புக</string>
+    <string name="forwhom">யாருக்கு</string>
+    <string name="noofunits">மொத்தமுள்ள யூனிட்கள்</string>
+    <string name="message">மெசேஜ்</string>
+    <string name="motmessage">உங்களது ஊக்கமூட்டும் மெசேஜ்</string>
+    <string name="dor">தேவைப்படும் தேதி</string>
+    <string name="date">தேதி</string>
+    <string name="time"> நேரம்</string>
+    <string name="lpw">லோடிங், தயவுசெய்து காத்திருக்கவும்..</string>
+    <string name="purpose">காரணம்</string>
+    <string name="send">அனுப்புக</string>
+    <string name="uploading">அப்டேட் செய்யப்படுகிறது…</string>
+    <string name="title">தலைப்பு</string>
+    <string name="value">மதிப்பு</string>
+    <string name="description">விவரிப்பு</string>
+    <string name="frombook">போன் புத்தகத்திலிருந்து</string>
+    <string name="addnew_contact">புதிய தகவல் தொடர்பை சேர்க்க</string>
+    <string name="drivingdirections">டிரைவ் செய்யும் பாதை வழிகாட்டி</string>
+    <string name="createreferal">ரெஃபரெலை உருவாக்குக</string>
+    <string name="createappointments">அப்பாயிண்ட்மென்டை உருவாக்குக</string>
+    <string name="donar_hosp">தானமளிப்பவர் எங்கு வர வேண்டும் உதாரணம் – பிரைம் மருத்துவமனை</string>
+    <string name="hintsurgery">உதாரணம்- இருதய அறுவை சிகிச்சை</string>
+
+    <string name="lastupdate">கடைசியாக அப்டேட் செய்த ஹெல்த் ரெக்கர்ட்</string>
+    <string name="secs"> நொடிகள்</string>
+    <string name="goahead">முன்னேறவும்</string>
+    <string name="goback">திரும்ப பெறவும்</string>
+    <string name="title_activity_ambulance_providers_emergency_list">விருப்பமான ஆம்புலன்சை தேர்ந்தெடுக்க</string>
+    <string name="tap_on_emr_btn">ஆன் பட்டனை அவசரத்தினை அறிவிக்க தட்டவும்</string>
+    <string name="active">ஆக்டிவ்</string>
+    <string name="expired">காலாவதியாகிவிட்டது</string>
+
+    <string name="nearbyhosphint">உங்களுக்கு அருகிலுள்ல மருத்துவமனைகளை கண்டுபிடிக்க நீங்கள் இருக்கும் இடம் எங்களுக்கு தெரிய வேண்டும். தயவுசெய்து செட்டிங்சில் லொக்கேஷன் எனேபிள் செய்யப்பட்டிருப்பதை உறுதி செய்த பின்னர் மீண்டும் முயற்சிக்கவும். </string>
+    <string name="nohosptials5">சிஸ்டமில் அக்கம்பக்கம் 5 கிலோமீட்டரில் எந்த மருத்துவமனையும் இல்லை</string>
+    <string name="version">வெர்ஷன்</string>
+    <string name="recivedotp"> OTP பெற்றுக்கொள்ளப்பட்டது</string>
+    <string name="blood">இரத்தம்</string>
+    <string name="reqfor">விண்ணப்பம் செய்ய</string>
+    <string name="chooseimage">படத்தினை தேர்ந்தெடுக்க</string>
+    <string name="nointernet">இன்டர்நெட் இல்லை</string>
+    <string name="selmember">உறுப்பினரை தேர்ந்தெடுக்க</string>
+    <string name="nocontactfound">எந்த தொடர்புகளும் கிடைக்கவில்லை </string>
+    <string name="bloodgroup">இரத்த பிரிவு</string>
+
+    ///latest
+
+    <string name="select_blood">இரத்த பிரிவை தேர்ந்தெடுக்க</string>
+    <string name="hospital">மருத்துவமனை</string>
+    <string name="mediclestore">மெடிக்கல் ஸ்டோர்</string>
+    <string name="diagnstic_lab">கண்டறியும் ஆய்வகம்</string>
+    <string name="clinic">கிளினிக்</string>
+    <string name="employer">பணியாளர்</string>
+    <string name="educ_inst">கல்வி நிறுவனம்</string>
+    <string name="select">ஒன்றை தேர்ந்தெடுக்க</string>
+    <string name="single">சிங்கிள்</string>
+    <string name="married">திருமணமானவர்</string>
+    <string name="widowed">துணையை இழந்தவர்</string>
+    <string name="divorced">விவாகரத்தான</string>
+    <string name="vegetarian">வெஜிடேரியன்</string>
+    <string name="eggvegitarian">எக்-டேரியன்</string>
+    <string name="nonvegetarian"> நான்-வெஜிடேரியன்</string>
+    <string name="family">குடும்பம்</string>
+    <string name="friend"> நண்பர்</string>
+    <string name="welloff">வசதியான</string>
+    <string name="middleclass">நடுத்தர வர்க்கம்</string>
+    <string name="poor">ஏழை</string>
+    <string name="verypoor">மிக மோசம்</string>
+    <string name="false_alarm">அது ஒரு போலியான அலாரம்</string>
+    <string name="emerg_being_attended">எமர்ஜென்சி கவனிக்கப்படுவது</string>
+    <string name="emrg_has_addresses">அவசர தேவை கவனிக்கப்பட்டுவிட்டது</string>
+    <string name="nbya">N/A</string>
+    <string name="camera">கேமரா</string>
+    <string name="gallery">கேலரி</string>
+
+    <string name="near">அருகில் </string>
+    <string name="next">அடுத்து </string>
+    <string name="stranger">பரிச்சயமற்றவர்</string>
+    <string name="thereisnoexsting">எதுவும் கிடைக்கவில்லை </string>
+    <string name="foryoursearch">உங்களது தேடலுக்கு</string>
+
+    <string name="upload">UPLOAD</string>
+    <string name="comments">Comments</string>
+    <string name="title_upload_reports">அறிக்கைகளை அப்லோட் செய்க</string>
+    <string name="selecttype_upload">Select Type of Upload</string>
+    <string name="sel_diff_amb_pr">Select different Ambulance Provider below</string>
+    <string name="public_amb_pr">Public Ambulance Provider</string>
+    <string name="no_pref_hosp">No Preferred Hospital</string>
+    <string name="nearby_nw_hosp">Nearby Network Hospitals</string>
+    <string name="no_other_nearby_hosp">No Other Nearby Hospitals To Show</string>
+    <string name="nonetwork_hosp_to_show">No Network Hospitals To Show</string>
+    <string name="other_near_hosp">Other Nearby Hospitals</string>
+    <string name="addpage">Add Page</string>
+    <string name="page">PAGE</string>
+    <string name="mobileno_is_mandatory">Mobile Number Is Mandatory, if you want to exit the app press the back twice</string>
+    <string name="password_updated_success">Password updated successfully</string>
+    <string name="pressback_onemoretime">Press back one more time!!</string>
+    <string name="reg_success">Registatrion successful</string>
+    <string name="reg_failed">Registatrion failed</string>
+    <string name="sel_gender_type">Please select a gender type.</string>
+    <string name="sel_dob">Please select you date of birth</string>
+    <string name="mobile_no_should_10_digits">Mobile number should 10 digits</string>
+    <string name="lenght_should_1to25">Select length between 1-25 words</string>
+    <string name="sel_lenght_nw_3to25">Select length between 3-25 words</string>
+    <string name="updatedon">Upadated on : </string>
+    <string name="noreports_found">Reports module enables you to store all your health records like Prescriptions, Discharge Summary, Insurance etc for your ready reference. To upload any of these please press the "+" button at the top of this screen.</string>
+
+    <string name="pswrd_sent_to_mobile">The password has been sent to the mobile number provided, please login with that password.</string>
+    <string name="pswrd_sent_to_mail">The link to reset your password has been sent to the E-mail address provided, please follow the instructions on the page to update your password.</string>
+    <string name="storage_med_not_avail">Storage media not available</string>
+    <string name="thank_reg_success">Thankyou !!! Your concern had been registered successfully</string>
+    <string name="uare_not_auth_access">You are not authorized to access this application.</string>
+    <string name="no_view_pdf">No Application available to view PDF</string>
+    <string name="choose_atleast_one_file">Choose atleast one file to upload</string>
+    <string name="plz_sel_tag">Please select tag</string>
+
+    <string name="plz_sel_contacts">Please select contacts for sending request</string>
+    <string name="initializing_plz_wait">Initialising please wait</string>
+    <string name="plz_check_loc_on">Please check if location is ON in the settings</string>
+    <string name="getting_addr_failed">Getting Address Failed,No Internet</string>
+    <string name="title_activity_ambulance_providers_list">அருகிலுள்ள ஆம்புலன்ஸ்</string>
+    <string name="age">வயது</string>
+    <string name="sel_age">தயவு செய்து உங்கள் வயது உள்ளிடவும்</string>
+    <string name="label_login">ஏற்கனவே பயனர்? உள் நுழை</string>
+    <string name="sync_homeact_msg">நீங்கள் உங்கள் நண்பர்கள் இரத்தம் குழு தெரியுமா? அவசர சூழ்நிலையில் அதை பயன்படுத்த தங்கள் இரத்த குழு கண்டுபிடிக்க. இப்போது ஒத்திசைவு!</string>
+    <string name="sync_now">இப்போது ஒத்திசைவு</string>
+    <string name="label_select_willing_to_donate_blood">Willing to donate blood to a needy friend?</string>
+
+    <string name="label_sync_hint_dashboard">நீங்கள் அவசர சூழ்நிலைகளில் மற்றும் உங்கள் இரத்த குழு பணியாற்ற மற்றும் 5 நண்பர்களை அழைக்க என்றால் சல்லம்புலன்ஸ் பதிவிறக்கம் கிடைக்கும்.சல்லம்புலன்ஸ் நீங்கள் ஐந்து கிடைக்கும், அவசர உதவுமாறு கேட்டனர்.</string>
+    <string name="label_sync_hint_dialog">நீங்கள் தேர்ந்தெடுத்த அனைவரும், அழைப்பு SMS வழியாக அனுப்பப்படும். SMS கட்டணங்கள் இந்தச் செயலுக்காக விதிக்கப்படலாம் விண்ணப்பிக்கவும்</string>
+    <string name="label_sync_hint_sync5">பதிவிறக்க கிடைக்கும் CallAmbulance 5 தொடர்புகள் வரை அழைக்கலாம்</string>
+    <string name="title_notifying_doctor">"என் மருத்துவர் "</string>
+    <string name="label_test_emergency">உதாரணம் அவசரநிலை</string>
+    <string name="label_emergency_provider">"அவசர சேவை வழங்குநர் "</string>
+    <string name="emergency_preparedness_dialog_msg">உங்கள் பராமரிப்பு குழுவை நாங்கள் அமைக்கவில்லை, உங்களுடைய அவசரகால தொடர்புகளை, மருத்துவமனை, மருத்துவர் மற்றும் காப்பாளர் ஆகியவற்றை அமைக்க நாங்கள் ஊக்குவிக்கிறோம். அவசரகாலத்தில் உங்களுக்கு அவசர தொடர்பு அல்லது பாதுகாவலர் உங்களுக்கு உதவ வேண்டும்</string>
+</resources>

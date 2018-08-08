@@ -1,0 +1,9 @@
+<resources>
+    <string name="package_name">com.patientz.activity.demo</string>
+    <string name="environment">DEMO</string>
+    <string name="app_name">Call Ambulance</string>
+    <string name="profileImagePath">/CallAmbulanceDemo/Images/</string>
+    <string name="attachmentPath">/CallAmbulanceDemo/Attachments/</string>
+    <string name="uploadPath">/CallAmbulanceDemo/Uploads/</string>
+    <string name="smsCountryKeyWord">DOCTST</string>
+</resources>

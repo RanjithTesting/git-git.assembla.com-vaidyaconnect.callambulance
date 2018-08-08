@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        card_view:cardCornerRadius="6dp"
+        android:padding="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical"
+            android:padding="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="@string/font_typeface_sans_serif"
+                    android:textColor="@color/dark_jungle_green"
+                    android:textSize="16dp"
+                    android:text="Bajaj Allianz Health Insurance"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@string/font_typeface_sans_serif"
+                    android:textColor="@color/dark_jungle_green"
+                    android:textSize="14dp"
+                    android:text="OG-17-1801-8403-00000077"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/insurance_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@string/font_typeface_sans_serif"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="right"
+                    android:text="Active"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/yellow_green" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    >
+                    <ImageView
+                        android:id="@+id/iv_network_hsopitals"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/em_nearest_hospital"
+                        android:visibility="visible" />
+                <ImageView
+                    android:id="@+id/provider_call_button"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="center"
+                    android:src="@drawable/caregiver_call"
+                    android:visibility="visible" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_insurance_approved_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible"
+                >
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.25dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginTop="16dp"
+                    android:alpha="0.2"
+                    android:background="@color/manatee" />
+
+                <TextView
+                    android:id="@+id/tv_policy_details_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@string/font_typeface_sans_serif_medium"
+                    android:textColor="@color/harvard_crimpson"
+                    android:text="Verification Pending"
+                    android:layout_gravity="center_horizontal"
+                    android:drawableLeft="@drawable/pending_1"
+                    android:drawablePadding="16dp"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.patientz.activity.AddNewContactActivity">
+    <item
+        android:id="@+id/menu_save"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:title="Save"/>
+   <!-- <item
+        android:id="@+id/menu_cancel"
+        android:icon="@drawable/dashboard_red_cross"
+        android:orderInCategory="2"
+        app:showAsAction="always"
+        android:title="Cancel"/>-->
+</menu>

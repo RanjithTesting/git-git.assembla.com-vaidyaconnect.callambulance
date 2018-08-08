@@ -1,0 +1,906 @@
+<resources>
+
+    <!--Environment Changes-->
+    <string name="permission_grant_msg">ଦୟାକରି ଆବଶ୍ୟକ ଅନୁମତି ମଞ୍ଜୁର କରନ୍ତୁ, ଏହା ବ୍ୟତୀତ ଏହି ଆପ୍ ଆପଦକାଳୀନ ପରିସ୍ଥିତିରେ ଅନ୍ୟମାନଙ୍କୁ ସୂଚନା ପ୍ରଦାନ କରିବାକୁ ସକ୍ଷମ ହେବ ନାହିଁ</string>
+    <string name="prompt_mobile">ମୋବାଇଲ୍ ନମ୍ବର</string>
+    <string name="prompt_email_mobile">ଇମେଲ୍ ବା ମୋବାଇଲ୍ ନମ୍ବର</string>
+    <string name="prompt_password">ପାସୱାର୍ଡ</string>
+    <string name="action_sign_in">ଲଗ୍‌ଇନ୍ କରନ୍ତୁ</string>
+    <string name="error_invalid_email">ଏହି ଇମେଲ୍ ଠିକଣା ବୈଧ ନୁହେଁ</string>
+    <string name="error_invalid_password">ପାସୱାର୍ଡ  6 ଏବଂ 20 ଅକ୍ଷର ମଧ୍ୟରେ ହେବା ଉଚିତ୍</string>
+    <string name="error_incorrect_password">ଏହି ପାସୱାର୍ଡ ଭୁଲ୍ ଅଟେ</string>
+    <string name="error_field_required">ଏହି ଫିଲ୍ଡ ଆବଶ୍ୟକ ଅଟେ</string>
+    <string name="permission_rationale">ଇମେଲ୍ ଉପଲବ୍ଧ କରାଇବା ପାଇଁ ଯୋଗାଯୋଗ ଅନୁମତି ଆବଶ୍ୟକ</string>
+    <string name="create_account">ଆକାଉଣ୍ଟ୍ ସୃଷ୍ଟି କରନ୍ତୁ</string>
+    <string name="forgot_password">ପାସୱାର୍ଡ ଭୁଲିଯାଇଛନ୍ତି</string>
+    <string name="app_name">କଲ୍ ଆମ୍ବୁଲାନ୍ସ</string>
+
+    <!-- Strings related to Registration -->
+    <string name="get_a_free_account">ଏକ ମାଗଣା ଆକାଉଣ୍ଟ୍ ଖୋଲନ୍ତୁ</string>
+    <string name="auto_verifying">ସ୍ୱତଃ OTP ଯାଞ୍ଚ୍ କରୁଛି</string>
+    <string name="enter_otp_manually">ନିଜେ OTP ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="invalidEmailAddress">ଏହି ଇମେଲ୍ ବୈଧ ନୁହେଁ</string>
+    <string name="emailMandatory">ଇମେଲ୍ ଆବଶ୍ୟକ ଅଟେ</string>
+    <string name="success">ସଫଳତା ସହ ଶେଷ ହୋଇଛି</string>
+    <string name="emailNotAvailable">ଏହି ଇମେଲ୍ ଠିକଣା ଉପଲବ୍ଧ ନାହିଁ</string>
+    <string name="regInternalServerError">ପଞ୍ଜୀକରଣ ତ୍ରୁଟି: ଆଭ୍ୟନ୍ତରଣ ସର୍ଭର ତ୍ରୁଟି</string>
+    <string name="registeringProgress">ପଞ୍ଜୀକରଣ କରାଯାଉଛି</string>
+    <string name="msg_enter_email">ଇମେଲ୍ ଠିକଣା ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="titleMobileNumber">ମୋବାଇଲ ନମ୍ବର ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="sign_up">ଆକାଉଣ୍ଟ ସୃଷ୍ଟି କରନ୍ତୁ</string>
+    <string name="enter_email_mobile">ଦୟାକରି  ଆପଣଙ୍କର ଇମେଲ୍ ଆଇଡି କିମ୍ବା ମୋବାଇଲ୍ ନମ୍ବର ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="error_enter_email_mobile">ଦୟାକରି ଏକ ବୈଧ ଇମେଲ୍ ଆଇଡି କିମ୍ବା ମୋବାଇଲ୍ ନମ୍ବର ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="offlineMode">ସଂଯୋଗ ହେବା ପାଇଁ ଅସମର୍ଥ, ଦୟାକରି ଆପଣଙ୍କର ଇଣ୍ଟରନେଟ୍ ସଂଯୋଗ ଯାଞ୍ଚ୍ କରନ୍ତୁ ଏବଂ ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ</string>
+    <string name="mobile_number_error_msg">ଦୟାକରି ଏକ 10 ଅଙ୍କ ବିଶିଷ୍ଟ ବୈଧ ମୋବାଇଲ୍ ନମ୍ବର ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="email_error_msg">ଦୟାକରି ଏକ ବୈଧ ଇମେଲ୍ ଆଇଡି ଦିଅନ୍ତୁ</string>
+    <string name="phone_validation_error">ଦୟାକରି ଏକ 10 ଅଙ୍କ ବିଶିଷ୍ଟ ବୈଧ ମୋବାଇଲ୍ ନମ୍ବର ପ୍ରବେଶ କରନ୍ତୁ</string>
+
+    <string name="validate_patient_email_empty">ଦୟାକରି ଇମେଲ୍ ଦିଅନ୍ତୁ, ଏହା ଶୂନ୍ୟ ରଖାଯାଇପାରିବ ନାହିଁ</string>
+    <string name="wait_msg">ଦୟାକରି ଅପେକ୍ଷା କରନ୍ତୁ…</string>
+    <string name="loading_progress">ଦୟାକରି ଅପେକ୍ଷା କରନ୍ତୁ, ଲୋଡ୍ ହେଉଛି…</string>
+    <string name="duplicate_mobile_error">ଏହି ସିଷ୍ଟମରେ ଅଦ୍ୟାବଧି ଏହି ମୋବାଇଲ୍ ନମ୍ବର ସହ ଜଣେ ଉପଭୋକ୍ତା ରହିଛନ୍ତି। ଦୟାକରି ଜଣେ ନୂତନ ଉପଭୋକ୍ତା ସୃଷ୍ଟି କରିବା ପାଇଁ ଅନ୍ୟ ମୋବାଇଲ୍ ନମ୍ବର ବ୍ୟବହାର କରନ୍ତୁ କିମ୍ବା ଲଗ୍‌ଇନ୍ ସ୍କ୍ରିନ୍‌ରେ ପାସୱାର୍ଡ ଭୁଲିଯାଇଛନ୍ତିରେ କ୍ଲିକ୍ କରି ଆପଣଙ୍କ ପାସୱାର୍ଡ ଉଦ୍ଧାର କରନ୍ତୁ।</string>
+    <string name="accessDenied">ଅଭିଗମ୍ୟତା ନିଷେଧ କରାଯାଇଛି। ଲଗ୍ଇନ୍ କରିବାକୁ ରୋଗୀ ଆଇଡି ବ୍ୟବହାର କରନ୍ତୁ</string>
+    <string name="ioException">" ଆପଣଙ୍କ ଅନୁରୋଧ ପ୍ରକ୍ରିୟାକରଣ କରିବାକୁ ଅସମର୍ଥ। ଦୟାକରି ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ।"</string>
+    <string name="responseNull">କ୍ଷମା କରିବେ, ଜବାବ ପାଇବା ସମୟରେ କୌଣସି ତ୍ରୁଟି ଘଟିଲା। ଦୟାକରି ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ।</string>
+    <string name="server_error_msg">" ଆଭ୍ୟନ୍ତରୀଣ ସର୍ଭର ତ୍ରୁଟି।"</string>
+    <string name="networkError">ଓଃ!! କିଛି ତ୍ରୁଟି ଘଟିଲା ଦୟାକରି ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ।</string>
+    <string name="success_msg">ଉପଭୋକ୍ତାଙ୍କ ମୋବାଇଲରେ ୱାନ୍ ଟାଇମ୍ ପାସୱାର୍ଡ ଓ ନିର୍ଦ୍ଦେଶାବଳି ଯାଞ୍ଚ୍ କରି କଲ୍ ଆମ୍ବୁଲାନ୍ସ ଆପ୍ଲିକେସନ ଇନଷ୍ଟଲ୍ କରନ୍ତୁ</string>
+    <string name="title_activity_main">କଲ୍ ଆମ୍ବୁଲାନ୍ସ</string>
+
+    <string name="navigation_drawer_open">ନାଭିଗେସନ ଡ୍ରୟାର ଖୋଲନ୍ତୁ</string>
+    <string name="navigation_drawer_close">ନାଭିଗେସନ ଡ୍ରୟାର ବନ୍ଦ କରନ୍ତୁ</string>
+
+    <string name="action_settings">"ସେଟିଂସ୍ "</string>
+    <string name="action_logout">ଲଗ୍ ଆଉଟ୍</string>
+    <string name="name">ନାମ</string>
+    <string name="left_menu_list_item6">"ପ୍ରଥମ ଉତ୍ତରଦାତା? "</string>
+    <string name="left_menu_list_item10">ବିପଦର ସୂଚନା ଦିଅନ୍ତୁ</string>
+
+    <string name="title_activity_activity_select_patient_in_emergency">ରୋଗୀଙ୍କୁ ବାଛନ୍ତୁ</string>
+    <string name="kill">ହତ୍ୟା କରନ୍ତୁ</string>
+    <string name="select_patient_in_emergency_timer_text">"ନିଜ ପାଇଁ ଆପଦକାଳୀନ ସେବା ଆରମ୍ଭ ହେଉଛି"</string>
+    <string name="select_patient_in_emergency_help_txt">ଯଦି ନିଜ ପାଇଁ ଚୟନ କରାଯାଇନଥାଏ ସ୍ୱତଃ ବାଛି ନେବ</string>
+    <string name="title_activity_activity_emergency_type">ଆପଦକାଳୀନ ପରିସ୍ଥିତିର ପ୍ରକାର ଚୟନ କରନ୍ତୁ</string>
+
+    <string name="progress_dialog_loading_hospitals">ହସ୍ପିଟାଲଗୁଡ଼ିକ ଲୋଡ୍ କରୁଛି</string>
+
+    <string name="OK">ଠିକ୍ ଅଛି</string>
+
+    <!-- Registration and OTP-->
+    <string name="otp_verification">OTP ଯାଞ୍ଚ୍</string>
+    <string name="title_activity_otpregister">OTP ପଞ୍ଜୀକରଣ</string>
+    <string name="getting_otp">OTP ମିଲୁଛି</string>
+    <string name="failed_to_get_otp">OTP ଚିହ୍ନଟ କରିବାରେ ବିଫଳ, ଦୟାକରି ଆପଣଙ୍କ ଏସଏମଏସ ଯାଞ୍ଚ୍ କରନ୍ତୁ ଏବଂ OTP ପ୍ରବେଶ କରନ୍ତୁ।</string>
+    <string name="error_otp">ଦୟାକରି ଆପଣଙ୍କ ଏସଏମଏସ ଯାଞ୍ଚ୍ କରନ୍ତୁ ଏବଂ OTP ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="submit">ଦାଖଲ କରନ୍ତୁ</string>
+    <string name="user_agreement_part1">ଏକ ଆକାଉଣ୍ଟ୍ ସୃଷ୍ଟି କରି ଆପଣ ସୁନିଶ୍ଚିତ କରୁଛନ୍ତି ଏବଂ ଗ୍ରହଣ କରୁଛନ୍ତି ଆମର</string>
+    <string name="user_agreement_part2"><a href="https://www.callambulance.in/home/tnc-callambulance/">ବ୍ୟବହାର ସର୍ତ୍ତାବଳି </a> &amp; <a href="https://callambulance.in/home/privacy-m"> ଗୋପନୀୟତା ନୀତି</a></string>
+    <string name="otp">OTP</string>
+
+    <string name="label_initiating_emergency">ଆପଦକାଳୀନ ସେବା ଆରମ୍ଭ ହେଉଛି</string>
+    <string name="label_getting_location">ଅବସ୍ଥାନ ଠାବ କରୁଛି…</string>
+    <string name="label_alerting_emri">ଆମ୍ବୁଲାନ୍ସ ପ୍ରଦାନକାରୀଙ୍କୁ ସତର୍କ କରିଦେଉଛି..</string>
+    <string name="label_calling_108">କଲ୍ କରୁଛି</string>
+    <string name="label_notifying_contacts"><![CDATA[Notifying Family & Friends ...]]></string>
+    <string name="label_skip_call">କଲ୍ ଏଡାନ୍ତୁ</string>
+    <string name="label_add_bf">ପରିବାର ଓ ବନ୍ଧୁମାନଙ୍କୁ ସୂଚାଇ ଦିଆଯାଉଛି</string>
+    <string name="label_bloodbuddies">"ପରିବାର ବନ୍ଧୁବର୍ଗ "</string>
+
+    <string name="label_person_in_emergency">ଦିବ୍ୟା ରାଜୁ ଆପଦକାଳୀନ ପରିସ୍ଥିତିରେ ରହିଛନ୍ତି</string>
+    <string name="label_revoke_emergency">ଆପଦକାଳୀନ ପରିସ୍ଥିତି ସମାପ୍ତ କରନ୍ତୁ</string>
+    <string name="dialog_exit_app_title_msg">"ଆପଣ ଲଗ୍ ଆଉଟ୍ କରିବାକୁ ଚାହାଁନ୍ତି ନିଶ୍ଚିତ କି? "</string>
+    <string name="label_exit">ବାହାରି ଯାଆନ୍ତୁ</string>
+    <string name="no_address_found">ଠିକଣା ମିଳିଲା ନାହିଁ</string>
+
+    <string name="updating_progress">ଅପଡେଟ୍ କରାଯାଉଛି..</string>
+    <string name="error_terms_condition">ଆଗକୁ ବଢ଼ିବା ପାଇଁ ଦୟାକରି ସର୍ତ୍ତ ଓ ନିୟମାବଳି ସ୍ୱୀକାର କରନ୍ତୁ।</string>
+    <!--Profile registration-->
+    <string name="update_profile">ଆପଣଙ୍କ ପ୍ରୋଫାଇଲ୍ ଅଦ୍ୟତନ କରନ୍ତୁ</string>
+    <string name="title_profile_registration">ପ୍ରାୟ ସମ୍ପୂର୍ଣ୍ଣ ହୋଇଗଲାଣି, ଦୟାକରି କେବଳ ନିମ୍ନଲିଖିତଗୁଡ଼ିକ ପୂରଣ କରନ୍ତୁ</string>
+    <string name="first_name">ପ୍ରଥମ ନାମ</string>
+    <string name="last_name">ଶେଷ ନାମ</string>
+    <string name="phone_number">ମୋବାଇଲ୍ ନମ୍ବର</string>
+    <string name="date_of_birth">ଜନ୍ମ ତାରିଖ</string>
+    <string name="gender">ଲିଙ୍ଗ</string>
+    <string name="age">ବୟସ</string>
+
+    <!--Update password screen-->
+    <string name="enter_new_password">ନୂତନ ପାସୱାର୍ଡ ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="update_password">ଦୟାକରି ଆପଣଙ୍କ ପାସୱାର୍ଡ ଅଦ୍ୟତନ କରନ୍ତୁ</string>
+    <string name="old_password">ପୁରୁଣା ପାସୱାର୍ଡ</string>
+    <string name="new_password">ନୂତନ ପାସୱାର୍ଡ</string>
+    <string name="confirm_password">ପାସୱାର୍ଡ ସୁନିଶ୍ଚିତ କରନ୍ତୁ</string>
+    <string name="error_mismatch_password">ପାସୱାର୍ଡ ମେଳ ଖାଉନାହିଁ, ଦୟାକରି ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ।</string>
+    <string name="invalid_credentials">ଭୁଲ୍ ଉପଭୋକ୍ତା ଆଇଡି ଏବଂ ପାସୱାର୍ଡ ସମ୍ମେଳନ, ଦୟାକରି ଯାଞ୍ଚ୍ କରନ୍ତୁ ଏବଂ ପୁନଃପ୍ରୟାସ କରନ୍ତୁ</string>
+    <string name="action_switch_user">ସଦସ୍ୟ ବଦଳାନ୍ତୁ</string>
+
+    <!--Profile -->
+    <string name="noInsuranceFound">କୌଣସି ବୀମା ମିଳିଲାନାହିଁ</string>
+    <string name="noEhrFound">ଏହି ଉପଭୋକ୍ତାଙ୍କ ପାଇଁ କୌଣସି ଆପଦକାଳୀନ ସ୍ୱାସ୍ଥ୍ୟ ରେକର୍ଡ ମିଳିଲାନାହିଁ।</string>
+    <string name="phoneNumber">"ଫୋନ୍ ନମ୍ବର: "</string>
+    <string name="altPhoneNumber">"ବିକଳ୍ପ ଫୋନ୍ ନମ୍ବର: "</string>
+    <string name="callNumber">"କଲ୍ ନମ୍ବର: "</string>
+    <string name="tel">"ଟେଲିଫୋନ୍: "</string>
+    <string name="mailTo">ଏଥିକୁ ମେଲ୍ କରନ୍ତୁ</string>
+    <string name="sendMailTo">ଏଥିରେ ଆପଣଙ୍କ ମେଲ୍ ପଠାନ୍ତୁ</string>
+    <string name="record">ରେକର୍ଡ</string>
+    <string name="care_giver">ଯତ୍ନ ପ୍ରଦାନକାରୀ</string>
+    <string name="owner">ମାଲିକ</string>
+    <string name="self">"ନିଜେ "</string>
+    <string name="edit">ସମ୍ପାଦନା କରନ୍ତୁ</string>
+    <string name="select_attachment_type">ଆଟାଚମେଣ୍ଟ୍ ପ୍ରକାର ଚୟନ କରନ୍ତୁ:</string>
+    <string name="select_language">ଭାଷା ପରିବର୍ତ୍ତନ କରନ୍ତୁ</string>
+    <string name="select_attachment">"ଛବିର ଉତ୍ସ ଚୟନ କରନ୍ତୁ: "</string>
+    <string name="not_logged_in_error_msg">ଲଗ୍ ଇନ୍ କରିନାହାନ୍ତି!! ଦୟାକରି ସତେଜ ବଟନ୍‌ରେ କ୍ଲିକ୍ କରନ୍ତୁ!!</string>
+    <string name="getSchema">ଦୟାକରି ଅପେକ୍ଷା କରନ୍ତୁ ମୂଲ୍ୟଗୁଡ଼ିକ ପୁନଃଉଦ୍ଧାର କରୁଛି…</string>
+    <string name="emergency_contact">ଆପଦକାଳୀନ ସମ୍ପର୍କଗୁଡ଼ିକ</string>
+    <string name="pregnant">ଗର୍ଭବତୀ</string>
+    <!-- EhrViewFragment -->
+    <string name="verificationPending">ଯାଞ୍ଚ୍ ପଡ଼ିରହିଛି</string>
+    <string name="verification">ଯାଞ୍ଚ୍</string>
+    <string name="verifiedBy">ଯାଞ୍ଚ୍ କରିଛନ୍ତି</string>
+    <string name="blood_request_success_message">ଆପଣଙ୍କର ଅନୁରୋଧ ସଫଳତାର ସହ ଆପଣଙ୍କ ପରିବାର ଓ ବନ୍ଧୁବର୍ଗଙ୍କୁ ପଠାଯାଇଛି, ଆପଣଙ୍କର ବନ୍ଧୁ ସୂଚନା ଲାଭ କରିବେ ଓ ଆପଣଙ୍କ ପାଇଁ ରକ୍ତଦାନ କରିବେ</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">ସାଧାରଣ</string>
+
+    <string name="pref_title_enable_trigger">ପାୱାର ବଟନ୍ ଟ୍ରିଗର ସକ୍ଷମ କରନ୍ତୁ</string>
+    <string name="pref_description_enable_trigger">ଆପଦକାଳୀନ ପରିସ୍ଥିତିରେ ଆପଦକାଳୀନ ଟ୍ରିଗର ସକ୍ରିୟ କରିବା ପାଇଁ ପାୱାର ବଟନ୍ ପାଞ୍ଚ ଥର ଦବାନ୍ତୁ।</string>
+
+    <string name="pref_logout_description">ଲଗ୍ ଆଉଟ୍ ଦବାନ୍ତୁ ଏବଂ ଏହି ଡିଭାଇସରୁ ଆପଣଙ୍କ ବିବରଣୀ ବିଲୋପ କରନ୍ତୁ।</string>
+
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">ଡାଟା ଏବଂ ସିଙ୍କ୍</string>
+
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">ସିଷ୍ଟମ୍ ସିଙ୍କ୍ ସେଟିଂଗୁଡ଼ିକ</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">ବିଜ୍ଞପ୍ତିଗୁଡ଼ିକ</string>
+
+    <string name="pref_title_new_message_notifications">ନୂତନ ସନ୍ଦେହ ବିଜ୍ଞପ୍ତିଗୁଡ଼ିକ</string>
+    <string name="pref_title_sync_frequency">ସିଙ୍କ୍ ବାରମ୍ବାରତା</string>
+    <string name="pref_title_ringtone">ରିଙ୍ଗଟୋନ୍‌</string>
+    <string name="pref_ringtone_silent">ନୀରବ</string>
+    <string name="pref_title_vibrate">କମ୍ପନ</string>
+    <string name="title_activity_about">ବିଷୟରେ</string>
+    <string name="send_invite">ମୁଁ ମୋର ପରିବାରକୁ ସୁରକ୍ଷିତ ରଖିଛି। କଲ୍ ଆମ୍ବୁଲାନ୍ସ ସହିତ ଆପଣଙ୍କ ପରିବାରକୁ ସୁରକ୍ଷିତ ରଖନ୍ତୁ</string>
+
+    <!-- DemographicsFragment -->
+    <string name="female">ମହିଳା</string>
+    <string name="male">ପୁରୁଷ</string>
+    <string name="title_activity_activity_maps">ବର୍ତ୍ତମାନ ସ୍ଥାନ</string>
+    <string name="value_success_action_location_broadcast">ଅବସ୍ଥାନ ମିଳିଗଲା</string>
+    <string name="value_failed_action_location_broadcast">ଅବସ୍ଥାନ ପାଇବା ବିଫଳ ହେଲା।</string>
+    <string name="value_failed_action_emri_alert">ଆମ୍ବୁଲାନସ ପ୍ରଦାନକାରୀଙ୍କୁ ସତର୍କ କରିବା ବିଫଳ ହେଲା</string>
+    <string name="value_success_action_emri_alert">ଆମ୍ବୁଲାନ୍ସ ପ୍ରଦାନକାରୀଙ୍କୁ ସତର୍କ କରାଯାଇଛି</string>
+
+    <string name="value_success_notify_contacts">ସୂଚନା ଦିଆଯାଇଥିବା ଯୋଗାଯୋଗଗୁଡ଼ିକ</string>
+    <string name="value_success_stranger_incident_notified">ସୂଚନା ଦିଆଯାଇଥିବା ସର୍ଭର</string>
+
+    <string name="value_processing_action_notify_contacts">ଆପଦକାଳୀନ ସ୍ଥିତି ଅଦ୍ୟାବଧି ସମାପ୍ତ ହୋଇଛି</string>
+    <string name="emergencySmsToContacts">ପ୍ରେରଣ ଏବେବି ଆପଦକାଳୀନ ପରିସ୍ଥିତିରେ ଅଛନ୍ତି। ଦୟାକରି ତାଙ୍କୁ ପୁନଃକଲ୍ କରନ୍ତୁ।</string>
+    <string name="value_action_notify_contacts_in_progress">ଯୋଗାଯୋଗଗୁଡ଼ିକୁ ସୂଚାଇ ଦିଆଯାଉଛି…</string>
+    <string name="deny">ମନା କରନ୍ତୁ</string>
+    <string name="grant">ମଞ୍ଜୁର କରନ୍ତୁ</string>
+    <string name="dialog_msg_why_location_permission">ଏହା ମନେ ହେଉଛି ଯେ ଆପଣ ଅବସ୍ଥାନ ଅନୁମତି ପାଇଁ ମନା କରିଥିଲେ ଏହି ଅନୁମତି ମଞ୍ଜୁର କଲେ ଆପ୍‌ ଆପଦକାଳୀନ ପରିସ୍ଥିତିରେ ଆପଣଙ୍କର ଆପଦକାଳୀନ ଡାକ୍ତରଖାନାକୁ ଆପଣଙ୍କ ଆପଦକାଳୀନ ଅବସ୍ଥାନ ପଠାଇପାରିବ।</string>
+    <string name="msg_no_call_permission">ଆମ୍ବୁଲାନ୍ସ ପ୍ରଦାନକାରୀଙ୍କୁ କଲ୍ କରିପାରିବ ନାହିଁ, ଆପ୍‌ ଦ୍ୱାରା ଆପଣ ଅନୁମତି ମଞ୍ଜୁର କରି ନାହାନ୍ତି।</string>
+    <string name="tv_track_emergency">ଆପଦକାଳୀନ ସ୍ଥିତି ଉପରେ ନଜର ରଖନ୍ତୁ</string>
+    <string name="toast_activity_maps_loc_not_found">ଅବସ୍ଥାନ ମିଳିଲା ନାହିଁ</string>
+    <string name="msg_dialog_onclick_revoke_button">"ଦୟାକରି ଏକ ବୈଧ କାରଣ ଚୟନ କରନ୍ତୁ: "</string>
+    <string name="msg_revoke_screen_is_in_emergency">ଆପଦକାଳୀନ ପରିସ୍ଥିତିରେ ରହିଛନ୍ତି</string>
+    <string name="msg_revoke_screen_tracking_fail">ଆପଦକାଳୀନ ସ୍ଥିତି ଉପରେ ନଜର ରଖିବାରେ ଅସୁବିଧା…</string>
+    <string name="revokeSuceesfulMSg">ଖଣ୍ଡନ କରିବା ସଫଳତାର ସହ ସମ୍ପୂର୍ଣ୍ଣ ହୋଇଛି</string>
+    <string name="toast_revoke_failed">ଓଃ!!! ମନେହେଉଛି କିଛି ଅସୁବିଧା ରହିଛି କି, sms ମାଧ୍ୟମରେ ଆପଦକାଳ ରଦ୍ଦ କରାଯାଉଛି</string>
+    <string name="value_processing_action_notify_contacts_no_contacts">କୌଣସି ଯୋଗାଯୋଗ ନାହିଁ</string>
+    <!--<string name="stranger_emergency_url">https://www.callambulance.in/home/stranger</string>-->
+    <string name="tip_dialog_track_emergency_msg">ଆପଣଙ୍କ ବନ୍ଧୁ ଏବଂ ପରିବାର ମଧ୍ୟ ଟ୍ରାକ୍ କରିପାରିବେ!!!!</string>
+    <string name="yes">ହଁ</string>
+    <string name="yesgender">ହଁ</string>
+    <string name="no">ନା</string>
+    <string name="nogender">ନା</string>
+
+    <string name="title_activity_contacts">ସହାୟତା ଦଳ</string>
+    <string name="title_activity_add_new_contact">ସମ୍ପର୍କ ଯୋଗ କରନ୍ତୁ</string>
+    <string name="relation">ସମ୍ବନ୍ଧ</string>
+    <string name="cont_to_know_fare">ଭଡା ଜାଣିବା ପାଇଁ କଲ୍ କରନ୍ତୁ</string>
+
+    <string name="fname_length_error_msg">ପ୍ରଥମ ନାମ ୩ ଏବଂ ୨୫ ବର୍ଣ୍ଣ ମଧ୍ୟରେ ରହିବା ଆବଶ୍ୟକ</string>
+    <string name="fname_mandatory_error_msg">ଦୟାକରି ପ୍ରଥମ ନାମ ପ୍ରବେଶ କରନ୍ତୁ, ଏହା ଶୂନ୍ୟ ହୋଇପାରିବ ନାହିଁ</string>
+    <string name="lname_length_error_msg">ସାଙ୍ଗିଆ ୩ ଏବଂ ୨୫ ବର୍ଣ୍ଣ ମଧ୍ୟରେ ରହିବା ଆବଶ୍ୟକ।</string>
+    <string name="Doctor_search_spinner_length_error_msg">୩ ଏବଂ ୨୫ ବର୍ଣ୍ଣ ମଧ୍ୟରେ ରହିବା ଆବଶ୍ୟକ।</string>
+    <string name="lname_mandatory_error_msg">ଦୟାକରି ପ୍ରଥମ ସାଙ୍ଗିଆ ପ୍ରବେଶ କରନ୍ତୁ, ଏହା ଶୂନ୍ୟ ହୋଇପାରିବ ନାହିଁ</string>
+    <string name="email_mandatory_error_msg">ଇମେଲ୍ ଶୂନ୍ୟ ହୋଇପାରିବ ନାହିଁ</string>
+    <string name="phoneno_invalid">ଫୋନ୍ ନମ୍ବର ଅବୈଧ।</string>
+    <string name="alt_phoneno_invalid">ବିକଳ୍ପ ନମ୍ବର ଅବୈଧ।</string>
+    <string name="phoneno_length_error_msg">ଫୋନ୍ ନମ୍ବରର ଦୀର୍ଘତା ୧୦ ଏବଂ ୧୩ ବର୍ଣ୍ଣ ମଧ୍ୟରେ ରହିବା ଆବଶ୍ୟକ।</string>
+    <string name="alt_phoneno_length_error_msg">ବିକଳ୍ପ ନମ୍ବରର ଦୀର୍ଘତା ୧୦ ଏବଂ ୧୩ ବର୍ଣ୍ଣ ମଧ୍ୟରେ ରହିବା ଆବଶ୍ୟକ</string>
+    <string name="phone_number_mandatory">ଦୟାକରି ଆପଣଙ୍କ ଫୋନ୍ ନମ୍ବର ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <!--<string name="webservice_update_patient_profile">patientWebservices/savePatientOwnerFromMobile</string>-->
+    <string name="save">ସେଭ୍ କରନ୍ତୁ</string>
+    <string name="title_activity_update_profile">" ପ୍ରୋଫାଇଲ୍ ଅପଡେଟ୍ କରନ୍ତୁ"</string>
+    <string name="toast_msg_refresh">ସିଙ୍କ୍ କରିବା ବିଫଳ ହୋଇଛି, ଦୟାକରି ପରିର୍ତ୍ତନଗୁଡ଼ିକ ଦେଖିବା ପାଇଁ ରିଫ୍ରେସ୍ କ୍ଲିକ୍ କରନ୍ତୁ</string>
+    <string name="title_activity_activity_edit_insurance">ବୀମା ଅପଡେଟ୍ କରନ୍ତୁ</string>
+
+    <string name="policy_provider">ପଲିସି ପ୍ରଦାନକାରୀ</string>
+    <string name="policy_name">ପଲିସି ନାମ</string>
+    <string name="policy_number">ପଲିସି ସଂଖ୍ୟା</string>
+    <string name="policy_coverage">ପଲିସିରେ କଭରେଜ୍ ପରିମାଣ</string>
+    <string name="policy_claim_no">ଦାବି ଫୋନ୍ ନମ୍ବର</string>
+    <string name="policy_start_date_text">"ପଲିସି ଆରମ୍ଭ ତାରିଖ: "</string>
+    <string name="policy_end_date_text">"ପଲିସି ଶେଷ ତାରିଖ: "</string>
+    <string name="policyEndDateVal">ଦୟାକରି ପଲିସି ଶେଷ ତାରିଖ ଚୟନ କରନ୍ତୁ ଯାହାକି ସାମ୍ପ୍ରତିକ ତାରିଖ ଏବଂ ପଲିସି ଆରମ୍ଭ ତାରିଖ ପରବର୍ତ୍ତୀ ତାରିଖ ହେବା ଉଚିତ୍</string>
+    <string name="sendingInsurance">ବୀମା ବିବରଣୀ ପଠାଉଛି….</string>
+    <string name="insAddedSucessfully">ବୀମା ସଫଳତାର ସହ ସଞ୍ଚୟ ହୋଇଛି</string>
+    <string name="ins_policy_provider_mandatory_error_msg">ଦୟାକରି ପଲିସି କମ୍ପାନି ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="ins_policyname_mandatory_error_msg">ଦୟାକରି ପଲିସି ନାମ ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="ins_policyNum_mandatory_error_msg">ଦୟାକରି ପଲିସି ସଂଖ୍ୟା ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="ins_policy_coverage_mandatory_error_msg">ଦୟାକରି ପଲିସି କଭରେଜ୍ ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="ins_strt_date_mandatory_error_msg">ପଲିସି ଆରମ୍ଭ ତାରିଖ ସେଟ୍ କରାଯିବା ଆବଶ୍ୟକ</string>
+    <string name="ins_end_date_mandatory_error_msg">ପଲିସି ଶେଷ ତାରିଖ ସେଟ୍ କରାଯିବା ଆବଶ୍ୟକ</string>
+    <string name="unableToSave">ସଞ୍ଚୟ କରିବାକୁ ଅସମର୍ଥ ପୁନଃପ୍ରୟାସ କରନ୍ତୁ</string>
+    <!--<string name="webservice_update_insurance">patientWebservices/saveInsuranceFromMobile</string>-->
+    <string name="title_activity_activity_ehrupdate">EHR ଅପଡେଟ୍‌ କରନ୍ତୁ</string>
+    <string name="toast_msg_emhr_updated">ସଫଳତାର ସହ ଅପଡେଟ୍ ହୋଇଛି</string>
+    <!--<string name="webservice_update_ehr">patientWebservices/updateEHR</string>-->
+    <string name="lable_later">ପରେ</string>
+    <string name="dialog_title_setup_ehr">ଆପଦକାଳୀନ ସ୍ୱାସ୍ଥ୍ୟ ରେକର୍ଡ</string>
+
+    <string name="email_length_validate">ଇମେଲର ଦୀର୍ଘତା ୬ ଏବଂ ୫୦ ମଧ୍ୟରେ ରହିବା ଉଚିତ୍।</string>
+    <string name="pincode_validate">ପିନ୍ କୋଡ୍ କେବଳ ସଂଖ୍ୟା ଏବଂ ହାଇଫେନ୍ ଧାରଣ କରିବା ଉଚିତ୍।</string>
+    <string name="dob_error_msg">ଦୟାକରି ଆଜିର ତାରିଖ ପୂର୍ବର ଗୋଟିଏ ତାରିଖ ଚୟନ କରନ୍ତୁ।</string>
+    <string name="email_invalid_error_msg">ଏକ ବୈଧ ଇମେଲ୍ ଆଇଡି ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="cityStateLenValMsg">ଦୀର୍ଘତା ୩ ଏବଂ ୧୦୦ ବର୍ଣ୍ଣ ମଧ୍ୟରେ ହେବା ଉଚିତ୍।</string>
+    <string name="pincode_length_error_msg">ପପିନ୍‌ କୋଡ୍ ନିଶ୍ଚୟ ୫ ଏବଂ ୧୦ ଅଙ୍କ ମଧ୍ୟରେ ରହିବା ଉଚିତ୍</string>
+    <string name="dob_mandatory">ଦୟାକରି ଆପଣଙ୍କ ଜନ୍ମ ତାରିଖ ଚୟନ କରନ୍ତୁ</string>
+    <string name="gender_mandatory">ଦୟାକରି ଲିଙ୍ଗ ଚୟନ କରନ୍ତୁ</string>
+    <string name="patientAddedSuccessfully">ସଦସ୍ୟ ସଫଳତାର ସହ ସେଭ୍ ହେଲା</string>
+    <string name="failure_msg">ପ୍ରୋଫାଇଲ୍ ସେଭ୍ କରିବାକୁ ଅସମର୍ଥ । ଦୟାକରି ପୁନଃପ୍ରୟାସ କରନ୍ତୁ।</string>
+    <string name="relation_ship">ସମ୍ବନ୍ଧ</string>
+    <string name="relationchip">ଆପଣଙ୍କ ସହ ସମ୍ବନ୍ଧ</string>
+    <string name="patient_gender">ଲିଙ୍ଗ</string>
+    <string name="add_patient_phoneno">ଉଦାହରଣ: 9898989898</string>
+    <string name="alt_phone_number">ବିକଳ୍ପ ଫୋନ୍ ନମ୍ବର</string>
+    <string name="email">"ଇମେଲ୍ "</string>
+    <string name="address">ଠିକଣା</string>
+    <string name="city">ସହର</string>
+    <string name="state">ରାଜ୍ୟ</string>
+    <string name="country">ଦେଶ</string>
+    <string name="pin_code">ପିନ୍ କୋଡ୍</string>
+    <string name="financial_status">ଆର୍ଥିକ ସ୍ଥିତି</string>
+    <string name="family_history">ପାରିବାରିକ ଇତିହାସ</string>
+    <string name="habits">ଅଭ୍ୟାସ</string>
+    <string name="food_habits">ଖାଦ୍ୟ ଅଭ୍ୟାସ</string>
+    <string name="remarks">ଟିପ୍ପଣୀ</string>
+    <string name="label_company_name">କମ୍ପାନି ନାମ</string>
+    <string name="marital_status">ବୈବାହିକ ସ୍ଥିତି</string>
+    <string name="organ_donation">ଅଙ୍ଗଦାନ ପାଇଁ ଇଛୁକ କି?</string>
+    <string name="organ_donation_hint">"ଅଙ୍ଗଦାନ "</string>
+    <string name="donate_blood_simple_text">"ରକ୍ତଦାନ କରିବା ପାଇଁ ଇଛୁକ କି? "</string>
+    <string name="add_patient_familyHistory">ସଂକ୍ଷିପ୍ତ ପାରିବାରିକ ଇତିହାସ</string>
+
+    <string name="hint_ec_phonenumber">ଯୋଗାଯୋଗ ନମ୍ବର</string>
+
+    <string name="activity_maps_counter_text">ଏଥିରେ ମାନଚିତ୍ର ଲୋଡ୍ ହେଉଛି</string>
+    <string name="toast_activity_maps_taking_time">ମାନଚିତ୍ର ଲୋଡ ହେବା ପାଇଁ ସମୟ ଲାଗୁଛି। ଆପଦକାଳ ସକ୍ରିୟ କରାଯାଉଛି….</string>
+    <string name="toast_activity_maps_no_internet">ମାନଚିତ୍ର ଆହରଣ ହେବା ବିଫଳ, ଦୟାକରି ଆପଣଙ୍କ ଇଣ୍ଟରନେଟ୍ ସଂଯୋଗ ଯାଞ୍ଚ କରନ୍ତୁ</string>
+    <!-- crash report strings -->
+    <string name="crash_toast_text">ଓଃ!! କ୍ରାସ୍ ହୋଇଗଲା, ଏହି ସମସ୍ୟା ସମାଧାନରେ ସାହାଯ୍ୟ ପାଇଁ ଡେଭଲପରଙ୍କୁ ରିପୋର୍ଟ ପଠାଇବା ପାଇଁ ଆସୁଥିବା ସ୍କ୍ରିନକୁ ଅନୁସରଣ କରନ୍ତୁ!</string>
+    <string name="unKnownError">ଅଜ୍ଞାତ ତ୍ରୁଟି ଘଟିଲା, ଦୟାକରି ପୁନଃପ୍ରୟାସ କରନ୍ତୁ</string>
+    <string name="crash_dialog_title">କଲ୍ ଆମ୍ବୁଲାନ୍ସ କ୍ରାସ୍ ହୋଇଯାଇଛି</string>
+    <string name="crash_dialog_text">ଅପ୍ରତ୍ୟାଶିତ ତ୍ରୁଟି ଘଟିଲା ଯାହାକି ଆପ୍ଲିକେସନକୁ ବନ୍ଦ କରିଦେଲା। ଦୟାକରି ଆମ୍ଭଙ୍କୁ ତ୍ରୁଟି ଡାଟା ପଠାଇବା ଦ୍ୱାରା ଏହାର ସମାଧାନ କରିବାରେ ସାହାଯ୍ୟ କରନ୍ତୁ, ଏଥିପାଇଁ ଆପଣଙ୍କୁ କେବଳ ଓକେ କ୍ଲିକ୍ କରିବାକୁ ହେବ।</string>
+    <string name="crash_dialog_comment_prompt">ଆପଣ ନିମ୍ନରେ ଦିଆଯାଇଥିବା ଅସୁବିଧା ବିଷୟରେ ଆପଣଙ୍କ ମନ୍ତବ୍ୟ ଯୋଗ କରିପାରନ୍ତି:</string>
+    <string name="crash_dialog_try_again">ଏହା ଏକ ଅପ୍ରତ୍ୟାଶିତ ତ୍ରୁଟି ପରି ମନେହେଉଛି। ଦୟାକରି ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ।</string>
+    <string name="crash_dialog_ok_toast">ଆପଣଙ୍କୁ ଧନ୍ୟବାଦ!</string>
+    <string name="label_splash_screen_congrats">ଶୁଭକାମନା!</string>
+    <string name="label_splash_screen_continue"><![CDATA[ଜାରି ରଖନ୍ତୁ]]></string>
+    <string name="labe_emergency">ଆପଦକାଳୀନ</string>
+    <string name="label_allergies">ଆଲର୍ଜିଗୁଡ଼ିକ</string>
+    <string name="label_medical_condition">ମେଡ଼ିକାଲ୍ ସ୍ଥିତି</string>
+    <string name="label_medication">ଔଷଧ ସେବନ</string>
+    <string name="hint_medication">ଔଷଧ ସେବନ ଏଠାରେ ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="label_blood_group">ବ୍ଲଡ ଗ୍ରୁପ୍‌</string>
+    <string name="label_preferred_ambulance_service">ଅଗ୍ରାଧିକାର ଦେଉଥିବା ଆମ୍ବଲାନ୍ସ  ପ୍ରଦାନକାରୀ</string>
+    <string name="label_preffered_hospital">ଅଗ୍ରାଧିକାର ଦେଉଥିବା ଡାକ୍ତରଖାନା</string>
+    <string name="label_medicine_allergies">ଆଲର୍ଜି ହେଉଥିବା ଔଷଧ</string>
+    <string name="hint_medication_allergies">ଆଲର୍ଜି ହେଉଥିବା ଔଷଧଗୁଡ଼ିକ ଏଠାରେ ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="tv_label_medication_for_chronic_illness">" କୌଣସି ପୁରୁଣା ରୋଗ ପାଇଁ ଔଷଧ ସେବନ ଏଠାରେ ପ୍ରବେଶ କରନ୍ତୁ"</string>
+    <string name="hint_medication_for_chronic_illness">" କୌଣସି ପୁରୁଣା ରୋଗ ପାଇଁ ଔଷଧ ସେବନ ଏଠାରେ ପ୍ରବେଶ କରନ୍ତୁ"</string>
+    <string name="tv_label_Languages_spoken">ଆପଣଙ୍କ କଥିତ ଭାଷା</string>
+    <string name="hint_languages_spoken">ଆପଣଙ୍କ କଥିତ ଭାଷାର ନାମ ଏଠାରେ ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="label_select_allergy_type">ଆଲର୍ଜିର ପ୍ରକାର ବାଛନ୍ତୁ</string>
+    <string name="label_others">ଅନ୍ୟାନ୍ୟ</string>
+    <string name="label_add">ଯୋଗ କରନ୍ତୁ</string>
+    <string name="label_cancel">ବାତିଲ୍ କରନ୍ତୁ</string>
+    <string name="label_select_medical_condition">ସ୍ୱାସ୍ଥ୍ୟଗତ ସ୍ଥିତି ଚୟନ କରନ୍ତୁ</string>
+    <string name="hint_et_others_allergy_dialog">କମା ଦ୍ୱାରା ପୃଥକ କରି ମୂଲ୍ୟଗୁଡ଼ିକ ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <!--EMRI Registration-->
+    <string name="title_emri_registration">EMRI/୧୦୮ ପଞ୍ଜିକରଣ</string>
+    <string name="mobile_number_emri_msg">*ଆମ୍ଭେମାନେ ଏହି ନମ୍ବରକୁ EMRI/୧୦୮ ସହିତ ପଞ୍ଜିକୃତ କରିଥାଉ। ଯାହାଫଳରେ ସେମାନେ ଆପଣଙ୍କୁ ଆପଦକାଳୀନ ସ୍ଥିତିରେ ଚିହ୍ନଟ କରିପାରିବେ।</string>
+    <string name="mobile_number_empty_msg">ଦୟାକରି ଏହି ଫୋନର ମୋବାଇଲ୍ ନମ୍ବର ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="mobile_number_2nd_sim_msg">ଯଦି ଆପଣ ଦୁଇଟି ସିମ୍ ବ୍ୟବହାର କରୁଥାନ୍ତି, ତେବେ ଦୟାକରି ଅନ୍ୟ ନମ୍ବର ପ୍ରବେଶ କରନ୍ତୁ।</string>
+    <string name="title_activity_insurance_details">ବୀମା ବିବରଣୀ</string>
+    <!--Profile tabs-->
+    <string name="title_tab_profile">ପ୍ରୋଫାଇଲ୍</string>
+    <string name="title_tab_emergency_record">ଆପଦକାଳୀନ ରେକର୍ଡ</string>
+    <string name="title_activity_activity_invitation">ଆମନ୍ତ୍ରଣ</string>
+    <string name="accept_cg_invitation_warning_msg">ଜଣେ ଯତ୍ନପ୍ରଦାନକାରୀ ହେବା ପାଇଁ ବାଛିବା ଦ୍ୱାରା ଆପଣଙ୍କୁ ସାମାଜିକ ପରିସଂଖ୍ୟାନ ସୂଚନା, ଯୋଗାଯୋଗ ସୂଚନା ଏବଂ ସ୍ୱାସ୍ଥ୍ୟ ଇତିହାସ ସମ୍ପାଦନା କରିବା ପାଇଁ ଅଭିଗମ୍ୟତା ମଞ୍ଜୁର କରାଯିବ। ଦୟାକରି ସୁନିଶ୍ଚିତ କରନ୍ତୁ ଯେ ଆପଣ ସଦସ୍ୟଙ୍କର ତଥ୍ୟର ଏବଂ କରାଯାଇଥିବା ତଥ୍ୟର ଅଦ୍ୟତନର ଗୋପନୀୟତା ପାଇଁ ଦାୟିତ୍ୱବାନ ହେବେ।</string>
+    <string name="accept_ec_invitation_warning_msg">ଜଣେ ଆପଦକାଳୀନ ଯୋଗାଯୋଗ ହେବା ପାଇଁ ସ୍ୱୀକାର କରିବା ଦ୍ୱାରା ଆପଣଙ୍କୁ ସାମାଜିକ ପରିସଂଖ୍ୟାନ ସୂଚନା, ଯୋଗାଯୋଗ ସୂଚନା ଏବଂ ସ୍ୱାସ୍ଥ୍ୟ ଇତିହାସ ସମ୍ପାଦନା କରିବା ପାଇଁ ଅଭିଗମ୍ୟତା ମଞ୍ଜୁର କରାଯିବ। ଦୟାକରି ସୁନିଶ୍ଚିତ କରନ୍ତୁ ଯେ ଆପଣ ସଦସ୍ୟଙ୍କର ତଥ୍ୟର ଗୋପନୀୟତା ପାଇଁ ଦାୟିତ୍ୱବାନ ହେବେ।</string>
+    <string name="rejectInvitation">ଆମନ୍ତ୍ରଣ ପ୍ରତ୍ୟାଖ୍ୟାନ କରନ୍ତୁ</string>
+    <string name="toast_adapter_failed_invitation">ଓଃ!! କିଛି ତ୍ରୁଟି ଘଟିଲା, ଦୟାକରି ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ…</string>
+    <!--<string name="webservice_invitation_status_update">patientWebservices/acceptRejectPatientAccessRequest</string>-->
+    <string name="unableToAcceptInvite">ଆମନ୍ତ୍ରଣ ଗ୍ରହଣ କରିବାକୁ ଅସମର୍ଥ</string>
+    <string name="noInvitationMsg">ଅନୁମୋଦନ ପାଇଁ କୌଣସି ଆମନ୍ତ୍ରଣ ନାହିଁ।</string>
+    <!--<string name="webservice_image_download">webservices/getUploadedImage/</string>-->
+    <string name="action_refresh">ସତେଜ କରନ୍ତୁ</string>
+    <string name="label_press_emergency_bt">ଜରୁରୀକାଳୀନ ଘଟଣାରେ, ତଳେ ଦିଆଯାଇଥିବା ବଟନ୍ ଦବାନ୍ତୁ</string>
+    <string name="label_current_emergencies">ସାମ୍ପ୍ରତିକ ଜରୁରୀକାଳୀନ ପରିସ୍ଥିତିଗୁଡ଼ିକ</string>
+    <string name="label_health_record">ସ୍ୱାସ୍ଥ୍ୟ ରେକର୍ଡ</string>
+    <string name="label_insurance">ବୀମା</string>
+    <string name="label_initializing_in">ଏଥିରେ ପ୍ରାରମ୍ଭ ହେଉଛି</string>
+    <string name="label_select_hazard_type">ବିପର୍ଯ୍ୟୟର ପ୍ରକାର ଚୟନ କରନ୍ତୁ</string>
+
+    <string name="label_emergency_token_no">ଆପଦକାଳୀନ ଟୋକନ୍ ସଂଖ୍ୟା:</string>
+    <string name="label_is_in_emergency">ଏକ ଆପଦକାଳୀନ ସ୍ଥିତିରେ ଅଛନ୍ତି</string>
+    <string name="title_activity_current_emergencies">"ଆପଦକାଳୀନ ସ୍ଥିତିରେ "</string>
+    <string name="no_patients_in_emergencies">ସମ୍ପ୍ରତି କୌଣସି ଉପଭୋକ୍ତା ଆପଦକାଳୀନ ସ୍ଥିତିରେ ନାହାନ୍ତି</string>
+    <string name="choose_from">ଏଥିରୁ ବାଛନ୍ତୁ</string>
+    <string name="profile_pic_upload_confirmation_msg">" ପ୍ରୋଫାଇଲ୍ ଛବି ବଦଳାନ୍ତୁ?"</string>
+    <!--care team-->
+    <string name="title_hospitals">ଡାକ୍ତରଖାନା/ଅନୁଷ୍ଠାନଗୁଡ଼ିକ</string>
+    <string name="title_notify_doctor">ମୋର ଡାକ୍ତର</string>
+
+
+    <string name="fab_care_giver_title">ଯତ୍ନପ୍ରଦାନକାରୀ</string>
+    <string name="help_care_giver_msg">ଯତ୍ନପ୍ରଦାନକାରୀ ସେହି ବ୍ୟକ୍ତି ହୋଇଥାନ୍ତି ଯାହାକୁ କି ରୋଗୀ କୌଣସି ଅସୁସ୍ଥତା ଘଟଣାରେ ତାଙ୍କର ଯତ୍ନ ନେବା ପାଇଁ ଦାୟିତ୍ୱ ଦେଇଥାନ୍ତି। ଯତ୍ନ ପ୍ରଦାନକାରୀଙ୍କର ରୋଗୀଙ୍କ ସୂଚନା ପ୍ରତି ସମ୍ପୂର୍ଣ୍ଣ ଅଭିଗମ୍ୟତା ସହ ଏହାକୁ ସମ୍ପାଦନା କରିବାର ଅଧିକାର ରହିଥାଏ।</string>
+    <string name="help_ec_msg">ଜରୁରୀକାଳୀନ ସମ୍ପର୍କ ଗୁଡ଼ିକୁ ବିଜ୍ଞପିତ କରାଯାଇଥାଏ, ଯେତେବେଳେ ଆପଣ ଆପଦକାଳୀନ ପରିସ୍ଥିତିରେ ରହିଥାନ୍ତି। ଜଣେ ଜରୁରୀକାଳୀନ ସମ୍ପର୍କଙ୍କର ଆପଣଙ୍କର ସମସ୍ତ ସୂଚନା ପ୍ରତି କେବଳ ପଠନୀୟ ଅଭିଗମ୍ୟତା ରହିବ।</string>
+    <string name="help_hospital_msg">ଡାକ୍ତରଖାନା/ଅନୁଷ୍ଠାନଗୁଡ଼ିକ ଆପଣଙ୍କୁ ଆପଣଙ୍କର ସମ୍ପର୍କ ସ୍ୱାସ୍ଥ୍ୟସେବା ଅନୁଷ୍ଠାନରେ, ଡାକ୍ତରଖାନାରେ, ପରୀକ୍ଷାଗାରରେ କିମ୍ବା ଫାର୍ମାସୀରେ ପରିଚାଳନା କରିବାକୁ ଦେଇଥାଏ।</string>
+    <string name="title_activity_search_care_giver">ଯତ୍ନପ୍ରଦାନକାରୀଙ୍କୁ ସନ୍ଧାନ କରନ୍ତୁ</string>
+
+    <!--Search Care Team-->
+    <string name="searchBy">ଏହି ଅନୁଯାୟୀ ସନ୍ଧାନ କରନ୍ତୁ</string>
+    <string name="hint_searchcontact_text">ଇମେଲ୍ କିମ୍ବା ଫୋନ୍ ନମ୍ବର  ଦ୍ୱାରା ସମ୍ପର୍କ ସନ୍ଧାନ କରନ୍ତୁ</string>
+    <string name="searchContactBy">ଏହା ଦ୍ୱାରା ସମ୍ପର୍କ ସନ୍ଧାନ କରନ୍ତୁ</string>
+    <string name="contactRole">ସମ୍ପର୍କ ଭୂମିକା</string>
+    <string name="noCGMsg">ଆପଣଙ୍କ ଯତ୍ନପ୍ରଦାନକାରୀଙ୍କୁ ଯୋଗ କରନ୍ତୁ</string>
+    <string name="addEc">ଆପଣଙ୍କ ଜରୁରୀକାଳୀନ ସମ୍ପର୍କ ଯୋଗ କରନ୍ତୁ</string>
+    <string name="inviteCG">ଆପଣଙ୍କ ଯତ୍ନପ୍ରଦାନକାରୀଙ୍କୁ ନିମନ୍ତ୍ରଣ କରନ୍ତୁ</string>
+    <string name="noContactMsgForEC">ଆପଣଙ୍କ ସମ୍ପର୍କ କଲ୍ ଆମ୍ବୁଲାନ୍ସ ଡାଟା ବେସରେ ନାହାନ୍ତି। ଦୟାକରି ମେନ୍ୟୁରେ ଆଡ୍ ନ୍ୟୁ ବଟନରେ କ୍ଲିକ୍ କରନ୍ତୁ।</string>
+    <string name="enter_search_text">ଦୟାକରି ସନ୍ଧାନ ପାଇଁ ପାଠ୍ୟ ଏଠାରେ ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="searching">ସନ୍ଧାନ କରୁଛି</string>
+    <string name="search">ସନ୍ଧାନ କରନ୍ତୁ</string>
+    <string name="deleted">ବିଲୋପିତ ହୋଇଛି</string>
+    <string name="pending">ପଡ଼ିରହିଛି</string>
+    <string name="rejected">ପ୍ରତ୍ୟାଖ୍ୟାନ ହୋଇଛି</string>
+    <string name="request_sent">ଏହି ସମ୍ପର୍କକୁ ଏକ ଅନୁରୋଧ ଅଦ୍ୟାବଧି ପଠାଯାଇସାରିଛି</string>
+    <string name="request_care_giver">ଯତ୍ନପ୍ରଦାନକାରୀଙ୍କ ପାଇଁ ଅନୁରୋଧ ସଫଳତାର ସହ ପ୍ରେରଣ ହୋଇଛି</string>
+    <string name="accepted">ସ୍ୱୀକାର କରାଯାଇଛି</string>
+    <string name="searchContactAcceptedMsg">ଏହି ସମ୍ପର୍କ ଅଦ୍ୟାବଧି ଆପଣଙ୍କର ରହିଛି</string>
+    <string name="add_new">ନୂତନ ଯୋଗ କରନ୍ତୁ</string>
+    <string name="title_activity_search_emergency_contact">ଆପଦକାଳୀନ ଯୋଗାଯୋଗଗୁଡ଼ିକ</string>
+    <string name="title_activity_add_new_care_giver">ଯତ୍ନପ୍ରଦାନକାରୀ ଯୋଗ କରନ୍ତୁ</string>
+
+    <!--Add unregistered care giver -->
+    <string name="CGInvitationMsg">ମୁଁ ଆପଣଙ୍କୁ https://www.callambulance.in/. ମୋର ଯତ୍ନପ୍ରଦାନକାରୀ ହେବା ପାଇଁ ଅନୁରୋଧ କରୁଛି। ଦୟାକରି ଆପଣଙ୍କୁ https://www.callambulance.in/.ରେ ପଞ୍ଜିକୃତ କରନ୍ତୁ ଏବଂ ମୋତେ ଜଣାନ୍ତୁ ଯାହାଫଳରେ ମୁଁ ଆପଣଙ୍କୁ ମୋର ଯତ୍ନପ୍ରଦାନକାରୀ ଭାବରେ ଯୋଗ କରିପାରିବି।</string>
+    <string name="title_activity_search_hospitals_and_organisations">ଡାକ୍ତରଖାନା/ଅନୁଷ୍ଠାନ ସନ୍ଧାନ କରନ୍ତୁ</string>
+
+    <!--Hospitals and Org Search and Add-->
+    <string name="add_employer_warning_msg">ଜଣେ ନିଯୁକ୍ତିଦାତାଙ୍କୁ  ଯୋଗ କଲେ ତାଙ୍କୁ ଆପଣଙ୍କର ସାମାଜିକ ପରିସଂଖ୍ୟାନ ସୂଚନା, ଯୋଗାଯୋଗ ସୂଚନା, ବୀମା ସୂଚନା ପ୍ରତି ଅଭିଗମ୍ୟତା ପ୍ରଦାନ କରାଯାଇଥାଏ ଏବଂ ଆପଣ ଆପଦକାଳୀନ ରହିଥିବା ସ୍ଥିତିରେ ତାଙ୍କୁ ସେ ବିଷୟରେ ସୂଚନା ଦିଆଯିବ।</string>
+    <string name="add_educational_institute_warning_msg">ଏକ ଶିକ୍ଷାନୁଷ୍ଠାନକୁ ଯୋଗ କଲେ ଶିକ୍ଷାନୁଷ୍ଠାନକୁ ଆପଣଙ୍କର ସାମାଜିକ ପରିସଂଖ୍ୟାନ ସୂଚନା, ଯୋଗାଯୋଗ ସୂଚନା, ବୀମା ସୂଚନା ପ୍ରତି ଅଭିଗମ୍ୟତା ପ୍ରଦାନ କରାଯିବ ଏବଂ ଆପଣ ଆପଦକାଳୀନ ରହିଥିବା ସ୍ଥିତିରେ ତାଙ୍କୁ ସେ ବିଷୟରେ ସୂଚନା ଦିଆଯିବ।</string>
+    <string name="add_org_warning_msg">ଏକ ଅନୁଷ୍ଠାନକୁ ଯୋଗ କଲେ ଉକ୍ତ ଅନୁଷ୍ଠାନକୁ ଆପଣଙ୍କର ସାମାଜିକ ପରିସଂଖ୍ୟାନ ସୂଚନା, ଯୋଗାଯୋଗ ସୂଚନା, ଏବଂ ସ୍ୱାସ୍ଥ୍ୟ ଇତିହାସ ସମ୍ପାଦନା ପ୍ରତି ଅଭିଗମ୍ୟତା ପ୍ରଦାନ କରାଯିବ । ଯଦି ଆପଣ ଆଗକୁ ବଢ଼ିବାକୁ ଚାହାନ୍ତି ସୁନିଶ୍ଚିତ କରନ୍ତୁ।</string>
+    <string name="org_request_sent">ଅନୁରୋଧ ସଫଳତାର ସହ ପ୍ରେରଣ ହୋଇଛି</string>
+    <string name="toast_no_internet">କ୍ଷମାକରିବେ ସଂଯୁକ୍ତ ହେବାକୁ ଅସମର୍ଥ। ଦୟାକରି ଆପଣଙ୍କ ଇଣ୍ଟରନେଟ୍ ସଂଯୋଗ ଯାଞ୍ଚ କରନ୍ତୁ ଏବଂ ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ</string>
+    <string name="timeout">ସମୟ ଶେଷ ହୋଇଛି, ଦୟାକରି ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ</string>
+    <string name="search_hint">ନାମ ଟାଇପ୍ କରନ୍ତୁ</string>
+    <string name="org_added_successfully">ସଫଳତାର ସହ ଯୋଗ ହୋଇଛି</string>
+    <string name="hint_select_ambulance_provider">ଅଗ୍ରାଧିକାର ଦେଉଥିବା ଆମ୍ବୁଲାନ୍ସ ପ୍ରଦାନକାରୀଙ୍କ ନାମ ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="hint_enter_preferred_hospital">ଅଗ୍ରାଧିକାର ଦେଉଥିବା ଡାକ୍ତରଖାନାର ନାମ ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="hint_phone_number">ଫୋନ୍ ନମ୍ବର</string>
+    <string name="hint_company">କମ୍ପାନି</string>
+    <string name="hint_policy_provider">ପଲିସି ପ୍ରଦାନକାରୀଙ୍କ ନାମ ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="hint_policy_number">ପଲିସି ନମ୍ବର ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="hint_policy_coverage">ପଲିସି କଭରେଜ୍ ପରିମାଣ ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="hint_policy_claim_no">" ଫୋନ୍ ନମ୍ବର ପ୍ରବେଶ କରନ୍ତୁ"</string>
+    <string name="no_internet">ଠିକଣା ପ୍ରାପ୍ତ କରିବା ସମୟରେ ନେଟୱାର୍କ ସମସ୍ୟା ଘଟିଲା, ଠିକଣା ପ୍ରାପ୍ତ କରିବାକୁ କ୍ଲିକ୍ କରନ୍ତୁ</string>
+
+    <!--Invitation screen-->
+    <string name="filter_care_giver">"ଯତ୍ନପ୍ରଦାନକାରୀ "</string>
+    <string name="filter_emergency_contact">ଆପଦକାଳୀନ ଯୋଗାଯୋଗ</string>
+    <string name="open_location_settings">GPS ଅନ୍ କରନ୍ତୁ</string>
+    <string name="gps_network_not_enabled">ହେ!! ମନେ ହେଉଛି ଆପଣଙ୍କର GPS ଅଫ୍ ରହିଛି। ଦୟାକରି ସେଗୁଡ଼ିକ ମଧ୍ୟରୁ କୌଣସିଟି ଅନ୍ କରନ୍ତୁ</string>
+    <string name="toast_msg_sync_in_progress">ସିଙ୍କ ଚାଲୁ ରହିଛି</string>
+    <string name="toast_msg_sync_confirmation">ସିଙ୍କ୍ ଚାଲୁ ରହିଛି। ଏଥିପାଇଁ କିଛି ମିନିଟ୍ ଲାଗିବ। ଥରେ ପ୍ରକ୍ରିୟା ସମ୍ପୂର୍ଣ୍ଣ ହେଲେ ଆମ୍ଭେମାନେ ଆପଣଙ୍କୁ ସୂଚିତ କରିବୁ।</string>
+    <string name="toast_msg_empty_emhr">ସ୍ୱାସ୍ଥ୍ୟ ରେକର୍ଡ ଶୂନ୍ୟ ନାହିଁ</string>
+    <string name="emergency_tracking_id">ଟ୍ରାକିଙ୍ଗ ଆଇଡି:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="select_member">ସଦସ୍ୟ ବଦଳାନ୍ତୁ</string>
+    <string name="action_select_member">ସଦସ୍ୟ ବାଛନ୍ତୁ</string>
+    <string name="action_change_pwd">ପାସୱାର୍ଡ ବଦଳାନ୍ତୁ</string>
+    <string name="title_add_member">ସଦସ୍ୟ ଯୋଗ କରନ୍ତୁ</string>
+
+    <!--GCM -->
+    <string name="nt_event_type_promotion">ପ୍ରମୋସନ୍</string>
+    <string name="nt_event_type_emergency">ଆପଦକାଳୀନ -ସ୍ଥିତି</string>
+    <string name="nt_event_report">ଫାଇଲ୍-ଅପଲୋଡ୍</string>
+    <string name="nt_event_type_QA">ପ୍ରଶ୍ନ ଏବଂ ଉତ୍ତର</string>
+    <string name="nt_event_type_sync">ସିଙ୍କ୍ କରନ୍ତୁ</string>
+
+    <string name="done">ସମ୍ପନ୍ନ ହେବା!!!</string>
+    <string name="label_add_member">ଦୟାକରି ସଦସ୍ୟଙ୍କୁ ସର୍ବପ୍ରଥମ ଯୋଗ କରନ୍ତୁ</string>
+    <string name="msg_patient_added_successfully">ରୋଗୀ ସଫଳତାର ସହ ଯୋଗ ହୋଇଛନ୍ତି</string>
+    <string name="blood_group_mandatory">ଦୟାକରି ବ୍ଲଡ୍ ଗ୍ରୁପ୍ ବାଛନ୍ତୁ</string>
+    <string name="toast_track_page_emri_status_failure">ଆପଣଙ୍କ ଅବସ୍ଥାନ ସୂଚନା EMRIକୁ ଜଣାଇ ଦିଆଯାଇପାରିଲା ନାହିଁ। ଆପଣଙ୍କୁ ମୌଖିକ ଭାବରେ ସେମାନଙ୍କୁ କହିବାକୁ ହେବ।</string>
+    <string name="toast_track_page_location_status_failure">ଆପଦକାଳୀନ ଅବସ୍ଥାନ ମିଳିଲା ନାହିଁ। ଆପଣଙ୍କୁ ମୌଖିକ ଭାବରେ ଆପଣଙ୍କ ଆମ୍ବୁଲାନ୍ସ ପ୍ରଦାନକାରୀଙ୍କୁ ସୂଚନା ଦେବାକୁ ହେବ</string>
+    <string name="toast_track_page_contacts_status_failure">ଏହି ଘଟଣା ବିଷୟରେ ଆପଣଙ୍କ ସମ୍ପର୍କୀୟମାନଙ୍କୁ ସୂଚନା ଦିଆଯାଇପାରିଲା ନାହିଁ। ଦୟାକରି ଟ୍ରାକିଙ୍ଗ୍ ଲିଙ୍କ ସେମାନଙ୍କ ସହ ଅଂଶୀଦାର କରନ୍ତୁ</string>
+    <string name="toast_track_page_ambulance_status_failure">ଆପଣଙ୍କ ଅବସ୍ଥାନ ବିଷୟରେ ଆମ୍ବୁଲାନ୍ସ ପ୍ରଦାନକାରୀଙ୍କୁ ସୂଚନା ଦିଆଯାଇପାରିଲା ନାହିଁ। ଆପଣଙ୍କୁ ସେମାନଙ୍କୁ ମୌଖିକ ଭାବରେ କହିବାକୁ ହେବ</string>
+    <string name="title_activity_activity_terms_and_conditons"><![CDATA[ସର୍ତ୍ତ ଓ ନିୟମାବଳି]]></string>
+    <string name="label_accept">ସ୍ୱୀକାର କରନ୍ତୁ</string>
+    <string name="label_reject">ପ୍ରତ୍ୟାଖ୍ୟାନ କରନ୍ତୁ</string>
+    <string name="label_terms_and_conditions1">ଆମ୍ଭେମାନେ ଏକ ଅନୁଷ୍ଠାନ ଭାବରେ ଜୀବନରକ୍ଷା କରିବାକୁ ଚାହୁଁ। ଅବଶ୍ୟ କେତେକ ପାରସ୍ପରିକ ନିର୍ଭରଶୀଳତା କାରଣରୁ ସେବା ସ୍ତର ସୁନିଶ୍ଚିତ କରିବା ସମ୍ଭବ ହୋଇନଥାଏ। ଆମ୍ଭେମାନେ ଏକାଧିକ କ୍ଷେତ୍ରର ସେବା ପ୍ରଦାନକାରୀଙ୍କୁ ଏକତ୍ର କରି ଏକ ସମନ୍ୱିତ ପ୍ରୟାସ କରୁଛୁ। ଏହି ଉପଭୋକ୍ତା ସ୍ୱୀକାର କରନ୍ତି ଏବଂ ବୁଝିଛନ୍ତି ଯେ ଏହି ଆପ୍ ଏକ ଡାକ୍ତରଖାନା/୧୦୮ ଦ୍ୱାରା ପିକ୍-ଅପର ଗ୍ୟାରେଣ୍ଟି ଦିଏ ନାହିଁ। ଏହି ଆପରେ ଦିଆଯାଇଥିବା ସୂଚନା ବିପଦରେ ପଡ଼ିଥିବା ବ୍ୟକ୍ତିଙ୍କୁ ଅଧିକ ଶୀଘ୍ର/ପ୍ରଭାବଶାଳୀ ଭାବରେ ଉଦ୍ଧାରରେ ସହାୟତା ପାଇଁ ବ୍ୟବହାର କରାଯାଉଛି। ଏହି ଆପ୍ଲିକେସନ ଏବଂ ଏଥିରେ ଦିଆଯାଇଥିବା କୌଣସି ସୂଚନା କିମ୍ବା ଆପ୍ଲିକେସନ ମାଧ୍ୟମରେ ପ୍ରଦାନ କରାଯାଇଥିବା ସୂଚନା ‘‘ଯେପରି ଦିଆଯାଇଥାଏ ସେହିପରି’’ ଏବଂ ‘‘ଉପଲବ୍ଧ ଥିବା ପରି ହୋଇଥାଏ, ସେ ଯାହା ହେଉନା କାହିଁକି ଏଥିରେ କୌଣସି ୱାରେଣ୍ଟି ନଥାଏ। ଆପଣଙ୍କର ଆପ୍ର ବ୍ୟବହାର ଆପଣଙ୍କର ନିଜସ୍ୱ ଇଚ୍ଛା ଅନୁଯାୟୀ ହୋଇଥାଏ ଏବଂ ବିପଦର ଆଶଙ୍କା ଏକକ ଭାବରେ ହୋଇଥାଏ। କଲ୍ ଆମ୍ବୁଲାନ୍ସ ଏଥିପାଇଁ ଦାୟୀ ହୋଇନଥାଏ ଏବଂ ଆପଣ, ପ୍ରଥମ ଉତ୍ତରଦାତା ବା ଜବାବ ପ୍ରଦାନକାରୀ, ଆମ୍ବୁଲାନ୍ସ, ଡ୍ରାଇଭର, ଆମ୍ବୁଲାନ୍ସ ପ୍ରଦାନକାରୀ, ଡାକ୍ତରଖାନା ଏବଂ ୧୦୮ ମଧ୍ୟରେ  କୌଣସି କାରବାର କିମ୍ବା ବିବାଦ ଯୋଗୁଁ ଉତ୍ତରଦାୟୀ ହୋଇ ରହିବ ନାହିଁ।</string>
+    <string name="label_terms_and_conditions2">***ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ: କଲ୍ ଆମ୍ବୁଲାନ୍ସ ହେଉଛି ଏକ ଜରୁରୀକାଳୀନ ପ୍ଲାଟଫର୍ମ ଯାହାକି ନେଟୱର୍କ ମଧ୍ୟରେ କାର୍ଯ୍ୟ କରିଥାଏ। ସମ୍ପ୍ରତି କଲ୍ ଆମ୍ବୁଲାନ୍ସ ଭାରତରେ ହାଇଦ୍ରାବାଦରେ କେନ୍ଦ୍ରିତ ହୋଇଛି। ସମୟକ୍ରମେ ଅନ୍ୟସ୍ଥାନରେ ମଧ୍ୟ ନିର୍ମିତ ହେବ। ତେଣୁ ଆପଦକାଳୀନ ସେବା ପ୍ରଦାନକାରୀଙ୍କ ସହିତ ଆପ୍ଲିକେସନକୁ ସଂଯୋଜିତ କରିବା କାର୍ଯ୍ୟ ଅନ୍ୟ ସହରରେ କାର୍ଯ୍ୟକାରୀ ହୋଇନାହିଁ। ଏପରିକି ଯଦି ଆପଣ ହାଇଦ୍ରାବାଦରେ ନାହାନ୍ତି, ଆପଣ ନିଜର ପରିବାରକୁ ସୂଚନା ଦେବା ପାଇଁ, ଆପଣଙ୍କ ନିଜସ୍ୱ ରକ୍ତଦାନକାରୀ ବନ୍ଧୁମାନଙ୍କର ନେଟୱର୍କ ଏବଂ ଅନ୍ୟ ଅନେକ ବୈଶିଷ୍ଟ୍ୟ ବ୍ୟବହାର କରିବା ପାଇଁ ଏହି ଆପ୍ଲିକେସନ୍ ବ୍ୟବହାର କରିପାରିବେ।***</string>
+    <string name="title_activity_nearby">ନିକଟବର୍ତ୍ତୀ</string>
+    <string name="title_activity_first_responder_web_view">ପ୍ରଥମ ଜବାବଦାତାଙ୍କର ସହାୟତା</string>
+    <string name="title_activity_activity_web_view_vedioes">ଭିଡ଼ିଓଗୁଡ଼ିକ</string>
+    <string name="dialog_system_overlay_title">ସ୍କ୍ରିନ୍ ଓଭରଲେ ଚିହ୍ନଟ ହୋଇଛି</string>
+    <string name="allow">ଅନୁମତି  ଦିଅନ୍ତୁ</string>
+    <string name="label_call108">୧୦୮କୁ କଲ୍ କରନ୍ତୁ</string>
+    <string name="label_track">ଟ୍ରାକ୍ କରନ୍ତୁ</string>
+    <string name="label_redial">ପୁନର୍ବାର ଡାଏଲ୍ କରନ୍ତୁ</string>
+
+    <string name="toast_msg_no_phone_number">" କୌଣସି ଫୋନ୍ ନମ୍ବର ନାହିଁ"</string>
+    <string name="dialog_syncsms_confirmation"><![CDATA[ You are about to request for blood A+ to 250 contacts via SMS.charges apply as per your carrier. ?]]></string>
+    <string name="dialog_sync_confirmation">ରକ୍ତଦାନ ଏକ ପବିତ୍ର ଓ ପୂଣ୍ୟ କାର୍ଯ୍ୟ! ଆପଣ ଯେତେବେଳେ ସିଙ୍କ କରନ୍ତି ଆମ ସର୍ଭର ଆପଣଙ୍କ ଯୋଗାଯୋଗ ତାଲିକା ମଧ୍ୟ ଦେଇ ଗତି କରେ ଏବଂ ଆପଣଙ୍କୁ ଆମ ସହିତ ପଞ୍ଜିକୃତ ଏବଂ ବ୍ଲଡ ଗ୍ରୁପ୍ ବିଷୟରେ ସେଆର୍ କରିବା ପାଇଁ ସମ୍ମତ ଆପଣଙ୍କ ବନ୍ଧୁମାନଙ୍କର ରକ୍ତ ଗ୍ରୁପ୍ ବିଷୟରେ ସୂଚନା ଦିଏ। ଆପଣ ଜାରି ରଖିବାକୁ ଚାହାନ୍ତି କି?</string>
+    <!--<string name="dialog_sync_confirmation"><![CDATA[ Donating blood is a noble and sacred act! When you sync, our server goes through your contact list and let you know the bloodgroup of your friends who are registered with us and agreed to share their blood group. Do you want to continue ?]]></string>-->
+    <string name="dialog_msg_tnc_reject"><![CDATA[Rejecting Terms & Condition will not allow you to proceed further.Are u sure you want to perform this action?]]></string>
+    <string name="dialog_overlay_msg"><![CDATA[This app intercepts your call to 108 and helps you call 108 via location & health record notification.Please make required changes in settings]]></string>
+    <!--GCM -->
+
+    <!--Error msg-->
+    <string name="connection_error">ଆପଣଙ୍କୁ ଧନ୍ୟବାଦ, ଆମ୍ଭେମାନେ ଆପଣଙ୍କ ସହାୟତା ପାଇଁ କୃତଜ୍ଞତା ଜଣାଉଛୁ। ସମ୍ପ୍ରତି ଆମର ସର୍ଭର ଅତ୍ୟଧିକ ଲୋଡ କାରଣରୁ ବ୍ୟସ୍ତ ରହିଛି। ଦୟାକରି ପରେ ଚେଷ୍ଟା କରନ୍ତୁ।</string>
+    <string name="auth_error">ଅବୈଧ ଉପଭୋକ୍ତା ନାମ ଏବଂ ପାସ୍‌ୱାର୍ଡ</string>
+    <string name="server_error">ଓଃ, କିଛି ତ୍ରୁଟି ଘଟିଲା, ଦୟାକରି ପରେ ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ</string>
+    <string name="network_error">କ୍ଷମାକରିବେ ସଂଯୁକ୍ତ ହେବାକୁ ଅସମର୍ଥ। ଦୟାକରି ଆପଣଙ୍କ ଇଣ୍ଟରନେଟ୍ ସଂଯୋଗ ଯାଞ୍ଚ କରନ୍ତୁ ଏବଂ ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ</string>
+    <string name="title_activity_road_hazards_types">ସଡକ ଦୁର୍ଘଟଣା ପ୍ରକାର ଚୟନ କରନ୍ତୁ</string>
+    <string name="dialog_msg_take_hazard_pic">ଆପଣ ଏକ ଚିତ୍ର ସଂଲଗ୍ନ କରିବାକୁ ଚାହାନ୍ତି କି</string>
+    <string name="skip">ଏଡାନ୍ତୁ</string>
+    <!--<string name="bloodyfriends_invite_message">friend1 and friend2 are now part of Bloody Friends Network. Do you know who among your personal friends can donate blood to you if needed! You can now build your list of Bloody Friends with one click on Sync button in CallAmbulance App. Click deepLink to download the app now and Be Safe!</string>-->
+    <string name="bloodyfriends_invite_message">friend1 ବନ୍ଧୁ ୧ ଆପଣଙ୍କ ବ୍ଲଡ ଗ୍ରୁପ୍ ଜାଣିବାକୁ ଚାହାନ୍ତି। କଲ୍ ଆମ୍ବୁଲାନ୍ସ ଭିଡ଼ିଓ https://goo.gl/nIfVSa ରେ ଗାୟିକା ଗୀତା ମାଧୁରୀଙ୍କୁ ଚେକ୍ଆଉଟ୍ କରନ୍ତୁ ଏବଂ ଏହାକୁ ଡିପ୍ ଲିଙ୍କରୁ ଡାଉନଲୋଡ୍ କରନ୍ତୁ ଓ ଆପଣଙ୍କ ବ୍ଲଡ୍ ଗ୍ରୁପ୍ ସେଆର୍ କରନ୍ତୁ।</string>
+    <string name="bloodyfriendshint">ଆପଣଙ୍କ ବ୍ଲଡ ଗ୍ରୁପ୍ ଅପଡେଟ୍ କରିବା ପାଇଁ ଏଠାରେ କ୍ଲିକ୍ କରନ୍ତୁ</string>
+    <string name="selectall">ସମସ୍ତ ଚୟନ କରନ୍ତୁ</string>
+    <string name="sendbf_req">ରକ୍ତ ପାଇଁ ଅନୁରୋଧ ପଠାନ୍ତୁ</string>
+    <string name="forwhom">କାହା ପାଇଁ</string>
+    <string name="noofunits">ୟୁନିଟ ସଂଖ୍ୟା</string>
+    <string name="message">ସନ୍ଦେଶ</string>
+    <string name="motmessage">ଆପଣଙ୍କ ପ୍ରୋତ୍ସାହନକାରୀ ସନ୍ଦେଶ</string>
+    <string name="dor">ଆବଶ୍ୟକତାର ତାରିଖ</string>
+    <string name="date">ତାରିଖ</string>
+    <string name="time">ସମୟ</string>
+    <string name="lpw">ଲୋଡ୍ ହେଉଛି, ଦୟାକରି ଅପେକ୍ଷା କରନ୍ତୁ…</string>
+    <string name="purpose">ଉଦ୍ଦେଶ୍ୟ</string>
+    <string name="send">ପ୍ରେରଣ</string>
+    <string name="uploading">ଅପଲେୋଡ୍ ଚାଲିଛି…</string>
+    <string name="title">ଶୀର୍ଷକ</string>
+    <string name="value">ମୂଲ୍ୟ</string>
+    <string name="description">ବର୍ଣ୍ଣନା</string>
+    <string name="frombook">ଫୋନ୍ ବୁକ୍‌ରୁ</string>
+    <string name="addnew_contact">ନୂତନ ସମ୍ପର୍କ ଯୋଗ କରନ୍ତୁ</string>
+    <string name="drivingdirections">ଡ୍ରାଇଭିଂ ପାଇଁ ନିର୍ଦ୍ଦେଶ</string>
+    <string name="createreferal">ରେଫରାଲ୍ ସୃଷ୍ଟି କରନ୍ତୁ</string>
+    <string name="createappointments">ଆପଏଣ୍ଟମେଣ୍ଟ ସୃଷ୍ଟି କରନ୍ତୁ</string>
+    <string name="donar_hosp">ଦାତା କେଉଁଠାରୁ କେଉଁ ସ୍ଥାନକୁ ଆସିବେ, ଉଦାହରଣ-ପ୍ରାଇମ୍ ହସ୍ପିଟାଲକୁ ଆସନ୍ତୁ</string>
+    <string name="hintsurgery">ଉଦାହରଣ- ହାର୍ଟ ଅପରେସନ୍</string>
+
+    <string name="lastupdate">ଶେଷ ଅପଡେଟ୍ ହୋଇଥିବା ସ୍ୱାସ୍ଥ୍ୟ ରେକର୍ଡ</string>
+    <string name="secs">" ସେକେଣ୍ଡ"</string>
+    <string name="goahead">ଆଗକୁ ବଢ଼ନ୍ତୁ</string>
+    <string name="goback">ପଛକୁ ଫେରନ୍ତୁ</string>
+    <string name="title_activity_ambulance_providers_emergency_list">ଅଗ୍ରାଧିକାର ଦେଉଥିବା ଆମ୍ବୁଲାନ୍ସ ବାଛନ୍ତୁ</string>
+    <string name="tap_on_emr_btn">ଆପଦକାଳୀନ ସ୍ଥିତି ବିଷୟରେ ସୂଚନା ଦେବା ପାଇଁ ଅନ୍ ବଟନ୍ ଟ୍ୟାପ୍ କରନ୍ତୁ</string>
+    <string name="active">ସକ୍ରିୟ</string>
+    <string name="expired">ସମୟ ସୀମା ଶେଷ ହୋଇଯାଇଛି</string>
+
+    <string name="nearbyhosphint">ଆମେ ଆପଣଙ୍କ ଚାରିପଟର ନିକଟତମ ଡାକ୍ତରଖାନା ପାଇବା ପାଇଁ ଆପଣଙ୍କ ଅବସ୍ଥାନ ଆବଶ୍ୟକ କରୁଛୁ। ସେଟିଂରେ ଅବସ୍ଥାନ ସକ୍ଷମ ହୋଇଛି କି ଦୟାକରି ଯାଞ୍ଚ କରନ୍ତୁ ଏବଂ ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ</string>
+    <string name="nohosptials5">ସିଷ୍ଟମରେ ୫ କିଲୋମିଟର ବ୍ୟାସାର୍ଦ୍ଧ ମଧ୍ୟରେ କୌଣସି ଡାକ୍ତରଖାନା ମିଳିଲା ନାହିଁ।</string>
+    <string name="version">ସଂସ୍କରଣ</string>
+    <string name="recivedotp">OTP  ପ୍ରାପ୍ତ ହୋଇଛି</string>
+    <string name="blood">ରକ୍ତ</string>
+    <string name="reqfor">"ଏଥି ପାଇଁ ଅନୁରୋଧ "</string>
+    <string name="chooseimage">ଛବି ବାଛନ୍ତୁ</string>
+    <string name="nointernet">ଇଣ୍ଟରନେଟ୍ ନାହିଁ</string>
+    <string name="selmember">ସଦସ୍ୟ ବାଛନ୍ତୁ</string>
+    <string name="nocontactfound">ଏହା ସହିତ କୌଣସି ସମ୍ପର୍କ ମିଳିଲା ନାହିଁ</string>
+    <string name="bloodgroup">"ବ୍ଲଡ୍ ଗ୍ରୁପ୍ "</string>
+
+    ///latest
+
+    <string name="select_blood">ବ୍ଲଡ୍ ଗ୍ରୁପ୍ ଚୟନ କରନ୍ତୁ</string>
+    <string name="hospital">ଡାକ୍ତରଖାନା</string>
+    <string name="mediclestore">ମେଡିକାଲ ଷ୍ଟୋର୍</string>
+    <string name="diagnstic_lab">ଡାଇଗ୍ନୋଷ୍ଟିକ ଲ୍ୟାବ୍</string>
+    <string name="clinic">କ୍ଲିନିକ୍</string>
+    <string name="employer">ନିଯୁକ୍ତିଦାତା</string>
+    <string name="educ_inst">ଶିକ୍ଷା ଅନୁଷ୍ଠାନ</string>
+    <string name="select">ଗୋଟିଏ ବାଛନ୍ତୁ</string>
+    <string name="single">ଏକାକୀ</string>
+    <string name="married">ବିବାହିତ</string>
+    <string name="widowed">ବିଧବା</string>
+    <string name="divorced">ଛାଡପତ୍ର ପ୍ରାପ୍ତ</string>
+    <string name="vegetarian">ଶାକାହାରୀ</string>
+    <string name="eggvegitarian">ଅଣ୍ଡା ଖାଉଥିବା ବ୍ୟକ୍ତି</string>
+    <string name="nonvegetarian">ମାଂସାହାରୀ</string>
+    <string name="family">ପରିବାର</string>
+    <string name="friend">ବନ୍ଧୁ</string>
+    <string name="welloff">ଧନୀ</string>
+    <string name="middleclass">ମଧ୍ୟବିତ୍ତ ଶ୍ରେଣୀ</string>
+    <string name="poor">ଗରିବ</string>
+    <string name="verypoor">ଅତି ଗରିବ</string>
+    <string name="false_alarm">This was a false alarm</string>
+    <string name="emerg_being_attended">ଆପଦକାଳୀନ ସ୍ଥିତିରେ ଧ୍ୟାନ ଦିଆଯାଇଥାଏ</string>
+    <string name="emrg_has_addresses">ଆପଦକାଳୀନ ସ୍ଥିତିର ମୁକାବିଲା କରାଯାଇଥାଏ</string>
+    <string name="camera">କ୍ୟାମେରା</string>
+    <string name="gallery">ଗ୍ୟାଲେରୀ</string>
+
+    <string name="english">English</string>
+    <string name="hindi">हिंदी</string>
+    <string name="telugu">తెలుగు</string>
+    <string name="kannada">ಕನ್ನಡ</string>
+    <string name="urdu">اردو</string>
+    <string name="tamil">தமிழ்</string>
+
+    <string name="near">ନିକଟ</string>
+    <string name="next">ପରବର୍ତ୍ତୀ</string>
+    <string name="stranger">ଅପରିଚିତ</string>
+    <string name="thereisnoexsting">ଏଠାରେ କୌଣସିଟି ବିଦ୍ୟମାନ ନାହିଁ</string>
+    <string name="foryoursearch">ଆପଣଙ୍କ ସନ୍ଧାନ ପାଇଁ</string>
+
+    <string name="upload">ଅପଲୋଡ୍‌</string>
+    <string name="comments">ମନ୍ତବ୍ୟ</string>
+    <string name="title_upload_reports">ମୋ ରିପୋର୍ଟଗୁଡ଼ିକ</string>
+    <string name="selecttype_upload">ଅପଲୋଡ୍‌ର ପ୍ରକାର ଚୟନ କରନ୍ତୁ</string>
+    <string name="sel_diff_amb_pr">ନିମ୍ନରେ ଭିନ୍ନ ଆମ୍ବୁଲାନ୍ସ ପ୍ରଦାନକାରୀ ଚୟନ କରନ୍ତୁ</string>
+    <string name="public_amb_pr">ସାର୍ବଜନୀନ ଆମ୍ବୁଲାନ୍ସ ପ୍ରଦାନକାରୀ</string>
+    <string name="no_pref_hosp">କୌଣସି ପ୍ରାଧାନ୍ୟ ଦିଆଯାଉଥିବା ଡାକ୍ତରଖାନା ନାହିଁ</string>
+    <string name="nearby_nw_hosp">ନିକଟବର୍ତ୍ତୀ ନେଟୱାର୍କ ଡାକ୍ତରଖାନାଗୁଡ଼ିକ</string>
+    <string name="no_other_nearby_hosp">ପ୍ରଦର୍ଶନ କରିବା ପାଇଁ ଅନ୍ୟ କୌଣସି ନିକଟବର୍ତ୍ତୀ ଡାକ୍ତରଖାନା ନାହିଁ</string>
+    <string name="nonetwork_hosp_to_show">ପ୍ରଦର୍ଶନ କରିବା ପାଇଁ କୌଣସି ନେଟୱାର୍କ ଡାକ୍ତରଖାନା ନାହିଁ</string>
+    <string name="other_near_hosp">ଅନ୍ୟ ନିକଟବର୍ତ୍ତୀ ଡାକ୍ତରଖାନାଗୁଡ଼ିକ</string>
+    <string name="page">ପୃଷ୍ଠା</string>
+    <string name="mobileno_is_mandatory">ମୋବାଇଲ୍ ନମ୍ବର ବାଧ୍ୟତାମୂଳକ, ଯଦି ଆପଣ ଆପ୍‌ରୁ ବାହାରିଯିବାକୁ ଚାହାଁନ୍ତି ତେବେ ବ୍ୟାକ୍ ବଟନ୍ ଦୁଇ ଥର ଦବାନ୍ତୁ</string>
+    <string name="password_updated_success">ପାସୱାର୍ଡ ସଫଳତାର ଅଦ୍ୟତନ ହୋଇଛି</string>
+    <string name="pressback_onemoretime">ଆଉ ଥରେ ବ୍ୟାକ୍ ବଟନ୍ ଦବାନ୍ତୁ</string>
+    <string name="reg_success">ପଞ୍ଜୀକରଣ ସଫଳ</string>
+    <string name="reg_failed">ପଞ୍ଜୀକରଣ ବିଫଳ</string>
+    <string name="sel_gender_type">ଦୟାକରି ଲିଙ୍ଗର ଏକ ପ୍ରକାର ଚୟନ କରନ୍ତୁ</string>
+    <string name="sel_dob">ଦୟାକରି ଆପଣଙ୍କ ଜନ୍ମତାରିଖ ଚୟନ କରନ୍ତୁ</string>
+    <string name="sel_age">ଦୟାକରି ଆପଣଙ୍କ ବୟସ ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="mobile_no_should_10_digits">ମୋବାଇଲ୍ ନମ୍ବର 10 ଅଙ୍କ ବିଶିଷ୍ଟ ହେବା ଉଚିତ</string>
+    <string name="lenght_should_1to25">ଦୀର୍ଘତା 1-25 ଶବ୍ଦ ମଧ୍ୟରେ ଚୟନ କରନ୍ତୁ</string>
+    <string name="sel_lenght_nw_3to25">ଦୀର୍ଘତା 3-25 ଶବ୍ଦ ମଧ୍ୟରେ ଚୟନ କରନ୍ତୁ</string>
+    <string name="updatedon">ଏହି ଦିନ ଅଦ୍ୟତନ ହୋଇଛି:</string>
+    <string name="pswrd_sent_to_mobile">OTP ଦିଆଯାଇଥିବା ମୋବାଇଲ୍ ନମ୍ବରକୁ ପଠାଯାଇଛି</string>
+    <string name="pswrd_sent_to_mail">ଆପଣଙ୍କ ପାସୱାର୍ଡ ରିସେଟ୍ କରିବା ପାଇଁ ଲିଙ୍କ୍ ଦିଆଯାଇଥିବା ଇମେଲ୍ ଠିକଣାକୁ ପଠାଯାଇଛି, ଦୟାକରି ଆପଣଙ୍କ ପାସୱାର୍ଡ ଅପଡେଟ୍ କରିବା ପାଇଁ ପୃଷ୍ଠାରେ ଦିଆଯାଇଥିବା ନିର୍ଦ୍ଦେଶାବଳି ଅନୁସରଣ କରନ୍ତୁ।</string>
+    <string name="storage_med_not_avail">ଷ୍ଟୋରେଜ୍ ମିଡ଼ିଆ ଉପଲବ୍ଧ ନାହିଁ</string>
+    <string name="thank_reg_success">ଆପଣଙ୍କୁ ଧନ୍ୟବାଦ!!! ଆପଣଙ୍କର ଚିନ୍ତା ସଫଳତାର ସହ ପଞ୍ଜୀକୃତ ହୋଇଛି</string>
+    <string name="uare_not_auth_access">ଆପଣ ଏହି ଆପ୍ଲିକେସନ ଆକସେସ୍‌ କରିବା ପାଇଁ ଅଧିକୃତ ନୁହଁନ୍ତି</string>
+    <string name="no_view_pdf">"PDF ଦେଖିବା ପାଇଁ କୌଣସି ଆପ୍ଲିକେସନ ଉପଲବ୍ଧ ନାହିଁ "</string>
+    <string name="choose_atleast_one_file">ଅପଲୋଡ୍ କରିବା ପାଇଁ ଅତି କମ୍‌ରେ ଗୋଟିଏ ଫାଇଲ୍ ବାଛନ୍ତୁ</string>
+    <string name="plz_sel_tag">ଦୟାକରି ଟ୍ୟାଗ୍ ଚୟନ କରନ୍ତୁ</string>
+
+    <string name="plz_sel_contacts">ଅନୁରୋଧ ପଠାଇବା ପାଇଁ ଦୟାକରି ସମ୍ପର୍କ ଚୟନ କରନ୍ତୁ</string>
+    <string name="initializing_plz_wait">ପ୍ରାରମ୍ଭ କରୁଛି ଦୟାକରି ଅପେକ୍ଷା କରନ୍ତୁ</string>
+    <string name="plz_check_loc_on">ସେଟିଂରେ ଅବସ୍ଥାନ ଅନ୍ ରହିଛି କି ଦୟାକରି ଯାଞ୍ଚ୍ କରନ୍ତୁ</string>
+    <string name="getting_addr_failed">ଠିକଣା ଲାଭ କରିବାରେ ବିଫଳ ହେଲା, ଇଣ୍ଟରନେଟ୍ ନାହିଁ</string>
+
+    <string name="lang_hint_in_aboutus">"ଭାଷା ପରାମର୍ଶ ପାଇଁ ଦୟାକରି help@callambulance.inରେ ଏକ ଇମେଲ୍ ଡ୍ରପ୍‌ କରନ୍ତୁ ଏବଂ ଆମେ ଆନନ୍ଦରେ ସହଯୋଗ କରିବୁ। "</string>
+    <string name="label_greetings">କଲ୍ ଆମ୍ବୁଲାନ୍ସ ଆପ୍‌ ଡାଉନଲୋଡ୍ କରିବା ପାଇଁ ଆପଣଙ୍କୁ ଧନ୍ୟବାଦ</string>
+    <string name="label_continue">ଜାରି ରଖନ୍ତୁ</string>
+
+    <string name="hint_enter_preferred_blood_bank">ଆପଣ ପ୍ରାଧାନ୍ୟ ଦେଉଥିବା ବ୍ଲଡ୍ ବ୍ୟାଙ୍କ ଚୟନ କରିବାକୁ ଟାଇପ୍ କରନ୍ତୁ</string>
+    <string name="label_preffered_Blood_bank">"ପ୍ରାଧାନ୍ୟ ଦେଉଥିବା ବ୍ଲଡ୍ ବ୍ୟାଙ୍କ "</string>
+    <string name="label_notify_blood_donation_request">"ରକ୍ତ ଅନୁରୋଧ ବିଜ୍ଞପ୍ତି ଚାହାଁନ୍ତି କି? "</string>
+    <string name="label_last_blood_donation_date">ଶେଷ ରକ୍ତ ଦାନ ତାରିଖ</string>
+    <string name="title_activity_org_types">ନିକଟବର୍ତ୍ତୀ ଅନୁଷ୍ଠାନ</string>
+    <string name="label_locality">ସ୍ଥାନୀୟତା</string>
+    <string name="labelPreferredHospital">ପ୍ରାଧାନ୍ୟ ଦେଉଥିବା ଡାକ୍ତରଖାନା</string>
+    <string name="labelNetworkHospital">ନିକଟବର୍ତ୍ତୀ ନେଟୱାର୍କ ଡାକ୍ତରଖାନାଗୁଡ଼ିକ</string>
+    <string name="labelNonNetworkHospital">ଅନ୍ୟ ନିକଟବର୍ତ୍ତୀ ଡାକ୍ତରଖାନାଗୁଡ଼ିକ</string>
+    <string name="labelPreferredBloodBank">"ପ୍ରାଧାନ୍ୟ ଦେଉଥିବା ବ୍ଲଡ୍ ବ୍ୟାଙ୍କ "</string>
+    <string name="labelNetworkBloodBanks">ନିକଟବର୍ତ୍ତୀ ନେଟୱାର୍କ ବ୍ଲଡ୍ ବ୍ୟାଙ୍କଗୁଡ଼ିକ</string>
+    <string name="labelNonNetworkBloodBanks">ନିକଟବର୍ତ୍ତୀ ଅଣନେଟୱାର୍କ ବ୍ଲଡ୍‌ ବ୍ୟାଙ୍କଗୁଡ଼ିକ</string>
+    <string name="labelNetworkDiagnostics">"ନିକଟବର୍ତ୍ତୀ ନେଟୱାର୍କ ଡାଇଗ୍ନୋଷ୍ଟିକଗୁଡ଼ିକ "</string>
+    <string name="labelNonNetworkDiagnostics">ଅନ୍ୟ ନିକଟବର୍ତ୍ତୀ ଡାଇଗ୍ନୋଷ୍ଟିକଗୁଡ଼ିକ</string>
+    <string name="labelNetworkPharmecies">ନେଟୱାର୍କ ଫାର୍ମାସିଗୁଡ଼ିକ</string>
+    <string name="labelNonNetworkPharmecies">ଅନ୍ୟ ନିକଟବର୍ତ୍ତୀ ଫାର୍ମାସିଗୁଡ଼ିକ</string>
+    <string name="label_no_network">କୌଣସି ନେଟୱାର୍କ ନାହିଁ!!!!</string>
+    <string name="labelAvailDoctrz">ଉପଲବ୍ଧ ଡାକ୍ତରବୃନ୍ଦ</string>
+    <string name="labelAvailAppointments">ଆପଏଣ୍ଟମେଣ୍ଟ ପାଇଁ ଉପଲବ୍ଧ</string>
+    <string name="labelAppointmentsFull">ଆପଏଣ୍ଟମେଣ୍ଟ୍ ପୂର୍ଣ୍ଣ</string>
+    <string name="label_contacts_sync_completed">ସିଙ୍କ୍ ସମ୍ପୂର୍ଣ୍ଣ ହୋଇଛି। କାହାର ମେଳ ଖାଉଥିବା ବ୍ଲଡ୍ ଗ୍ରୁପ୍ ଅଛି ଯାଞ୍ଚ୍ କରିନିଅନ୍ତୁ।</string>
+    <string name="geofence_not_available">ଅଫର୍ ଜୋନ୍ ଉପଲବ୍ଧ ନାହିଁ</string>
+    <string name="title_activity_offers">ଅଫରଗୁଡ଼ିକ</string>
+    <string name="notification_title_exhibition">ନାମପଲୀ ପ୍ରଦର୍ଶନୀକୁ ସ୍ୱାଗତ!!!</string>
+    <string name="notification_content_text_exhibition">ଏଠାରେ ରିହାତିଗୁଡ଼ିକ ଦେଖନ୍ତୁ</string>
+    <string name="notification_summary_txt_exhibition">ଆପଣ ରେଞ୍ଜ ବାହାରକୁ ବାହାରିଯିବା ପରେ ବିଜ୍ଞପ୍ତି ଡିସମିସ୍ ହୋଇଯିବ</string>
+
+    <string name="title_activity_nearby_ambulances">ନିକଟବର୍ତ୍ତୀ ଆମ୍ବୁଲାନ୍ସ</string>
+    <string name="label_nearby_ambulance_provider">ଆମ୍ବୁଲାନ୍ସ</string>
+    <string name="label_request_failed">ଆପଣଙ୍କ ଅନୁରୋଧ ପ୍ରକ୍ରିୟାକରଣ କରାଯାଇପାରିଲା ନାହିଁ। ଦୟାକରି ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ।</string>
+    <string name="label_no_ambulance_providers">ନିକଟବର୍ତ୍ତୀ ଆମ୍ବୁଲାନ୍ସ</string>
+    <string name="title_activity_ambulance_providers_list">ନିକଟବର୍ତ୍ତୀ ଆମ୍ବୁଲାନ୍ସ</string>
+    <string name="label_ambulance_request_failed">ଆମ୍ବୁଲାନ୍ସ ଅନୁରୋଧ ବିଫଳ। ଦୟାକରି ଆପଣଙ୍କ ଇଣ୍ଟରନେଟ୍ ସଂଯୋଗ ଯାଞ୍ଚ କରନ୍ତୁ ଏବଂ ପୁନଃ ପ୍ରୟାସ କରନ୍ତୁ</string>
+    <string name="label_proceed">ଆଗକୁ ବଢ଼ନ୍ତୁ</string>
+    <string name="label_ambulance_request_info">ଆପଣ ଆମ୍ବୁଲାନ୍ସ ପାଇଁ ଏକ ଅନୁରୋଧ କରିବାକୁ ଚାହାନ୍ତି କି?</string>
+    <string name="cancel_ambulance_request_success">ଆମ୍ବୁଲାନ୍ସ ଅନୁରୋଧ ସଫଳତାର ସହ ବାତିଲ୍ ହୋଇଛି</string>
+    <string name="tv_label_no_ambulance_assigned">ଆମ୍ବୁଲାନ୍ସ ପାଇଁ ଅନୁରୋଧ କରାଯାଇଛି। ଯଦି ଆପଣ ଅନ୍ୟ ଆମ୍ବୁଲାନ୍ସକୁ ଅନୁରୋଧ କରିବାକୁ ଚାହାନ୍ତି ତେବେ କ୍ୟାନସଲରେ କ୍ଲିକ୍ କରନ୍ତୁ</string>
+    <string name="title_activity_nearby_hospitals">ନିକଟର୍ତ୍ତୀ ଡାକ୍ତରଖାନା କାର୍ଯ୍ୟକଳାପ</string>
+    <string name="label_ambulance_selection_failed">ଆମ୍ବୁଲାନ୍ସ ଚୟନ ବିଫଳ ହେଲା। ଦୟାକରି ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ</string>
+    <string name="label_select_dest_hospital">ଆପଣଙ୍କ ଲକ୍ଷ୍ୟ ସ୍ଥଳ ଚୟନ କରନ୍ତୁ</string>
+    <string name="title_activity_custom_map">ଲକ୍ଷ୍ୟ ସ୍ଥଳ ଅବସ୍ଥାନ ସେଟ୍ କରନ୍ତୁ</string>
+    <string name="label_search_location">ଆପଣଙ୍କ ଅବସ୍ଥାନ ସନ୍ଧାନ କରନ୍ତୁ</string>
+    <string name="label_location_search_ambulance_hint">ଏଠାରେ ଆପଣଙ୍କ ଲକ୍ଷ୍ୟସ୍ଥଳ ଟାଇପ୍ କରନ୍ତୁ</string>
+    <string name="title_activity_current_ambulance_request">ଆମ୍ବୁଲାନ୍ସ ଅନୁରୋଧ</string>
+    <string name="label_current_status">ସାମ୍ପ୍ରତିକ ସ୍ଥିତି:</string>
+    <string name="label_rate">ରେଟ୍ କାର୍ଡ</string>
+    <string name="label_first_10kms">ସର୍ବନିମ୍ନ ଭଡା:</string>
+    <string name="label_after_10kms">ଅତିରିକ୍ତ ଭଡା: Fare:</string>
+    <string name="label_first_10kKMS">ସର୍ବନିମ୍ନ ଭଡା</string>
+    <string name="label_after_10KMS">ଅତିରିକ୍ତ ଭଡା</string>
+
+    <string name="label_ambulance_cance_failed">ଆମ୍ବୁଲାନ୍ସ ଅନୁରୋଧ ବାତିଲ କରିବାକୁ ଅସମର୍ଥ। ଦୟାକରି ପରେ ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ</string>
+    <string name="label_alert_msg_on_ambulance_request">ନିକଟବର୍ତ୍ତୀ ଆମ୍ବୁଲାନ୍ସ କେବଳ ଅଣ ଆପଦକାଳୀନ ଆମ୍ବୁଲାନ୍ସ। ଆପଣ ଏକ ଅଣ ଆପଦକାଳୀନ ଆମ୍ବୁଲାନ୍ସ ବୁକ୍ କରିବାକୁ ଚାହାନ୍ତି କି?</string>
+    <string name="label_request_failed_get_current_request">ଆପଣଙ୍କର ସାମ୍ପ୍ରତିକ ଆମ୍ବୁଲାନ୍ସ ଅନୁରୋଧର ବିବରଣୀ ଦେଖାଇବାକୁ ଅସମର୍ଥ। ଦୟାକରି ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ</string>
+    <string name="title_activity_activity_share">ସେଆର୍ କରନ୍ତୁ</string>
+    <string name="label_invitation">ନିମନ୍ତ୍ରଣ</string>
+    <string name="label_update_blood_group">ଆପଣଙ୍କର ବ୍ଲଡ ଗ୍ରୁପ୍ ସେଟ୍ ଅପ୍ ହୋଇନାହିଁ। ଆପଣ ବର୍ତ୍ତମାନ ସେଟ୍ ଅପ୍ କରିବାକୁ ଚାହାନ୍ତି କି?</string>
+    <string name="label_select_blood_group">ବ୍ଲଡ୍ ଗ୍ରୁପ୍ ଚୟନ କରନ୍ତୁ</string>
+    <string name="title_activity_help_screens">ସହାୟତା ସ୍କ୍ରିନ୍ କାର୍ଯ୍ୟକଳାପ</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">ହେଲୋ ବ୍ଲାଙ୍କ ଫ୍ରାଗମେଣ୍ଟ</string>
+    <string name="label_fare_info">ସୂଚନା: ମୂଲ୍ୟ ଦିନର ସମୟ ଏବଂ ଆମ୍ବୁଲାନ୍ସରେ ରହିଥିବା ବ୍ୟବସ୍ଥା ଆଧାରରେ ଭିନ୍ନ ଭିନ୍ନ ହୋଇପାରେ</string>
+    <string name="getStarted">ଆସନ୍ତୁ ଆରମ୍ଭ କରିବା</string>
+    <string name="sync_now">ବର୍ତ୍ତମାନ ସିଙ୍କ କରନ୍ତୁ</string>
+    <string name="label_login">" ମୋର ଗୋଟିଏ ଆକାଉଣ୍ଟ ଅଛି? ଲଗ୍ ଇନ୍ କରନ୍ତୁ"</string>
+    <string name="sync_homeact_msg">ଆପଣଙ୍କ ବନ୍ଧୁଙ୍କର ବ୍ଲଡ ଗ୍ରୁପ୍ କ’ଣ ଆପଣ ଜାଣନ୍ତି କି? ସେସବୁ ଆପଦକାଳୀନ ପରିସ୍ଥିତିରେ ହାତ ପାଆନ୍ତାରେ ପାଇବା ପାଇଁ ବର୍ତ୍ତମାନ ସିଙ୍କ କରନ୍ତୁ!</string>
+    <string name="label_select_willing_to_donate_blood">ଅସୁବିଧାରେ ପଡ଼ିଥିବା ବନ୍ଧୁଙ୍କୁ ରକ୍ତଦାନ କରିବାକୁ ଚାହାନ୍ତି କି?</string>
+    <string name="start">ବୁଝିଲି</string>
+    <string name="title_activity_notify_doctor">ଡାକ୍ତରଙ୍କୁ ସୂଚିତ କରିବା କାର୍ଯ୍ୟକଳାପ</string>
+    <string name="label_notify_doctor_dialog_part1">ଡାକ୍ତରଙ୍କୁ ସୂଚିତ କରିବା ଯୋଗ କରିବା ଦ୍ୱାରା  ଆପଣ ଯେତେବେଳେ ଏକ ରିପୋର୍ଟ ଅପଲୋଡ୍ କରନ୍ତି, କିମ୍ବା ଆପଦକାଳୀନ ସ୍ଥିତି ରିପୋର୍ଟ କରନ୍ତି ତାଙ୍କୁ ସୂଚିତ କରାଯିବ। ଆପଣ ଯୋଗ କରିବାକୁ ଚାହାନ୍ତି କି?</string>
+    <string name="label_notify_doctor_dialog_part2">ଆପଣଙ୍କର ସୂଚନା ପ୍ରଦାନ କରିବା ଡାକ୍ତର ଭାବରେ?</string>
+    <string name="label_doctor_notified_successfully_part1">ଆପଣ ସଫଳତାର ସହ ଯୋଗ କରିଛନ୍ତି</string>
+    <string name="label_doctor_notified_successfully_part2">ଯେହେତୁ ଆପଣଙ୍କର ସୂଚନା ପ୍ରଦାନ କରିବା ଡାକ୍ତର</string>
+    <string name="hint_search_by_name">ନାମ ଦ୍ୱାରା ସନ୍ଧାନ କରନ୍ତୁ</string>
+    <string name="title_notifying_doctor">ସୂଚନା ପ୍ରଦାନ କରିବା ପାଇଁ ଡାକ୍ତରବୃନ୍ଦ</string>
+    <string name="label_already_a_notifying_doctor">ଅଦ୍ୟାବଧି ଆପଣଙ୍କର ସୂଚନା ପ୍ରଦାନ କରିବା ଡାକ୍ତର ଅଛନ୍ତି</string>
+    <string name="label_no_hospitals_set">ଆପଣ ଡାକ୍ତରଙ୍କ ସନ୍ଧାନ କରିବା ପାଇଁ ଏବଂ ତାଙ୍କୁ ସୂଚନା ପ୍ରଦାନ କରିବା ପାଇଁ ପ୍ରଥମେ ଏକ ଡାକ୍ତରଖାନା ଯୋଗ କରିବା ଦରକାର</string>
+    <string name="label_amb_details">ଆମ୍ବୁଲାନ୍ସ ବିବରଣୀ</string>
+    <string name="label_driver_dist">ଡ୍ରାଇଭର ଦୂରତା</string>
+    <string name="label_driver_time">ପହଞ୍ଚିବା ପାଇଁ ଡ୍ରାଇଭର ସମୟ (ଆନୁମାନିକ)</string>
+
+    <string name="label_ambulance_no">ଆମ୍ବୁଲାନ୍ସ ନମ୍ବର:</string>
+    <string name="label_driver_location_fetch_failed">ଡ୍ରାଇଭରଙ୍କର ସାମ୍ପ୍ରତିକ ଅବସ୍ଥାନ ବିବରଣୀ ହାସଲ କରିବାରେ ବିଫଳ</string>
+    <string name="label_no_more_doctors_to_add">ଅନୁଷ୍ଠାନ ପାଇଁ କୌଣସି ଡାକ୍ତର ଉପଲବ୍ଧ ନାହାନ୍ତି (କିମ୍ବା) ଆପଣ ଏହି ଅନୁଷ୍ଠାନର ସମସ୍ତ ଡାକ୍ତରଙ୍କୁ ଆପଣଙ୍କର ସୂଚନା ପ୍ରଦାନ କରାଯାଉଥିବା ଡାକ୍ତର ଭାବରେ ଯୋଗ କରିପାରିବେ</string>
+    <string name="pref_title_draw_over_other_apps">ଡାଏଲରରୁ କଲ୍ ଆମ୍ବୁଲାନ୍ସ ଲଞ୍ଚ କରନ୍ତୁ</string>
+    <string name="pref_summary_draw_over_other_apps">ଏହାକୁ ସକ୍ଷମ କଲେ ଏହା ଆପଣଙ୍କୁ ଡାଏଲର ସ୍କ୍ରିନରୁ ୧୦୮ ଡାଏଲ କରି ଆପଦକାଳୀନ ସ୍ଥିତି ବିଷୟରେ ସତର୍କ କରାଇବ। ଏହା ସୁସଂଯୋଜିତ ଅବସ୍ଥାନ ୧୦୮ ସହିତ ସେଆର୍ କରିବାକୁ ସାହାଯ୍ୟ କରିବ।</string>
+    <string name="capture_pic_failed">ଆପଣଙ୍କର ଛବି ଉତ୍ତୋଳନ କରିପାରିଲା ନାହିଁ। ଦୟାକରି ପୁନଃ ପ୍ରୟାସ କରନ୍ତୁ</string>
+    <string name="give_permission">ଅନୁମତି ଦିଅନ୍ତୁ</string>
+    <string name="permission_read_phone_state_msg">ଆପଣ ବାଛିଥିବା ଆପଦକାଳୀନ ସେବା ପ୍ରଦାନକାରୀଙ୍କୁ ଆପଦକାଳୀନ ପରିସ୍ଥିତିରେ କଲ୍ କରିବା ପାଇଁ ଫୋନ୍ ଆକ୍ସେସ୍ ଆବଶ୍ୟକ ହୋଇଥାଏ</string>
+    <string name="permission_contacts_msg">କଲ୍ ଆମ୍ବୁଲାନ୍ସ ଡାଟାବେସ୍‌ରେ ଆପଣଙ୍କର ସମସ୍ତ ସମ୍ପର୍କ ଖୋଜିବା ପାଇଁ ଏବଂ ଆପଣଙ୍କୁ ବନ୍ଧୁମାନଙ୍କର ବ୍ଲଡ୍ ଗ୍ରୁପ୍ ଆକ୍ସେସ କରାଇବା ପାଇଁ କଣ୍ଟାକ୍ଟ ଆକ୍ସେସ୍ ଆବଶ୍ୟକ ହୋଇଥାଏ ଯଦି ଆପଣଙ୍କର ବନ୍ଧୁଙ୍କର ନମ୍ବର ସେମାନଙ୍କ ମୋବାଇଲରେ ମଧ୍ୟ ଷ୍ଟୋର ହୋଇଥାଏ।</string>
+    <string name="permission_location_grant_msg">" ଆପଣଙ୍କର GPS ଅବସ୍ଥାନ ଆପଦକାଳୀନ ସେବା ପ୍ରଦାନକାରୀଙ୍କୁ ପ୍ରଦାନ କରି ଶୀଘ୍ର ଆପଦକାଳୀନ ଅବସ୍ଥାନରେ ପହଞ୍ଚିବା ପାଇଁ ସେମାନଙ୍କୁ ସକ୍ଷମ କରିବାକୁ GPS ଆକ୍ସେସ୍ ଆବଶ୍ୟକ।"</string>
+    <string name="permission_sms_grant_msg">SMS ରେ ପଠାଯାଇଥିବା OTP ପଢ଼ିବା ପାଇଁ ଓ ଇଣ୍ଟରନେଟ୍ ଉପଲବ୍ଧ ନଥିବା ସମୟରେ ଆପଦକାଳୀନ ଅନୁଷ୍ଠାନ ଆରମ୍ଭ କରିବା ପାଇଁ SMS ଆକ୍ସେସ ଆବଶ୍ୟକ ହୋଇଥାଏ</string>
+    <string name="phone_state_permission_mandatory_msg">ନେଟୱାର୍କ ଉପଲବ୍ଧତା ଚିହ୍ନଟ କରିବା ପାଇଁ ଫୋନ୍ ଅନୁମତି ଆବଶ୍ୟକ ହୋଇଥାଏ। ଏହା ବାଧ୍ୟତାମୂଳକ ହୋଇଥାଏ, ଦୟାକରି ଅନୁମତି ମଞ୍ଜୁର କରନ୍ତୁ</string>
+    <string name="camera_permission_mandatory_msg">ଆପଣଙ୍କ ପ୍ରେସକ୍ରିପସନ୍ କିମ୍ବା ଲ୍ୟାବ ରିପୋର୍ଟ ଷ୍ଟୋର କରିବା ପାଇଁ ଏବଂ ଆପଣଙ୍କ ଡାକ୍ତରଙ୍କ ସହ ସେଆର କରିବାକୁ ସକ୍ଷମ କରିବାକୁ କ୍ୟାମେରା ଆକ୍ସେସ୍ ଆବଶ୍ୟକ ହୋଇଥାଏ</string>
+    <string name="toast_switch_on_permissions">ଦୟାକରି ଆବଶ୍ୟକ ଅନୁମତି ମଞ୍ଜୁର କରନ୍ତୁ</string>
+    <string name="permission_nearby_grant_msg">ଆପଣଙ୍କର ସାମ୍ପ୍ରତିକ ଅବସ୍ଥାନ ଆପଣଙ୍କର ନିକଟର୍ତ୍ତୀ ଡାକ୍ତରଖାନା/ଆମ୍ବୁଲାନ୍ସ/ରକ୍ତଭଣ୍ଡାର/ଲ୍ୟାବଗୁଡ଼ିକୁ ପ୍ରଦାନ କରିବା ପାଇଁ କ୍ୟାପଚର କରିବାକୁ  GPS ଆକ୍ସେସ ଆବଶ୍ୟକ ହୋଇଥାଏ</string>
+    <string name="permission_grant_sms_permission">ଆପଣଙ୍କର ଜରୁରୀକାଳୀନ ସମ୍ପର୍କଗୁଡ଼ିକୁ, ଯତ୍ନପ୍ରଦାନକାରୀ ବୃନ୍ଦ ଏବଂ ଆମ୍ବୁଲାନ୍ସପ୍ରଦାନକାରୀଙ୍କୁ ଆପଦକାଳୀନ ପରିସ୍ଥିତି ବିଷୟରେ ଇଣ୍ଟରନେଟ୍ ନଥିବା ସମୟରେ କିମ୍ବା ଆପଦକାଳୀନ ସ୍ଥିତି ଉପୁଜିଲା ବେଳେ ଇଣ୍ଟରନେଟ୍ ବିଫଳ ହେବା ସମୟରେ SMS ମାଧ୍ୟମରେ ସୂଚନା ଦେବା ପାଇଁ SMS ଆକ୍ସେସ୍ ଆବଶ୍ୟକ ହୋଇଥାଏ।</string>
+    <string name="permission_grant_storage_permission">ଆପଣଙ୍କୁ ପ୍ରୋଫାଇଲ୍ ପିକଚର, ପ୍ରେସକ୍ରିପସନ୍ ଏବଂ ଲ୍ୟାବ ରିପୋର୍ଟ ଷ୍ଟୋର କରିବା ପାଇଁ ଓ ଡାକ୍ତରଙ୍କ ସହ ସେଆର କରିବା ପାଇଁ ଏବଂ ଆପଣ ଅଗ୍ରାଧିକାର ଦେଉଥିବା ଆପଦକାଳୀନ ସେବା ପ୍ରଦାନକାରୀଙ୍କୁ ଦେଖିବା ପାଇଁ ଷ୍ଟୋରେଜ୍ ଆବଶ୍ୟକ ହୋଇଥାଏ। ଏହା ଏକ ବାଧ୍ୟତାମୂଳକ ଅନୁମତି।</string>
+    <string name="toast_info_notifying_doctor">ଆପଣ ଯେତେବେଳେ କୌଣସି ରିପୋର୍ଟ ଅପଲୋଡ କରନ୍ତି କିମ୍ବା ଆପଦକାଳୀନ ସ୍ଥିତି ବିଷୟରେ ସତର୍କ କରନ୍ତି ଆପଣଙ୍କର କେଉଁ ଡାକ୍ତରଙ୍କୁ ସୂଚନା ଦିଆଯିବ ଯାହାଫଳରେ ଆପଣ ଆବଶ୍ୟକ ସହାୟତା ଲାଭ କରିପାରିବେ ଏଠାରେ ଦିଆଯାଇଛି</string>
+
+    <string name="speciality_gynaecology">ସ୍ତ୍ରୀ ରୋଗ ବିଶେଷଜ୍ଞ</string>
+    <string name="speciality_paediatrics">ଶିଶୁରୋଗ ବିଶେଷଜ୍ଞ</string>
+    <string name="speciality_orthopaedic">ଟ୍ରମା</string>
+    <string name="facility_ICU">ଆଇସିୟୁ</string>
+    <string name="facility_cath_lab">କାର୍ଡିଆକ୍</string>
+    <string name="facility_ct_scan">ନ୍ୟୁରୋ</string>
+    <string name="title_activity_add_employer">ନିଯୁକ୍ତିଦାତା ଯୋଗ କରନ୍ତୁ</string>
+    <string name="employee_id">କର୍ମଚାରୀ ଆଇଡି</string>
+    <string name="org_branch">ଅନୁଷ୍ଠାନର ଶାଖା</string>
+    <string name="official_email_id">ଔପଚାରିକ ଇମେଲ୍ ଆଇଡି</string>
+    <string name="designation">ପଦବୀ</string>
+    <string name="department">ବିଭାଗ</string>
+    <string name="manager_name">ମ୍ୟାନେଜରଙ୍କ ନାମ</string>
+    <string name="add_employer">ନିଯୁକ୍ତିଦାତା ଯୋଗ କରନ୍ତୁ</string>
+    <string name="employee_id_mandatory_msg">କର୍ମଚାରୀଙ୍କ ଆଇଡି ବାଧ୍ୟତାମୂଳକ ହୋଇଥାଏ</string>
+    <string name="org_branch_mandatory_msg">ଦୟାକରି ଏକ ଅନୁଷ୍ଠାନ ଶାଖା ଚୟନ କରନ୍ତୁ</string>
+    <string name="labelAED">ଏଇଡିଗୁଡ଼ିକ</string>
+    <string name="lable_delete_contacts">ଦୟାକରି ସୁନିଶ୍ଚିତ କରନ୍ତୁ ଯେ ଆପଣଙ୍କର ନାମ ପ୍ରତି ଅଭିଗମ୍ୟତା ସ୍ଥାୟୀ ଭାବରେ ଅପସାରଣ କରାଯିବ</string>
+    <string name="failed_to_delete_contact">ସମ୍ପର୍କ ବିଲୋପ କରିବାରେ ବିଫଳ ହେଲା। ଦୟାକରି ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ</string>
+    <string name="failedToAddEmployerToast">ନିଯୁକ୍ତଦାତା ଯୋଗ କରିବା ବିଫଳ ହେଲା। ଦୟାକରି ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ</string>
+    <string name="label_delete_report">ଆପଣ ରିପୋର୍ଟ ବିଲୋପ କରିବାକୁ ଚାହାନ୍ତି ସୁନିଶ୍ଚିତ କି?</string>
+    <string name="failed_to_delete_report">ଏହି ରିପୋର୍ଟ ବିଲୋପ କରିବାରେ ବିଫଳ ହେଲା</string>
+
+    <string name="label_sync_hint_dashboard">"ଆପଣଙ୍କର ୫ ଜଣ ଭରସାଯୋଗ୍ୟ ବନ୍ଧୁଙ୍କୁ ଯୋଗ କରନ୍ତୁ, ଯେଉଁମାନଙ୍କର ବ୍ଲଡ ଗ୍ରୁପ୍ ଆପଣଙ୍କ ସହିତ ସମାନ ଏବଂ ଏକ ଆପଦକାଳୀନ ସ୍ଥିତି ସମୟରେ ସେଟ୍ ଅପ୍ ହେବ "</string>
+    <string name="label_sync_hint_sync5">କଲ୍ ଆମ୍ବୁଲାନ୍ସରେ ଯୋଗ ଦେବା ପାଇଁ ୫ ଜଣ ପର୍ଯ୍ୟନ୍ତ ସମ୍ପର୍କଙ୍କୁ ଆମନ୍ତ୍ରଣ କରନ୍ତୁ।</string>
+    <string name="label_sync_hint_dialog">ପ୍ରତିଟି ଚୟନ କରାଯାଇଥିବା ସମ୍ପର୍କକୁ SMS ପଠାଯିବ। ଏହି କାର୍ଯ୍ୟ ଯୋଗୁଁ ପ୍ରଯୁଜ୍ୟ ଅନୁଯାୟୀ SMS ଚାର୍ଜ ଲାଗୁ ହୋଇପାରେ।</string>
+    <string name="pref_summary_start_auto_launch_apps">କଲ୍ ଆମ୍ବୁଲାନ୍ସ ପାଇଁ ଆପକୁ ଅଟୋ ଲଞ୍ଚ କରିବାକୁ ସକ୍ଷମ କରିବା ଫଳରେ ଏହା ଆପଣ ଆପଦକାଳୀନ ସ୍ଥିତି ଘଟଣାରେ ଆପଦକାଳୀନ ନମ୍ବରକୁ ଡାଏଲ୍ କଲାବେଳେ ଆପଣଙ୍କ ଅବସ୍ଥାନ ବିଷୟରେ ଆମ୍ବୁଲାନ୍ସକୁ ସୂଚନା ଦେବ। ଏହି ଫିଚର ବ୍ୟବହାର କରିବା ଆରମ୍ଭ କରିବାକୁ କଲ୍ ଆମ୍ବୁଲାନ୍ସ ଅଟୋ -ଲଞ୍ଚ ବଟନ୍ ସୁଇଚ ଅନ୍ କରନ୍ତୁ</string>
+    <string name="label_sync_hint_dialog_new">ପ୍ରତିଟି ଚୟନ କରାଯାଇଥିବା ସମ୍ପର୍କକୁ SMS ପଠାଯିବ। ଏହି କାର୍ଯ୍ୟ ଯୋଗୁଁ ପ୍ରଯୁଜ୍ୟ ଅନୁଯାୟୀ SMS ଚାର୍ଜ ଲାଗୁ ହୋଇପାରେ।</string>
+
+    <string name="pref_title_apps_auto_launch">ଆପଦକାଳୀନ ସ୍ଥିତିରେ ଆମ୍ବୁଲାନ୍ସକୁ ସୂଚନା ଦିଅନ୍ତୁ</string>
+    <string name="add_bloody_friends">ବ୍ଲଡି ଫ୍ରେଣ୍ଡସ ଯୋଗ କରନ୍ତୁ</string>
+    <string name="toast_bf_members_exceed">ସର୍ବାଧିକ ମାତ୍ର ୫ଜଣ  ବ୍ଲଡି ଫ୍ରେଣ୍ଡ ଯୋଗ କରିପାରିବେ</string>
+    <string name="add_more_bf">ଅଧିକ ବ୍ଲଡି ଫ୍ରେଣ୍ଡସ ଯୋଗ କରନ୍ତୁ</string>
+    <string name="send_blood_request">ରକ୍ତ ଅନୁରୋଧ ପ୍ରେରଣ କରନ୍ତୁ</string>
+    <string name="add_person">ବ୍ୟକ୍ତି ଯୋଗ କରନ୍ତୁ</string>
+
+    <string name="label_for_whom">କାହା ପାଇଁ</string>
+    <string name="label_date_of_requirement">ଆବଶ୍ୟକ ତାରିଖ</string>
+    <string name="hint_motivational_field">ଆପଣଙ୍କ  ପ୍ରୋତ୍ସାହନମୂଳକ ସନ୍ଦେଶ</string>
+    <string name="location">ଅବସ୍ଥାନ</string>
+    <string name="my_bloody_friends">ମୋ ବ୍ଲଡି ଫ୍ରେଣ୍ଡସ</string>
+    <string name="title_bloody_friends_list_activity">ମୋ ବ୍ଲଡି ଫ୍ରେଣ୍ଡସ</string>
+    <string name="switch_on">ସୁଇଚ୍ ଅନ୍ କରନ୍ତୁ</string>
+    <string name="mandatory_permissions_dialog_msg"><![CDATA[Storage & SMS permissions are mandatory.Tap on GRANT to give these permissions to CallAmbulance]]></string>
+    <string name="phone_state_mandatory_msg"><![CDATA[PHONE permission is mandatory for CallAmbulance to work.Tap on GRANT to give this permission to CallAmbulance]]></string>
+    <string name="get_current_amb_request">ଦୟାକରି ଅପେକ୍ଷା କରନ୍ତୁ, ଅଦ୍ୟାବଧି କୌଣସି ଆମ୍ବୁଲାନ୍ସ ଅନୁରୋଧ କରାଯାଇଛି କି ଯାଞ୍ଚ କରୁଛି</string>
+    <string name="requesting_ambulance">" ଆମେ ଆମ୍ବୁଲାନ୍ସକୁ ଅନୁରୋଧ କରୁଛୁ ଦୟାକରି ଅପେକ୍ଷା କରନ୍ତୁ"</string>
+    <string name="phone_per"><![CDATA[Location & SMS permissions are mandatory.Tap on GRANT to give these permissions to CallAmbulance]]></string>
+    <string name="server_busy_msg">" ଆପଣଙ୍କର ସହାୟତା ପାଇଁ କୃତଜ୍ଞତା। ଆମେ ଆପଣଙ୍କ ଧୈର୍ଯ୍ୟକୁ ପ୍ରଶଂସା କରୁଛୁ, କାରଣ ଆମେ ଆପଣଙ୍କ ଚାହିଦା ପୂରଣ କରିବା ପାଇଁ ଆଗାମୀ କିଛି ଘଣ୍ଟା ଆମର ଭିତ୍ତିଭୂମି ଅପଗ୍ରେଡ କରୁଛୁ"</string>
+    <string name="server_offline">ଆମ ବିଷୟକୁ ଗ୍ରହଣ କରିଥିବାରୁ ଆପଣଙ୍କୁ ଧନ୍ୟବାଦ</string>
+    <string name="faq_on_callambulance"><a href="https://callambulance.in/100KFirstResponse">FAQs on CallAmbulance</a></string>
+    <string name="info_text">\\t\\t\\t ଆମ୍ଭେମାନେ ସହଭାଗିତା, ଦ୍ରୁତ ସଂଯୋଜନ ଓ ପରିବର୍ତ୍ତନ ପାଇଁ କ୍ରାଉଡ୍ ସୋର୍ସିଂ ଆଇଡିଆକୁ ସ୍ୱାଗତ କରୁ। ଦୟାକରି ଆପଣଙ୍କର ଚିନ୍ତାଧାରା ଓ ମତାମତ ଆମର ପ୍ରତିଷ୍ଠାତାଙ୍କ ସହିତ jagadish@callambulance.inରେ ସେୟାର୍ କରନ୍ତୁ।</string>
+    <string name="info_text_header">ଦୟାକରି ନିରାପଦ ଭାରତ ପାଇଁ ଆମର ଯାତ୍ରାରେ ଆମ ସହ ସାମିଲ ହୁଅନ୍ତୁ</string>
+    <string name="title_ask_expert">ଆପଦକାଳୀନ ଫୋରମ୍‌</string>
+    <string name="forgot_password_server_down_msg">ଏହି ବିଷୟକୁ ଗ୍ରହଣ କରିଥିବାରୁ ଧନ୍ୟବାଦ। ଆପଣଙ୍କର ସହାୟତା ଆମ ପାଇଁ ଆନନ୍ଦର ବିଷୟ ଏବଂ ଏଥିପାଇଁ ଆମ୍ଭେମାନେ କୃତଜ୍ଞ। ଆମ. ଚାହିଦା ପୂରଣ କରିବା ପାଇଁ ଭିତ୍ତିଭୂମି ସ୍କେଲଅପ୍ କରୁଛୁ। ଆମ୍ଭମାନେ ଆପଣଙ୍କୁ ଅନୁରୋଧ କରୁଛୁ ଯେ ଦୟାକରି ଧୈର୍ଯ୍ୟ ଧରନ୍ତୁ ଏବଂ ଭାରତକୁ ଏକ ସୁରକ୍ଷିତ ରାଷ୍ଟ୍ରରେ ପରିଣତ କରିବା ପାଇଁ ଏହି ଯାତ୍ରାରେ ସହଯୋଗ କରନ୍ତୁ।</string>
+    <string name="close">ବନ୍ଦ କରନ୍ତୁ</string>
+    <string name="lable_emergency_prepardness">ଆପଦକାଳୀନ ପରିସ୍ଥିତି</string>
+    <string name="label_finish">ସମାପ୍ତ</string>
+    <string name="user_in_emergency">" ଏହି ଉପଭୋକ୍ତା ଅଦ୍ୟାବଧି ବାସ୍ତବ ଆପାଦକାଳୀନ ସ୍ଥିତିରେ ରହିଛନ୍ତି ଦୟାକରି ଜଣେ ଭିନ୍ନ ଉପଭୋକ୍ତାଙ୍କୁ ବାଛନ୍ତୁ"</string>
+    <string name="invoking_emergency_offline_msg">SMS ମାଧ୍ୟମରେ ଜରୁରୀକାଳୀନ ସ୍ଥିତି ଖଣ୍ଡନ କରିବା</string>
+    <string name="offline_emergency_failed">" କେତେକ ଟେକ୍ନିକାଲ୍ ସମସ୍ୟା କାରଣରୁ ଅଫ୍ ଲାଇନ୍ ଆପଦକାଳୀନ ସ୍ଥିତି ଉପସ୍ଥାପନ କରିବାକୁ ଅସମର୍ଥ"</string>
+    <string name="offline_emergency_failure_no_sms_bal">କମ୍ SMS ବାଲାନ୍ସ କାରଣରୁ ଆପଦକାଳୀନ ସେବା ପ୍ରଦାନକାରୀଙ୍କୁ ଆପଦକାଳୀନ ସୂଚନା ପଠାଇବାକୁ ଅସମର୍ଥ</string>
+    <string name="emergency_invoked_through_sms">SMS ମାଧ୍ୟମରେ ଜରୁରୀକାଳୀନ ସ୍ଥିତି ଖଣ୍ଡନ କରିବା</string>
+    <string name="tracker_url_not_found">ଟ୍ରାକର url ମିଳିଲା ନାହିଁ</string>
+    <string name="emergency_preparedness_dialog_msg">ଆପଣଙ୍କର କେୟାର ଟିମ୍ ସେଟଅପ୍ ହୋଇନାହିଁ। ଆାମ୍ଭେମାନେ ଆପଣଙ୍କୁ ଆପଣଙ୍କର ଆପଦକାଳୀନ ସମ୍ପର୍କ, ଡାକ୍ତରଖାନା, ଡାକ୍ତର ଏବଂ ଯତ୍ନପ୍ରଦାନକାରୀ ସେଟଅପ୍ କରିବାକୁ ଉତ୍ସାହିତ କରୁଛୁ। ଏକ  ଆପଦକାଳୀନ ସମ୍ପର୍କ କିମ୍ବା ଯତ୍ନପ୍ରଦାନକାରୀ ସେଟ୍ଅପ୍ କରିବା ବାଧ୍ୟତାମୂଳକ ହୋଇଥାଏ। ଯାହାଫଳରେ ସେମାନେ ଆପଦକାଳୀନ ପରିସ୍ଥିତିରେ ସହାୟତା ପ୍ରଦାନ କରିପାରିବେ।</string>
+    <string name="label_emergency_provider">ଆପଦକାଳୀନ ସେବା ପ୍ରଦାନକାରୀ</string>
+    <string name="label_preferred_emergency_provider">ଅଗ୍ରାଧିକାର ଦିଆଯାଉଥିବା ଆପଦକାଳୀନ ସେବା ପ୍ରଦାନକାରୀ</string>
+    <string name="hint_enter_preferred_emergency_provider">ଅଗ୍ରାଧିକାର ଦିଆଯାଉଥିବା ଆପଦକାଳୀନ ସେବା ପ୍ରଦାନକାରୀ</string>
+    <string name="label_test_emergency">ଟେଷ୍ଟ ଏମର୍ଜେନ୍ସି</string>
+    <string name="label_revoking_emergency">ଆପଦକାଳୀନ ଖଣ୍ଡନ କରିବା</string>
+    <string name="addpage">ପୃଷ୍ଠା ଯୋଗ କରନ୍ତୁ</string>
+    <string name="dialog_msg_test_emergency_click">ଏହା ହେଉଛି ଏକ ପରୀକ୍ଷାମୂଳକ ଜରୁରୀକାଳୀନ ସ୍ଥିତି। କୌଣସି ଆଲାର୍ମ ବାଜିବ ନାହିଁ କୌଣସି ସମ୍ପର୍କଙ୍କୁ ସୂଚନା ଦିଆଯିବ ନାହିଁ କୌଣସି ଆମ୍ବୁଲାନ୍ସ ପ୍ରଦାନକାରୀଙ୍କୁ କଲ୍ କରାଯିବ ନାହିଁ ଦୟାକରି ଆପଣଙ୍କ ସମ୍ପର୍କ ଆକ୍ସେସ କରିପାରିବା ପାଇଁ ଡ୍ୟାସ୍ ବୋର୍ଡରେ ଦେଖିବାକୁ ଚୂଡ଼ାନ୍ତ ସ୍କ୍ରିନରେ ଟ୍ରାକ୍ ଏମର୍ଜେନ୍ସିରେ କ୍ଲିକ୍ କରନ୍ତୁ</string>
+    <string name="test">ଆପଦକାଳୀନ ପରୀକ୍ଷା</string>
+    <string name="title_emergency_info">ଆପଦକାଳୀନ ସୂଚନା</string>
+    <string name="emergency_tracker">ଆପଦକାଳୀନ ଟ୍ରାକର</string>
+    <string name="test_emergency_tracker">ପରୀକ୍ଷାମୂଳକ ଆପଦକାଳୀନ ଟ୍ରାକର</string>
+    <string name="label_policy_validity">ପଲିସି ବୈଧତା</string>
+    <string name="title_activity_select_insured_person">ବୀମାଭୁକ୍ତ ବ୍ୟକ୍ତିଙ୍କ କାର୍ଯ୍ୟକଳାପ ଚୟନ କରନ୍ତୁ</string>
+    <string name="for_whom_is_this_insurance">ଏହି ବୀମା କାହା ପାଇଁ?</string>
+    <string name="purchase_successful">କ୍ରୟ ସଫଳ!</string>
+    <string name="title_activity_insurance_captured">ଅନୁରୋଧର ସାରାଂଶ</string>
+    <string name="insurance_captured_successfully">ଆପଣଙ୍କ ଅନୁରୋଧ ସଫଳତାର ସହ କ୍ୟାପଚର ହୋଇଛି</string>
+    <string name="customer_team_will_contact"> ଆମ କଷ୍ଟମର ଟିମ୍ \nଖୁବ୍ ଶୀଘ୍ର ଆପଣଙ୍କ ସହ ଯୋଗାଯୋଗ କରିବ</string>
+    <string name="any_queries">କୌଣସି ପ୍ରଶ୍ନ ପାଇଁ:</string>
+    <string name="summary">ସାରାଂଶ</string>
+    <string name="sum_insured">ବୀମା ରାଶି</string>
+    <string name="share_with_friends">ବନ୍ଧୁମାନଙ୍କ ସହ ଅଂଶୀଦାର କରନ୍ତୁ</string>
+    <string name="label_continue_2"><![CDATA[Continue  >>]]></string>
+    <string name="title_activity_add_insured_details">" ବୀମାଭୁକ୍ତଙ୍କ ବିବରଣୀ ଯୋଗ କାର୍ଯ୍ୟକଳାପ"</string>
+    <string name="aadhar_no">ଆଧାର ନମ୍ବର</string>
+    <string name="verify">ଯାଞ୍ଚ୍ କରନ୍ତୁ</string>
+    <string name="email_id">ଇମେଲ୍ ID</string>
+    <string name="address1">ଠିକଣା ୧</string>
+    <string name="et_address2">ଠିକଣା ୨</string>
+    <string name="city_town">ସହର/ନଗର</string>
+    <string name="district">ଜିଲ୍ଲା</string>
+    <string name="nominee_name">ନୋମିନିଙ୍କ ନାମ</string>
+    <string name="nominee_relationship">ନୋମିନିଙ୍କ ସହିତ ସମ୍ପର୍କ</string>
+    <string name="add_more_existing_policies">ଅଧିକ ରହିଥିବା ପଲିସି ଯୋଗ କରନ୍ତୁ</string>
+    <string name="OR">କିମ୍ବା</string>
+    <string name="buy_acc_policy">ପ୍ୟାକେଜ କିଣନ୍ତୁ</string>
+    <string name="policy_no">ବୀମା ନମ୍ବର</string>
+    <string name="add_existing_policy">ରହିଥିବା ପଲିସି ଯୋଗ କରିବା ଦ୍ୱାରା ଆରମ୍ଭ \n କରନ୍ତୁ</string>
+    <string name="add_existing_policies">ରହିଥିବା ପଲିସି ଯୋଗ କରନ୍ତୁ</string>
+    <string name="buy_accident_coverage_dialog_msg">ଆକ୍ସିଡେଣ୍ଟ ହେଲଥ ଇନସ୍ୟୁରାନ୍ସ କଭରେଜ୍: ୧ ଲକ୍ଷ ଟଙ୍କା ପର୍ଯ୍ୟନ୍ତ:: @ ୨୦୦ଟଙ୍କା ପ୍ରତି ବ୍ୟକ୍ତି</string>
+    <string name="tncapply"><![CDATA[*Terms & Condtions Apply]]></string>
+    <string name="buy_now">ବର୍ତ୍ତମାନ କିଣନ୍ତୁ</string>
+    <string name="end_date_must_b_future_date">ଶେଷ ତାରିଖ ଭବିଷ୍ୟତର ତାରିଖ ହେବା ଆବଶ୍ୟକ</string>
+    <string name="select_start_date">ଦୟାକରି ଏକ ଆରମ୍ଭ ତାରିଖ ଚୟନ କରନ୍ତୁ</string>
+    <string name="start_date_cannot_b_past_date">ଆରମ୍ଭ ତାରିଖ ଅତୀତର ତାରିଖ ହୋଇପାରିବ ନାହିଁ</string>
+    <string name="end_date_must_b_after_start_date">ଶେଷ ତାରିଖ ଆରମ୍ଭ ତାରିଖ ପରେ ହେବା ଆବଶ୍ୟକ</string>
+    <string name="ins_validity_date_mandatory">ଦୟାକରି ବୀମା ଆରମ୍ଭ ଏବଂ ଶେଷ ତାରିଖ ଚୟନ କରନ୍ତୁ</string>
+    <string name="ins_phone_validation_error_msg">"ଦାବି ସଂଖ୍ୟା ୧୦ ଅଙ୍କ ବିଶିଷ୍ଟହେବା ଆବଶ୍ୟକ ଏବଂ ଶୂନରୁ ଆରମ୍ଭ ହେଉନଥିବା "</string>
+    <string name="title_activity_insurance_policy_coverage_info">
+        InsurancePolicyCoverageInfoActivity
+    </string>
+    <string name="view_download_policy">ପଲିସି ବିବରଣୀ ଦେଖନ୍ତୁ/ଡାଉନଲୋଡ୍ କରନ୍ତୁ</string>
+    <string name="policy_coverage_info">ପଲିସି କଭରେଜ୍ ସୂଚନା</string>
+    <string name="insurance_payment_successful">ବୀମା ପୈଠ ସଫଳ!</string>
+    <string name="add_insured_details">ବୀମାଭୁକ୍ତଙ୍କ ବିବରଣୀ ଯୋଗ କରନ୍ତୁ</string>
+    <string name="date_of_birth_is_mandatory">ଜନ୍ମତାରିଖ ବାଧ୍ୟତାମୂଳକ ହୋଇଥାଏ ଏବଂ ବୟସ ୧୮-୬୫ ବର୍ଷ ବର୍ଗ ମଧ୍ୟରେ ରହିଥିବା ଉଚିତ୍</string>
+    <string name="enter_12digit_aadhar_no">ଦୟାକରି ୧୨ ଅଙ୍କ ବିଶିଷ୍ଟ ବୈଧ ଆଧାର ନମ୍ବର ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="address_mandatory">ଆଧାର ବାଧ୍ୟତାମୂଳକ ହୋଇଥାଏ</string>
+    <string name="city_is_mandatory">ଦୟାକରି ସହର ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="state_is_mandatory">ଦୟାକରି ରାଜ୍ୟ ପ୍ରବେଶ କରନ୍ତୁ</string>
+
+    <string name="district_is_mandatory">ଜିଲ୍ଲା ବାଧ୍ୟତାମୂଳକ ହୋଇଥାଏ</string>
+    <string name="pincode_is_mandatory">ଦୟାକରି ପିନ୍‌କୋଡ୍ ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="nominee_name_is_mandatory">ଦୟାକରି ନୋମିନିଙ୍କ ନାମ ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="nominee_relationship_is_mandatory">ଦୟାକରି ନୋମିନିଙ୍କ ସହିତ ସମ୍ପର୍କ ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="appollo_munich">ଆପୋଲୋ ମୁନିଚ୍</string>
+    <string name="accident_coverage_policy">ଦୁର୍ଘଟଣା କଭରେଜ୍ ପଲିସି</string>
+    <string name="verifying_email">ଆମେ ଆପଣଙ୍କ ଇମେଲ୍ ଯାଞ୍ଚ କରୁଛୁ ଦୟାକରି ଅପେକ୍ଷା କରନ୍ତୁ</string>
+    <string name="verifying_mobile">ଆମେ ଆପଣଙ୍କ ମୋବାଇଲ ଯାଞ୍ଚ କରୁଛୁ ଦୟାକରି ଅପେକ୍ଷା କରନ୍ତୁ</string>
+    <string name="verified">ଯାଞ୍ଚ ହୋଇଛି</string>
+    <string name="share_about_insurence">ପ୍ରସ୍ତୁତ ହୋଇଥିବାରୁ ଭଲ ଅନୁଭବ କରୁଛନ୍ତି। କଲ୍ ଆମ୍ବୁଲାନ୍ସ ମୋବାଇଲ୍ ଆପ୍ ଇନଷ୍ଟଲ କରିଛନ୍ତି ଏବଂ ଏକ କଲ ଆମ୍ବୁଲାନ୍ସ ବେସିକ୍ ପ୍ୟାକେଜ୍ କିଣିଛନ୍ତି ଯାହାକି ସଡକ ଦୁର୍ଘଟଣା ବୀମା ରାଶିର ଏକ ମୌଳିକ ପ୍ୟାକେଜ୍ ଅନ୍ତର୍ଭୁକ୍ତ କରେ ଯାହାକି ମୋତେ ଡାକ୍ତରଖାନାରେ ଦାଖଲ ହୋଇ ଚିକିତ୍ସା ପାଇଁ ୧,୦୦,୦୦୦/ଟଙ୍କାର କଭର୍, ବର୍ହିରୋଗୀ ବିଭାଗରେ ଚିକିତ୍ସା ପାଇଁ ୫୦୦୦ ଟଙ୍କା ଏବଂ ଆମ୍ବୁଲାନ୍ସ ହେବା ପାଇଁ ୨୦୦୦୦ ଟଙ୍କାର କଭରେଜ୍ ପ୍ରଦାନ କରେ ଯେଉଁଥିରେ ବର୍ଷକୁ ପ୍ରିମିୟମ୍ ମାତ୍ର ୨୪୯ ଟଙ୍କା ରହିଛି। ଏଠାର  http://bit.ly/callambulance ଆପ୍ ଡାଉନଲୋଡ୍ କରନ୍ତୁ</string>
+    <string name="verify_otp">OTPକୁ ଯାଞ୍ଚ କରନ୍ତୁ</string>
+    <string name="or_enter_otp_manually">କିମ୍ବା ନିଜେ ଓଟିପି ମାନୁଆଲି ପ୍ରବେଶ କରାନ୍ତୁ</string>
+    <string name="msg_restrict_user_to_buy_same_ins_twice">ହେ!!! ମନେ ହେଉଛି ଆପଣ ଅଦ୍ୟାବଧି ନିଜ ପାଇଁ ବେସିକ୍ ପ୍ୟାକେଜ୍ କିଣିସାରିଛନ୍ତି। ଯଦି ଆପଣ ଆଉ କାହା ପାଇଁ ଏହି ପ୍ୟାକେଜ୍ କିଣିବାକୁ ଚାହାନ୍ତି ତେବେ ଦୟାକରି ଏକ ଭିନ୍ନ ସଦସ୍ୟଙ୍କୁ ସୁଇଚ୍ କରନ୍ତୁ ଏବଂ କିଣିବାକୁ ଆଗକୁ ବଢ଼ନ୍ତୁ</string>
+    <string name="start_date_cannot_b_future_date">ଆରମ୍ଭ ତାରିଖ ଏକ ଭବିଷ୍ୟତର ତାରିଖ ହୋଇପାରିବ ନାହିଁ</string>
+    <string name="sync_failed">ଆପଣଙ୍କ ଚିନ୍ତାଧାରା ଆହରଣ କରିବାରେ ବିଫଳ ହେଲା</string>
+    <string name="support">ସ\nହ\nଯ\nୋ\nଗ</string>
+    <string name="enter_correct_otp">ଦୟାକରି ଏକ ବୈଧ OTP ପ୍ରବେଶ କରନ୍ତୁ ଏବଂ ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ</string>
+    <string name="enter_correct_token">ଦୟାକରି ଏକ ବୈଧ OTP ପ୍ରବେଶ କରନ୍ତୁ ଏବଂ ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ</string>
+
+    <string name="read_more">ଅଧିକ ପଢ଼ନ୍ତୁ</string>
+    <string name="label_in_patient">ଗୋଷ୍ଠୀଗତ ଆପଦକାଳୀନ ଦୁର୍ଘଟଣା ବୀମା ଯୋଜନା (ଦୁର୍ଘଟଣାଜନିତ ମୃତ୍ୟୁ)</string>
+    <string name="in_pre_post_operative_care">ଦୁର୍ଘଟଣାଜନିତ ଡାକ୍ତରଖାନାରେ ଦାଖଲ ବାବଦକୁ ଲାଭ</string>
+    <string name="label_accident_coverage">ଦୁର୍ଘଟଣାଜନିତ ବର୍ହିବିଭାଗ ଚିକିତ୍ସା ପାଇଁ ଲାଭ</string>
+    <string name="label_ambulance_coverage">" ଆପଦକାଳୀନ/ଆମ୍ବୁଲାନ୍ସ କଭର"</string>
+    <string name="insurance_issue">ବୀମା ସମସ୍ୟା</string>
+    <string name="phone_number_verified">ଫୋନ୍ ନମ୍ବର ଯାଞ୍ଚ ହୋଇସାରିଛି</string>
+    <string name="email_verified">ଇମେଲ୍‌ ଯାଞ୍ଚ ହୋଇସାରିଛି</string>
+    <string name="label_benefit">ଲାଭଗୁଡ଼ିକ</string>
+    <string name="policy_tnc"><![CDATA[Policy T&C]]></string>
+    <string name="inc_sgst_cgst"><![CDATA[(Inclusive Of SGST & CGST)]]></string>
+    <string name="membership_conv_charge"><![CDATA[Membership & Convenience \nCharge]]></string>
+    <string name="verify_mobile_email_msg">ଦୟାକରି ଆପଣଙ୍କ ଇମେଲ୍ ଏବଂ ମୋବାଇଲ୍ ନମ୍ବର ଯାଞ୍ଚ କରନ୍ତୁ  ଯଦି ଆପଣ ମୌଳିକ ପ୍ୟାକେଜ୍ ଅନୁରୋଧ ସମୟରେ ପ୍ରକ୍ରିୟାକରଣ ପାଇଁ ଅଦ୍ୟାବଧି ଏହା କରିନାହାନ୍ତି</string>
+    <string name="request_for_otp">ଏକ OTP ଅନୁରୋଧ କରୁଛି, ଦୟାକରି ଅପେକ୍ଷା କରନ୍ତୁ…</string>
+    <string name="ins_buy_age_restriction_msg">ଏହି ସମୟରେ ଏହି ପ୍ୟାକେଜ୍ କେବଳ ୧୮-୬୫ ବର୍ଷ ବୟସ ବର୍ଗ ପାଇଁ ଉପଲବ୍ଧ ରହିଛି। ଆମ୍ଭେମାନେ ଭବିଷ୍ୟତରେ ସମସ୍ତ ବୟସ ବର୍ଗକୁ ଅନ୍ତର୍ଭୁକ୍ତ କରିବାକୁ ଲକ୍ଷ୍ୟ ରଖିଛୁ, ଅଦ୍ୟତନ ପାଇଁ ଯୋଡି ହୋଇ ରହନ୍ତୁ</string>
+    <string name="verifying_promo_code">ପ୍ରୋମୋ କୋଡ୍ ଯାଞ୍ଚ କରୁଛି…</string>
+    <string name="reading_contacts_msg">ଆପଣଙ୍କର ସମ୍ପର୍କ ଡାଟା ବେସ୍ ପଢ଼ୁଛି। ଏଥିପାଇଁ କେଇ ମିନିଟ୍ ଲାଗିପାରେ। ଦୟାକରି ଅପେକ୍ଷା କରନ୍ତୁ….</string>
+    <string name="processing_request">ଆପଣଙ୍କ ଅନୁରୋଧ ପ୍ରକ୍ରିୟାକରଣ ହେଉଛି ଦୟାକରି ଅପେକ୍ଷା କରନ୍ତୁ</string>
+    <string name="label_one_step">" ଆପଣ ସବସ୍କ୍ରିପସନ ସମାପ୍ତ କରିବାରୁ ଗୋଟିଏ ପାଦ ଦୂରରେ ରହିଛନ୍ତି"</string>
+    <string name="next_step">ପରବର୍ତ୍ତୀ ପଦକ୍ଷେପ</string>
+    <string name="label_confirm_email">ଇମେଲ୍ ସୁନିଶ୍ଚିତ କରନ୍ତୁ</string>
+    <string name="enter_token">ଦୟାକରି ଆପଣଙ୍କ ଇମେଲକୁ ପଠାଯାଇଥିବା OTP  ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="incomplete_ins_purchase">ହେ!!! ମନେ ହେଉଛି ଆପଣଙ୍କର ମୌଳିକ ପ୍ୟାକେଜ୍ କ୍ରୟ ପଡ଼ିରହିଛି। ଦୟାକରି ଆପଣଙ୍କ କ୍ରୟ ସମ୍ପୂର୍ଣ୍ଣ କରିବାକୁ ଓକେରେ କ୍ଲିକ୍ କରନ୍ତୁ</string>
+    <string name="odia">ଓଡିଆ</string>
+    <string name="approved">ଅନୁମୋଦିତ</string>
+    <string name="switching_to_last_known_loc">ଅବସ୍ଥାନ ମିଳିଲା ନାହିଁ। ଶେଷ ଜ୍ଞାତ ଅବସ୍ଥାନକୁ ସୁଇଚ୍ କରୁଛି</string>
+
+    <!--new-->
+    <string name="share_using">Share using</string>
+    <string name="facilities">Facilities</string>
+    <string name="specalities">Specialities</string>
+    <string name="duplicate_email_error">ଏହି ସିଷ୍ଟମରେ ଅଦ୍ୟାବଧି ଏହି ଇମେଲ୍ ଆଇଡି ସହ ଜଣେ ଉପଭୋକ୍ତା ରହିଛନ୍ତି। ଦୟାକରି ଜଣେ ନୂତନ ଉପଭୋକ୍ତା ସୃଷ୍ଟି କରିବା ପାଇଁ ଅନ୍ୟ ଇମେଲ୍ ଆଇଡି ବ୍ୟବହାର କରନ୍ତୁ କିମ୍ବା ଲଗ୍‌ଇନ୍ ସ୍କ୍ରିନ୍‌ରେ ପାସୱାର୍ଡ ଭୁଲିଯାଇଛନ୍ତିରେ କ୍ଲିକ୍ କରି ଆପଣଙ୍କ ପାସୱାର୍ଡ ଉଦ୍ଧାର କରନ୍ତୁ।</string>
+    <string name="noreports_found">ରିପୋର୍ଟସ ମଡ୍ୟୁଲ୍‌ ଆପଣଙ୍କୁ ଆପଣଙ୍କର ସ୍ୱାସ୍ଥ୍ୟ ରେକର୍ଡ ଯେପରିକି ପ୍ରେସ୍କ୍ରିପ୍‌ସନ, ଡିସଚାର୍ଜ ସମରୀ, ବୀମା ଇତ୍ୟାଦି ଯେକୌଣସି ସମୟରେ ଦେଖିବା ପାଇଁ ଗଛିତ ରଖିବାକୁ ସକ୍ଷମ ଅଟେ। ଏଗୁଡ଼ିକ ମଧ୍ୟରୁ କୌଣସିଟି ଅପଲୋଡ୍ କରିବା ପାଇଁ ଦୟାକରି ଏହି ସ୍କ୍ରିନ୍ ଶୀର୍ଷରେ ରହିଥିବା + ବଟନ୍‌ ଦବାନ୍ତୁ। </string>
+    <string name="dialog_msg_setup_ehr">ଆପଦକାଳୀନ ସ୍ୱାସ୍ଥ୍ୟ ରେକର୍ଡ ସେଟ୍ ଅପ୍ କରିବା ଫଳରେ ଏହା ଆପଦକାଳୀନ ପରିସ୍ଥିତିରେ ଆପଦକାଳୀନ ସ୍ୱାସ୍ଥ୍ୟ ସେବା ପ୍ରଦାନକାରୀଙ୍କୁ ଆପଣଙ୍କ ସହାୟତା କରିବାକୁ ସକ୍ଷମ କରିବ। ଏଥିପାଇଁ ମାତ୍ର କିଛି ମିନିଟ୍ ଲାଗିବ। ଆପଣ ଆପଦକାଳୀନ ସ୍ୱାସ୍ଥ୍ୟ ରେକର୍ଡ ଆପଣଙ୍କ ପାଇଁ ସେଟଅପ୍ କରିବାକୁ ଚାହାନ୍ତି କି?</string>
+    <string name="label_splash_screen_stay_safe">ବର୍ତ୍ତମାନ ଆପଣ କଲ୍ ଆମ୍ବୁଲାନ୍ସ ସହିତ ସୁରକ୍ଷିତ ରହିପାରିବେ!</string>
+    <string name="regards">\\nକୃତଜ୍ଞତା ସହ,,\\n</string>
+    <string name="label_road_accident_emg_coverage">କଲ୍ ଆମ୍ବୁଲାନ୍ସ ମୌଳିକ \\nପ୍ୟାକେଜ୍</string>
+    <string name="label_accident_coverage_policy">ଦୁର୍ଘଟଣା କଭରେଜ୍ \\nପଲିସି</string>
+    <string name="label_provider">ଆମ୍ବୁଲାନ୍ସ ପ୍ରଦାନକାରୀ</string>
+    <string name="label_sync_hint">ବ୍ଲଡି ଫ୍ରେଣ୍ଡସର ସଂଜ୍ଞା ନିରୁପଣ-  \\u2022ଆପଣଙ୍କର ଜଣେ ବନ୍ଧୁ ଯେ କି ଆପଣଙ୍କୁ ଆବଶ୍ୟକ ସମୟରେ ରକ୍ତଦାନ କରିପାରିବେ ! \\u2022ଆପଣ ଯେତେବେଳେ ସିଙ୍କ କରନ୍ତି, ଆପଣ ସମସ୍ତ ପଞ୍ଜିକୃତ ବନ୍ଧୁଗଣଙ୍କୁ ଓ ସେମାନଙ୍କର ବ୍ଲଡ ଗ୍ରୁପ୍ ଦେଖିପାରିବେ!</string>
+    <string name="location_services_off">ଅବସ୍ଥାନ ସେବା ଅଫ୍ ରହିଛି। ସେଟିଂସରେ ଅବସ୍ଥାନ ସେବା ଅନ୍ କରନ୍ତୁ ଏବଂ ଉତ୍ତମ ଫଳାଫଳ ପାଇଁ ଉଚ୍ଚ ସଠିକତାରେ ସେଟ୍ କରନ୍ତୁ</string>
+
+</resources>

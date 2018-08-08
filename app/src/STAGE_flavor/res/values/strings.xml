@@ -1,0 +1,9 @@
+<resources>
+    <string name="package_name">com.patientz.activity.stage</string>
+    <string name="environment">Stage</string>
+    <string name="app_name">Stage</string>
+    <string name="profileImagePath">/CallAmbulanceStage/Images/</string>
+    <string name="attachmentPath">/CallAmbulanceStage/Attachments/</string>
+    <string name="uploadPath">/CallAmbulanceStage/Uploads/</string>
+    <string name="smsCountryKeyWord">DOCTST</string>
+</resources>

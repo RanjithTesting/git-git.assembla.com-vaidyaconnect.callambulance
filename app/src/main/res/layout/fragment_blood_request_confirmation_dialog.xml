@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.patientz.fragments.BloodRequestConfirmationDialog">
+
+   <TextView
+       android:id="@+id/tv_title"
+       android:text="Request Completed"
+       android:paddingLeft="16dp"
+       android:layout_width="match_parent"
+       android:layout_height="48dp"
+       android:background="@color/harvard_crimpson"
+       android:fontFamily="@string/font_typeface_sans_serif"
+       android:textSize="17dp"
+       android:textColor="@color/white"
+       android:gravity="center_vertical"
+       />
+    <TextView
+        android:id="@+id/tv_message"
+        style="@style/tv_roboto_medium_black_normal"
+        android:textSize="16dp"
+        android:text="@string/blood_request_success_message"
+        android:background="@color/white"
+        android:padding="16dp"
+        android:drawableTop="@drawable/success_request"
+        android:drawablePadding="16dp"
+        android:gravity="center"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.25dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/separator"
+        />
+    <TextView
+        android:id="@+id/bt_done"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="18dp"
+        android:text="@string/done"
+        android:gravity="center"
+        android:textColor="@color/harvard_crimpson"
+        android:fontFamily="@string/font_typeface_sans_serif_medium"
+        />
+
+</LinearLayout>

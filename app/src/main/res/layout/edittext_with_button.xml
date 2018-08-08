@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+
+    <EditText
+        android:id="@+id/et_aadhar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="Enter your Aadhar number"
+        android:textColor="@color/outer_space"
+        android:inputType="number"
+        android:maxLength="12"
+        />
+    <Button
+        android:id="@+id/bt_add_aadhar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:background="@drawable/selector_curved_rectangle_hcrimpson_white_bg"
+        android:fontFamily="@string/font_typeface_sans_serif"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@drawable/selector_white_to_harvardcrimpson"
+        android:textAllCaps="false"
+        android:layout_marginBottom="16dp"
+        android:text="@string/label_add" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"
+        />
+
+</LinearLayout>
+
+

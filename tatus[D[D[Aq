@@ -1,0 +1,2915 @@
+[33mcommit ab097339b5733bfeb30861dcc17d770193bb17ab[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Wed Nov 23 16:36:36 2016 +0530
+
+    upload list ws integration
+
+[33mcommit 7455011d6d138c2fbfab57a6eb391a2e40a8388d[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Tue Nov 22 17:47:35 2016 +0530
+
+    singe file upload added
+
+[33mcommit 9eca8338fb2c66df7def7fc2517cd250ff2f04bb[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Tue Nov 22 16:27:14 2016 +0530
+
+    file upload added
+
+[33mcommit 3df75b97b6e44b7c84279c641fcd9a9e8fb31c9e[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Thu Nov 17 09:25:27 2016 +0530
+
+    care giver and ec search fixed,additional address addredd for hospitals
+
+[33mcommit d82ec3169c1a48a3c11f6cc2f262f11b63640ab9[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Thu Nov 17 07:55:32 2016 +0530
+
+    env>>Qa
+
+[33mcommit d38358cc4299b10866f7c40f2d9df4fd1466c8f0[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Thu Nov 17 07:47:22 2016 +0530
+
+    address issue resolved
+
+[33mcommit 993b0c1040bdd67aec190e74d0096d5772be0589[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Thu Nov 17 01:23:11 2016 +0530
+
+    api key issue
+
+[33mcommit d6d7cb42b9b90df37bf22bd12a3583ed29de6236[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Thu Nov 17 01:06:49 2016 +0530
+
+    added google json files
+
+[33mcommit 5b37363202f01158be139503a06dcfcf7ab5748b[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Wed Nov 16 22:29:59 2016 +0530
+
+    added default provider to emri
+
+[33mcommit 8060e75cf31a7fa3db9c03136dcbe1c0a291a62b[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Wed Nov 16 17:15:41 2016 +0530
+
+    lenear layout fix
+
+[33mcommit cc53d01188dab50e2119424624d020f94638f961[m
+Merge: d2b2e5e 5830750
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Wed Nov 16 16:37:03 2016 +0530
+
+    Merge branch 'PROD_SUNIL_11102016_0304' of git.assembla.com:vaidyaconnect.callambulance into PROD_SUNIL_11102016_0304
+
+[33mcommit d2b2e5ea33cce8ae663ac72aea8823a3f64c1047[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Wed Nov 16 16:36:15 2016 +0530
+
+    ui line added
+
+[33mcommit 5830750315fa39c2581fc97f62d8b398bff68b17[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Nov 16 16:32:36 2016 +0530
+
+    changes sql dump file
+
+[33mcommit 7afaed729bf822b5bc90cb0b67daec0968b0a1ba[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Nov 16 02:57:42 2016 +0530
+
+    lc
+
+[33mcommit 26a8d3cfd63511d6a5b04e9c4589bfbb173f547c[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Nov 16 02:18:24 2016 +0530
+
+    l
+
+[33mcommit 281c151dfe1b5eb2acd3ac3bccce9ab0efa5e8c6[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Nov 16 00:52:05 2016 +0530
+
+    modified emhr hospital autocomplete query to ta
+
+[33mcommit 7e6eacff74656aa0c23934fc442196bd103f1bfe[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Nov 16 00:44:06 2016 +0530
+
+    inserting emergency numbers issue resolved
+
+[33mcommit b0cccaea326cfef0f436eb89150d7d6c4ba72a84[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Nov 15 22:40:42 2016 +0530
+
+    not picking automatic  emergency number fixed,emhr changes
+
+[33mcommit f34a65c2ff05fb3c6d129ea93fab7a24c7afd766[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Nov 15 22:06:37 2016 +0530
+
+    logo issue,sorting preferred hospitals
+
+[33mcommit 9f8035152087b4e42fc5e6701e8c4fce58461ffd[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Nov 15 18:04:00 2016 +0530
+
+    upshot code added
+
+[33mcommit 5fc86085fcd3f636d62a5e14b82de1dd1f633670[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Nov 15 04:07:07 2016 +0530
+
+    lc
+
+[33mcommit 8db5d9d6c9a88aba1da1d43030b36085861f189d[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Nov 15 02:02:03 2016 +0530
+
+    updated dump
+
+[33mcommit 6cf678b3c4a676f6074eb3b0b2fee5e2d2342dd9[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Nov 15 01:15:52 2016 +0530
+
+    table name corrected
+
+[33mcommit e2ab0a585ed3cef4bd034d5e0bd7028a274d8541[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Nov 15 01:03:35 2016 +0530
+
+    lc
+
+[33mcommit b4243ac254c375e0024fc164f582ecf66ad27c24[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Sat Nov 12 19:37:23 2016 +0530
+
+    preferred org branch logo fix, ,profile pic crash
+
+[33mcommit 168e31282d929ba5793328031e042d09b4a41489[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Thu Nov 10 17:00:37 2016 +0530
+
+    meld changes correction
+
+[33mcommit c575c2cb16799e27721ad98156659d001f157f84[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Thu Nov 10 16:40:19 2016 +0530
+
+    meld multilingual and org branches listing
+
+[33mcommit 8e1dfb656174ac949d97def001840548c5a59cf7[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Tue Nov 8 10:40:46 2016 +0530
+
+    prod release
+
+[33mcommit 6220bb48ef6c9da7bfa5ae2e69447f72eda3c0b8[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Mon Nov 7 19:44:08 2016 +0530
+
+    bloody friends issue resolved
+
+[33mcommit d2d0051220268ef808d7b76956afaf129f07cd76[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Fri Nov 4 12:37:52 2016 +0530
+
+    prod release with multi lingual fixes
+
+[33mcommit 7aada3bddd71343b08127b0e37b64c52449de923[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Fri Nov 4 09:59:37 2016 +0530
+
+    gender fix
+
+[33mcommit 600a782f573f19a2e126ee952695c0df78dc748c[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Fri Nov 4 09:27:49 2016 +0530
+
+    date fix
+
+[33mcommit 5ba5a3601109bfb071661e304685698908d30a31[m
+Merge: 3634a41 c413b7b
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Thu Nov 3 15:42:21 2016 +0530
+
+    Merge branch 'MASTER_DUMP3'
+
+[33mcommit c413b7b0f7c272e12335486f436737f6dd1eb1b7[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Thu Nov 3 15:39:28 2016 +0530
+
+    string issues fixed
+
+[33mcommit 3634a4106596de85942ba78b4d757281846c74fc[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Thu Nov 3 14:26:18 2016 +0530
+
+    prod release
+
+[33mcommit 7fc037a18d4ca73ed47e50aea41602c8f69981ff[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Wed Nov 2 19:17:25 2016 +0530
+
+    multi lingual
+
+[33mcommit 1d14dcd9fb5b09305bc97829c682b95b8d0435cf[m
+Merge: 36b0b18 bbbf786
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Thu Oct 27 14:58:26 2016 +0530
+
+    qa release
+
+[33mcommit bbbf7866797a44ed896d8254b465886e5db0db5e[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Wed Oct 26 17:17:40 2016 +0530
+
+    lc
+
+[33mcommit 36b0b18e358dc6ad2af31c71450c742f14f07959[m
+Author: ranjith <ranjith@doctrz.com>
+Date:   Mon Oct 24 21:10:05 2016 +0530
+
+    env >>> prod
+
+[33mcommit e7af84ec43ec2963c51a65938a0b40aed771efc3[m
+Author: ranjith <ranjith@doctrz.com>
+Date:   Mon Oct 24 19:44:42 2016 +0530
+
+    Test #4303
+
+[33mcommit 7e9cb2f5925c634616267427029c7c9223fa83ed[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Fri Oct 21 14:48:41 2016 +0530
+
+    cherrypick
+
+[33mcommit 516f22402dfd97713d681a1420e4b4834edc42d0[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Mon Oct 17 18:41:19 2016 +0530
+
+    url changed
+
+[33mcommit 0a158bc502b2530ba445e47c229e1c3542dccd68[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Mon Oct 17 17:12:57 2016 +0530
+
+    Hindi added
+
+[33mcommit e0270de0caefbf2171bf1a332ec1e1fd87291213[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Mon Oct 17 14:32:13 2016 +0530
+
+    re #4269 , Change the twitter link in about page
+
+[33mcommit dbf529c050e34a24bbee5104bde6f76419ffb599[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Wed Oct 5 17:25:12 2016 +0530
+
+    languages added
+
+[33mcommit c8a159afe6604fa90eb57e6b07ddf93d9c748398[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Wed Oct 5 13:05:56 2016 +0530
+
+    te lang added
+
+[33mcommit c3fe4789de0088ab2ba6b800d33f0b1c1e6e2590[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Oct 5 11:22:36 2016 +0530
+
+    changed emergency url
+
+[33mcommit f09665aece35e5723be446346dcfbac103cc15b0[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Fri Sep 30 20:02:20 2016 +0530
+
+    getBranchPhno replaced by getAmbulanceProviderPhoneNo
+
+[33mcommit d0f69c1e971e59d1f630897c6c82fcb6e42aaf59[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Fri Sep 30 17:54:07 2016 +0530
+
+    env>beta
+
+[33mcommit 579fcb14437c5d03caefd4df60c8e1881b66f57b[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Fri Sep 30 17:48:52 2016 +0530
+
+    re #4226 road hazards not uploading issue fixed , also has slight reg changes
+
+[33mcommit 7eed1de04a6497f704d5382e3de3a440fb9fbe88[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Fri Sep 30 12:38:49 2016 +0530
+
+    icons added
+
+[33mcommit 5563d371ce1681185c0dee3b0fee75ec61e6f839[m
+Merge: 24ad467 c00ad52
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Thu Sep 29 16:53:07 2016 +0530
+
+    Conflicts Removed
+
+[33mcommit c00ad5236fae7f370e47ce86264c81afcbcb5eb7[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Thu Sep 29 16:20:40 2016 +0530
+
+    compaign WS commented
+
+[33mcommit 7f212876347db5ceff6ebc93af5422bc9f15d47a[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Thu Sep 29 16:18:05 2016 +0530
+
+    bloody friends icons replaced
+
+[33mcommit 24ad467a819bb7f58d681542eb174420769e84fa[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Sep 28 19:51:16 2016 +0530
+
+    Ui changes in ambulance list screen
+
+[33mcommit d3818c2998960455b373bc1121d4e0a77ef842f0[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Wed Sep 28 19:25:48 2016 +0530
+
+    marketing campaign WS
+
+[33mcommit 4a2536ba089c6f5c66725eddb96f20be45c6c0fc[m
+Merge: aa19db3 e37735b
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Sep 28 18:17:34 2016 +0530
+
+    merged with DEV_SUNIL_13092016_1249
+
+[33mcommit e37735b152cc9feed19ad1128b991fc7938ff9e8[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Sep 28 18:04:56 2016 +0530
+
+    re #4147
+
+[33mcommit 483270b792b901dce91b3a8dd77fe68ee909cbc5[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Sep 28 13:04:21 2016 +0530
+
+    re #4147
+
+[33mcommit b5c7b32dcfb0cb9e7b875fab045f5175b040330e[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Sep 27 19:52:40 2016 +0530
+
+    not populating ambulance provider name when calling
+
+[33mcommit aa19db3c8e11e8f205ad982eb30748426a7fb67a[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Tue Sep 27 19:07:13 2016 +0530
+
+    removed hard code strings
+
+[33mcommit d33b3c3c3e03bf3ee5c41ccd6b589ecf1a278267[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Sep 27 19:00:51 2016 +0530
+
+    Test #4170
+
+[33mcommit 28c8be2681748d4ac59efb54b4132442e56dd4d9[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Sep 27 18:58:18 2016 +0530
+
+    Test #4147
+
+[33mcommit 9d4dc7d4c32ba3deb073917ae5a2c3c1c35870d5[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Sep 27 15:32:50 2016 +0530
+
+    Test #4212
+
+[33mcommit cdc28116827f31d7dd543c9d154f7af6d29e338f[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Sep 26 17:42:16 2016 +0530
+
+    lc
+
+[33mcommit 77961a3e2304a43eadfbb91f23e99560e90141f5[m
+Merge: 761ea88 4443c49
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Sep 26 14:48:51 2016 +0530
+
+    merged temp branch
+
+[33mcommit 761ea88c88f260c4774c8b0048179c93a42dd353[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Sep 26 14:46:57 2016 +0530
+
+    env>stage
+
+[33mcommit 4443c49634c027393240c702624cb34757b6acd5[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Sep 26 10:21:18 2016 +0530
+
+    added street address offline
+
+[33mcommit cd3f089e7f97be5dfb9309bf00778d96ef95d4a5[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Sep 26 09:37:49 2016 +0530
+
+    displaying only branch name in list
+
+[33mcommit 8b99a1a312e48238ac2a4668001f2bc54c4eef51[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Sep 26 09:24:57 2016 +0530
+
+    lc
+
+[33mcommit ba31238409bafbbc73801304417bd69a9dce942e[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Sep 26 09:12:49 2016 +0530
+
+    map issue fixed
+
+[33mcommit 00dffdeb4dd05bfba8865770cdec91a0b51d92ef[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Sun Sep 25 23:04:41 2016 +0530
+
+    toast changes
+
+[33mcommit b066e112ae833738dd178d2aadadecef756f339f[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Sat Sep 24 18:35:25 2016 +0530
+
+    testing issues resolved
+
+[33mcommit dc2270c4b789ee77006c8d92732edd13a8e9c925[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Sep 23 21:12:55 2016 +0530
+
+    done 4147 ticket
+
+[33mcommit e3e002dd35078f6867077c373841064e21568722[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Sep 21 15:33:06 2016 +0530
+
+    few changes in adapter
+
+[33mcommit ac0fd58af78e2fd24155b45e9c02248dcd436e71[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Sep 20 20:48:01 2016 +0530
+
+    lc
+
+[33mcommit 07767437e0ef7ea36ff95d1ca559d22c0421ece1[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Sep 16 17:51:45 2016 +0530
+
+    partially done ticket 4032
+
+[33mcommit 70af64fd300e39c08ce0ee2139efae15cfe22cdf[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Sep 14 16:05:59 2016 +0530
+
+    lc
+
+[33mcommit b7c6bd1a6b69fc43a12e6994a78febf3ec3621e2[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Sep 13 20:11:38 2016 +0530
+
+    stranger registering & invoking emergency
+
+[33mcommit 7e6dbb8921d3c20123f7603c26aab8ddde8ffd4b[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Sep 12 15:53:25 2016 +0530
+
+    lc
+
+[33mcommit 4684dfe00a3473941c90b5b85afe6f4440a16cb3[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Sep 9 21:10:09 2016 +0530
+
+    lc
+
+[33mcommit 278cce0abcc41d0e410bff9f3ad427b930b31d7b[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Sep 9 19:35:05 2016 +0530
+
+    manual entry of sending otp issue
+
+[33mcommit e64e44fb52302ebf0446d1726d462d764b7c3ce8[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Thu Sep 8 18:12:44 2016 +0530
+
+    UNUSUAL toast when searching for contacts with specific blood group
+
+[33mcommit e3d43059ec15e95b60dd31bd702977d26aca5808[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Thu Sep 8 16:04:08 2016 +0530
+
+    Test #4150
+
+[33mcommit 047c8ffab38f32458450f037affe54bd30a53985[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Thu Sep 8 15:00:14 2016 +0530
+
+    Test #4149
+
+[33mcommit b20d79491e5526342d55f40e902c3400bc90be37[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Thu Sep 8 14:37:59 2016 +0530
+
+    Test #4148
+
+[33mcommit 84dcd2e354f316a7562d6f7570261d0862ecdeda[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Sep 7 15:07:29 2016 +0530
+
+    lc
+
+[33mcommit 3f8434fde8b74ea451129f5e2cade28c25b9263f[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Tue Sep 6 10:30:38 2016 +0530
+
+    stopping service from restart on app launch
+
+[33mcommit cc4909869831ba30987097eafafba9c516e8d91d[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Fri Sep 2 19:31:32 2016 +0530
+
+    volley sync fix and sound fix
+
+[33mcommit 76dd2c85c0149a081b837fcc98cb919c94f3d082[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Thu Sep 1 19:54:58 2016 +0530
+
+    version changed
+
+[33mcommit 438678812f2c2fb16ec04650d9e3986f1c352af0[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Thu Sep 1 19:17:41 2016 +0530
+
+    commited latest changes
+
+[33mcommit 4f88ee49222ed31deba7ae4731302d488ff3dd43[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Thu Sep 1 19:12:38 2016 +0530
+
+    reverted terms and conditions
+
+[33mcommit 336aa614bc32a731197a46a9f3db40a1b3794d3d[m
+Merge: bdb4566 9b6d0af
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Thu Sep 1 17:45:51 2016 +0530
+
+    fixed bloody friends issues & prod release
+
+[33mcommit 9b6d0afb45bcf4a70affc9e733f56039e472a718[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Thu Sep 1 16:43:20 2016 +0530
+
+    add sound for notification
+
+[33mcommit bdb45669c151350e63b7c9e7e44b5493646163c0[m
+Merge: 772f185 1d53545
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Thu Sep 1 16:40:40 2016 +0530
+
+    removed coflicts and prod release
+
+[33mcommit 3570783e1fae1aa5d2e4524907903d7197d82eb5[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Thu Sep 1 13:27:40 2016 +0530
+
+    integrated terms & conditions url
+
+[33mcommit 1d53545cc5ba29990fa1c3ab6d952acd21107409[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Wed Aug 31 19:02:24 2016 +0530
+
+    fixed production issues
+
+[33mcommit a05675a289ab92553789b53956e557a4c421b4a9[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Mon Aug 29 12:21:31 2016 +0530
+
+    cleared conflicts
+
+[33mcommit 772f18536ef43240ed89f2248c3567838bd1cea4[m
+Merge: 6423031 d6d8c6b
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Mon Aug 29 12:07:32 2016 +0530
+
+    code merged with DEV and conflicts removal
+
+[33mcommit d6d8c6bea3677a07c95459783f590500919d5590[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Fri Aug 26 19:11:49 2016 +0530
+
+    removing user name from upshot profiling
+
+[33mcommit 1e136c8f08b938e3ea5b162588570b6e05b5ca04[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Fri Aug 26 18:46:03 2016 +0530
+
+    upshot events update and new screen tags
+
+[33mcommit 5d82fa5516b3dc55910329de8df1eb34a65fc680[m
+Merge: 2369ecd 67f49d6
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Fri Aug 26 13:10:30 2016 +0530
+
+    removed conflicts
+
+[33mcommit 67f49d6725c040a4c4eb7b880d2b5d7bf57b73ac[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Fri Aug 26 12:56:10 2016 +0530
+
+    fixed issue
+
+[33mcommit 0c5d1bbf10f1d63b2b80eb544656250cd63f8b7b[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Thu Aug 25 18:45:44 2016 +0530
+
+    added auto otp for forgot password
+
+[33mcommit 2369ecdfa5a8d2f90ae4f2092e3cf3cba8a759bd[m
+Merge: 91f1d6f 05e283b
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Wed Aug 24 16:57:45 2016 +0530
+
+    merge with ticket fixes
+
+[33mcommit 05e283b88e6669fd0187902d1114617f9e683f4d[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Wed Aug 24 16:47:04 2016 +0530
+
+    fixed bloody friends issues
+
+[33mcommit 91f1d6f2cd8a822a29e952c5219119e12cd613d0[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Tue Aug 23 19:21:35 2016 +0530
+
+    added upshot
+
+[33mcommit a8ee7c1d52cf0a64d8ef090ef8aab431a6b7c6dc[m
+Merge: 5591e84 d632c4a
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Tue Aug 23 17:20:14 2016 +0530
+
+    updated bloody friends table
+
+[33mcommit d632c4aed3954482feb7c83998ae9115b993ec04[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Tue Aug 23 17:03:38 2016 +0530
+
+    changed class name
+
+[33mcommit 1f4a887bb4b592bc3dcb164bf522a72b8d82fda5[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Tue Aug 23 16:56:25 2016 +0530
+
+    forgot password implimented
+
+[33mcommit 5591e843d00c2d311bab0d130423cad286a4c3dc[m
+Merge: e927b21 28b487c
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Aug 23 16:52:47 2016 +0530
+
+    Merge branch 'PROD_SUNIL_SAFETY_ROAD_HAZARDS' into DEV
+
+[33mcommit 28b487c3a04d6ef5fb28d1da4def26b000cb063b[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Aug 23 14:24:02 2016 +0530
+
+    Fixed #4021
+
+[33mcommit f6cd15e61dcd131c958a7cb03c0b7cfccdb4170e[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Aug 23 14:19:07 2016 +0530
+
+    Test #4021
+
+[33mcommit daa444b9b7bec23874ae8aeccbebb9ba89465252[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Aug 23 11:02:10 2016 +0530
+
+    safety hazard
+
+[33mcommit 6423031f890c4f9975a3c4b880edcb1b8626dc64[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Mon Aug 22 15:27:01 2016 +0530
+
+    upshot fixes and log cleanups
+
+[33mcommit a5614ee3a28efe7da50b17aa50fc0765c4210866[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Sat Aug 20 13:17:00 2016 +0530
+
+    done with bloodyfriends functionality
+
+[33mcommit 8ab3bf226ef47ca1608b803c48a439003ac1c9d0[m
+Merge: e927b21 7519637
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Aug 19 17:00:40 2016 +0530
+
+    merged dev
+
+[33mcommit e927b21baa175fee6c129ddf6cf53efbc443970d[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Aug 19 16:56:19 2016 +0530
+
+    production fix ,sending self pno while emergency invocation
+
+[33mcommit a8fd932e4b5abb65572e7cfd814d2762a56b8918[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Aug 19 16:27:21 2016 +0530
+
+    lc
+
+[33mcommit 6d4d491b74579b63758fcf958fd6cb4177464475[m
+Merge: 4a0f4fa 8a8093b
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Wed Aug 17 16:58:59 2016 +0530
+
+    merge bb with cpw
+
+[33mcommit 4a0f4facb58deafba464c7d20ceb81b5eafc88af[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Wed Aug 17 16:28:14 2016 +0530
+
+    added sync response code
+
+[33mcommit 825deab33b6dc11f1fe8eb41ab9a33f84de3e109[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Wed Aug 17 13:59:00 2016 +0530
+
+    added get sync web service
+
+[33mcommit 751963711e54b231bccf2aeeedaad2a5c3f77c6c[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Tue Aug 16 16:17:55 2016 +0530
+
+    environment changed to prod
+
+[33mcommit a2bf5eb91a3be6aaee6fdff80dcfd639ea3fb897[m
+Merge: e47e2d6 8a8093b
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Tue Aug 16 12:20:00 2016 +0530
+
+    merged forgot password,change password and sukesh upshot changes
+
+[33mcommit 8a8093b309f891be7796c1f64925d1a821d7bca1[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Tue Aug 16 11:58:30 2016 +0530
+
+    fixed issue in ambulance providers list
+
+[33mcommit 1433d5953777bb0217b8e2d005d29550b22c7ff6[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Sat Aug 13 16:56:10 2016 +0530
+
+    added addcontacts webservice
+
+[33mcommit cca40f179c8f24a04f36980cd7e13dd047bfc586[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Fri Aug 12 23:28:21 2016 +0530
+
+    added notification icon
+
+[33mcommit f3ec51bb56e7b97187f60b6a1d16f45ca0c3a7d8[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Fri Aug 12 19:01:18 2016 +0530
+
+    added contact sync functionality
+
+[33mcommit 4cf83932714978437ecc123b784908d0f1bde967[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Fri Aug 12 12:54:25 2016 +0530
+
+    set password empty
+
+[33mcommit 8c7035ec00564cbc540f4f1d84969a8f469fd11f[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Fri Aug 12 09:58:11 2016 +0530
+
+    reverting username
+
+[33mcommit e0bda3096ed908ea1162f202e7aada0aed9f4c76[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Thu Aug 11 18:33:53 2016 +0530
+
+    added contact batches
+
+[33mcommit e47e2d609798c7fd97ad9a6be256f93bd7490d62[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Thu Aug 11 17:36:13 2016 +0530
+
+    added prod upshot dashboard
+
+[33mcommit 7be7fb09ae05bfc3765286a89a98c54742757ab7[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Thu Aug 11 17:05:19 2016 +0530
+
+    fixes
+
+[33mcommit 98bd2eef7832059cbf1918ac9498febf7c961b19[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Wed Aug 10 20:18:25 2016 +0530
+
+    tag updates and event handling for all the activities
+
+[33mcommit 226812a30fd5e132761776378ba240deb1917f37[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Wed Aug 10 15:16:54 2016 +0530
+
+    changed contactsVO
+
+[33mcommit af9f3f2194b7356bf329513a3611780562a99729[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Tue Aug 9 15:43:42 2016 +0530
+
+    fixed forgot password
+
+[33mcommit 82ba23fc8078f0140c1b4c2d420d937aefe708c5[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Tue Aug 9 14:28:02 2016 +0530
+
+    created sqlite for contacts
+
+[33mcommit bbd438b61e95da31126c70400154e4b092c106af[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Fri Aug 5 11:51:36 2016 +0530
+
+    fixed ehr ids update issue
+
+[33mcommit e2866e10efe52b965f81e90b9361a7a6e28883e3[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Fri Aug 5 10:12:59 2016 +0530
+
+    added network response code
+
+[33mcommit 2aabd32259c7be5827a3bef8053273c8a25d867d[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Thu Aug 4 19:04:23 2016 +0530
+
+    Added Intent service to getting contacts
+
+[33mcommit 6552ab0e9b04b26f19e267d326cbcf82ec0a6da7[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Thu Aug 4 18:52:33 2016 +0530
+
+    getting all contacts
+
+[33mcommit cf4336fc83348905557d59d635b45408e0c31cd1[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Thu Aug 4 17:51:50 2016 +0530
+
+    fixed forgot password issue
+
+[33mcommit bf80b9a34e4dd55c6d7c4e95e63da97d2d795d88[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Thu Aug 4 16:59:40 2016 +0530
+
+    bk push notification fixes
+
+[33mcommit 8cdc8a78641c1f8774aebd5d30e15c1769118a5d[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Thu Aug 4 16:52:08 2016 +0530
+
+    added blood buddies screen
+
+[33mcommit ad696b6d65a5b9ebd20d0b81a512b25773eef659[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Wed Aug 3 18:47:06 2016 +0530
+
+    fixed invoke flow
+
+[33mcommit f27857b6758785b91dd3f03814ed42b7ced709bb[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Wed Aug 3 10:32:08 2016 +0530
+
+    added change password
+
+[33mcommit 79906c8f640b4263868e00ba4d46e7b4fa3cf991[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Mon Aug 1 17:34:29 2016 +0530
+
+    Add Change Password
+
+[33mcommit 80f8101e1de86b44cc7d2213533b7c0606140f84[m
+Merge: 5fa7b27 7394c2f
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Mon Aug 1 14:39:02 2016 +0530
+
+    merge changes from upshot branch and venktesh branch
+
+[33mcommit 7394c2f6cc34ae511c881ba4ef277c9ecb3a28f8[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Mon Aug 1 13:31:20 2016 +0530
+
+    login error handling and otp wait time update
+
+[33mcommit 9e755a295e43760fec1a2896b8e45ca8e69aeeeb[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Sun Jul 31 19:28:00 2016 +0530
+
+    login error msg update
+
+[33mcommit 0ea539537eebae954d7db41040a909d2ecfac128[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Sun Jul 31 19:13:11 2016 +0530
+
+    increased webservice request time
+
+[33mcommit 22665bd43371c54cd1eeac064437e37a32eaad2d[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Sun Jul 31 18:49:50 2016 +0530
+
+    invitation and CG,EC search fixes
+
+[33mcommit ac5fc51f52330fedf4071dbd94196cb8e07f902c[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Sun Jul 31 00:49:45 2016 +0530
+
+    gcm fix and logs clean ups
+
+[33mcommit 5fa7b27e602f60dbffecc8622b5d8246fc16862a[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Fri Jul 29 19:58:12 2016 +0530
+
+    upshot updates
+
+[33mcommit 0237da95b9c7ff58280ce25ebc5410cbc3a49b19[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Fri Jul 29 19:01:07 2016 +0530
+
+    fixed profile upload issue
+
+[33mcommit cf50a2072bd634263f490355fa8710144d4a681f[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Fri Jul 29 15:53:40 2016 +0530
+
+    Removed j_spring_security_check
+
+[33mcommit 4af03e2120ee8bd3dad5efa3c51a0615ea6a5c30[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Fri Jul 29 11:00:12 2016 +0530
+
+    Fixed UI Issue
+
+[33mcommit e3f7734e636693ea3c440a4e3d47234447acbcbc[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Thu Jul 28 20:00:31 2016 +0530
+
+    Resolved testing issues
+
+[33mcommit ad3968e707c90ac8c8d29fcee44fe7c50e6b26f9[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Thu Jul 28 10:51:19 2016 +0530
+
+    merge new changes from latest code
+
+[33mcommit aac8aee039f1d7343b9ac988e9895a4c2f8fa455[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Wed Jul 27 18:21:37 2016 +0530
+
+    upshot fixes
+
+[33mcommit 521b48238a1082f541d2d93f70593aa7b20b9f00[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Tue Jul 26 21:21:03 2016 +0530
+
+    upshot event handlings and code updates
+
+[33mcommit 40ee328e4199f77327b8bd0590f1405d49e806f0[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Tue Jul 26 15:43:07 2016 +0530
+
+    fixes
+
+[33mcommit 6b3dccc2cefd9ccdd5b841f8d0cf69ec0c21f783[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Sat Jul 23 16:59:43 2016 +0530
+
+    upshot update
+
+[33mcommit ef41b902a878f4b772997a07330b6d1a5f51a9f1[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Wed Jul 20 18:18:18 2016 +0530
+
+    fixed testing issues;
+
+[33mcommit 98fd7dc381c0ed2047c629b4940166469aa86ee5[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Tue Jul 19 16:36:15 2016 +0530
+
+    upshot fixes
+
+[33mcommit 055f00d479add18fc635eefd1717b444c2dc9172[m
+Author: venkatesh <venkatesh@doctrz.com>
+Date:   Fri Jul 15 21:07:27 2016 +0530
+
+    done with tokenized url
+
+[33mcommit 1f0a0394ba640534ff2b19ef984645d00f26ae42[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Thu Jul 14 17:24:40 2016 +0530
+
+    changes to include upshot
+
+[33mcommit cc47f8ee718f035ea75761552e3c69a06e574d74[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Jul 5 19:19:18 2016 +0530
+
+    ehr issue fixed
+
+[33mcommit 2b5188ff0f0f57ae91adf01b27c97626a29ae30e[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Jul 5 19:15:08 2016 +0530
+
+    prd fix
+
+[33mcommit e8eadc87f0094b6f66dd6aef012ce5a91e51b0b6[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Jul 5 19:09:12 2016 +0530
+
+    fixed production isses
+
+[33mcommit 9e467bcfc170b61f40c6e1562bc892481df031ec[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Jul 5 18:57:04 2016 +0530
+
+    env>beta
+
+[33mcommit 54e929eeab05fda313aafe12d30c455ddcb09b5d[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Jul 5 18:44:54 2016 +0530
+
+    lc
+
+[33mcommit 9dbf0b60a3abce66024291fcb93b382f617bf37f[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Jul 5 15:26:23 2016 +0530
+
+    env>>beta
+
+[33mcommit 83d2ef4d2348213f439fa2f5bf821471daaf8e82[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Jul 5 15:22:00 2016 +0530
+
+    launc app from dialer screen jelly bean version resolved
+
+[33mcommit 9b352195cc7ce40e5826426ee2a1f85a48518077[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Jul 5 13:22:18 2016 +0530
+
+    lc
+
+[33mcommit 3384a7744a44394cfeab7a678dea72ae295c373d[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Jul 5 12:37:24 2016 +0530
+
+    lc
+
+[33mcommit a8896e29f209839938f9dc17f4600af902a14f55[m
+Merge: 5d8af6d d38e914
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Jul 1 13:59:54 2016 +0530
+
+    merged code
+
+[33mcommit d38e914cf23f0e05cfcb05685961c6c27fda83dd[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Jul 1 13:29:04 2016 +0530
+
+    avoiding dialer screen dialog when cal is made from app
+
+[33mcommit 394425ef1320f109cc6575ffc13458af5ac62488[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Jul 1 12:30:45 2016 +0530
+
+    changed hsopital db version
+
+[33mcommit 1f76b3b1677652ab76a10dae0286aaf6d927da95[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Jul 1 11:31:02 2016 +0530
+
+    lc
+
+[33mcommit 5d8af6d2e3fab4f176c69fa4f739ccb99ac45044[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Thu Jun 30 15:13:57 2016 +0530
+
+    env>beta
+
+[33mcommit f3f84b050c8fcef7ba1d6d2cf8771dd6850ed87a[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Thu Jun 30 12:19:22 2016 +0530
+
+    video webview url correction,call 108 from dialer issue fixed
+
+[33mcommit 37aaba6857ae93e090e5d4a10d0560d093d3d1e4[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Jun 28 11:11:39 2016 +0530
+
+    added webviews , launch app from dialer screen
+
+[33mcommit 13039ea85804c241bf9d327c587fed9cdc05c48e[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Jun 27 20:03:43 2016 +0530
+
+    partial done getting AMLNC provider on autocomplete
+
+[33mcommit 654f73e81945aec419ba2bec942a7aa51af822f0[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Jun 27 17:32:31 2016 +0530
+
+    changed /wp to /home for urls
+
+[33mcommit 70b55a0bd60572792917bfc6fdcd0ef5ab2d7598[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Jun 24 18:49:13 2016 +0530
+
+    env>beta
+
+[33mcommit 53044e7e58606ca97b2412f2da2341e8987b83a9[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Jun 24 18:41:41 2016 +0530
+
+    veioes webview changes
+
+[33mcommit 9ed540972735f4cd586593f784d554764caa092f[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Jun 24 18:06:55 2016 +0530
+
+    track screen UI tweeks,bug fixes,
+
+[33mcommit 57bb6dce144dc27e81ad9a810011771270eb3ad8[m
+Merge: 81ed89f c459a75
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Thu Jun 23 17:38:07 2016 +0530
+
+    merged code
+
+[33mcommit c459a75e2b1bc2d9d1a0d17c29f19de324f0a460[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Thu Jun 23 16:55:45 2016 +0530
+
+    duration added for nearest hospital
+
+[33mcommit 1b1f17c142f3b43e0e9f9bb0a0009134710e59bd[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Thu Jun 23 16:13:01 2016 +0530
+
+    added call button to nearby hospitals
+
+[33mcommit 364af08b1af88ad19193e6b651613c4d5241f464[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Thu Jun 23 15:16:07 2016 +0530
+
+    UI adjustments in track screen
+
+[33mcommit 3ca960abfce5744cf0be5eaf763d161993228501[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Jun 22 12:39:08 2016 +0530
+
+    caller screen dialog UI
+
+[33mcommit 81ed89f9e8213318574242d1a59f3dcee8718286[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Jun 20 14:36:22 2016 +0530
+
+    bug fixes
+
+[33mcommit 1d677818908e85dbc4ce329618aaa2ddb642acb8[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Jun 17 18:45:20 2016 +0530
+
+    env>prod
+
+[33mcommit 107d3cd7616e62c7656dd60282c9107b44bcf48a[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Jun 17 17:17:20 2016 +0530
+
+    GCM fixed
+
+[33mcommit 88d331b8388e562fa3fbf3a8062c054746621778[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Thu Jun 16 21:40:51 2016 +0530
+
+    env>>prod
+
+[33mcommit b630706f216db755e8349429e232cbc36522aec6[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Thu Jun 16 21:31:59 2016 +0530
+
+    omni distnace issue resolved
+
+[33mcommit f78613d4163bb947e0df173673384e64e1b0ea7b[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Thu Jun 16 18:32:08 2016 +0530
+
+    prod fixes
+
+[33mcommit 80fdb95e3940c56b98caaf2613e7050056fa1906[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Thu Jun 16 13:51:33 2016 +0530
+
+    added webview for showing vedioes
+
+[33mcommit 83dadf2fba81aaf6128878d8b8416553182fdf2b[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Thu Jun 16 11:09:33 2016 +0530
+
+    Had put GCM keys
+
+[33mcommit 718545df1cfce2a13f868422830192059645a2f3[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Jun 15 15:59:29 2016 +0530
+
+    fews changes in dialer screen pop up
+
+[33mcommit ad37faa12c7e1f9cc239f2431f2dbfec021e067b[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Jun 13 16:12:53 2016 +0530
+
+    base url changed to tomdo
+
+[33mcommit 938da646d93be4febd17ea251680c46808e0324f[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Jun 13 15:53:38 2016 +0530
+
+    Few changes in track screen,emergecny token issue,rush hospital logo fix
+
+[33mcommit 8fa44f2b57fe1af454e1dab34d7010ca55f5ccbd[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Jun 13 10:54:29 2016 +0530
+
+    started with launch app after outgoing call
+
+[33mcommit e5e4c922a59d07c9e56775eb511b7bb4a870fd0c[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Jun 10 13:42:17 2016 +0530
+
+    nearby hospitals
+
+[33mcommit 344a8a478b152ed03bfa373af6fb37fb6fc38b61[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Thu Jun 9 15:06:01 2016 +0530
+
+    lc
+
+[33mcommit fd5be15fdec13b0d79826dc3f437d9fc0527bc17[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Jun 8 18:40:30 2016 +0530
+
+    updated version
+
+[33mcommit 3ed702505b6768d92f0f872f81ef7a65431f7961[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Jun 8 18:34:24 2016 +0530
+
+    hospitals list parsing exception fixed
+
+[33mcommit 1e1a566ae269d2022e3269ce202729de710f0935[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Jun 8 17:57:31 2016 +0530
+
+    lc
+
+[33mcommit 8318643f6835ca2ac466ff6a0a04ce7b778607cd[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Jun 8 11:31:21 2016 +0530
+
+    nearby hospitals fetching
+
+[33mcommit 6f0398c9fcb4b3434bb93e575b52934d3e85a2a1[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Jun 6 19:50:44 2016 +0530
+
+    env>beta
+
+[33mcommit 74fc230e60fe2d268d52a64d57fe7a2879fce480[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Jun 6 18:53:42 2016 +0530
+
+    lc
+
+[33mcommit 5f1d021b8f6cf2fd1e8e767c8846305f0e7e707e[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Jun 6 18:20:29 2016 +0530
+
+    lc
+
+[33mcommit 6e163d7d3eb3fabef2de50522d4f2f83f9e336a6[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Jun 6 18:01:24 2016 +0530
+
+    sync issue
+
+[33mcommit f523d4e18e4f65059143be87ffd506c1492a7e6f[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Jun 6 17:43:28 2016 +0530
+
+    added sync run on update
+
+[33mcommit 3e257de0de7fda2115a5eedcc78d79d13f826c2b[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Jun 6 17:38:27 2016 +0530
+
+    upgraded db version
+
+[33mcommit 0f9f83e4e82104f8a80a5b2c7a00c153157def9d[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Jun 6 17:07:55 2016 +0530
+
+    env>>qa
+
+[33mcommit d2a7d7e7ad3c17700f4ec1cec3cab192739cef14[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Jun 6 14:48:22 2016 +0530
+
+    logs enabled
+
+[33mcommit abffd1ea267c3eaeb8d0122b7730cd306d584edd[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Jun 6 14:25:10 2016 +0530
+
+    downgraded google services version
+
+[33mcommit 67cab9ed6b03e507e63113b718acc2faffe9513a[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Sun Jun 5 02:04:36 2016 +0530
+
+    json files updates with analytics
+
+[33mcommit b888befd1bd64800170f278f8de16c0652c27818[m
+Merge: 747420e 1ac75c3
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Sun Jun 5 00:51:16 2016 +0530
+
+    Merge branch 'DEV'
+
+[33mcommit 747420ec6d157052e7f580aa5f4602356ee322fe[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Sun Jun 5 00:50:41 2016 +0530
+
+    lc
+
+[33mcommit 1ac75c3d88a1e9b1ffab087f4629b6ec6a5643c2[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Sun Jun 5 00:15:01 2016 +0530
+
+    lc
+
+[33mcommit 622ec667879b8561819635c73c35d448b1c519fe[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Sat Jun 4 14:08:06 2016 +0530
+
+    lc
+
+[33mcommit a2fd9baf9fbca6c0209805a497c3a912237a5749[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Jun 3 21:20:59 2016 +0530
+
+    GCM implem
+
+[33mcommit 48666935e59ad59c68b1d9336c7b5e085ee3f045[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Thu Jun 2 19:28:56 2016 +0530
+
+    bug fixes
+
+[33mcommit a170c88e8c2b866b648b8650a18b0cd05c509901[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue May 31 17:52:10 2016 +0530
+
+    sync fixes,invitation fixes
+
+[33mcommit 85fbab6e48d07832c25b9df97ad14f416e08fdf0[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon May 30 15:03:13 2016 +0530
+
+    select member and add member
+
+[33mcommit b39f7370343faba92bf09da954af44b5b118a966[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Thu May 26 13:23:24 2016 +0530
+
+    lc
+
+[33mcommit 0a75375bd7f4149450315937b01449ec6012b0c7[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Sat May 21 12:43:10 2016 +0530
+
+    lc
+
+[33mcommit 5d5d63f49a7f8dce8cf05755cfb0aa21959aef5c[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon May 16 12:40:01 2016 +0530
+
+    redial button on track screen
+
+[33mcommit fea9296907582ecdcc3b514c7fc4b8b55a32cf64[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Fri May 13 18:31:20 2016 +0530
+
+    provider logo fix on app update
+
+[33mcommit 4ba4848c6f7f46f6ddc2914e36eb51dcb7ed43bf[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Thu May 12 19:03:24 2016 +0530
+
+    sync service stop and account clean up for old versions
+
+[33mcommit 696362f3708d3f9cbebc9be86450a28257febf86[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Thu May 12 18:44:43 2016 +0530
+
+    emergency offline issue
+
+[33mcommit e080204789f10b51d5af082fcdd28daf7ba69f9e[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Wed May 11 18:44:12 2016 +0530
+
+    sms server multipart and app upgrade related fixes
+
+[33mcommit 87cd95370ce73629e3dac48d8cb6977a52ca1856[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed May 11 10:59:49 2016 +0530
+
+    empty emhr validation
+
+[33mcommit cf079da26d1eaf3cefe1a404c61a67de0a7493bc[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue May 10 18:04:23 2016 +0530
+
+    taking new line in allergies and medical dialog screen in others field
+
+[33mcommit 996ca247ea809ac0db98aa462e19e1e931987ee6[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue May 10 17:12:12 2016 +0530
+
+    emergency related fixes
+
+[33mcommit 9f46a44e07776e835ad74a893c2093e9a7a3e77e[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Tue May 10 14:38:35 2016 +0530
+
+    crash fixes
+
+[33mcommit 783dfc05d3633bb7312a40d499393e5cf3d19bc4[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Tue May 10 11:32:23 2016 +0530
+
+    disabling proguard build
+
+[33mcommit 7c2aa26663ab75e3c31dfb3c5bfb1867836d7f17[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Mon May 9 19:39:27 2016 +0530
+
+    fixes
+
+[33mcommit 520b34c6c899b6f7e2970b6d293202a93a377801[m
+Merge: a7dbdd5 96a4c0c
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon May 9 16:52:54 2016 +0530
+
+    Merge branch 'DEV' of git.assembla.com:vaidyaconnect.callambulance into DEV
+
+[33mcommit a7dbdd5a522f487aa1ab7fab75d0f6cb19fb4725[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon May 9 16:26:51 2016 +0530
+
+    login email to password keyboard navigation
+
+[33mcommit 286b669422a7f04bef1181c4b3307e1a6cf53b51[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon May 9 16:12:41 2016 +0530
+
+    address issue
+
+[33mcommit ec5c29ccc309333e538c455b04e7dec289bcefd9[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon May 9 15:33:00 2016 +0530
+
+    employer type commit1
+
+[33mcommit 96a4c0c668ce511780705b160b98df5ba9233901[m
+Merge: f5ac34b 79643a9
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Fri May 6 19:49:39 2016 +0530
+
+    Merge branch 'DEV' of git.assembla.com:vaidyaconnect.callambulance into DEV
+
+[33mcommit f5ac34b57d7a4183cc15f9d89e3befa9ea31313f[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Fri May 6 19:47:12 2016 +0530
+
+    added proguard rules
+
+[33mcommit 79643a9bb2d58cc771db7cb4c307a3119b624eb2[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri May 6 18:27:02 2016 +0530
+
+    accept reject progress status
+
+[33mcommit 139e9eb0d28fc353318674cfe0ac050de1d83ea6[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri May 6 18:09:34 2016 +0530
+
+    invitation fixed
+
+[33mcommit 28ac71edb5fa01df02cd3c722e1d8234f3b4616a[m
+Merge: 4009445 c135914
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri May 6 17:20:09 2016 +0530
+
+    Merge branch 'DEV_SUNIL_06052016_0413' into DEV
+
+[33mcommit 4009445ae0d84e2c65783c1ac312954375c9ab1e[m
+Merge: 7a72d46 61c3e54
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Fri May 6 17:17:26 2016 +0530
+
+    Merge branch 'DEV' of git.assembla.com:vaidyaconnect.callambulance into DEV
+
+[33mcommit 7a72d46ee0d0f6a708c37fe366b1fdec67597687[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Fri May 6 17:12:24 2016 +0530
+
+    fixes
+
+[33mcommit c13591421e378ad9a0212ce482176ca35bc2c2f6[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri May 6 17:12:10 2016 +0530
+
+    invitation bug fix
+
+[33mcommit 61c3e54215892edc291b48a033373215c4a09378[m
+Merge: 901865c 4e00fc4
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri May 6 16:12:49 2016 +0530
+
+    merged with dev
+
+[33mcommit 4e00fc4bb6e87eb19b7c5df23edcf60e1f44def4[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri May 6 15:40:01 2016 +0530
+
+    lc
+
+[33mcommit ee2e1a7aac47932c48dc56f5a7022bad89397354[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri May 6 11:49:13 2016 +0530
+
+    address issue,crash on emergency due to caller callback methods
+
+[33mcommit 901865cadac1adc8b0f44dbee50d9486fc3d28ec[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Fri May 6 11:41:52 2016 +0530
+
+    removing unused code from schema util class
+
+[33mcommit 90a7dbbbc5cbfcfafcba600a091ddbff0918a445[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri May 6 01:28:36 2016 +0530
+
+    crash on skip click
+
+[33mcommit 5b0ddc577e7ca0b33150b87e9b61eaf08d89a109[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Thu May 5 18:14:58 2016 +0530
+
+    code cleanup, invitation fixes and prod release changesa
+
+[33mcommit 0e035a33e60b78b470762f2ca8f3684c55c9767c[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Thu May 5 15:47:37 2016 +0530
+
+    fixes
+
+[33mcommit bff13da6e9ac83ba297c3bb11febe1c7d2b4a5ee[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Thu May 5 13:41:21 2016 +0530
+
+    list UI fix for search care team
+
+[33mcommit 235f749e378c3145a0f78151fccabf773508bbf5[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Wed May 4 18:00:19 2016 +0530
+
+    pending invites ui updates
+
+[33mcommit 8b927479352e690332c520e7a7a63fcfa6be51a1[m
+Merge: 45e3835 450e68b
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Wed May 4 16:02:37 2016 +0530
+
+    Merge branch 'DEV_SUKESH_PROD_RELEASE_FIXES_20160504_1212' into DEV
+
+[33mcommit 450e68b9f235fbda4bf8a5037194826033eb41c7[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Wed May 4 16:01:39 2016 +0530
+
+    fixes
+
+[33mcommit cd7022b7a4e91999a5c1c68cdf6f2e0934367acb[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Wed May 4 15:19:44 2016 +0530
+
+    profile pic upload and ui fix
+
+[33mcommit 45e3835565f79ea6102c0cefe7b02f70f290ee82[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed May 4 13:08:00 2016 +0530
+
+    prepopulate mobile number in profile registration
+
+[33mcommit 9cff650c96ab7111915f7b290fc9f496d84cee62[m
+Merge: 7a0d444 82c1270
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed May 4 11:14:03 2016 +0530
+
+    Merge branch 'DEV_SUNIL_02052016_0128' into DEV
+
+[33mcommit 82c1270457bdb2c830fcaefc38e7e7b2c81923bd[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed May 4 11:12:02 2016 +0530
+
+    lc
+
+[33mcommit 7a0d4446610f9b7700735ea05b7ccd873f20743c[m
+Merge: 543266c 85c1fd8
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Tue May 3 19:06:09 2016 +0530
+
+    Merge branch 'DEV_SUKESH_ANALYTICS_20160503_1200' into DEV
+
+[33mcommit 543266c245a07001f5ebf8e5db7fd4c1df576ee2[m
+Merge: 9f8dfbd 6e38974
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Tue May 3 19:05:35 2016 +0530
+
+    Merge branch 'DEV' of git.assembla.com:vaidyaconnect.callambulance into DEV
+
+[33mcommit 9f8dfbd5dc97b06607b11bc045e5ea9170c7c9d4[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Tue May 3 19:03:03 2016 +0530
+
+    doctrz key word update
+
+[33mcommit 85c1fd8b5ebc98890f3fa9e72f8b0a2a0f28e397[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Tue May 3 18:38:12 2016 +0530
+
+    background xml for raise emergency
+
+[33mcommit 6e38974dd22b15807e4fa9fef1510713a9462602[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue May 3 18:38:01 2016 +0530
+
+    crash preferred hospital
+
+[33mcommit 3b2fb1cc1f34e9cbd36355522e7ed7de95cec079[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue May 3 15:54:09 2016 +0530
+
+    loading hospitals from cursor loader
+
+[33mcommit 138407ba1695d2631822453c3a35c35703ec1cc0[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Tue May 3 15:49:30 2016 +0530
+
+    icons update
+
+[33mcommit bf8a52dea3b9326e8b03d85c257c21fb679682d0[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Tue May 3 15:26:51 2016 +0530
+
+    added google and facebook analytics
+
+[33mcommit 7c2e6254a1579a1bf2f8d410b306081b5c1bbb4f[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue May 3 11:44:12 2016 +0530
+
+    bug fixes
+
+[33mcommit e1bcd3b870df67c87cf6b88b1f79d6c789a16f1b[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon May 2 18:32:30 2016 +0530
+
+    call track emergency screen after call is done
+
+[33mcommit 9c2b13e118b10192e5ce2f12b3c01f622e99dd94[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon May 2 13:27:55 2016 +0530
+
+    prepopulating values in allergy and medical condition dialog
+
+[33mcommit ad004aba8392f74c06d6473e9c244a7129c87681[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon May 2 10:53:55 2016 +0530
+
+    maps counter value corrected
+
+[33mcommit e157c9c3c3a79580bad1461d75ff3c031ba0db68[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon May 2 00:50:43 2016 +0530
+
+    lc
+
+[33mcommit 430fe6263d0044e3f9fb61c6f0588e2a4b0ee81f[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Sun May 1 21:33:54 2016 +0530
+
+    lc
+
+[33mcommit 06479e6a38c89ee65ed22ed92f82fb45c8a664c9[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Sun May 1 12:04:24 2016 +0530
+
+    address not found issue
+
+[33mcommit 9a31d7a90066725b4948ae37a63185e1dae75125[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Sat Apr 30 15:17:30 2016 +0530
+
+    google map api update
+
+[33mcommit e8534461b3f8bfd9c53a7ecc9cc8797056eeb34b[m
+Merge: c777881 4925502
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Apr 29 18:29:29 2016 +0530
+
+    Merge branch 'DEV_SUNIL_29042016_0512' into DEV
+
+[33mcommit 49255028b3970396da345c9f704095dd8d7a3f29[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Apr 29 18:28:17 2016 +0530
+
+    lc
+
+[33mcommit c777881e9ee9ac88c197319e91215f7c2e0f1c63[m
+Merge: 4520d34 7e09bf9
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Fri Apr 29 18:05:54 2016 +0530
+
+    code merge and conflict removal
+
+[33mcommit 7e09bf945b3e3b6bebc328119a3293ec21876c8c[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Apr 29 17:46:12 2016 +0530
+
+    insurance edit ui changed
+
+[33mcommit 4520d34d5b36562adc94332b4dcbbb0640761f47[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Fri Apr 29 17:25:15 2016 +0530
+
+    dashboard screen ui fixes
+
+[33mcommit e6785ac9b1397ca1e1b153f7fd21881d288bdba1[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Apr 29 17:10:59 2016 +0530
+
+    lc
+
+[33mcommit a9a80deb3e2f5b6ad32795fa12f64317adf9b1ee[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Apr 29 16:23:43 2016 +0530
+
+    emergency UI siren image
+
+[33mcommit 9e62cc7d1f7f762a4651c1bf9a62839ef653673a[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Fri Apr 29 16:10:39 2016 +0530
+
+    calling insurance provider from the list
+
+[33mcommit 76f7997156cd4cafa6f78d8f25e834f69474c585[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Apr 29 14:20:16 2016 +0530
+
+    make emergency token invisible for stranger
+
+[33mcommit 6c654d29a63af3283621e0799d59d8ce1130efc2[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Apr 29 13:51:38 2016 +0530
+
+    updated UI of profile edit screen
+
+[33mcommit d7b2dd18a149f19fbfcb9f7125d65ace6030e5e1[m
+Merge: 80930f0 a639621
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Thu Apr 28 20:44:49 2016 +0530
+
+    merged code
+
+[33mcommit a639621eae0d49443341ebb53f52bb2ec9289816[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Thu Apr 28 20:41:11 2016 +0530
+
+    lc
+
+[33mcommit 80930f0131dd6f6c34744f38919dd234f82417dc[m
+Merge: ea6290d d6fb102
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Thu Apr 28 17:59:29 2016 +0530
+
+    Merge branch 'DEV_SUKESH_BUG_FIXES_20160425_1134' into DEV
+
+[33mcommit d6fb102d248a38f7e8f10fd16cd5d438ba0f9e67[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Thu Apr 28 17:58:06 2016 +0530
+
+    updated terms/conditions and privacy policy
+
+[33mcommit 40eb4cd483c1dc51ada0ad11f0f11bc433b02cd3[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Thu Apr 28 17:53:13 2016 +0530
+
+    changing insurance coverage to amount
+
+[33mcommit 2fa1cc589580f8b9e26772e559845c4eb7328dfb[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Thu Apr 28 17:42:44 2016 +0530
+
+    call button for contacts
+
+[33mcommit 01ebe9e39ddb58555013899c51df89e4591ad435[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Thu Apr 28 15:16:11 2016 +0530
+
+    search cg and ec isd code ui fix
+
+[33mcommit a0a5ef67bb79db5ba9e0f1bd1ada82bac94ffde2[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Thu Apr 28 14:44:40 2016 +0530
+
+    UI fixes
+
+[33mcommit 014bd8d604e4fb99e3bb8fe6d538ae494dbd4b1c[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Apr 27 18:34:49 2016 +0530
+
+    lc
+
+[33mcommit 216816855b6d43b1759e97b572e94255b275c0ac[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Wed Apr 27 18:07:30 2016 +0530
+
+    search button fix
+
+[33mcommit ac80e38e08f1f412655ff06da3beef7716cef2c6[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Wed Apr 27 17:39:53 2016 +0530
+
+    search and add hospital fixes
+
+[33mcommit fb2616dc7c7441726e2f32e23700394011365263[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Apr 27 17:05:11 2016 +0530
+
+    screen review bugs
+
+[33mcommit ea6290d83dd805f1b76385168d99e50d63e0aa23[m
+Merge: eeb2e39 1a68150
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Apr 26 12:26:32 2016 +0530
+
+    Merge branch 'DEV_SUNIL_21042016_0159' into DEV
+
+[33mcommit eeb2e39dd63009f9892dacd3a9ebe1f0589c7e01[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Mon Apr 25 19:01:00 2016 +0530
+
+    loading details from address for add new care giver
+
+[33mcommit 8e48fd29518582afaab550a94980583b179ff5aa[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Mon Apr 25 18:40:28 2016 +0530
+
+    hospital search list fixes
+
+[33mcommit bfc390fbd033a72e805c2024351fcaf6b3e698df[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Mon Apr 25 17:20:12 2016 +0530
+
+    loading org pic and profile pin in care team list
+
+[33mcommit d8700ae13c4cdac5bb121bdf60fc3c4c1f65c58e[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Mon Apr 25 15:54:14 2016 +0530
+
+    insurance screen fixes
+
+[33mcommit c4a0cd808da7ad8caf3077fec2e1a07d490d403d[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Mon Apr 25 13:09:36 2016 +0530
+
+    login n about screen ui fixes
+
+[33mcommit 80df4c8116605e6a4d0d8ef1630f35fb342372c0[m
+Merge: d24d98b 980e5f6
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Fri Apr 22 18:14:33 2016 +0530
+
+    branch merge and conflict removal
+
+[33mcommit 980e5f6988baed33cfaa2ae248741e013c23166c[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Fri Apr 22 18:08:35 2016 +0530
+
+    nav and ui fixes
+
+[33mcommit ae254d4316afa4150b9a67c95039fa6691c186b9[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Fri Apr 22 17:57:10 2016 +0530
+
+    setting screen fixes
+
+[33mcommit ea609f37ba0011484fda0fa46cd955aa927dfe8d[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Fri Apr 22 17:31:00 2016 +0530
+
+    fab icon fixes
+
+[33mcommit 1a6815058a697bff12cbc89d3f0cfa7909ab630e[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Apr 22 17:14:11 2016 +0530
+
+    ui changes in emhr edit
+
+[33mcommit 01496c90f643511c91778ce45429feb462c415ff[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Apr 22 14:59:25 2016 +0530
+
+    pregnant field made visible
+
+[33mcommit d24d98bb07f130e5dec7f5223d8881f9223a23fb[m
+Merge: a6d91b6 b890b28
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Thu Apr 21 13:58:37 2016 +0530
+
+    merge branch to dev
+
+[33mcommit a6d91b6245389e45ac6985c98a339da17b47a46b[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Wed Apr 20 20:08:39 2016 +0530
+
+    search and add hospital fixes and ui fixes
+
+[33mcommit 8df00be142dbbc87266c59a8b75b7a8945c15be6[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Wed Apr 20 15:14:23 2016 +0530
+
+    new dialog box
+
+[33mcommit b7f92ed556821f130c8a36ef6c74f8e027fe6679[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Wed Apr 20 15:13:38 2016 +0530
+
+    hospital list fixes
+
+[33mcommit b890b28566045a5429bf250c4558888a6f5e16c1[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Apr 20 09:55:58 2016 +0530
+
+    lc
+
+[33mcommit 90bbfa3435aa4df9c69e841aecd1d2c9f4f0d2fb[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Mon Apr 18 19:11:49 2016 +0530
+
+    screens for search hospitals
+
+[33mcommit 6ced9882b2e300223be9a74b54ccbdb8bd352af6[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Mon Apr 18 16:49:00 2016 +0530
+
+    menu icon fixes
+
+[33mcommit 434ca50172169c3492ff6f348652f27e93e944c3[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Mon Apr 18 16:27:55 2016 +0530
+
+    add unregistered care giver screen fixes
+
+[33mcommit 5eef9af8be979776e430c7a79d1dd2f4b23d4f44[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Apr 18 12:22:34 2016 +0530
+
+    profile pic loader
+
+[33mcommit a61ba5e43ad21cf172b50dc474144fa220a5c1e5[m
+Merge: df5b5c9 fbd5acd
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Sat Apr 16 01:19:37 2016 +0530
+
+    merge conflict removals
+
+[33mcommit df5b5c9232cc956e46f8decd98671d0f6dd612b5[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Sat Apr 16 00:38:36 2016 +0530
+
+    new search screens for care giver,emergency contact
+
+[33mcommit fbd5acd00a67325849c96e6d17704690c4a63eb7[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Apr 15 18:51:59 2016 +0530
+
+    profile pic upload almost done
+
+[33mcommit 874de8882494bb67272f27770ba248c6914c465f[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Apr 15 18:00:09 2016 +0530
+
+    upload profile pic partially done
+
+[33mcommit 053ef889f7cd68f7a9e2f7630dec391dd56d1259[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Apr 15 16:47:11 2016 +0530
+
+    lc
+
+[33mcommit 7bb17ce5d2b8a51d9bb040d3380ee306fbeabf33[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Thu Apr 14 17:29:40 2016 +0530
+
+    added search care givers module
+
+[33mcommit 5e438f64a33e63a4e998ff2b05e4400ccc1ac755[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Thu Apr 14 12:47:52 2016 +0530
+
+    added profile pic ,activity emergency steps listener ui changes
+
+[33mcommit 543dbb2f3fa0a691e74f952495d4c5bb7394d662[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Apr 13 18:54:10 2016 +0530
+
+    Emergency Uis and few bugs
+
+[33mcommit 0effd80859545487f800d7a71385b509565f39b3[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Wed Apr 13 18:38:33 2016 +0530
+
+    fixes
+
+[33mcommit 9e1f9e8411e686f72762beb2a9a7b3e03ff339b5[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Apr 12 23:50:42 2016 +0530
+
+    sync completion logic
+
+[33mcommit d688e62f2dd2d9f93ceb7494f784ce8f90c125a6[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Tue Apr 12 18:06:55 2016 +0530
+
+    added table for orgs
+
+[33mcommit 357560a9a69cab72c5c629bc696b66d9d9850d94[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Apr 11 19:17:13 2016 +0530
+
+    emergency screens ui update
+
+[33mcommit 01b2fce33b1bad63b18124b41d054f4e538536f4[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Apr 11 18:16:46 2016 +0530
+
+    invitation screen and few emergency screens ui updates
+
+[33mcommit 61d552dd04e86d08cd5d9ce10c65b6bfe4219d7b[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Mon Apr 11 17:29:43 2016 +0530
+
+    color n fab button fixes
+
+[33mcommit 9bb7c4f8c0cfcb0d34337a3ea6dc060daa13c39a[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Mon Apr 11 14:26:52 2016 +0530
+
+    contact view fixes
+
+[33mcommit a867cf7b9ec7252f53c1cdaa3ec6ce97ec629c15[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Sat Apr 9 18:32:12 2016 +0530
+
+    removed cancel menu icon on toolbar
+
+[33mcommit 71255a50a7ae368c29a5b3b2364432aa790a85be[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Sat Apr 9 18:29:12 2016 +0530
+
+    invitation screen
+
+[33mcommit c6b413e08773d98fc983207fc7f65a4d32307fe3[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Thu Apr 7 17:43:49 2016 +0530
+
+    select type contact screen
+
+[33mcommit c4995e3352e9fa0e6d0b4abfbf25606293155b20[m
+Merge: 445cc20 64f4fdf
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Thu Apr 7 14:52:50 2016 +0530
+
+    merge code conflict removal
+
+[33mcommit 64f4fdf5d2d01810a5d86efe267f337da8286a35[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Thu Apr 7 12:45:37 2016 +0530
+
+    care team screen fixes
+
+[33mcommit 445cc20b1f938dfb07e76578797424dd0c619caa[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Apr 6 17:44:39 2016 +0530
+
+    gridview Multi select partially done
+
+[33mcommit 09cc61c17792a703b8e82c329272bc8ecde15251[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Wed Apr 6 17:27:54 2016 +0530
+
+    add contact plus button animation
+
+[33mcommit 99d2ae48322abc407a72580f5d4f22be8a5e025e[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Wed Apr 6 14:29:14 2016 +0530
+
+    fixes
+
+[33mcommit 009109fff9f67d1c62c80620d11e7b03c1f828fa[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Apr 6 13:30:51 2016 +0530
+
+    bug fixes
+
+[33mcommit a46514b35abdd346a4cf8fbe4d1783375c50b967[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Apr 5 17:39:14 2016 +0530
+
+    added preffered hospital and pref amb code
+
+[33mcommit 3034b60c10f7416922d0e7e9d83771423ca11310[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Apr 5 13:36:12 2016 +0530
+
+    binded dialog activities with ehr activity
+
+[33mcommit 4c1890e1bf386572bec605d376a3466e295d0cdb[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Apr 4 19:14:12 2016 +0530
+
+    added dialog screens
+
+[33mcommit d1ef4edd689f61bed5eee8aee5e21cfa90084f00[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Mon Apr 4 19:10:07 2016 +0530
+
+    edit insurance fixes
+
+[33mcommit 426c2a6f19e86f26a0f6d56c4b2a915b7aa626d4[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Apr 4 13:57:18 2016 +0530
+
+    type of allergy screen and edit emhr screen
+
+[33mcommit ce15be1a00f7e75bca053def2bc8e67533abec76[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Fri Apr 1 18:12:04 2016 +0530
+
+    insurance fixes
+
+[33mcommit 65a7251b04af4fb902689ff138fbfdf5667abda0[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Apr 1 11:05:15 2016 +0530
+
+    dash board screen ui done
+
+[33mcommit 5bfb2cdbb0eecc831f7391fdb33e55509383aa87[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Thu Mar 31 13:57:35 2016 +0530
+
+    dashboard screen ui done
+
+[33mcommit a3144d0249abaa3bbcd12079b74440222efc6201[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Thu Mar 31 13:40:39 2016 +0530
+
+    navigation left view ui changes
+
+[33mcommit 3e7b186f3c15b1a91b64538302bd082d00531df8[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Thu Mar 31 12:41:31 2016 +0530
+
+    registration screens ui
+
+[33mcommit 658f6bc1ce8df9445d0f7f78bea225b0ba2e38bd[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Thu Mar 31 12:12:36 2016 +0530
+
+    Update profile screen UI
+
+[33mcommit e2c893c5af3b37045bbb49ccdd8a5e2956c18ae9[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Mar 30 22:59:36 2016 +0530
+
+    OTP registration screen UI
+
+[33mcommit 9b29bdcb809aaae894d1f99e4032abfe5647cf1e[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Mar 30 20:06:35 2016 +0530
+
+    otp registration screen
+
+[33mcommit 7427bc87d9cd52733f15c91946f7633a39436087[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Wed Mar 30 18:17:53 2016 +0530
+
+    Insurance list view
+
+[33mcommit 8f9c4415c8ed6997fd24e0227ffad35c51152229[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Mar 30 16:09:34 2016 +0530
+
+    create account screen UI
+
+[33mcommit a8593d9467ec61a38e2b41dbc702c157b8b1cdff[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Mar 30 14:32:36 2016 +0530
+
+    login screen UI Changes
+
+[33mcommit 170b85756bf1e5890504a8126262d6e4ab9f1884[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Mar 29 18:29:55 2016 +0530
+
+    Dashboard ui changes
+
+[33mcommit 20ab442b514bc7c3fd83374761264c783a04cec1[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Tue Mar 29 17:59:18 2016 +0530
+
+    emri registration screens
+
+[33mcommit e79aa76d753660e26f21f46a4328a85246c6b10f[m
+Merge: 3728387 a9c7a69
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Mar 28 12:20:19 2016 +0530
+
+    merged code
+
+[33mcommit a9c7a694ad13d8ed63bfa08e640d764bdb78fb44[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Mar 28 12:17:26 2016 +0530
+
+    lc
+
+[33mcommit afab62eabbc6ebc589b0d6ad4715dc62ce08fe1e[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Sun Mar 27 16:39:50 2016 +0530
+
+    profile view ui
+
+[33mcommit f1d64b58942e3949c8822ca64448d09cdd19eb03[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Mar 25 16:43:29 2016 +0530
+
+    few bug fixes
+
+[33mcommit 6d083209045fcd3af6b44205eff2386b0bc46dcb[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Mar 22 16:56:23 2016 +0530
+
+    added acra
+
+[33mcommit 2b8fc93691cfe31371f8cc0e628b9845750403f3[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Mar 22 13:33:26 2016 +0530
+
+    bufixes 2203_0133
+
+[33mcommit 642d8514c383d8971ac78801f70b8d08d3d03dbb[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Mar 21 16:06:40 2016 +0530
+
+    lc
+
+[33mcommit 37283870fa8b69896733d49e516b5409eaa8630a[m
+Merge: 60e8446 3247646
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Sat Mar 19 13:27:37 2016 +0530
+
+    Merge branch 'DEV' of git.assembla.com:vaidyaconnect.callambulance into DEV
+    include add contact screens
+
+[33mcommit 3247646d59e3da3e955270a3d7ce343039f9c3ac[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Mar 18 18:38:38 2016 +0530
+
+    ehr edit and insurance edit bug fix
+
+[33mcommit 60e84463d07b3cbfdafff48ddc15367939df19a4[m
+Merge: f58c5a9 ea586ae
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Fri Mar 18 17:43:33 2016 +0530
+
+    Merge branch 'DEV' of git.assembla.com:vaidyaconnect.callambulance into DEV
+
+[33mcommit f58c5a917bccf4773c072e9611751359217024cb[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Fri Mar 18 17:42:28 2016 +0530
+
+    add new contact screen
+
+[33mcommit ff01cd057c7439cbb392b243f261a252680596f9[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Mar 18 17:22:19 2016 +0530
+
+    added timer for emri alert
+
+[33mcommit ea586aeec98f3c81a73a9049b3f696b799974e92[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Mar 18 17:02:25 2016 +0530
+
+    screen shot of map avoiding when no location found
+
+[33mcommit fabc3fbc652aa2b2986bfb6c3c20e8283d6dd2fb[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Mar 18 16:38:43 2016 +0530
+
+    lc
+
+[33mcommit ddabdcdd3d6495f392549fbe77a721b709d48ffa[m
+Merge: 5945942 ab674bf
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Mar 18 14:56:39 2016 +0530
+
+    merged codes
+
+[33mcommit ab674bf6e37e24e0a71dd9acc311cdd7febb23bc[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Mar 18 14:29:33 2016 +0530
+
+    lc
+
+[33mcommit d8b4290b2a1e30ff3189c9a55a7b4b3a1db7faea[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Mar 18 12:46:54 2016 +0530
+
+    added emhr setup dialog if not der
+
+[33mcommit 59459426b8c35cdb2876267413483577982a9eca[m
+Merge: 608377a a552b5c
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Thu Mar 17 19:26:42 2016 +0530
+
+    merge fixes
+
+[33mcommit a552b5c346ba8696832be25ee6bfea16b1bdbaa1[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Thu Mar 17 16:10:28 2016 +0530
+
+    fixes
+
+[33mcommit 2519308e7cdf2451cbe58c25415048da8962fe02[m
+Merge: a1d0a03 fa821af
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Thu Mar 17 12:20:45 2016 +0530
+
+    Merge remote-tracking branch 'origin/DEV_SUKESH_CARE_TEAM_SCREEN_20160309_1057' into DEV_SUKESH_CARE_TEAM_SCREEN_20160309_1057
+
+[33mcommit a1d0a032a1cc0f9140f8210560b9f11ab9e4aee7[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Thu Mar 17 12:17:27 2016 +0530
+
+    added permission support for marshmallow
+
+[33mcommit fa821af4b5634ca96575baf1c2b528f103c33cf4[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Thu Mar 17 12:00:23 2016 +0530
+
+    add contact webservice exception resolved
+
+[33mcommit 8a5540ea34d714878e6356c5f3b1179e2614c9e0[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Thu Mar 17 10:55:54 2016 +0530
+
+    build update
+
+[33mcommit 608377a318539912ec348485d6fe6d798afcb3b7[m
+Merge: a3746c4 0967f98
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Mar 16 19:02:48 2016 +0530
+
+    merged codes
+
+[33mcommit 0967f983469aea3124c079b1582278de3d01169a[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Mar 16 18:12:55 2016 +0530
+
+    lc
+
+[33mcommit fe4b8cf0b8ba8ff506dfd9468c6a86f139edd61d[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Mar 16 18:00:02 2016 +0530
+
+    added methods to Locationservice
+
+[33mcommit 8d1a1be62a9f81cafcb56456775730ef66c3651b[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Mar 16 17:48:36 2016 +0530
+
+    commented out sending sms
+
+[33mcommit 47d5ec2c691bd56c619b83f5475b349d894fc53c[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Mar 16 16:04:33 2016 +0530
+
+    ehr edit partially done
+
+[33mcommit b8646b9d48bfa93cc74cf1269a4cc16343633b67[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Tue Mar 15 18:22:35 2016 +0530
+
+    fixes
+
+[33mcommit 98ad195a48339f64494ad6377c263f54efa9860c[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Mon Mar 14 18:52:38 2016 +0530
+
+    add new member screen fixes
+
+[33mcommit ddb8b17e1816af2d3b206c5d89700650b694d588[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Fri Mar 11 19:50:25 2016 +0530
+
+    add new member screen with details
+
+[33mcommit 65531a9b7ebbf9f7f6929d81ca2728c9010f91aa[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Mar 11 15:40:59 2016 +0530
+
+    added insurance edit screen
+
+[33mcommit 67afd8cf0602c0ca4aa754c26d8553950e8e6ebf[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Thu Mar 10 17:29:17 2016 +0530
+
+    loading contacts
+
+[33mcommit ce6da690277fb6bfbc0cf3d4658fccc8087bc881[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Wed Mar 9 17:50:14 2016 +0530
+
+    contacts screen ui
+
+[33mcommit a3746c4cc64f6028d9db568a564cb01f2523144c[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Tue Mar 8 18:42:38 2016 +0530
+
+    fixes
+
+[33mcommit 3691248405a75e9754b6a00bfd4f42406d21b430[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Mar 8 18:35:31 2016 +0530
+
+    added edit profile screen
+
+[33mcommit e15ed3cfc3aa7d664a574d5b4d6e62c38f7199ae[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Tue Mar 8 12:12:30 2016 +0530
+
+    getting user record from util fix
+
+[33mcommit 6ddd0b5ec1c9fa2fc6e4a3a261cee885b71c2836[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Mar 8 10:34:08 2016 +0530
+
+    added locations ervice
+
+[33mcommit 82274ddc22df0de68023728be218ddc620fae85a[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Sat Mar 5 12:24:28 2016 +0530
+
+    last commit
+
+[33mcommit e908c0a9b27191913d223b0adedf2a109c6c0a19[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Mar 4 11:09:49 2016 +0530
+
+    removed time
+
+[33mcommit df124a6c343c80a14e11f5813aa7374ef8fe3fcc[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Mar 1 19:18:25 2016 +0530
+
+    merged to dev
+
+[33mcommit 26c06bd59caa919859b61f1f1aafdc59e41e9203[m
+Merge: 782056b ca5edb9
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Mar 1 19:07:33 2016 +0530
+
+    Merge branch 'DEV_SUNIL_29022016_0353' into DEV
+
+[33mcommit ca5edb98c7918810516bdd8425ec39d9c386872c[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Mar 1 19:06:46 2016 +0530
+
+    lc
+
+[33mcommit 782056be3148a3420cf481f308a7950a8b57f1bd[m
+Merge: f689fd3 29fb374
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Tue Mar 1 13:48:04 2016 +0530
+
+    Merge branch 'DEV' of git.assembla.com:vaidyaconnect.callambulance into DEV
+
+[33mcommit f689fd3057eae8409597e7002b1653f64949590d[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Tue Mar 1 13:45:39 2016 +0530
+
+    registration profile update fixes
+
+[33mcommit e0b3715c04a1869d6c83ddf0ee2952b58bcfeb00[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Mon Feb 29 18:44:45 2016 +0530
+
+    registration fixes
+
+[33mcommit 32d73d17a6bbdc9766885c854f347a1d2c474470[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Feb 29 18:19:36 2016 +0530
+
+    lc
+
+[33mcommit 29fb3745f9a2e71780ef79eda74e46e0f36c11e1[m
+Merge: 74b376e 3167957
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Feb 29 15:52:14 2016 +0530
+
+    merged code with dev
+
+[33mcommit 316795713432eb6af93b403e4e097dd31c67054b[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Feb 29 15:44:11 2016 +0530
+
+    tool tip crash
+
+[33mcommit c6c02249819d7db756d8c1f0ce720391da2c31c8[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Mon Feb 29 12:44:55 2016 +0530
+
+    logout fixes
+
+[33mcommit 8ced2320e64acbe385b148ccc0d67c39e7551606[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Sat Feb 27 17:49:53 2016 +0530
+
+    lc
+
+[33mcommit b47299be693b2f9e0cd8e6eb897b1a81f2cd5e61[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Sat Feb 27 14:44:19 2016 +0530
+
+    lc
+
+[33mcommit 422ca894fb7d87ff91180babbb11b8c83f9e54e4[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Feb 26 18:07:41 2016 +0530
+
+    offline error while invoking emergency
+
+[33mcommit 74b376e2d45905c7cca61a27f4ef9e4015407deb[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Thu Feb 25 18:22:10 2016 +0530
+
+    db optimization
+
+[33mcommit 8607b4357e8f534733b0eef2f066436aaa5d6a3f[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Thu Feb 25 16:43:38 2016 +0530
+
+    send location update for every 5 minutes
+
+[33mcommit 6d4e192a81f159ea0a8b22a2bd26e66b90110e6f[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Wed Feb 24 18:43:08 2016 +0530
+
+    fixes and emhr db update
+
+[33mcommit 5d7e8dfb2346890cf27ea9cf4a2d29e7acb874d1[m
+Merge: d9f8f1a 8f655d8
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Wed Feb 24 13:55:46 2016 +0530
+
+    merge conflict removal with sunil branch
+
+[33mcommit d9f8f1aedaf54144c5d8a66ae8d761b4ee0cc295[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Tue Feb 23 19:08:25 2016 +0530
+
+    merge fix
+
+[33mcommit e87011435ac48b7fdef78482b7e55de2e45d2966[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Tue Feb 23 17:51:33 2016 +0530
+
+    emhr screen fixes
+
+[33mcommit 8f655d868b459d54f873ac7655773bb1bba87fab[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Feb 23 17:46:51 2016 +0530
+
+    lc
+
+[33mcommit c04bc00b55e57272fc5bf79ba6fb17cfeef27cb1[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Mon Feb 22 20:19:31 2016 +0530
+
+    fixes for profile pic load and left menu profile details re #3894
+
+[33mcommit b698a0ebbe2e28f7216d523d2c1fea7cbed30160[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Fri Feb 19 19:36:09 2016 +0530
+
+    profile pic download
+
+[33mcommit 215eaf5215a93219d219754cba4125256326fa6a[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Feb 19 17:02:46 2016 +0530
+
+    lc 19feb 5pm
+
+[33mcommit 0c5d0055db03ff3d8e2ac987a33a77f1eb61e46c[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Thu Feb 18 20:28:13 2016 +0530
+
+    sync logic and  ambulance provider webserice
+
+[33mcommit 6dd1844200990081a27bf77cd21e29d78d0a177f[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Wed Feb 17 19:54:23 2016 +0530
+
+    insurance view and db updates re #3895
+
+[33mcommit b1381793cf9c65ef0d4b987b888af3cfd5e0806d[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Feb 17 12:55:33 2016 +0530
+
+    lc
+
+[33mcommit 3bcc49c89d0b78f7c8c2f8804d64d09eca8cb902[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Mon Feb 15 18:20:02 2016 +0530
+
+    insurance details db update
+
+[33mcommit f7943cdefeac6175443c6f4022c8316970458964[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Feb 15 14:47:43 2016 +0530
+
+    lc
+
+[33mcommit f7e02437c3eba6d0c6790ed6d4aaa90be32c0a7c[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Fri Feb 12 14:45:07 2016 +0530
+
+    revoke screen
+
+[33mcommit b309b7f28f40399f5db6b64bd09374f4e03d11d4[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Feb 10 18:22:56 2016 +0530
+
+    emergency invocation
+
+[33mcommit 0281a08e957972988199f8bfaf068bea210d5430[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Wed Feb 10 18:01:43 2016 +0530
+
+    profile screen update re #3895
+
+[33mcommit 8b046cbe570ed4b6fb2be47a070f26f87d2cc2b9[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Tue Feb 9 17:17:31 2016 +0530
+
+    new user info table and db handlers re #3895
+
+[33mcommit b1f44a4a422cb6805e41fc21d8f466cdb329c604[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Feb 8 18:21:38 2016 +0530
+
+    invoking emergency three steps
+
+[33mcommit 8b9de32918d0640c2fa3f6df3f58cb7005ab4bfa[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Sat Feb 6 15:40:18 2016 +0530
+
+    fixes in setting screen re #3895
+
+[33mcommit 0002dfe5c4719504cfd61bd23c032b2f44e11614[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Sat Feb 6 13:29:17 2016 +0530
+
+    lc
+
+[33mcommit f545b6043e878fd4579cfce457dc492ae1df61b6[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Fri Feb 5 18:03:42 2016 +0530
+
+    setting and about screens implementation re #3895
+
+[33mcommit c106252cbb80deda15c563784ed32cad06d9055e[m
+Merge: 3fc7f13 ef49f3e
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Thu Feb 4 18:10:05 2016 +0530
+
+    Merge branch 'DEV_SUKESH_LOGIN_REGISTERATION_20160119_1241' of git.assembla.com:vaidyaconnect.callambulance into DEV_SUKESH_LOGIN_REGISTERATION_20160119_1241
+
+[33mcommit 3fc7f13bdc3c1dae504373dc02e60c63de73fb9e[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Thu Feb 4 17:59:48 2016 +0530
+
+    added Schema and dependency files re #3894
+
+[33mcommit ef49f3ee929841d38b0f74fb6dc5dd2b36915869[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Thu Feb 4 17:59:48 2016 +0530
+
+    added Schema and dependency files re #3892
+
+[33mcommit 65275c0dd860637d3e9a703a064ecbeac3f1a013[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Thu Feb 4 13:09:07 2016 +0530
+
+    getting location,emri alert done
+
+[33mcommit 6d91fc7c41e8413a9c81f8bcf442123747927cb4[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Wed Feb 3 19:01:18 2016 +0530
+
+    added required layouts,util classes, adapters and fragments re #3894
+
+[33mcommit 23030875b6f892c1ec573a335368a4b19ca0beef[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Mon Feb 1 17:37:14 2016 +0530
+
+    added fragments for profile,emhr and insurance re #3894
+
+[33mcommit afe64455fa7a9b8c4c90fd83712e44edfc8a8f64[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Fri Jan 29 17:28:40 2016 +0530
+
+    profile screens ui #3894
+
+[33mcommit 9a51778799b27c3fec0dd2ba1c050e6ce2586d8d[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Thu Jan 28 18:45:59 2016 +0530
+
+    ui and registration fixes #3892
+
+[33mcommit 3dd873587bfb58369fb008b87367b01cabd2ee89[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Jan 27 19:29:46 2016 +0530
+
+    download image
+
+[33mcommit 1f000ecc9c57a117798436d9f9a0d63292dd2c6a[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Wed Jan 27 18:23:12 2016 +0530
+
+    registration and otp screens fixes #3892
+
+[33mcommit 8cc2e601511043b23f40cca5e2608b6d14259cae[m
+Merge: 6761e61 261b019
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Jan 27 14:24:04 2016 +0530
+
+    getting currrent location and displaying
+
+[33mcommit 6761e6152a8febf1e5961bfdc57f20a0f0fc1b78[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Jan 26 11:17:09 2016 +0530
+
+    lc
+
+[33mcommit 261b0193134db77e577929c8304790f419d4b307[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Mon Jan 25 18:55:22 2016 +0530
+
+    registration with otp reading
+
+[33mcommit 414b67f3eaf1991d41d25e719ac0db70292ab14f[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Mon Jan 25 17:20:07 2016 +0530
+
+    fix for login
+
+[33mcommit b515c24931f0cf7871efd039a3570a00062a90e4[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Jan 25 13:00:18 2016 +0530
+
+    added intent service to get the current address
+
+[33mcommit 10c828e3f3aae22f735b64bd0944cf5577e1ed2b[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Fri Jan 22 17:20:58 2016 +0530
+
+    new screens:update password,profile details and login webservice integration
+
+[33mcommit 7806ab8bdb52f593d8113b2c3ba3ef0a0fa3b3cd[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Thu Jan 21 19:51:55 2016 +0530
+
+    registration screen 1 implementation
+
+[33mcommit 12d6e6f939f08ed1c314f8672977932e16cfaa42[m
+Merge: 3ea9375 5b147f1
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Thu Jan 21 11:16:27 2016 +0530
+
+    merge latest with DEV
+
+[33mcommit 3ea93757aed445c17b7de1764b421ac9358a685c[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Thu Jan 21 11:07:21 2016 +0530
+
+    lc
+
+[33mcommit 5b147f170b4ef3417f9d729aefdac64c10912f9d[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Wed Jan 20 18:30:17 2016 +0530
+
+    ui updates
+
+[33mcommit 705fafc0d6cb26c574da230248ac51f929036d77[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Wed Jan 20 15:05:42 2016 +0530
+
+    added new files and login ui update
+
+[33mcommit 3c179ff597af2654a1742458ddbb82ab30e61700[m
+Merge: e439d94 dbd13a9
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Wed Jan 20 12:46:23 2016 +0530
+
+    Merge branch 'DEV_SUKESH_LOGIN_REGISTERATION_20160119_1241' into DEV
+
+[33mcommit dbd13a96b34ab5f709a05cbc773ecad537d4fcbc[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Wed Jan 20 12:42:28 2016 +0530
+
+    added hospital database, db handlers and util classes
+
+[33mcommit e439d9419e3bdfb3b2c4085e33bfb35700b60ac1[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Wed Jan 20 12:13:08 2016 +0530
+
+    Emergency type started
+
+[33mcommit 0b5dc505586267d0af1953c2adbbfe02a5f516fa[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Jan 19 16:51:18 2016 +0530
+
+    patient list screen D
+
+[33mcommit 9be0764bd832d3705ca9355a6c9b11c47702d7c8[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Tue Jan 19 12:36:30 2016 +0530
+
+    dashboard screen,leftmenu screen
+
+[33mcommit b86796dc5869c277ae82d420807fc0be9ca49727[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Jan 18 11:49:17 2016 +0530
+
+    changed env>>demo
+
+[33mcommit bc5e03c7674aac6d516de4216bce73fd7be12500[m
+Author: Sunil Choudhary <sunil@doctrz.com>
+Date:   Mon Jan 18 11:26:47 2016 +0530
+
+    updated gitignore
+
+[33mcommit e4d3eb2f5ba3db35c24b7155c9761758920f3767[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Wed Jan 13 17:17:49 2016 +0530
+
+    background ambulance video
+
+[33mcommit bc099867156a363a791e8a191e38c0e7a9b14d16[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Wed Jan 13 17:13:38 2016 +0530
+
+    initial commit
+
+[33mcommit 6e5a7464632f07e638cc03ae98b16c87d399dafd[m
+Author: Sukesh <sukesh@doctrz.com>
+Date:   Wed Jan 13 11:59:47 2016 +0530
+
+    initial commit

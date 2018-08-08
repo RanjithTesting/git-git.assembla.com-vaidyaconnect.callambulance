@@ -1,0 +1,260 @@
+1,Antarctica,,AQ,911,911,911
+2,India,AP,IN,100,108,101
+3,india,AR,IN,100,108,101
+4,India,AS,IN,100,108,101
+5,india,CT,IN,100,108,101
+6,India,GA,IN,100,108,101
+7,India,GJ,IN,100,108,101
+8,india,HP,IN,100,108,101
+9,india,J&K,IN,100,108,101
+10,India,KA,IN,100,108,101
+11,India,MH,IN,100,108,101
+12,India,ML,IN,100,108,101
+13,India,MP,IN,100,108,101
+14,India,RJ,IN,100,108,101
+15,India,Telangana,IN,100,108,101
+16,India,TN,IN,100,108,101
+17,India,UK,IN,100,108,101
+18,India,UP,IN,100,108,101
+19,india,WB,IN,100,108,101
+20,Algeria,,DZ,18,14,14
+21,Angola,,AO,113,112,115
+22,Ascension Island,,AC,999,999,999
+23,Benin,,BJ,117,112,118
+24,Burundi,,BI,117,112,118
+25,Botswana,,BW,911,911,911
+26,Burkina Faso,,BF,17,112,18
+27,Cameroon,,CM,112,112,112
+28,Cape Verde,,CV,132,130,131
+29,Central African Republic,,CF,117,1220,118
+30,Chad,,TD,17,22514242,18
+31,Comoros,,KM,17,7720373,18
+32,Republic of Congo,,CG,117,,118
+33,Democratic Republic of Congo,,CD,112,,118
+34,Djibouti,,DJ,17,19,18
+35,Egypt,,EG,122,123,180
+36,Equatorial Guinea,,GQ,114,112,115
+37,Eritrea,,ER,113,114,116
+38,Ethiopia,,ET,911,911,911
+39,Gabon,,GA,1730,1300,18
+40,Gambia,,GM,117,116,118
+41,Ghana,,GH,999,999,999
+42,Guinea,,GN,122,442020,1717
+43,Guinea-Bissau,,GW,112,112,112
+44,Ivory Coast,,CI,111,185,180
+45,Liberia,,LR,911,911,911
+46,Kenya,,KE,112,999,999
+47,Libya,,LY,1515,1515,1515
+48,Lesotho,,LS,123,121,122
+49,Madagascar,,MG,117,124,118
+50,Malawi,,MW,997,998,999
+51,Mali,,ML,17,15,18
+52,Mauritius,,MU,112,114,115
+53,Mauritania,,MR,117,101,118
+54,Mayotte,,YT,112,112,112
+55,Morocco,,MA,19,15,15
+56,Mozambique,,MZ,119,117,198
+57,Namibia,,NA,112,112,112
+58,Nigeria,,NG,112,112,112
+59,Niger,,NE,17,15,18
+60,Réunion,,RE,112,112,112
+61,Rwanda,,RW,112,912,112
+62,Saint Helena,,SH,999,911,999
+63,Sao Tome and Principe,,ST,112,112,112
+64,Senegal,,SN,17,15,18
+65,Seychelles,,SC,999,112,112
+66,Sierra Leone,,SL,19,999,999
+67,Somalia,,SO,888,999,555
+68,South Africa,,ZA,10111,10177,11177
+69,Sudan,,SD,999,999,999
+70,South Sudan,,SS,999,999,999
+71,Swaziland,,SZ,999,977,933
+72,Tanzania,,TZ,112,115,114
+73,Togo,,TG,117,8200,118
+74,Tristan da Cunha,,SH,999,911,999
+75,Tunisia,,TN,197,190,198
+76,Uganda,,UG,112,911,112
+77,Western Sahara,,EH,150,150,150
+78,Zambia,,ZM,999,999,999
+79,Zimbabwe,,ZW,999,999,999
+80,Abkhazia,,GE,102,103,101
+81,Afghanistan,,AF,119,112,119
+82,Akrotiri and Dhekelia,,CY,112,999,999
+83,Bahrain,,BH,999,999,999
+84,Bangladesh,,BD,999,199,199
+85,Bhutan,,BT,113,112,110
+86,British Indian Ocean Territory,,IO,112,999,999
+87,Brunei,,BN,993,991,995
+88,Burma,,MMR,999,999,999
+89,Cambodia,,KH,117,119,118
+90,People's Republic of China,,CN,110,120,119
+91,Christmas Island,,CX,0,0,0
+92,Cocos Islands,,CC,0,0,0
+93,East Timor,,TL,112,112,112
+94,Hong Kong,,HK,999,999,999
+95,India,,IN,100,108,101
+96,Indonesia,,ID,110,118,113
+97,Iran,,IR,110,115,125
+98,Iraq,,IQ,112,911,911
+99,Israel,,IL,100,101,102
+100,Japan,,JP,110,119,119
+101,Jordan,,JO,911,911,911
+102,Kazakhstan,,KZ,112,112,112
+103,Kyrgyzstan,,KG,102,103,101
+104,Korea,,KP,112,119,119
+105,Kuwait,,KW,112,112,112
+106,Laos,,LA,191,195,190
+107,Lebanon,,LB,112,140,175
+108,Macau,,MO,999,999,999
+109,Maldives,,MV,119,102,118
+110,Malaysia,,MY,999,999,999
+111,Mongolia,,MN,105,105,105
+112,Nepal,,NP,100,102,101
+113,Oman,,OM,999,999,999
+114,Pakistan,,PK,15,115,16
+115,Philippines,,PH,911,911,911
+116,Qatar,,QA,999,999,999
+117,Saudi Arabia,,SA,911,911,911
+118,Singapore,,SG,999,995,995
+119,Sri Lanka,,LK,119,110,110
+120,Syria,,SY,112,110,113
+121,Taiwan,,TW,110,119,119
+122,Tajikistan,,TJ,112,112,112
+123,Thailand,,TH,191,1554,199
+124,Turkmenistan,,TM,112,112,112
+125,United Arab Emirates,,AE,112,112,112
+126,Uzbekistan,,UZ,112,112,112
+127,Vietnam,,VN,113,115,114
+128,Yemen,,YE,194,191,191
+129,Åland Islands,,ALA,112,112,112
+130,Albania,,AL,112,112,112
+131,Andorra,,AD,112,112,112
+132,Armenia,,AM,112,911,911
+133,Austria,,AT,112,112,112
+134,Azerbaijan,,AZ,112,112,112
+135,Belarus,,BY,102,103,101
+136,Belgium,,BE,112,112,112
+137,Bosnia and Herzegovina,,BA,112,112,112
+138,Bulgaria,,BG,112,112,112
+139,Croatia,,HR,112,112,112
+140,Cyprus,,CY,112,199,199
+141,Czech Republic,,CZ,112,112,112
+142,Denmark,,DK,112,112,112
+143,Estonia,,EE,112,112,112
+144,Faroe Islands,,FO,112,112,112
+145,Finland,,FI,112,112,112
+146,France,,FR,112,112,112
+147,Georgia,,GE,112,112,112
+148,Germany,,DE,112,112,112
+149,Gibraltar,,GI,112,112,999
+150,Greece,,GR,112,112,112
+151,Greenland,,GL,112,112,112
+152,Guernsey,,GG,999,999,999
+153,Hungary,,HU,112,112,112
+154,Iceland,,IS,112,112,112
+155,Ireland,,IE,112,112,112
+156,Isle of Man,,IM,999,112,999
+157,Italy,,IT,112,112,112
+158,Jersey,,JE,999,999,112
+159,Kosovo,,XK,112,112,112
+160,Latvia,,LV,112,112,112
+161,Lithuania,,LT,112,112,112
+162,Liechtenstein,,LI,112,112,112
+163,Luxembourg,,LU,112,112,112
+164,Macedonia,,MK,112,112,112
+165,Malta,,MT,112,112,112
+166,Moldova,,MD,902,903,901
+167,Monaco,,MC,112,112,112
+168,Montenegro,,ME,112,112,112
+169,Nagorno-Karabakh,,NKR,112,112,112
+170,Netherlands,,NL,112,112,112
+171,Northern Cyprus,,CY,112,112,112
+172,Norway,,NO,112,113,110
+173,Poland,,PL,112,112,112
+174,Portugal,,PT,112,112,112
+175,Romania,,RO,112,112,112
+176,Russia,,RU,112,112,112
+177,San Marino,,SM,112,112,112
+178,Serbia,,RS,192,194,193
+179,Slovakia,,SK,112,112,112
+180,Slovenia,,SI,112,112,112
+181,Spain,,ES,112,112,112
+182,Sweden,,SE,112,112,112
+183,Switzerland,,CH,112,112,112
+184,Transnistria,,MD,102,103,101
+185,Turkey,,TR,112,112,112
+186,Ukraine,,UA,112,112,112
+187,United Kingdom,,GB,112,999,112
+188,Vatican City,,VA,112,112,112
+189,Australia,,AU,112,112,112
+190,Cook Islands,,CK,999,998,996
+191,Fiji,,FJ,911,911,911
+192,French Polynesia,,PF,112,112,112
+193,Guam,,GU,911,911,911
+194,Kiribati,,KI,999,999,999
+195,Marshall Islands,,MH,911,911,911
+196,Micronesia,,FM,911,911,911
+197,Nauru,,NR,110,111,112
+198,New Caledonia,,NC,112,112,112
+199,New Zealand,,NZ,111,111,111
+200,Palau,,PW,911,911,911
+201,Papua New Guinea,,PG,112,111,110
+202,Samoa,,WS,999,999,999
+203,Solomon Islands,,SB,911,999,911
+204,Tonga,,TO,911,911,911
+205,Tuvalu,,TV,911,911,911
+206,Vanuatu,,VU,112,112,112
+207,American Samoa,,AS,911,911,911
+208,Antigua and Barbuda,,AG,911,911,999
+209,Anguilla,,AI,911,911,911
+210,Aruba,,AW,911,911,911
+211,Belize,,BZ,911,911,911
+212,Bermuda,,BM,911,911,911
+213,British Virgin Islands,,VG,911,911,911
+214,Canada,,CA,911,911,911
+215,Clipperton Island,,PF,112,112,112
+216,Cuba,,CU,106,104,105
+217,Curacao,,CW,911,912,911
+218,Dominica,,DM,999,999,999
+219,Grenada,,GD,911,911,911
+220,Guadeloupe,,GLP,112,112,112
+221,Martinique,,MTQ,112,112,112
+222,Mexico,,MX,911,911,911
+223,Montserrat,,MS,911,911,911
+224,Navassa Island,,UM,911,911,911
+225,Saint Kitts and Nevis,,KN,911,911,911
+226,Saint Lucia,,LC,911,911,911
+227,Saint Pierre and Miquelon,,PM,112,112,112
+228,Saint Vincent and the Grenadines,,VC,911,911,911
+229,United States of America,,US,911,911,911
+230,United States Virgin Islands,,VI,911,911,911
+231,Barbados,,BB,911,911,911
+232,The Bahamas,,BS,911,911,911
+233,Bonaire,,BQ,911,911,911
+234,Cayman Islands,,KY,911,911,911
+235,Costa Rica,,CR,911,911,911
+236,Dominican Republic,,DO,911,911,911
+237,Guatemala,,GT,110,128,122
+238,El Salvador,,SV,911,132,913
+239,Haiti,,HT,114,116,115
+240,Honduras,,HN,112,195,198
+241,Jamaica,,JM,119,110,110
+242,Nicaragua,,NI,118,128,115
+243,Panama,,PA,911,911,911
+244,Puerto Rico,,PR,911,911,911
+245,Trinidad and Tobago,,TT,999,990,990
+246,Argentina,,AR,911,911,911
+247,Bolivia,,BO,911,911,911
+248,Brazil,,BR,190,192,193
+249,Chile,,CL,133,131,132
+250,Colombia,,CO,123,123,123
+251,Ecuador,,EC,911,911,911
+252,Falkland Islands,,FK,112,112,112
+253,French Guiana,,GUF,112,112,112
+254,Guyana,,GY,999,999,999
+255,Paraguay,,PY,911,911,911
+256,Peru,,PE,911,911,911
+257,South Georgia and the South Sandwich Islands,,SGS,999,999,999
+258,Suriname,,SR,112,112,112
+259,Uruguay,,UY,911,911,911
+260,Venezuela,,VE,911,911,911

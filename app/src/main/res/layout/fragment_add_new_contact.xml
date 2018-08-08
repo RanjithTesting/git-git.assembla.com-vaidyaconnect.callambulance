@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="5dp">
+    <!-- progress -->
+    <LinearLayout
+        android:id="@+id/progress_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/login_status_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/loading_progress"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/menu_text" />
+    </LinearLayout>
+
+
+    <ScrollView
+        android:id="@+id/form_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="79dp"
+        android:layout_toEndOf="@+id/progress_view"
+        android:layout_toRightOf="@+id/progress_view"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:id="@+id/relation_ship"
+            style="@style/textview_top_style"
+            android:paddingLeft="5dp"
+            android:text="@string/relation_ship" />
+
+        <Spinner
+            android:id="@+id/add_patient_relation_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relation_ship" />
+
+        <View
+            android:id="@+id/separator1"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_below="@id/add_patient_relation_spinner"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/black"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/first_name"
+            style="@style/textview_top_style"
+            android:layout_below="@+id/separator1"
+            android:text="@string/first_name" />
+
+        <EditText
+            android:id="@+id/add_patient_first_name"
+            style="@style/editText_box_normal"
+            android:layout_below="@+id/first_name"
+            android:hint="@string/first_name"></EditText>
+
+        <View
+            android:id="@+id/separator2"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_below="@id/add_patient_first_name"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/black"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/last_name"
+            style="@style/textview_top_style"
+            android:layout_below="@+id/separator2"
+            android:text="@string/last_name" />
+
+        <EditText
+            android:id="@+id/add_patient_last_name"
+            style="@style/editText_box_normal"
+            android:layout_below="@+id/last_name"
+            android:hint="@string/last_name"></EditText>
+
+        <View
+            android:id="@+id/separator3"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_below="@id/add_patient_last_name"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/black"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/dateOfBirthTextView"
+            style="@style/textview_top_style"
+            android:layout_below="@+id/separator3"
+            android:text="@string/date_of_birth" />
+
+        <TextView
+            android:id="@+id/tv_isGenderMandatory"
+            style="@style/textview_top_style"
+            android:layout_alignBaseline="@+id/dateOfBirthTextView"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/separator3"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:paddingRight="5dp" />
+
+        <TextView
+            android:id="@+id/show_dob_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/text_boxsize"
+            android:layout_alignBottom="@+id/dob_imageview"
+            android:layout_alignEnd="@+id/dateOfBirthTextView"
+            android:layout_alignLeft="@+id/add_patient_last_name"
+            android:layout_alignRight="@+id/dateOfBirthTextView"
+            android:layout_alignStart="@+id/add_patient_last_name"
+            android:layout_below="@+id/dateOfBirthTextView"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/dob_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/text_boxsize"
+            android:layout_alignTop="@+id/tv_isGenderMandatory"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@+id/tv_isGenderMandatory"
+            android:layout_toStartOf="@+id/tv_isGenderMandatory"
+            android:gravity="center"
+            android:src="@drawable/updateprofile_dob"
+            android:tint="@color/colorAccent" />
+
+        <View
+            android:id="@+id/separator4"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_below="@id/show_dob_textview"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/black"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/gender"
+            style="@style/textview_top_style"
+            android:layout_below="@+id/separator4"
+            android:text="@string/gender" />
+
+        <Spinner
+            android:id="@+id/add_patient_gender_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gender" />
+
+        <View
+            android:id="@+id/separator5"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_below="@id/add_patient_gender_spinner"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/black"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/phone_number"
+            style="@style/textview_top_style"
+            android:layout_below="@+id/separator5"
+            android:text="@string/phone_number" />
+
+        <LinearLayout
+            android:id="@+id/pno_isd_parent_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_boxsize"
+            android:layout_below="@+id/phone_number"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Spinner
+                android:id="@+id/isdcode_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.7" />
+            <!-- style="@style/spinner" -->
+
+            <EditText
+                android:id="@+id/add_patient_phoneno"
+                style="@style/editText_box_normal"
+                android:layout_weight="0.3"
+                android:hint="@string/add_patient_phoneno"
+                android:inputType="phone"
+                android:textSize="@dimen/text_fontsize" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/separator6"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_below="@id/pno_isd_parent_layout"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/black"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/alt_phone_number"
+            style="@style/textview_top_style"
+            android:layout_below="@+id/separator6"
+            android:text="@string/alt_phone_number" />
+
+        <LinearLayout
+            android:id="@+id/alt_pno_isd_parent_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_boxsize"
+            android:layout_below="@+id/alt_phone_number"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Spinner
+                android:id="@+id/alt_isdcode_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.7" />
+            <!-- style="@style/spinner" -->
+
+            <EditText
+                android:id="@+id/add_patient_alt_phoneno"
+                style="@style/editText_box_normal"
+                android:layout_weight="0.3"
+                android:hint="@string/add_patient_phoneno"
+                android:inputType="phone"
+                android:textSize="@dimen/text_fontsize" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/separator7"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_below="@id/alt_pno_isd_parent_layout"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/black"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/email"
+            style="@style/textview_top_style"
+            android:layout_below="@+id/separator7"
+            android:text="@string/email" />
+
+        <EditText
+            android:id="@+id/add_patient_email"
+            style="@style/editText_box_normal"
+            android:layout_below="@+id/email"
+            android:hint="@string/msg_enter_email"
+            android:inputType="textEmailAddress"></EditText>
+
+        <View
+            android:id="@+id/separator8"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_below="@id/add_patient_email"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/black"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/address"
+            style="@style/textview_top_style"
+            android:layout_below="@+id/separator8"
+            android:maxLength="255"
+            android:text="@string/address" />
+
+        <EditText
+            android:id="@+id/add_patient_address"
+            style="@style/editText_box_normal"
+            android:layout_below="@+id/address"
+            android:hint="@string/address"></EditText>
+
+        <View
+            android:id="@+id/separator9"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_below="@id/add_patient_address"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/black"
+            android:visibility="visible" />
+
+
+        <TextView
+            android:id="@+id/city"
+            style="@style/textview_top_style"
+            android:layout_below="@+id/separator9"
+            android:text="@string/city" />
+
+        <EditText
+            android:id="@+id/add_patient_city"
+            style="@style/editText_box_normal"
+            android:layout_below="@+id/city"
+            android:hint="@string/city"></EditText>
+
+        <View
+            android:id="@+id/separator10"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_below="@id/add_patient_city"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/black"
+            android:visibility="visible" />
+
+
+        <TextView
+            android:id="@+id/pin_code"
+            style="@style/textview_top_style"
+            android:layout_below="@+id/separator10"
+            android:text="@string/pin_code" />
+
+        <EditText
+            android:id="@+id/add_patient_pincode"
+            style="@style/editText_box_normal"
+            android:layout_below="@+id/pin_code"
+            android:hint="@string/pin_code"
+            android:inputType="phone"></EditText>
+
+        <View
+            android:id="@+id/separator11"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_below="@id/add_patient_pincode"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/black"
+            android:visibility="visible" />
+
+
+        <TextView
+            android:id="@+id/state"
+            style="@style/textview_top_style"
+            android:layout_below="@+id/separator11"
+            android:text="@string/state" />
+
+        <EditText
+            android:id="@+id/add_patient_state"
+            style="@style/editText_box_normal"
+            android:layout_below="@+id/state"
+            android:hint="@string/state"></EditText>
+
+        <View
+            android:id="@+id/separator12"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_below="@id/add_patient_state"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/black"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/country"
+            style="@style/textview_top_style"
+            android:layout_below="@+id/separator12"
+            android:text="@string/country" />
+
+        <Spinner
+            android:id="@+id/add_patient_country_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/country"
+            android:entries="@array/select_country" />
+
+        <View
+            android:id="@+id/separator13"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_below="@id/add_patient_country_spinner"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/black"
+            android:visibility="visible" />
+
+
+        <TextView
+            android:id="@+id/tv_company"
+            style="@style/textview_top_style"
+            android:layout_below="@+id/separator13"
+            android:maxLength="255"
+            android:text="@string/label_company_name" />
+
+        <EditText
+            android:id="@+id/et_company_name"
+            style="@style/editText_box_normal"
+            android:layout_below="@+id/tv_company"
+            android:hint="@string/label_company_name"></EditText>
+
+        <View
+            android:id="@+id/separator14"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_below="@id/et_company_name"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/black"
+            android:visibility="visible" />
+
+
+        <TextView
+            android:id="@+id/financial_status"
+            style="@style/textview_top_style"
+            android:layout_below="@+id/separator14"
+            android:text="@string/financial_status" />
+
+        <Spinner
+            android:id="@+id/add_patient_financial_status_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/financial_status" />
+
+        <View
+            android:id="@+id/separator15"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_below="@id/add_patient_financial_status_spinner"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/black"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/marital_status"
+            style="@style/textview_top_style"
+            android:layout_below="@+id/separator15"
+            android:text="@string/marital_status" />
+
+        <Spinner
+            android:id="@+id/marital_status_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/marital_status" />
+
+        <View
+            android:id="@+id/separator16"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_below="@id/marital_status_spinner"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/black"
+            android:visibility="visible" />
+
+
+        <TextView
+            android:id="@+id/food_habits"
+            style="@style/textview_top_style"
+            android:layout_below="@+id/separator16"
+            android:text="@string/food_habits" />
+
+        <Spinner
+            android:id="@+id/food_habits_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/food_habits" />
+
+        <View
+            android:id="@+id/separator17"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_below="@id/food_habits_spinner"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/black"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/donateBlood"
+            style="@style/textview_top_style"
+            android:layout_below="@+id/separator17"
+            android:text="@string/donate_blood_simple_text" />
+
+        <RadioGroup
+            android:id="@+id/radioDonateBlood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/donateBlood"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioYes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/yesgender" />
+
+            <RadioButton
+                android:id="@+id/radioNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/nogender" />
+        </RadioGroup>
+
+        <View
+            android:id="@+id/separator18"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_below="@id/radioDonateBlood"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/black"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/organ_donation"
+            style="@style/textview_top_style"
+            android:layout_below="@+id/separator18"
+            android:text="@string/organ_donation" />
+
+        <EditText
+            android:id="@+id/organ_donation_et"
+            style="@style/editText_box_normal"
+            android:layout_below="@+id/organ_donation"
+            android:hint="@string/organ_donation_hint"
+            android:maxLength="255"></EditText>
+
+        <View
+            android:id="@+id/separator19"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_below="@id/organ_donation_et"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/black"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/family_history"
+            style="@style/textview_top_style"
+            android:layout_below="@+id/separator19"
+            android:text="@string/family_history" />
+
+        <EditText
+            android:id="@+id/add_patient_familyHistory"
+            style="@style/editText_box_normal"
+            android:layout_below="@+id/family_history"
+            android:hint="@string/add_patient_familyHistory"
+            android:maxLength="255"></EditText>
+
+        <View
+            android:id="@+id/separator20"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_below="@id/add_patient_familyHistory"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/black"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/habits"
+            style="@style/textview_top_style"
+            android:layout_below="@+id/separator20"
+            android:text="@string/habits" />
+
+        <EditText
+            android:id="@+id/add_patient_habits"
+            style="@style/editText_box_normal"
+            android:layout_below="@+id/habits"
+            android:hint="@string/habits"
+            android:maxLength="255"></EditText>
+
+        <View
+            android:id="@+id/separator21"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_below="@id/add_patient_habits"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/black"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/remarks"
+            style="@style/textview_top_style"
+            android:layout_below="@+id/separator21"
+            android:text="@string/remarks" />
+
+        <EditText
+            android:id="@+id/add_patient_remarks"
+            style="@style/editText_box_normal"
+            android:layout_below="@+id/remarks"
+            android:hint="@string/remarks"
+            android:maxLength="255"></EditText>
+
+        <Button
+            android:id="@+id/add_patient_button_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/add_patient_remarks"
+            android:layout_centerHorizontal="true"
+            android:text="@string/submit" />
+    </RelativeLayout>
+
+</RelativeLayout>

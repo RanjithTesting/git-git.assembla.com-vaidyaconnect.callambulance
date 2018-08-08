@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tab"
+    style="@style/tv_roboto_thin_black_normal"
+    android:gravity="center_horizontal"
+    android:textSize="@dimen/text_style1"
+    android:drawablePadding="5dp"
+    android:singleLine="true"
+    android:textColor="@drawable/selector_tab_text"
+    />

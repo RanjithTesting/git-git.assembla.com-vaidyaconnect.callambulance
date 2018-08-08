@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+   >
+    <LinearLayout
+        android:id="@+id/ll_offline_ambulance"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_out_of_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:visibility="gone"
+        />
+
+
+    <TextView
+        android:id="@+id/empty_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/label_no_ambulance_providers"
+        android:textColor="@color/black"
+        android:visibility="gone" />
+    <ProgressBar
+        android:id="@+id/progress_bar_online_Amb"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_more_map"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="8dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:background="@drawable/button_rounded_corner_shape"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="View More"
+        android:visibility="gone"
+        android:layout_gravity="bottom"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        />
+    <TextView
+        android:id="@+id/tv_fare_info"
+        style="@style/tv_roboto_light_black_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/colorAppBg"
+        android:gravity="bottom|center_horizontal"
+        android:text="@string/label_fare_info"
+        android:textStyle="italic"
+        android:visibility="visible" />
+</LinearLayout>

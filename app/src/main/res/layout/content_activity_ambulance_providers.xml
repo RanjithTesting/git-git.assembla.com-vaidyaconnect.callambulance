@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.patientz.activity.NearbyAmbulancesListActivity"
+    tools:showIn="@layout/activity_ambulance_providers">
+<ScrollView
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible"
+        >
+        <TextView
+            style="@style/tv_roboto_regular_red_bold"
+            android:text="Online Ambulances"
+            android:textSize="16dp"
+            android:layout_margin="8dp"
+            />
+
+        <LinearLayout
+            android:id="@+id/ll_online_ambulance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp"
+            >
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_out_of_service"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:id="@+id/empty_list_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:text="@string/label_no_ambulance_providers"
+                android:textColor="@color/black"
+                android:visibility="gone" />
+
+
+
+            <ProgressBar
+                android:id="@+id/progress_bar_online_Amb"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+
+        <TextView
+            style="@style/tv_roboto_regular_red_bold"
+            android:text="Offline Ambulances"
+            android:textSize="16dp"
+            android:layout_margin="8dp"
+            />
+        <LinearLayout
+            android:id="@+id/ll_offline_ambulance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+
+            >
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_offline_amb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:id="@+id/empty_list_view2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:text="@string/label_no_ambulance_providers"
+                android:textColor="@color/black"
+                android:visibility="gone" />
+
+                <ProgressBar
+                    android:id="@+id/progress_bar_offline_Amb"
+                    style="?android:attr/progressBarStyleLarge"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_gravity="center"
+                    />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+        <TextView
+            android:id="@+id/tv_fare_info"
+            style="@style/tv_roboto_light_black_normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/colorAppBg"
+            android:gravity="bottom|center_horizontal"
+            android:text="@string/label_fare_info"
+            android:textStyle="italic"
+            android:visibility="visible" />
+
+
+</LinearLayout>

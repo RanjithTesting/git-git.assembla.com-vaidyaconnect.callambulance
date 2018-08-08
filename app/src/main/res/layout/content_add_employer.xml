@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.patientz.activity.AddEmployerActivity"
+    tools:showIn="@layout/activity_add_employer">
+<ScrollView
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.patientz.activity.AddEmployerActivity"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:id="@+id/form_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:orientation="vertical"
+        android:background="@color/colorAppBg"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:padding="20dp"
+        >
+
+        <EditText
+            android:id="@+id/et_employee_id"
+            style="@style/edit_text_style"
+            android:layout_below="@+id/tv_employee_id"
+            android:layout_marginTop="1dip"
+            android:focusableInTouchMode="true"
+            android:hint="@string/employee_id"
+            android:inputType="textPersonName"
+            />
+
+        <Spinner
+            android:id="@+id/spinner_org_branch"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_boxsize"
+            android:layout_below="@+id/ll_org_branch"
+            android:layout_marginTop="1dip"
+            android:background="@drawable/bg_spinner"
+            android:spinnerMode="dropdown"
+            />
+        <TextView
+            android:id="@+id/tvOrgBranchErrorDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.25dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/separator"
+            />
+
+        <EditText
+            android:id="@+id/et_official_email_id"
+            style="@style/edit_text_style"
+            android:layout_below="@+id/tv_official_email_id"
+            android:layout_marginTop="1dip"
+            android:focusableInTouchMode="true"
+            android:hint="@string/official_email_id"
+            android:inputType="textPersonName" />
+
+
+
+        <EditText
+            android:id="@+id/et_designation"
+            style="@style/edit_text_style"
+            android:layout_below="@+id/tv_designation"
+            android:layout_marginTop="1dip"
+            android:focusableInTouchMode="true"
+            android:hint="@string/designation"
+            android:inputType="textPersonName" />
+
+
+        <EditText
+            android:id="@+id/et_department"
+            style="@style/edit_text_style"
+            android:layout_below="@+id/tv_department"
+            android:layout_marginTop="1dip"
+            android:focusableInTouchMode="true"
+            android:hint="@string/department"
+            android:inputType="textPersonName" />
+
+
+
+        <EditText
+            android:id="@+id/et_manager_name"
+            style="@style/edit_text_style"
+            android:layout_below="@+id/tv_manager_name"
+            android:layout_marginTop="1dip"
+            android:focusableInTouchMode="true"
+            android:hint="@string/manager_name"
+            android:inputType="textPersonName" />
+
+        <LinearLayout
+            android:id="@+id/ll_manager_pno"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_boxsize"
+            android:layout_below="@+id/et_manager_name"
+            android:layout_marginTop="10dip"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            >
+
+            <Spinner
+                android:id="@+id/isdcode_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/text_boxsize"
+                android:background="@drawable/bg_spinner"
+                android:layout_weight="0.8"
+                android:spinnerMode="dropdown"
+                />
+            <EditText
+                android:id="@+id/et_manager_pno"
+                style="@style/edit_text_style"
+                android:hint="Ex 9898989898"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:layout_weight="0.2"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+        <Button
+            android:id="@+id/bt_add_employer"
+            style="@style/button"
+            android:layout_below="@+id/ll_manager_pno"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="25dp"
+
+            android:text="@string/add_employer" />
+</LinearLayout>
+</ScrollView>
+
+    <LinearLayout
+        android:id="@+id/progress_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/login_status_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/wait_msg"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/menu_text" />
+    </LinearLayout>
+
+</LinearLayout>

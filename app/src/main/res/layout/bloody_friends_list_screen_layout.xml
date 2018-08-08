@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    tools:context="com.patientz.activity.BloodyFriendsListActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.patientz.activity.BloodyFriendsListActivity"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bloodyfriends_bg"
+            android:orientation="vertical"
+            android:gravity="right|center_vertical"
+            android:paddingRight="16dp"
+            >
+            <TextView
+                android:id="@+id/tv_name"
+                style="@style/tv_roboto_regular_black_bold"
+                android:text="Sirish Kumar"
+                android:textSize="18dp"
+
+                />
+            <TextView
+                android:id="@+id/tv_bloodgroup"
+                style="@style/tv_roboto_light_black_normal"
+                android:text="O+ | TRZ12345"
+                android:textSize="15dp"
+                android:textColor="@color/outer_space"
+                />
+            <TextView
+                android:id="@+id/tv_bloodgrouphint"
+                style="@style/tv_roboto_regular_black_normal"
+                android:text="@string/bloodyfriendshint"
+                android:textColor="@color/outer_space"
+                android:visibility="gone"
+                />
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                >
+
+            </android.support.v7.widget.RecyclerView>
+            <LinearLayout
+                android:id="@+id/tv_add_more_bf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/add_more_bf"
+                    android:layout_marginRight="10dp"
+                    />
+                <TextView
+                    style="@style/tv_roboto_medium_black_normal"
+                    android:textColor="@color/harvard_crimpson"
+                    android:textSize="13dp"
+                    android:text="@string/add_more_bf"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        </ScrollView>
+
+<LinearLayout
+    android:id="@+id/bt_send_blood_request"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:layout_gravity="bottom"
+    android:background="@color/cardinal"
+    android:gravity="center"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:drawableLeft="@drawable/blood_drop"
+        android:fontFamily="@string/font_typeface_sans_serif_medium"
+        android:textSize="18dp"
+        android:drawablePadding="12dp"
+        android:text="@string/send_blood_request"
+        android:gravity="center"
+
+        />
+
+</LinearLayout>
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

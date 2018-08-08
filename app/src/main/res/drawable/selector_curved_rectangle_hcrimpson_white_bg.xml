@@ -1,0 +1,48 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <stroke
+                android:width="0.75dip"
+                android:color="@color/white" />
+            <corners android:radius="30dip" />
+            <solid android:color="@color/white"/>
+            <padding
+                android:bottom="10dip"
+                android:left="10dip"
+                android:right="10dip"
+                android:top="10dip" />
+        </shape>
+    </item>
+
+    <item android:state_focused="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <stroke
+                android:width="0.75dip"
+                android:color="@color/white" />
+            <corners android:radius="30dip" />
+            <solid android:color="@color/white"/>
+            <padding
+                android:bottom="10dip"
+                android:left="10dip"
+                android:right="10dip"
+                android:top="10dip" />
+        </shape>
+    </item>
+
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <corners
+                android:radius="30dp"
+                />
+            <solid
+                android:color="@color/harvard_crimpson"
+                />
+            <padding
+                android:left="0dp"
+                android:top="0dp"
+                android:right="0dp"
+                android:bottom="0dp"
+                />
+        </shape>
+    </item>
+</selector>

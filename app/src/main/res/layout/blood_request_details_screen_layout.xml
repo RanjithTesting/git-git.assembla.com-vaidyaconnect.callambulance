@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.patientz.activity.BloodyFriendsBloodRequestDetailsActivity"
+        >
+    <TextView
+        android:id="@+id/tv_blood_group"
+        style="@style/tv_roboto_medium_black_normal"
+        android:layout_margin="5dp"
+        android:text=""
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/grey_light_version" />
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp"
+        >
+
+
+        <TextView
+            android:id="@+id/tv_for_whom"
+            style="@style/tv_roboto_regular_black_normal"
+            android:text="@string/label_for_whom"
+            android:textSize="15dp"
+            />
+
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/edittext_red_bottom_border"
+            android:fontFamily="@string/font_typeface_sans_serif_light"
+            android:hint="@string/name"
+            android:textColor="@color/black"
+            android:textColorHint="@color/outer_space"
+            android:textSize="15dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="horizontal"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="40dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+
+                >
+                <TextView
+                    style="@style/tv_roboto_regular_black_normal"
+                    android:layout_marginBottom="16dp"
+                    android:text="@string/phone_number"
+                    android:textSize="15dp"
+
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <Spinner
+                        android:id="@+id/spinner_countrycodes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:entries="@array/select_country_isdCode" />
+                    <EditText
+                        android:id="@+id/edit_phno"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:background="@null"
+                        android:fontFamily="@string/font_typeface_sans_serif_light"
+                        android:text="9898989898"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/outer_space"
+                        android:textSize="15dp"
+
+                        />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/edittext_red_bottom_border"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:orientation="vertical"
+
+                >
+                <TextView
+                    style="@style/tv_roboto_regular_black_normal"
+                    android:layout_marginBottom="16dp"
+                    android:gravity="left"
+                    android:text="@string/noofunits"
+                    android:textSize="15dp"
+
+                    />
+
+                <Spinner
+                    android:id="@+id/spinner_noofunits"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:entries="@array/blood_units"
+                    android:gravity="left"
+
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/edittext_red_bottom_border"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_motivational_msg"
+            style="@style/tv_roboto_regular_black_normal"
+            android:text="@string/message"
+            android:textSize="15dp"
+            />
+
+        <EditText
+            android:id="@+id/editmessage"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/edittext_red_bottom_border"
+            android:fontFamily="@string/font_typeface_sans_serif_light"
+            android:hint="@string/hint_motivational_field"
+            android:textColor="@color/black"
+            android:textColorHint="@color/outer_space"
+            android:textSize="15dp"
+
+            />
+
+        <TextView
+            style="@style/tv_roboto_regular_black_normal"
+            android:text="@string/dor"
+            android:textSize="15dp"
+            android:layout_marginBottom="16dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:orientation="horizontal"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="8dp"
+                    >
+                    <ImageView
+                        android:id="@+id/image_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bf_form_date"
+                        android:layout_gravity="bottom"
+                        android:layout_marginRight="8dp"
+                        />
+                    <TextView
+                        android:id="@+id/text_date"
+                        style="@style/tv_roboto_medium_black_normal"
+                        android:layout_gravity="bottom"
+                        android:textSize="12dp"
+                        />
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/edittext_red_bottom_border"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginBottom="16dp"
+
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="8dp"
+
+                    >
+                    <ImageView
+                        android:id="@+id/img_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/bf_form_time"
+                        android:layout_marginRight="8dp"
+                        />
+                    <TextView
+                        android:id="@+id/text_time"
+                        style="@style/tv_roboto_medium_black_normal"
+                        android:layout_gravity="bottom"
+                        android:textSize="12dp"
+
+                        />
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/edittext_red_bottom_border"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_location"
+            style="@style/tv_roboto_regular_black_normal"
+            android:text="@string/location"
+            android:textSize="15dp"
+            />
+
+        <EditText
+            android:id="@+id/edit_location"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/edittext_red_bottom_border"
+            android:fontFamily="@string/font_typeface_sans_serif_light"
+            android:textColor="@color/black"
+            android:textColorHint="@color/outer_space"
+            android:textSize="15dp"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_purpose"
+            style="@style/tv_roboto_regular_black_normal"
+            android:text="@string/purpose"
+            android:textSize="15dp"
+            />
+
+        <EditText
+            android:id="@+id/edit_purpose"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/edittext_red_bottom_border"
+            android:fontFamily="@string/font_typeface_sans_serif_light"
+            android:textColor="@color/black"
+            android:textColorHint="@color/outer_space"
+            android:textSize="15dp"
+            />
+
+    </LinearLayout>
+</ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        >
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.25dp"
+            android:background="@color/separator"
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/tv_accept_button"
+            style="@style/tv_roboto_regular_black_normal"
+            android:textColor="@color/dark_jungle_green"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Send Request"
+            android:textSize="17dp"
+            android:textAllCaps="false"
+            />
+
+        <View
+            android:layout_width="0.25dp"
+            android:layout_height="match_parent"
+            android:background="@color/separator"
+            />
+
+        <TextView
+            android:id="@+id/tv_cancel_button"
+            style="@style/tv_roboto_regular_black_normal"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/label_cancel"
+            android:textColor="@color/harvard_crimpson"
+            android:textSize="17dp"
+             />
+</LinearLayout>
+    </LinearLayout>
+</LinearLayout>

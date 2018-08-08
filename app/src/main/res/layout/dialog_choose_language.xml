@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="25dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/app_icon" />
+
+    <TextView
+        style="@style/tv_roboto_medium_red_normal"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Welcome to Call Ambulance"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        style="@style/tv_roboto_medium_red_normal"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="Select Your Language to begin"
+        android:textSize="18dp"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/bt_select_lang"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_rounded_corner_shape"
+        android:drawableRight="@drawable/dropdown_arrow"
+        android:drawableTint="@color/black"
+        android:paddingRight="16dp"
+        android:text="English"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/bt_start"
+        style="@style/button"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:text="@string/getStarted"
+        android:textStyle="bold"
+        android:typeface="normal" />
+</LinearLayout>

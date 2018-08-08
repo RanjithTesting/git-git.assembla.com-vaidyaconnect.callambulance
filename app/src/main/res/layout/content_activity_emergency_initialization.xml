@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.patientz.activity.ActivityEmergencyStepsListener"
+    tools:showIn="@layout/activity_emergency_initialization">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tv_msg_initiating_emergency"
+                    style="@style/tv_roboto_regular_red_normal"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/label_initiating_emergency"
+                    android:textSize="22sp" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_progress_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_msg_initiating_emergency"
+                    android:layout_marginBottom="8dp">
+
+                    <ImageView
+                        android:id="@+id/progress_bar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/image_animator" />
+
+                    <TextView
+                        android:id="@+id/tv_counter_value_holder"
+                        style="@style/tv_roboto_medium_white_bold"
+                        android:layout_centerInParent="true"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_emergency_token"
+                    style="@style/tv_roboto_regular_red_normal"
+                    android:layout_below="@+id/rl_progress_bar"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/label_emergency_token_no"
+                    android:textSize="22sp" />
+
+                <View
+                    android:id="@+id/sep"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_below="@+id/tv_emergency_token"
+                    android:layout_marginBottom="8dp"
+                    android:background="@color/grey_light_version"></View>
+
+                <LinearLayout
+                    android:id="@+id/rl_getting_loc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sep"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/iv_getting_location"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/em_location" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_broadcast_value"
+                        style="@style/tv_roboto_regular_black_normal"
+                        android:layout_gravity="center_vertical"
+                        android:layout_toRightOf="@+id/iv_getting_location"
+                        android:text="@string/label_getting_location"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:textColor="@color/grey_light_version"
+
+                        />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/sep1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_below="@+id/rl_getting_loc"
+                    android:layout_marginBottom="8dp"
+                    android:background="@color/grey_light_version"
+                    android:visibility="gone"
+
+                    ></View>
+
+
+                <LinearLayout
+                    android:id="@+id/rl_notifying_contacts"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sep1"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/iv_notifying_contacts"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/em_contacts" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_notifying_contacts"
+                        style="@style/tv_roboto_regular_black_normal"
+                        android:layout_gravity="center_vertical"
+                        android:layout_toRightOf="@+id/iv_notifying_contacts"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="@string/label_notifying_contacts"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:textColor="@color/grey_light_version"
+
+
+                        />
+
+                </LinearLayout>
+
+
+                <View
+                    android:id="@+id/sep2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_below="@+id/rl_notifying_contacts"
+                    android:layout_marginBottom="8dp"
+                    android:background="@color/grey_light_version"
+                    android:visibility="gone"></View>
+
+
+                <LinearLayout
+                    android:id="@+id/rl_alerting_emri"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sep2"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/iv_alerting_emri"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/em_ambulance" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_alerting_emri"
+                        style="@style/tv_roboto_regular_black_normal"
+                        android:layout_gravity="center_vertical"
+                        android:layout_toRightOf="@+id/iv_alerting_emri"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="@string/label_alerting_emri"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:textColor="@color/grey_light_version"
+
+
+                        />
+
+                </LinearLayout>
+
+
+                <View
+                    android:id="@+id/sep3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_below="@+id/rl_alerting_emri"
+                    android:layout_marginBottom="8dp"
+                    android:background="@color/grey_light_version"
+                    android:visibility="gone"
+
+                    ></View>
+
+                <LinearLayout
+                    android:id="@+id/rl_calling_108"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sep3"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/iv_calling_108"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/em_calling" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_calling_ambulance_provider"
+                        style="@style/tv_roboto_regular_black_normal"
+                        android:layout_gravity="center_vertical"
+                        android:layout_toRightOf="@+id/iv_calling_108"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="@string/label_calling_108"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:textColor="@color/grey_light_version" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_skip_call"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@string/font_typeface_sans_serif"
+        android:gravity="center"
+        android:text="@string/label_skip_call"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+</LinearLayout>

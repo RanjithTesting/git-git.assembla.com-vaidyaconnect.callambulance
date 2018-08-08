@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/insurance_buy_bg"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/insurance_1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@string/font_typeface_sans_serif_medium"
+        android:gravity="center"
+        android:text="@string/add_existing_policy"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+        <LinearLayout
+            android:id="@+id/ll_add_existing_policy"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rounded_corner_red_transparent"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/menu_add"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:tint="@color/harvard_crimpson"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@string/font_typeface_sans_serif_medium"
+                android:textSize="14dp"
+                android:paddingRight="8dp"
+                android:textColor="@drawable/selector_red_to_white"
+                android:textAllCaps="false"
+                android:text="@string/add_existing_policies" />
+        </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_add_existing_policy"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/selector_curved_rectangle_hcrimpson_white_bg"
+        android:drawableLeft="@drawable/menu_add"
+        android:drawablePadding="8dp"
+        android:visibility="gone"
+        android:drawableTint="@color/harvard_crimpson"
+        android:fontFamily="@string/font_typeface_sans_serif_medium"
+        android:gravity="center"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="@string/add_existing_policies"
+        android:textAllCaps="false"
+        android:textColor="@drawable/selector_red_to_white"
+        android:textSize="14dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="104dp"
+            android:layout_height="1.25dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:fontFamily="@string/font_typeface_sans_serif"
+            android:text="@string/OR"
+            android:textColor="@color/black"
+            android:textSize="19dp" />
+
+        <View
+            android:layout_width="104dp"
+            android:layout_height="1.25dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/black" />
+    </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="bottom"
+        >
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/support"
+            android:padding="5dp"
+            android:gravity="center"
+            android:visibility="visible"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="@drawable/selector_red_to_white"
+            android:background="@color/white"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            />
+        <TextView
+            android:id="@+id/tv_tnc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/iv_buy_acc_coverage"
+            android:text="@string/tncapply"
+            android:layout_marginLeft="-20dp"
+            android:layout_alignRight="@+id/iv_buy_acc_coverage"
+            android:textSize="9dp"
+            android:textColor="@color/outer_space"
+            android:fontFamily="@string/font_typeface_sans_serif"
+            android:textStyle="italic"
+            />
+    <ImageView
+        android:id="@+id/iv_buy_acc_coverage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/accident_insurance_box"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        />
+        <Button
+            android:id="@+id/bt_buy_accident_policy"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:background="@drawable/background_submit_button"
+            android:fontFamily="@string/font_typeface_sans_serif"
+            android:textStyle="bold"
+            android:drawableTint="@color/harvard_crimpson"
+            android:textSize="15dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_horizontal|bottom"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:layout_marginBottom="35dp"
+            android:textColor="@drawable/selector_white_to_harvardcrimpson"
+            android:textAllCaps="false"
+            android:text="@string/buy_now" />
+    </RelativeLayout>
+</LinearLayout>

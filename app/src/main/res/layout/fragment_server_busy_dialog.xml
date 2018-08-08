@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+    <TextView
+        style="@style/tv_roboto_medium_red_bold"
+        android:textSize="22dp"
+        android:text="@string/server_offline"
+        android:background="@color/white"
+        android:padding="8dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tv_message"
+        style="@style/tv_roboto_medium_black_normal"
+        android:textSize="16dp"
+        android:text="@string/server_busy_msg"
+        android:background="@color/white"
+        android:padding="5dp"
+        android:gravity="center"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.25dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/separator"
+        />
+    <Button
+        android:id="@+id/bt_done"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="18dp"
+        android:text="@string/close"
+        android:gravity="center"
+        android:background="@color/white"
+        android:textColor="@color/harvard_crimpson"
+        android:fontFamily="@string/font_typeface_sans_serif_medium"
+        />
+
+</LinearLayout>

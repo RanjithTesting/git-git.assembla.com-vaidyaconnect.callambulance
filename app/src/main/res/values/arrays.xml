@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="array_bloodgroup_contacts">
+        <item>Select Blood Group</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+    <string-array name="array_bloodgroup">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+    <string-array name="insurance_upload_status">
+        <item>Pending</item>
+        <item>In Progress</item>
+        <item>Issued</item>
+    </string-array>
+    <string-array name="array_willing_to_donate_blood">
+        <item>Willing to donate blood to friend?</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+
+    <string-array name="array_orgtype">
+        <item>Hospital</item>
+        <item>Medical Store</item>
+        <item>Diagnostic Lab</item>
+        <item>Clinic</item>
+        <item>Employer</item>
+        <item>Educational Institute</item>
+    </string-array>
+
+    <string-array name="array_orgtype_id">
+        <item>1</item>
+        <item>4</item>
+        <item>5</item>
+        <item>10</item>
+        <item>12</item>
+        <item>13</item>
+    </string-array>
+
+    <string-array name="marital_status_values">
+        <item>Select One</item>
+        <item>Single</item>
+        <item>Married</item>
+        <item>Widowed</item>
+        <item>Divorced</item>
+    </string-array>
+
+    <string-array name="food_habits_values">
+        <item>Select One</item>
+        <item>Vegetarian</item>
+        <item>Egg-tarian</item>
+        <item>Non-Vegetarian</item>
+    </string-array>
+
+    <string-array name="add_patient_relation_entry">
+        <item>Family</item>
+        <item>Friend</item>
+    </string-array>
+
+    <string-array name="add_patient_relation_self_entry">
+        <item>Self</item>
+    </string-array>
+
+    <string-array name="array_role">
+        <item>Emergency Contact</item>
+        <item>Care Giver</item>
+    </string-array>
+
+    <string-array name="add_patient_gender_entry">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="relationships">
+        <item>Mother</item>
+        <item>Father</item>
+        <item>Son</item>
+        <item>Daughter</item>
+        <item>Brother</item>
+        <item>Sister</item>
+        <item>Spouse</item>
+        <item>Cousin</item>
+        <item>Mother-in-Law</item>
+        <item>Father-in-Law</item>
+        <item>Nephew</item>
+        <item>Niece</item>
+        <item>Aunt</item>
+        <item>Uncle</item>
+        <item>Grandfather</item>
+        <item>Grandmother</item>
+        <item>Grandson</item>
+        <item>Granddaughter</item>
+        <item>Friend</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Select One</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="add_patient_financial_status_spinner">
+        <item>Well-Off</item>
+        <item>Middle Class</item>
+        <item>Poor</item>
+        <item>Very Poor</item>
+    </string-array>
+
+    <string-array name="add_patient_financial_status_spinner_with_select">
+        <item>Select One</item>
+        <item>Well-Off</item>
+        <item>Middle Class</item>
+        <item>Poor</item>
+        <item>Very Poor</item>
+    </string-array>
+
+
+    <string-array name="select_country">
+        <item>India</item>
+        <item>Canada</item>
+        <item>United Kingdom</item>
+        <item>Australia</item>
+        <item>New Zealand</item>
+        <item>Singapore</item>
+        <item>UAE</item>
+        <item>United States</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="states_n_union_territories">
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Andaman and Nicobar Islands</item>
+        <item>Bihar</item>
+        <item>Chhattisgarh</item>
+        <item>Chandigarh</item>
+        <item>Delhi</item>
+        <item>Daman and Diu</item>
+        <item>Dadar and Nagar Haveli</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu and Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Lakshadweep</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Odisha</item>
+        <item>Punjab</item>
+        <item>Puducherry</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttar Pradesh</item>
+        <item>Uttarakhand</item>
+        <item>West Bengal</item>
+    </string-array>
+
+
+
+    <integer-array name="select_country_id">
+        <item>103</item>
+        <item>40</item>
+        <item>86</item>
+        <item>14</item>
+        <item>160</item>
+        <item>201</item>
+        <item>235</item>
+        <item>237</item>
+        <item>300</item>
+    </integer-array>
+
+    <string-array name="select_country_isdCode">
+        <item>+91</item>
+        <item>+1</item>
+        <item>+44</item>
+        <item>+61</item>
+        <item>+64</item>
+        <item>+65</item>
+        <item>+971</item>
+        <item>+1</item>
+        <item>+0</item>
+    </string-array>
+
+    <string-array name="array_searchBy">
+        <item>Mobile Number</item>
+        <item>Email</item>
+    </string-array>
+
+
+    <string-array name="revoke_reasons">
+        <item>@string/false_alarm</item>
+        <item>@string/emerg_being_attended</item>
+        <item>@string/emrg_has_addresses</item>
+    </string-array>
+
+
+    <string-array name="pregnancy">
+        <item>Select One</item>
+        <item>Yes</item>
+        <item>No</item>
+        <item>N/A</item>
+    </string-array>
+
+    <string-array name="blood_units">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="attachment_option_array">
+        <item>Camera</item>
+        <item>Gallery</item>
+    </string-array>
+
+</resources>

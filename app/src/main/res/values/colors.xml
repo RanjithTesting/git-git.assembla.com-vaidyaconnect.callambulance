@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#c61b00</color>
+    <color name="colorPrimary_light">#ff9180</color>
+    <color name="colorPrimaryDarkest">#A51400</color>
+    <color name="colorPrimaryDark">#b10601</color>
+    <color name="colorAccent">#6785a9</color>
+    <color name="colorAppBg">#D9D9D9</color>
+    <color name="colorGreyLight">#CCCCCC</color>
+    <color name="colorRedLight">#ca3b3a</color>
+    <color name="edittext_background">#E6999999</color>
+    <color name="text_background">#E6999999</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="menu_text">#494949</color>
+    <color name="colorEmergencyScreenBg">#434343</color>
+    <color name="new_grey">#CCCCCC</color>
+    <color name="colorSplashScreenBg">#6785a9</color>
+    <color name="grey_light_version">#878789</color>
+    <color name="edittext_grey">#6f000000</color>
+    <color name="cement_grey">#404040</color>
+    <color name="outer_space">#4a4a4a</color>
+    <color name="app_background">#f3f2f2</color>
+    <color name="divider_color">#CCCCCC</color>
+    <color name="separator">#979797</color>
+    <color name="dark_jungle_green">#ff1a1a1a</color>
+    <color name="platinum">#ffe8e4e4</color>
+    <color name="harvard_crimpson">#ffd0021b</color>
+    <color name="cardinal">#ffbf202f</color>
+    <color name="manatee">#ff9b9b9b</color>
+    <color name="trolley_grey">#ff818181</color>
+    <color name="yellow_green">#ff7ed321</color>
+    <color name="orange">#FD971B</color>
+    <color name="orange_peel">#fff79900</color>
+
+
+
+
+
+
+
+
+    <!--Fab colors-->
+    <color name="colorFAB1">#1bc686</color>
+    <color name="colorFAB2">#2196F3</color>
+    <color name="colorFAB3">#c6c600</color>
+    <color name="disable_text_color">#787878 </color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#c61b00</color>
+    <color name="dot_dark_screen2">#c61b00</color>
+    <color name="dot_dark_screen3">#c61b00</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#ff7a66</color>
+    <color name="dot_light_screen2">#ff7a66</color>
+    <color name="dot_light_screen3">#ff7a66</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+    </array>
+</resources>
